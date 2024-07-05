@@ -1,0 +1,15 @@
+<Properties>
+
+<Boolean id="DefaultWindowed">false</Boolean>
+<Boolean id="DontUpdate">false</Boolean>
+<Boolean id="NoReg">true</Boolean>
+
+<String id="ProdName">Talismania</String>
+<String id="DisplayName">Talismania Deluxe</String>
+<String id="Offering">10190</String>
+<String id="RegistryKey">PopCap\Talismania</String>
+
+<Integer id="Height">480</Integer>
+<Integer id="Width">640</Integer>
+
+</Properties>

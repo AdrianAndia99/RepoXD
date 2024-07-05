@@ -1,0 +1,20 @@
+<Properties>
+
+<Boolean id="NoReg">true</Boolean>
+<Boolean id="DontUpdate">false</Boolean>
+<Boolean id="DefaultWindowed">false</Boolean>
+<Boolean id="AllowDRMLocking">false</Boolean>
+<Boolean id="AllowDRMTiming">true</Boolean>
+<Boolean id="VistaCompliant">true</Boolean>
+
+<String id="ProdName">Peggle</String>
+<String id="DisplayName">Peggle Deluxe</String>
+<String id="Offering">10203</String>
+<String id="RegistryKey">PopCap\Peggle</String>
+<String id="InstallTag"></String>
+<String id="MarketingMode">Stage3</String>
+
+<Integer id="Height">480</Integer>
+<Integer id="Width">640</Integer>
+
+</Properties>

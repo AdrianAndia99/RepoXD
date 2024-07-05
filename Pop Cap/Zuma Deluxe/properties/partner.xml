@@ -1,0 +1,17 @@
+<Properties>
+
+<Boolean id="NoReg">true</Boolean>
+<Boolean id="DontUpdate">false</Boolean>
+<Boolean id="DefaultWindowed">false</Boolean>
+<Boolean id="VistaCompliant">true</Boolean>
+
+<String id="MoreGamesLink">http://www.popcap.com</String>
+<String id="ProdName">Zuma</String>
+<String id="DisplayName">Zuma Deluxe</String>
+<String id="Offering">1025</String>
+<String id="RegistryKey">PopCap\Zuma</String>
+
+<Integer id="Height">480</Integer>
+<Integer id="Width">640</Integer>
+
+</Properties>

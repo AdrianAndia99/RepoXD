@@ -1,0 +1,4221 @@
+//////////////////////////////////////////////////////////////////////////
+//					Level progression file								//
+//                                                                      //
+//		Copyright (c) 2003 PopCap Games, Inc. All rights reserved		//
+//                                                                      //
+//		Modifying this file may result in game instability.				//
+//		PopCap Games will not support any modified files.				//
+//////////////////////////////////////////////////////////////////////////
+
+@GLOBAL
+{
+	MaxBricksToPass = 600
+}
+
+@LEVEL1
+{
+	DropTime = 10
+	NumBricksToPass = 150
+	NumBricksToPassChangeBy = 0
+	MaxMutators = 8
+	MutationDelay = 800
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 0.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 0.000000
+		PenaltyChanceChangeBy = 0.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		ColDist = 10
+		RowDist = 6
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		ColDist = 5
+		RowDist = 6
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROW_NUKE
+	{
+		ColDist = 10
+		RowDist = 4
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@FREEZE
+	{
+		ColDist = 10
+		RowDist = 8
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		ColDist = 5
+		RowDist = 4
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROCK
+	{
+		ColDist = 2
+		RowDist = 2
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		ColDist = 2
+		RowDist = 2
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@MUTATOR
+	{
+		ColDist = 10
+		RowDist = 10
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL2
+{
+	NumBricksToPass = 175
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 0.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 0.000000
+		PenaltyChanceChangeBy = 0.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL3
+{
+	@BASE_FREQUENCY
+	{
+		BonusChance = 0.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 0.000000
+		PenaltyChanceChangeBy = 0.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL4
+{
+	DropTime = 10
+	NumBricksToPassChangeBy = 0
+	NumBricksToPass = 200
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 0.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 0.000000
+		PenaltyChanceChangeBy = 0.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL5
+{
+	@BASE_FREQUENCY
+	{
+		BonusChance = 0.000000
+		BonusChanceChangeBy = 40.000000
+		PenaltyChance = 0.000000
+		PenaltyChanceChangeBy = 0.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 25.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 20.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 25.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL6
+{
+	@BASE_FREQUENCY
+	{
+		BonusChance = 40.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 0.000000
+		PenaltyChanceChangeBy = 0.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 25.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 20.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 25.000000
+		ThirdChanceChangeBy = -5.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL7
+{
+	@BASE_FREQUENCY
+	{
+		BonusChance = 40.000000
+		BonusChanceChangeBy = -5.000000
+		PenaltyChance = 0.000000
+		PenaltyChanceChangeBy = 15.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 25.000000
+		FirstChanceChangeBy = -5.000000
+		SecondChance = 20.000000
+		SecondChanceChangeBy = 5.000000
+		ThirdChance = 20.000000
+		ThirdChanceChangeBy = 5.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 75.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 80.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 100.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL8
+{
+	DropTime = 8
+	NumBricksToPass = 225
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 35.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 15.000000
+		PenaltyChanceChangeBy = 3.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 20.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 25.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 25.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 75.000000
+		FirstChanceChangeBy = 5.000000
+		SecondChance = 80.000000
+		SecondChanceChangeBy = 10.000000
+		ThirdChance = 100.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL9
+{
+	@BASE_FREQUENCY
+	{
+		BonusChance = 35.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 18.000000
+		PenaltyChanceChangeBy = 3.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 20.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 25.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 25.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 10.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 5.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 12.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 80.000000
+		FirstChanceChangeBy = 10.000000
+		SecondChance = 90.000000
+		SecondChanceChangeBy = 10.000000
+		ThirdChance = 100.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL10
+{
+	@BASE_FREQUENCY
+	{
+		BonusChance = 35.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 21.000000
+		PenaltyChanceChangeBy = 7.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 20.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 25.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 25.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 10.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 12.000000
+		ThirdChanceChangeBy = 1.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 90.000000
+		FirstChanceChangeBy = 10.000000
+		SecondChance = 100.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 100.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL11
+{
+	@BASE_FREQUENCY
+	{
+		BonusChance = 35.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 28.000000
+		PenaltyChanceChangeBy = 2.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 20.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 25.000000
+		SecondChanceChangeBy = 5.000000
+		ThirdChance = 25.000000
+		ThirdChanceChangeBy = 5.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 10.000000
+		FirstChanceChangeBy = 15.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 13.000000
+		ThirdChanceChangeBy = 1.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 100.000000
+		FirstChanceChangeBy = -40.000000
+		SecondChance = 100.000000
+		SecondChanceChangeBy = -50.000000
+		ThirdChance = 100.000000
+		ThirdChanceChangeBy = -60.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 40.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 50.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 60.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL12
+{
+	DropTime = 7
+	NumBricksToPass = 250
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 35.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 30.000000
+		PenaltyChanceChangeBy = 0.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 20.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 30.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 30.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 25.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 14.000000
+		ThirdChanceChangeBy = 1.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 60.000000
+		FirstChanceChangeBy = -3.000000
+		SecondChance = 50.000000
+		SecondChanceChangeBy = -3.000000
+		ThirdChance = 40.000000
+		ThirdChanceChangeBy = -3.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 40.000000
+		FirstChanceChangeBy = 3.000000
+		SecondChance = 50.000000
+		SecondChanceChangeBy = 3.000000
+		ThirdChance = 60.000000
+		ThirdChanceChangeBy = 3.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL13
+{
+	@BASE_FREQUENCY
+	{
+		BonusChance = 35.000000
+		BonusChanceChangeBy = -5.000000
+		PenaltyChance = 30.000000
+		PenaltyChanceChangeBy = 5.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 20.000000
+		FirstChanceChangeBy = -1.000000
+		SecondChance = 30.000000
+		SecondChanceChangeBy = -5.000000
+		ThirdChance = 30.000000
+		ThirdChanceChangeBy = -5.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 25.000000
+		FirstChanceChangeBy = -2.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 15.000000
+		ThirdChanceChangeBy = -3.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 1.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 5.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 10.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 57.000000
+		FirstChanceChangeBy = -2.000000
+		SecondChance = 47.000000
+		SecondChanceChangeBy = -4.000000
+		ThirdChance = 37.000000
+		ThirdChanceChangeBy = -2.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 43.000000
+		FirstChanceChangeBy = 2.000000
+		SecondChance = 53.000000
+		SecondChanceChangeBy = 4.000000
+		ThirdChance = 63.000000
+		ThirdChanceChangeBy = 2.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL14
+{
+	NumBricksToPass = 275
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 30.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 35.000000
+		PenaltyChanceChangeBy = 0.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 19.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 25.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 25.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 23.000000
+		FirstChanceChangeBy = -3.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 12.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 1.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 55.000000
+		FirstChanceChangeBy = -5.000000
+		SecondChance = 43.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 35.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 45.000000
+		FirstChanceChangeBy = 5.000000
+		SecondChance = 57.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 65.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL15
+{
+	@BASE_FREQUENCY
+	{
+		BonusChance = 30.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 35.000000
+		PenaltyChanceChangeBy = 0.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 19.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 25.000000
+		SecondChanceChangeBy = 15.000000
+		ThirdChance = 25.000000
+		ThirdChanceChangeBy = 15.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 20.000000
+		FirstChanceChangeBy = -2.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 12.000000
+		ThirdChanceChangeBy = -2.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 1.000000
+		FirstChanceChangeBy = -1.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 50.000000
+		FirstChanceChangeBy = -3.000000
+		SecondChance = 43.000000
+		SecondChanceChangeBy = -8.000000
+		ThirdChance = 35.000000
+		ThirdChanceChangeBy = -5.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 50.000000
+		FirstChanceChangeBy = -2.000000
+		SecondChance = 57.000000
+		SecondChanceChangeBy = 3.000000
+		ThirdChance = 65.000000
+		ThirdChanceChangeBy = -10.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 5.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 5.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 15.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL16
+{
+	DropTime = 6
+	MutationDelay = 700
+	NumBricksToPass = 300
+	NumBricksToPassChangeBy = 25
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 30.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 35.000000
+		PenaltyChanceChangeBy = 5.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 19.000000
+		FirstChanceChangeBy = -1.000000
+		SecondChance = 40.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 40.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 18.000000
+		FirstChanceChangeBy = -2.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 47.000000
+		FirstChanceChangeBy = -2.000000
+		SecondChance = 35.000000
+		SecondChanceChangeBy = -3.000000
+		ThirdChance = 30.000000
+		ThirdChanceChangeBy = -3.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 48.000000
+		FirstChanceChangeBy = 2.000000
+		SecondChance = 60.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 55.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 3.000000
+		ThirdChance = 15.000000
+		ThirdChanceChangeBy = 3.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL17
+{
+	@BASE_FREQUENCY
+	{
+		BonusChance = 30.000000
+		BonusChanceChangeBy = -5.000000
+		PenaltyChance = 40.000000
+		PenaltyChanceChangeBy = 0.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 5.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 10.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 10.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 18.000000
+		FirstChanceChangeBy = -1.000000
+		SecondChance = 40.000000
+		SecondChanceChangeBy = -5.000000
+		ThirdChance = 40.000000
+		ThirdChanceChangeBy = -5.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 16.000000
+		FirstChanceChangeBy = -2.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 45.000000
+		FirstChanceChangeBy = -3.000000
+		SecondChance = 32.000000
+		SecondChanceChangeBy = -3.000000
+		ThirdChance = 27.000000
+		ThirdChanceChangeBy = -5.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 50.000000
+		FirstChanceChangeBy = 3.000000
+		SecondChance = 60.000000
+		SecondChanceChangeBy = 3.000000
+		ThirdChance = 55.000000
+		ThirdChanceChangeBy = 2.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 8.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 18.000000
+		ThirdChanceChangeBy = 3.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL18
+{
+	MutationDelay = 600
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 25.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 40.000000
+		PenaltyChanceChangeBy = 0.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = -3.000000
+		SecondChance = 10.000000
+		SecondChanceChangeBy = -4.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = -2.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 17.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 35.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 35.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 14.000000
+		FirstChanceChangeBy = 1.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = -5.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = -5.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 42.000000
+		FirstChanceChangeBy = -2.000000
+		SecondChance = 29.000000
+		SecondChanceChangeBy = -3.000000
+		ThirdChance = 22.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 53.000000
+		FirstChanceChangeBy = 2.000000
+		SecondChance = 63.000000
+		SecondChanceChangeBy = 4.000000
+		ThirdChance = 57.000000
+		ThirdChanceChangeBy = 4.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 8.000000
+		SecondChanceChangeBy = -1.000000
+		ThirdChance = 21.000000
+		ThirdChanceChangeBy = -4.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL19
+{
+	@BASE_FREQUENCY
+	{
+		BonusChance = 25.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 40.000000
+		PenaltyChanceChangeBy = 5.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 2.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 6.000000
+		SecondChanceChangeBy = -1.000000
+		ThirdChance = 8.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 17.000000
+		FirstChanceChangeBy = -1.000000
+		SecondChance = 35.000000
+		SecondChanceChangeBy = -5.000000
+		ThirdChance = 35.000000
+		ThirdChanceChangeBy = -1.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 15.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 10.000000
+		ThirdChance = 5.000000
+		ThirdChanceChangeBy = 15.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 5.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 10.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 15.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 40.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 26.000000
+		SecondChanceChangeBy = -2.000000
+		ThirdChance = 22.000000
+		ThirdChanceChangeBy = -3.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 55.000000
+		FirstChanceChangeBy = 2.000000
+		SecondChance = 67.000000
+		SecondChanceChangeBy = -1.000000
+		ThirdChance = 61.000000
+		ThirdChanceChangeBy = 2.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = -2.000000
+		SecondChance = 7.000000
+		SecondChanceChangeBy = 3.000000
+		ThirdChance = 17.000000
+		ThirdChanceChangeBy = 1.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL20
+{
+	MaxMutators = 10
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 25.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 45.000000
+		PenaltyChanceChangeBy = 5.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 2.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 8.000000
+		ThirdChanceChangeBy = -2.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 16.000000
+		FirstChanceChangeBy = 4.000000
+		SecondChance = 30.000000
+		SecondChanceChangeBy = 30.000000
+		ThirdChance = 34.000000
+		ThirdChanceChangeBy = 21.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 15.000000
+		FirstChanceChangeBy = -10.000000
+		SecondChance = 10.000000
+		SecondChanceChangeBy = -5.000000
+		ThirdChance = 20.000000
+		ThirdChanceChangeBy = -10.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 10.000000
+		SecondChanceChangeBy = -5.000000
+		ThirdChance = 15.000000
+		ThirdChanceChangeBy = -5.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 40.000000
+		FirstChanceChangeBy = -6.000000
+		SecondChance = 24.000000
+		SecondChanceChangeBy = -4.000000
+		ThirdChance = 19.000000
+		ThirdChanceChangeBy = -4.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 57.000000
+		FirstChanceChangeBy = 6.000000
+		SecondChance = 66.000000
+		SecondChanceChangeBy = 4.000000
+		ThirdChance = 63.000000
+		ThirdChanceChangeBy = 12.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 3.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 10.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 18.000000
+		ThirdChanceChangeBy = -8.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL21
+{
+	@BASE_FREQUENCY
+	{
+		BonusChance = 25.000000
+		BonusChanceChangeBy = -5.000000
+		PenaltyChance = 50.000000
+		PenaltyChanceChangeBy = 0.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 2.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 6.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 20.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 60.000000
+		SecondChanceChangeBy = -10.000000
+		ThirdChance = 55.000000
+		ThirdChanceChangeBy = -10.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 2.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 2.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 2.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 2.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 34.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 20.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 15.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 63.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 70.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 75.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 3.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 10.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL22
+{
+	DropTime = 5
+	MutationDelay = 450
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 20.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 50.000000
+		PenaltyChanceChangeBy = 1.250000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 2.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 6.000000
+		ThirdChanceChangeBy = -0.250000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 20.000000
+		FirstChanceChangeBy = 1.250000
+		SecondChance = 50.000000
+		SecondChanceChangeBy = -0.500000
+		ThirdChance = 45.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 7.000000
+		SecondChanceChangeBy = 1.250000
+		ThirdChance = 12.000000
+		ThirdChanceChangeBy = 0.750000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 7.000000
+		SecondChanceChangeBy = 1.250000
+		ThirdChance = 12.000000
+		ThirdChanceChangeBy = 0.750000
+	}
+
+	@ROCK
+	{
+		FirstChance = 34.000000
+		FirstChanceChangeBy = -1.000000
+		SecondChance = 20.000000
+		SecondChanceChangeBy = -1.250000
+		ThirdChance = 15.000000
+		ThirdChanceChangeBy = -1.250000
+	}
+
+	@STEEL
+	{
+		FirstChance = 63.000000
+		FirstChanceChangeBy = 1.250000
+		SecondChance = 70.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 75.000000
+		ThirdChanceChangeBy = 1.250000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 3.000000
+		FirstChanceChangeBy = -0.250000
+		SecondChance = 10.000000
+		SecondChanceChangeBy = 1.250000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL26
+{
+	DropTime = 4
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 20.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 55.000000
+		PenaltyChanceChangeBy = 1.250000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 2.000000
+		FirstChanceChangeBy = -0.500000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 5.000000
+		ThirdChanceChangeBy = 1.250000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 25.000000
+		FirstChanceChangeBy = 1.250000
+		SecondChance = 48.000000
+		SecondChanceChangeBy = -0.750000
+		ThirdChance = 45.000000
+		ThirdChanceChangeBy = -1.250000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 12.000000
+		SecondChanceChangeBy = 1.500000
+		ThirdChance = 15.000000
+		ThirdChanceChangeBy = 0.750000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 12.000000
+		SecondChanceChangeBy = 1.500000
+		ThirdChance = 15.000000
+		ThirdChanceChangeBy = 0.750000
+	}
+
+	@ROCK
+	{
+		FirstChance = 30.000000
+		FirstChanceChangeBy = -3.750000
+		SecondChance = 15.000000
+		SecondChanceChangeBy = -1.250000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = -2.500000
+	}
+
+	@STEEL
+	{
+		FirstChance = 68.000000
+		FirstChanceChangeBy = 3.000000
+		SecondChance = 70.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 80.000000
+		ThirdChanceChangeBy = 1.250000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 2.000000
+		FirstChanceChangeBy = 0.750000
+		SecondChance = 15.000000
+		SecondChanceChangeBy = 1.250000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 1.250000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL30
+{
+	DropTime = 6
+	AddNewColor = true
+	MaxMutators = 6
+	MutationDelay = 500
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 20.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 60.000000
+		PenaltyChanceChangeBy = 0.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 3.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 1.500000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.500000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 30.000000
+		FirstChanceChangeBy = 15.000000
+		SecondChance = 45.000000
+		SecondChanceChangeBy = 7.500000
+		ThirdChance = 40.000000
+		ThirdChanceChangeBy = 5.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = -1.000000
+		SecondChance = 18.000000
+		SecondChanceChangeBy = -4.000000
+		ThirdChance = 18.000000
+		ThirdChanceChangeBy = -4.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.500000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = -1.000000
+		SecondChance = 18.000000
+		SecondChanceChangeBy = -6.500000
+		ThirdChance = 18.000000
+		ThirdChanceChangeBy = -1.500000
+	}
+
+	@ROCK
+	{
+		FirstChance = 15.000000
+		FirstChanceChangeBy = 11.500000
+		SecondChance = 10.000000
+		SecondChanceChangeBy = 5.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 6.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 80.000000
+		FirstChanceChangeBy = -10.000000
+		SecondChance = 70.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 85.000000
+		ThirdChanceChangeBy = -6.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = -1.500000
+		SecondChance = 20.000000
+		SecondChanceChangeBy = -5.000000
+		ThirdChance = 15.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL32
+{
+	@BASE_FREQUENCY
+	{
+		BonusChance = 20.000000
+		BonusChanceChangeBy = -0.625000
+		PenaltyChance = 60.000000
+		PenaltyChanceChangeBy = 0.875000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 6.000000
+		FirstChanceChangeBy = 0.125000
+		SecondChance = 8.000000
+		SecondChanceChangeBy = 0.500000
+		ThirdChance = 11.000000
+		ThirdChanceChangeBy = 0.125000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 60.000000
+		FirstChanceChangeBy = -2.500000
+		SecondChance = 60.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 50.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 3.000000
+		FirstChanceChangeBy = -0.125000
+		SecondChance = 10.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.375000
+		ThirdChance = 11.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 3.000000
+		FirstChanceChangeBy = -0.125000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 15.000000
+		ThirdChanceChangeBy = -0.250000
+	}
+
+	@ROCK
+	{
+		FirstChance = 38.000000
+		FirstChanceChangeBy = -1.000000
+		SecondChance = 20.000000
+		SecondChanceChangeBy = -0.625000
+		ThirdChance = 12.000000
+		ThirdChanceChangeBy = -0.875000
+	}
+
+	@STEEL
+	{
+		FirstChance = 60.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 70.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 73.000000
+		ThirdChanceChangeBy = -0.375000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 2.000000
+		FirstChanceChangeBy = 1.000000
+		SecondChance = 10.000000
+		SecondChanceChangeBy = 0.625000
+		ThirdChance = 15.000000
+		ThirdChanceChangeBy = 1.250000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL40
+{
+	DropTime = 4
+	MaxMutators = 10
+	MutationDelay = 400
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 15.000000
+		BonusChanceChangeBy = -0.200000
+		PenaltyChance = 67.000000
+		PenaltyChanceChangeBy = 0.300000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 7.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 12.000000
+		SecondChanceChangeBy = -0.100000
+		ThirdChance = 12.000000
+		ThirdChanceChangeBy = -0.300000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 40.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 60.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 50.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 2.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 10.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 8.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 11.000000
+		ThirdChanceChangeBy = -0.200000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 2.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 13.000000
+		ThirdChanceChangeBy = -0.200000
+	}
+
+	@ROCK
+	{
+		FirstChance = 30.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 15.000000
+		SecondChanceChangeBy = -1.000000
+		ThirdChance = 5.000000
+		ThirdChanceChangeBy = -0.300000
+	}
+
+	@STEEL
+	{
+		FirstChance = 60.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 70.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 70.000000
+		ThirdChanceChangeBy = 0.300000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 10.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 15.000000
+		SecondChanceChangeBy = 1.000000
+		ThirdChance = 25.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL50
+{
+	DropTime = 3
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 13.000000
+		BonusChanceChangeBy = 0.500000
+		PenaltyChance = 70.000000
+		PenaltyChanceChangeBy = -1.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 7.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 11.000000
+		SecondChanceChangeBy = -0.500000
+		ThirdChance = 9.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 40.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 60.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 50.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 2.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 10.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 8.000000
+		SecondChanceChangeBy = -0.500000
+		ThirdChance = 9.000000
+		ThirdChanceChangeBy = -1.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 2.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 11.000000
+		ThirdChanceChangeBy = -0.500000
+	}
+
+	@ROCK
+	{
+		FirstChance = 30.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 2.500000
+		ThirdChance = 2.000000
+		ThirdChanceChangeBy = -1.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 60.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 70.000000
+		SecondChanceChangeBy = -2.500000
+		ThirdChance = 73.000000
+		ThirdChanceChangeBy = -0.500000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 10.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 25.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 25.000000
+		ThirdChanceChangeBy = 1.500000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL52
+{
+	@BASE_FREQUENCY
+	{
+		BonusChance = 14.000000
+		BonusChanceChangeBy = -0.333333
+		PenaltyChance = 68.000000
+		PenaltyChanceChangeBy = 0.166667
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 7.000000
+		FirstChanceChangeBy = -0.166667
+		SecondChance = 10.000000
+		SecondChanceChangeBy = 0.833333
+		ThirdChance = 9.000000
+		ThirdChanceChangeBy = 0.083333
+	}
+
+	@RADIAL
+	{
+		FirstChance = 40.000000
+		FirstChanceChangeBy = -1.666667
+		SecondChance = 60.000000
+		SecondChanceChangeBy = -0.416667
+		ThirdChance = 50.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 2.000000
+		FirstChanceChangeBy = 0.250000
+		SecondChance = 10.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.416667
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 7.000000
+		SecondChanceChangeBy = -0.166667
+		ThirdChance = 7.000000
+		ThirdChanceChangeBy = -0.166667
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 2.000000
+		FirstChanceChangeBy = 0.250000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 30.000000
+		FirstChanceChangeBy = -0.833333
+		SecondChance = 10.000000
+		SecondChanceChangeBy = -0.833333
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 60.000000
+		FirstChanceChangeBy = 0.833333
+		SecondChance = 65.000000
+		SecondChanceChangeBy = -1.250000
+		ThirdChance = 72.000000
+		ThirdChanceChangeBy = -0.333333
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 10.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 25.000000
+		SecondChanceChangeBy = 2.083333
+		ThirdChance = 28.000000
+		ThirdChanceChangeBy = 0.333333
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL64
+{
+	MutationDelay = 500
+	AddNewColor = true
+	DropTime = 5
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 10.000000
+		BonusChanceChangeBy = 5.500000
+		PenaltyChance = 70.000000
+		PenaltyChanceChangeBy = -5.500000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 20.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = -0.500000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 20.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 55.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 50.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 10.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 15.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 5.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 2.500000
+	}
+
+	@ROCK
+	{
+		FirstChance = 20.000000
+		FirstChanceChangeBy = -5.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 70.000000
+		FirstChanceChangeBy = 2.500000
+		SecondChance = 50.000000
+		SecondChanceChangeBy = -5.000000
+		ThirdChance = 68.000000
+		ThirdChanceChangeBy = -4.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 10.000000
+		FirstChanceChangeBy = 2.500000
+		SecondChance = 50.000000
+		SecondChanceChangeBy = 5.000000
+		ThirdChance = 32.000000
+		ThirdChanceChangeBy = 4.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL66
+{
+	@BASE_FREQUENCY
+	{
+		BonusChance = 21.000000
+		BonusChanceChangeBy = -1.250000
+		PenaltyChance = 59.000000
+		PenaltyChanceChangeBy = 2.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = -0.500000
+		SecondChance = 20.000000
+		SecondChanceChangeBy = -1.250000
+		ThirdChance = 9.000000
+		ThirdChanceChangeBy = -0.250000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 20.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 55.000000
+		SecondChanceChangeBy = -1.250000
+		ThirdChance = 50.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 10.000000
+		SecondChanceChangeBy = -0.250000
+		ThirdChance = 15.000000
+		ThirdChanceChangeBy = -0.250000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = -0.250000
+		ThirdChance = 5.000000
+		ThirdChanceChangeBy = -0.250000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 15.000000
+		ThirdChanceChangeBy = -0.250000
+	}
+
+	@ROCK
+	{
+		FirstChance = 10.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 75.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 40.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 60.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 15.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 60.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 40.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL70
+{
+	MaxMutators = 12
+	MutationDelay = 400
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 16.000000
+		BonusChanceChangeBy = -0.300000
+		PenaltyChance = 67.000000
+		PenaltyChanceChangeBy = 0.300000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 3.000000
+		FirstChanceChangeBy = -0.100000
+		SecondChance = 15.000000
+		SecondChanceChangeBy = -0.500000
+		ThirdChance = 8.000000
+		ThirdChanceChangeBy = -0.100000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 20.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 50.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 50.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 9.000000
+		SecondChanceChangeBy = -0.100000
+		ThirdChance = 14.000000
+		ThirdChanceChangeBy = -0.200000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 4.000000
+		SecondChanceChangeBy = -0.100000
+		ThirdChance = 4.000000
+		ThirdChanceChangeBy = -0.100000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = -0.100000
+		ThirdChance = 14.000000
+		ThirdChanceChangeBy = -0.200000
+	}
+
+	@ROCK
+	{
+		FirstChance = 10.000000
+		FirstChanceChangeBy = -1.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 75.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 40.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 60.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 15.000000
+		FirstChanceChangeBy = 1.000000
+		SecondChance = 60.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 40.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL80
+{
+	DropTime = 4
+	MaxMutators = 8
+	MutationDelay = 450
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 13.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 70.000000
+		PenaltyChanceChangeBy = 3.500000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 2.000000
+		FirstChanceChangeBy = 0.500000
+		SecondChance = 10.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 7.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 20.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 50.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 50.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 8.000000
+		SecondChanceChangeBy = 1.000000
+		ThirdChance = 12.000000
+		ThirdChanceChangeBy = -1.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 3.000000
+		SecondChanceChangeBy = 1.000000
+		ThirdChance = 3.000000
+		ThirdChanceChangeBy = 1.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 4.000000
+		SecondChanceChangeBy = 0.500000
+		ThirdChance = 12.000000
+		ThirdChanceChangeBy = -1.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 75.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 40.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 60.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 25.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 60.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 40.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL82
+{
+	@BASE_FREQUENCY
+	{
+		BonusChance = 13.000000
+		BonusChanceChangeBy = -0.375000
+		PenaltyChance = 77.000000
+		PenaltyChanceChangeBy = 0.875000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 3.000000
+		FirstChanceChangeBy = -0.250000
+		SecondChance = 10.000000
+		SecondChanceChangeBy = -0.625000
+		ThirdChance = 7.000000
+		ThirdChanceChangeBy = -0.500000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 20.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 50.000000
+		SecondChanceChangeBy = -1.250000
+		ThirdChance = 50.000000
+		ThirdChanceChangeBy = -2.500000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = -0.250000
+		SecondChance = 10.000000
+		SecondChanceChangeBy = -0.625000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = -0.625000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = -0.500000
+		ThirdChance = 5.000000
+		ThirdChanceChangeBy = -0.375000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = -0.250000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = -0.250000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = -0.625000
+	}
+
+	@ROCK
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 75.000000
+		FirstChanceChangeBy = -3.125000
+		SecondChance = 40.000000
+		SecondChanceChangeBy = 1.250000
+		ThirdChance = 60.000000
+		ThirdChanceChangeBy = -1.250000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 25.000000
+		FirstChanceChangeBy = 3.125000
+		SecondChance = 60.000000
+		SecondChanceChangeBy = -1.250000
+		ThirdChance = 40.000000
+		ThirdChanceChangeBy = 1.250000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL90
+{
+	DropTime = 3
+	MaxMutators = 10
+	MutationDelay = 425
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 10.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 84.000000
+		PenaltyChanceChangeBy = -2.500000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 1.000000
+		FirstChanceChangeBy = 0.500000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 3.000000
+		ThirdChanceChangeBy = 1.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 20.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 40.000000
+		SecondChanceChangeBy = 7.500000
+		ThirdChance = 30.000000
+		ThirdChanceChangeBy = 10.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 3.000000
+		FirstChanceChangeBy = 1.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 2.500000
+		ThirdChance = 5.000000
+		ThirdChanceChangeBy = 2.500000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 1.000000
+		SecondChanceChangeBy = 2.000000
+		ThirdChance = 2.000000
+		ThirdChanceChangeBy = 1.500000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 3.000000
+		FirstChanceChangeBy = 1.000000
+		SecondChance = 3.000000
+		SecondChanceChangeBy = 1.000000
+		ThirdChance = 5.000000
+		ThirdChanceChangeBy = 1.500000
+	}
+
+	@ROCK
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 50.000000
+		FirstChanceChangeBy = 12.500000
+		SecondChance = 50.000000
+		SecondChanceChangeBy = -5.000000
+		ThirdChance = 50.000000
+		ThirdChanceChangeBy = 5.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 50.000000
+		FirstChanceChangeBy = -12.500000
+		SecondChance = 50.000000
+		SecondChanceChangeBy = 5.000000
+		ThirdChance = 50.000000
+		ThirdChanceChangeBy = -5.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL92
+{
+	@BASE_FREQUENCY
+	{
+		BonusChance = 10.000000
+		BonusChanceChangeBy = -0.500000
+		PenaltyChance = 79.000000
+		PenaltyChanceChangeBy = 0.875000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 2.000000
+		FirstChanceChangeBy = -0.125000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = -0.375000
+		ThirdChance = 5.000000
+		ThirdChanceChangeBy = -0.375000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 20.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 55.000000
+		SecondChanceChangeBy = -2.500000
+		ThirdChance = 50.000000
+		ThirdChanceChangeBy = -2.500000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = -0.250000
+		SecondChance = 10.000000
+		SecondChanceChangeBy = -0.750000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = -0.750000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = -0.500000
+		ThirdChance = 5.000000
+		ThirdChanceChangeBy = -0.500000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = -0.250000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = -0.375000
+		ThirdChance = 8.000000
+		ThirdChanceChangeBy = -0.500000
+	}
+
+	@ROCK
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 75.000000
+		FirstChanceChangeBy = -3.125000
+		SecondChance = 40.000000
+		SecondChanceChangeBy = 1.250000
+		ThirdChance = 60.000000
+		ThirdChanceChangeBy = -1.250000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 25.000000
+		FirstChanceChangeBy = 3.125000
+		SecondChance = 60.000000
+		SecondChanceChangeBy = -1.250000
+		ThirdChance = 40.000000
+		ThirdChanceChangeBy = 1.250000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL100
+{
+	DropTime = 2
+	MaxMutators = 10
+	MutationDelay = 400
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 6.000000
+		BonusChanceChangeBy = 2.000000
+		PenaltyChance = 86.000000
+		PenaltyChanceChangeBy = -2.500000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 1.000000
+		FirstChanceChangeBy = 0.500000
+		SecondChance = 2.000000
+		SecondChanceChangeBy = 1.500000
+		ThirdChance = 2.000000
+		ThirdChanceChangeBy = 1.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 20.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 35.000000
+		SecondChanceChangeBy = 10.000000
+		ThirdChance = 30.000000
+		ThirdChanceChangeBy = 10.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 3.000000
+		FirstChanceChangeBy = 1.000000
+		SecondChance = 4.000000
+		SecondChanceChangeBy = 2.500000
+		ThirdChance = 4.000000
+		ThirdChanceChangeBy = 3.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 1.000000
+		SecondChanceChangeBy = 2.000000
+		ThirdChance = 1.000000
+		ThirdChanceChangeBy = 2.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 3.000000
+		FirstChanceChangeBy = 1.000000
+		SecondChance = 2.000000
+		SecondChanceChangeBy = 1.500000
+		ThirdChance = 4.000000
+		ThirdChanceChangeBy = 2.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 50.000000
+		FirstChanceChangeBy = 12.500000
+		SecondChance = 50.000000
+		SecondChanceChangeBy = -5.000000
+		ThirdChance = 50.000000
+		ThirdChanceChangeBy = 5.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 50.000000
+		FirstChanceChangeBy = -12.500000
+		SecondChance = 50.000000
+		SecondChanceChangeBy = 5.000000
+		ThirdChance = 50.000000
+		ThirdChanceChangeBy = -5.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL102
+{
+	@BASE_FREQUENCY
+	{
+		BonusChance = 10.000000
+		BonusChanceChangeBy = -0.500000
+		PenaltyChance = 81.000000
+		PenaltyChanceChangeBy = 0.750000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 2.000000
+		FirstChanceChangeBy = -0.125000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = -0.500000
+		ThirdChance = 4.000000
+		ThirdChanceChangeBy = -0.375000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 20.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 55.000000
+		SecondChanceChangeBy = -1.875000
+		ThirdChance = 50.000000
+		ThirdChanceChangeBy = -2.500000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = -0.125000
+		SecondChance = 9.000000
+		SecondChanceChangeBy = -0.500000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = -0.625000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = -0.375000
+		ThirdChance = 5.000000
+		ThirdChanceChangeBy = -0.625000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = -0.125000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = -0.250000
+		ThirdChance = 8.000000
+		ThirdChanceChangeBy = -0.625000
+	}
+
+	@ROCK
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 75.000000
+		FirstChanceChangeBy = -3.125000
+		SecondChance = 40.000000
+		SecondChanceChangeBy = 1.250000
+		ThirdChance = 60.000000
+		ThirdChanceChangeBy = -1.250000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 25.000000
+		FirstChanceChangeBy = 3.125000
+		SecondChance = 60.000000
+		SecondChanceChangeBy = -1.250000
+		ThirdChance = 40.000000
+		ThirdChanceChangeBy = 1.250000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL110
+{
+	DropTime = 1
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 6.000000
+		BonusChanceChangeBy = 2.500000
+		PenaltyChance = 87.000000
+		PenaltyChanceChangeBy = -2.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 1.000000
+		FirstChanceChangeBy = 0.500000
+		SecondChance = 1.000000
+		SecondChanceChangeBy = 1.500000
+		ThirdChance = 1.000000
+		ThirdChanceChangeBy = 1.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 20.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 40.000000
+		SecondChanceChangeBy = 7.500000
+		ThirdChance = 30.000000
+		ThirdChanceChangeBy = 10.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 4.000000
+		FirstChanceChangeBy = 0.500000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = 1.500000
+		ThirdChance = 5.000000
+		ThirdChanceChangeBy = 1.500000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 2.000000
+		SecondChanceChangeBy = 1.500000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 1.500000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 4.000000
+		FirstChanceChangeBy = 0.500000
+		SecondChance = 3.000000
+		SecondChanceChangeBy = 1.000000
+		ThirdChance = 3.000000
+		ThirdChanceChangeBy = 1.500000
+	}
+
+	@ROCK
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 50.000000
+		FirstChanceChangeBy = 12.500000
+		SecondChance = 50.000000
+		SecondChanceChangeBy = -5.000000
+		ThirdChance = 50.000000
+		ThirdChanceChangeBy = 5.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 50.000000
+		FirstChanceChangeBy = -12.500000
+		SecondChance = 50.000000
+		SecondChanceChangeBy = 5.000000
+		ThirdChance = 50.000000
+		ThirdChanceChangeBy = -5.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL112
+{
+	@BASE_FREQUENCY
+	{
+		BonusChance = 11.000000
+		BonusChanceChangeBy = -0.500000
+		PenaltyChance = 83.000000
+		PenaltyChanceChangeBy = 0.625000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 2.000000
+		FirstChanceChangeBy = -0.125000
+		SecondChance = 4.000000
+		SecondChanceChangeBy = -0.250000
+		ThirdChance = 3.000000
+		ThirdChanceChangeBy = -0.250000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 20.000000
+		FirstChanceChangeBy = -0.250000
+		SecondChance = 55.000000
+		SecondChanceChangeBy = -2.500000
+		ThirdChance = 50.000000
+		ThirdChanceChangeBy = -1.875000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = -0.125000
+		SecondChance = 8.000000
+		SecondChanceChangeBy = -0.250000
+		ThirdChance = 8.000000
+		ThirdChanceChangeBy = -0.625000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = -0.500000
+		ThirdChance = 3.000000
+		ThirdChanceChangeBy = -0.250000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 5.000000
+		FirstChanceChangeBy = -0.250000
+		SecondChance = 5.000000
+		SecondChanceChangeBy = -0.250000
+		ThirdChance = 6.000000
+		ThirdChanceChangeBy = -0.500000
+	}
+
+	@ROCK
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 75.000000
+		FirstChanceChangeBy = -4.375000
+		SecondChance = 40.000000
+		SecondChanceChangeBy = 1.250000
+		ThirdChance = 60.000000
+		ThirdChanceChangeBy = -1.250000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 25.000000
+		FirstChanceChangeBy = 4.375000
+		SecondChance = 60.000000
+		SecondChanceChangeBy = -1.250000
+		ThirdChance = 40.000000
+		ThirdChanceChangeBy = 1.250000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL120
+{
+	MaxMutators = 12
+	MutationDelay = 300
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 7.000000
+		BonusChanceChangeBy = -0.400000
+		PenaltyChance = 88.000000
+		PenaltyChanceChangeBy = 0.400000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 1.000000
+		FirstChanceChangeBy = -0.100000
+		SecondChance = 2.000000
+		SecondChanceChangeBy = -0.100000
+		ThirdChance = 1.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 18.000000
+		FirstChanceChangeBy = -0.200000
+		SecondChance = 35.000000
+		SecondChanceChangeBy = -0.500000
+		ThirdChance = 35.000000
+		ThirdChanceChangeBy = -1.500000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 4.000000
+		FirstChanceChangeBy = -0.100000
+		SecondChance = 6.000000
+		SecondChanceChangeBy = -0.200000
+		ThirdChance = 3.000000
+		ThirdChanceChangeBy = -0.100000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 1.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 1.000000
+		ThirdChanceChangeBy = -0.100000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 3.000000
+		FirstChanceChangeBy = -0.100000
+		SecondChance = 3.000000
+		SecondChanceChangeBy = -0.100000
+		ThirdChance = 2.000000
+		ThirdChanceChangeBy = -0.100000
+	}
+
+	@ROCK
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 40.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 50.000000
+		SecondChanceChangeBy = -1.000000
+		ThirdChance = 50.000000
+		ThirdChanceChangeBy = -1.500000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 60.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 50.000000
+		SecondChanceChangeBy = 1.000000
+		ThirdChance = 50.000000
+		ThirdChanceChangeBy = 1.500000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL130
+{
+	MaxMutators = 15
+	MutationDelay = 250
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 3.000000
+		BonusChanceChangeBy = -0.200000
+		PenaltyChance = 92.000000
+		PenaltyChanceChangeBy = 0.500000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 1.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 1.000000
+		ThirdChanceChangeBy = -0.100000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 16.000000
+		FirstChanceChangeBy = -0.200000
+		SecondChance = 30.000000
+		SecondChanceChangeBy = -0.500000
+		ThirdChance = 20.000000
+		ThirdChanceChangeBy = -1.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 3.000000
+		FirstChanceChangeBy = -0.100000
+		SecondChance = 4.000000
+		SecondChanceChangeBy = -0.200000
+		ThirdChance = 2.000000
+		ThirdChanceChangeBy = -0.100000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 1.000000
+		SecondChanceChangeBy = -0.100000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 2.000000
+		FirstChanceChangeBy = -0.100000
+		SecondChance = 2.000000
+		SecondChanceChangeBy = -0.100000
+		ThirdChance = 1.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 40.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 40.000000
+		SecondChanceChangeBy = -1.000000
+		ThirdChance = 35.000000
+		ThirdChanceChangeBy = -1.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 60.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 60.000000
+		SecondChanceChangeBy = 1.000000
+		ThirdChance = 65.000000
+		ThirdChanceChangeBy = 1.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL140
+{
+	MaxMutators = -1
+	MutationDelay = 200
+
+	@BASE_FREQUENCY
+	{
+		BonusChance = 1.000000
+		BonusChanceChangeBy = 0.000000
+		PenaltyChance = 97.000000
+		PenaltyChanceChangeBy = 0.000000
+	}
+
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+	@KILLALL
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 1.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@RADIAL
+	{
+		FirstChance = 14.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 25.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 10.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROW_NUKE
+	{
+		FirstChance = 2.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 2.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 1.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@FREEZE
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@COL_NUKE
+	{
+		FirstChance = 1.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 1.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 1.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@ROCK
+	{
+		FirstChance = 0.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 0.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 0.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@STEEL
+	{
+		FirstChance = 40.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 30.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 25.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+	@MUTATOR
+	{
+		FirstChance = 60.000000
+		FirstChanceChangeBy = 0.000000
+		SecondChance = 70.000000
+		SecondChanceChangeBy = 0.000000
+		ThirdChance = 75.000000
+		ThirdChanceChangeBy = 0.000000
+	}
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//							NEW LEVEL									//
+//////////////////////////////////////////////////////////////////////////
+

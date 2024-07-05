@@ -1,0 +1,23 @@
+<Properties>
+
+  <!--               LOCK GEMS                      -->
+  <!-- what is the first level they appear on? -->
+  <Integer id="LockGemFirstLevel"> 3 </Integer>
+
+  <!-- what is the value for that first level -->
+  <Integer id="LockGemBase"> 5 </Integer>
+
+  <!-- does this value decrement based on turns or gems? -->
+  <Boolean id="LockGemTurnBased"> true </Boolean>
+
+  <!-- how many level ups until the value changes -->
+  <Integer id="LockGemLevelsBetweenChange" > 3 </Integer>
+
+  <!-- what is the change to the value? -->
+  <Integer id="LockGemChange"> -1 </Integer>
+
+  <!-- what is the minimum the value can be? -->
+  <Integer id="LockGemMin"> 3 </Integer>
+
+
+</Properties>

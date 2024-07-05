@@ -1,0 +1,73 @@
+<Properties>
+
+	<Integer id=MUSICOFFSET_MAIN_MENU>		54	</Integer>
+  <Integer id="MUSICTEMPO_MAIN_MENU"> 100 </Integer>
+  
+	<Integer id=MUSICOFFSET_WIN>			53	</Integer>
+  <Integer id="MUSICTEMPO_WIN"> 125 </Integer>
+  
+	<Integer id=MUSICOFFSET_LOSE>			52	</Integer>
+  <Integer id="MUSICTEMPO_LOSE"> 118 </Integer>
+
+  <Integer id="MUSICOFFSET_LOADING">		70	</Integer>
+  <Integer id="MUSICTEMPO_LOADING"> 111 </Integer>
+
+  <Integer id="MUSICOFFSET_TROPHYROOM">		100 </Integer>
+  <Integer id="MUSICTEMPO_TROPHYROOM"> 112 </Integer>
+
+  <Integer id="MUSICOFFSET_HIGHSCORE">		103 </Integer>
+  <Integer id="MUSICTEMPO_HIGHSCORE"> 141 </Integer>
+
+  <Integer id="MUSICOFFSET_WHEELINTRO">		104	</Integer>
+  <Integer id="MUSICTEMPO_WHEELINTRO"> 126 </Integer>
+
+  <Integer id="MUSICOFFSET_WHEELSCORE">		107	</Integer>
+  <Integer id="MUSICTEMPO_WHEELSCORE"> 144 </Integer>
+
+  <Integer id="MUSICOFFSET_BONUSROUND">		108	</Integer>
+  <Integer id="MUSICTEMPO_BONUSROUND"> 126 </Integer>
+
+  <Integer id="MUSICTEMPO_BLITZ"> 144 </Integer>
+  
+
+
+  <Integer id=MUSIC_INGAME0_OFFSET>		0	</Integer>
+	<Integer id=MUSIC_INGAME0_TEMPO_NORMAL>	165	</Integer>
+	<Integer id=MUSIC_INGAME0_TEMPO_DANGER>	180	</Integer>
+	
+	<Integer id=MUSIC_INGAME1_OFFSET>		13	</Integer>
+	<Integer id=MUSIC_INGAME1_TEMPO_NORMAL>	120	</Integer>
+	<Integer id=MUSIC_INGAME1_TEMPO_DANGER>	126	</Integer>
+	
+	<Integer id=MUSIC_INGAME2_OFFSET>		39	</Integer>
+	<Integer id=MUSIC_INGAME2_TEMPO_NORMAL>	110	</Integer>
+	<Integer id=MUSIC_INGAME2_TEMPO_DANGER>	121	</Integer>
+	
+	<Integer id=MUSIC_INGAME3_OFFSET>		56	</Integer>
+	<Integer id=MUSIC_INGAME3_TEMPO_NORMAL>	126	</Integer>
+	<Integer id=MUSIC_INGAME3_TEMPO_DANGER>	136	</Integer>
+	
+	<Integer id=MUSIC_INGAME4_OFFSET>		73	</Integer>
+	<Integer id=MUSIC_INGAME4_TEMPO_NORMAL>	120	</Integer>
+	<Integer id=MUSIC_INGAME4_TEMPO_DANGER>	130	</Integer>
+	
+	<Integer id=MUSIC_INGAME5_OFFSET>		87	</Integer>
+	<Integer id=MUSIC_INGAME5_TEMPO_NORMAL>	110	</Integer>
+	<Integer id=MUSIC_INGAME5_TEMPO_DANGER>	120	</Integer>
+
+
+  <Integer id="MUSIC_OFFSET_BLITZ"> 0 </Integer>
+  <Integer id="MUSIC_OFFSET_SUPERSPEED_BLITZ"> 24 </Integer>
+  <Integer id="MUSIC_OFFSET_BLITZWIN_MODERATE"> 42 </Integer>
+  <Integer id="MUSIC_OFFSET_BLITZWIN_GOOD"> 44 </Integer>
+  <Integer id="MUSIC_OFFSET_BLITZWIN_EXCELLENT"> 46 </Integer>
+  <Integer id="MUSIC_OFFSET_CHALLENGE_MENU"> 48 </Integer>
+  <Integer id="MUSIC_OFFSET_CHALLENGE_TURNBASED"> 52 </Integer>
+  <Integer id="MUSIC_OFFSET_CHALLENGE_UNTIMED"> 63 </Integer>
+  <Integer id="MUSIC_OFFSET_MEGA_FRUIT_BONUS"> 79 </Integer>
+
+  <Integer id="MUSIC_CHALLENGE_TURNBASED_MIN_TEMPO"> 133 </Integer>
+  <Integer id="MUSIC_CHALLENGE_TURNBASED_MAX_TEMPO"> 150 </Integer>
+
+</Properties>
+

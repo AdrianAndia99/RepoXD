@@ -1,0 +1,496 @@
+<?xml version="1.0"?>
+<Properties version="1.0" language="en" country="US" lookandfeel="NORMAL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="">
+
+<!-- Dialog Buttons -->
+<String id="DIALOG_BUTTON_YES">YES</String>
+<String id="DIALOG_BUTTON_NO">NO</String>
+<String id="DIALOG_BUTTON_OK">OK</String>
+<String id="DIALOG_BUTTON_CANCEL">CANCEL</String>
+
+<!-- Dynomite.cpp -->
+<StringArray id="gScoreNames">
+  <String>Petrified</String>
+  <String>Fossil</String>
+  <String>Hatchling</String>
+  <String>Scavenger</String>
+  <String>Eggsucker</String>
+  <String>Herbivore</String>
+  <String>Omnivore</String>
+  <String>Carnivore</String>
+  <String>Raptor</String>
+  <String>Horned Lizard</String>
+  <String>Thunder Lizard</String>
+  <String>Tyrant Lizard</String>
+  <String>Terrible Claw</String>
+  <String>Supersaurus</String>
+  <String>Megasaurus</String>
+  <String>Gigasaurus</String>
+  <String>Ultrasaurus</String>
+  <String>Hypersaurus</String>
+  <String>Tyrannosaurus Rex</String>
+  <String>Lord of the Lizards</String>
+</StringArray>
+<String id="PLAY_THIS_PUZZLE_AGAIN">Play this puzzle again!</String>
+<String id="PAUSED">Paused</String>
+<String id="GAME_TIME">Game Time:</String>
+<String id="RANK">RANK -</String>
+
+<!-- DynomiteFossil.cpp -->
+<StringArray id="gFossilRoundNames">
+  <String></String>
+  <String>First Cambrian Fossil</String>
+  <String>First Permian Fossil</String>
+  <String>Second Cambrian Fossil</String>
+  <String>Second Permian Fossil</String>
+  <String>First Devonian Fossil</String>
+  <String>Third Permian Fossil</String>
+  <String>First Triassic Fossil</String>
+  <String>First Jurassic Fossil</String>
+  <String>First Cretaceous Fossil</String>
+  <String>Second Jurassic Fossil</String>
+  <String>Second Cretaceous Fossil</String>
+  <String>Third Cretaceous Fossil</String>
+  <String>Third Jurassic Fossil</String>
+  <String>Fourth Cretaceous Fossil</String>
+  <String>Final Fossil</String>
+  <String></String>
+</StringArray>
+<StringArray id="gFossilNames">
+  <String></String>
+  <String>Trilobyte</String>
+  <String>Brachiopod</String>
+  <String>Ammonite</String>
+  <String>Crinoid</String>
+  <String>Coleacanth</String>
+  <String>Dimetrodon</String>
+  <String>Plateosaurus</String>
+  <String>Achaeopteryx</String>
+  <String>Parasaurolophus</String>
+  <String>Apatosaurus</String>
+  <String>Ankylosaurus</String>
+  <String>Pteranodon</String>
+  <String>Stegosaurus</String>
+  <String>Triceratops</String>
+  <String>Tyrannosaurus Rex</String>
+  <String></String>
+</StringArray>
+<String id="BREAK_THE_FOSSIL_OUT">Break the fossil out</String>
+<String id="OF_THE_EGGS_TO_ADVANCE">of the eggs to advance!</String>
+<String id="FRAGMENT_NUM_1">Fragment #1</String>
+<String id="FRAGMENT_NUM_2">Fragment #2</String>
+<String id="FRAGMENT_NUM_3">Fragment #3</String>
+<String id="CONGRATS_YOU_GOT_A_HIGH_SCORE__">Congratulations!  You got a high score!  However, you cannot record high scores until you buy Dynomite.</String>
+<String id="CONGRATS_YOU_GOT_A_HIGH_SCORE__2">Congratulations!  You got a high score!  However, you cannot record high scores in the unregistered version of Dynomite.</String>
+<String id="FALLEN_FOSSIL_BONUS">Fallen Fossil Bonus</String>
+<String id="FALLEN_FOSSIL">Fallen Fossil</String>
+<String id="FALLEN">Fallen</String>
+<StringArray id="ComboNames">
+  <String>None</String>
+  <String>None</String>
+  <String>Combo</String>
+  <String>Super</String>
+  <String>Cambrian</String>
+  <String>Triassic</String>
+  <String>Jurassic</String>
+  <String>Cretaceous</String>
+  <String>Dynomite</String>
+</StringArray>
+<String id="BEST_COMBO">Best Combo:</String>
+<String id="BABIES_HATCHED">Babies Hatched:</String>
+<String id="FOSSILS_ASSEMBLED">Fossils Assembled:</String>
+<String id="FINAL_SCORE">Final Score:</String>
+
+<!-- DynomitePanic.cpp -->
+<String id="KEEP_THE_EGGS_FROM">Keep the eggs from</String>
+<String id="REACHING_THE_BOTTOM">reaching the bottom!</String>
+<String id="WHIRLEYS_WHACKED">Whirleys Whacked:</String>
+<String id="CONGRATS_HS_BUY_DYNOMITE">Congratulations!  You got a high score!  However, you cannot record high scores until you buy Dynomite.</String>
+<String id="CONGRATS_HS_DYNOMITE_UNREGISTERED">Congratulations!  You got a high score!  However, you cannot record high scores in the unregistered version of Dynomite.</String>
+
+<!-- DynomiteStomped.cpp -->
+<String id="CLEAR_ALL_THE">Clear all the</String>
+<String id="EGGS_TO_ADVANCE">eggs to advance!</String>
+<String id="ROUND_D">Round %d</String>
+<String id="ROUND_CLEARED_BONUS">Round Cleared Bonus</String>
+<String id="ROUND_CLEARED">Round Cleared</String>
+<String id="ROUND">Round</String>
+
+<!-- DynomiteTimeTrial.cpp -->
+<String id="CLEAR_ALL_THE_EGGS">Clear all the eggs</String>
+<String id="AS_FAST_AS_YOU_CAN">as fast as you can!</String>
+<String id="ROWS_CLEARED">Rows Cleared:</String>
+<String id="EGGS_BROKEN">Eggs Broken:</String>
+<String id="EGGS_DROPPED">Eggs Dropped:</String>
+
+<!-- EnterNameDialog.cpp -->
+<String id="YOU_GOT_A_HIGH_SCORE">YOU GOT A HIGH SCORE!</String>
+<String id="OKAY">Okay</String>
+<String id="ENTER_YOUR_NAME">Enter your name!</String>
+
+<!-- FossilDialog.cpp -->
+<StringArray id="gButtonName">
+  <String>CONTINUE!</String>
+  <String>NEXT FOSSIL!</String>
+</StringArray>
+
+<!-- FossilizedApp.cpp -->
+<String id="EXIT_GAME">Exit Game</String>
+<String id="ARE_YOU_SURE_YOU_WANT_TO_EXIT_DYNOMITE">Are you sure you want to exit&cr;Dynomite?</String>
+<String id="FOSSAPP_NEW_GAME">NEW GAME</String>
+<String id="NEW_GAME">New Game</String>
+<String id="ARE_YOU_SURE_YOU_WANT_TO_QUIT_THE_CURRENT_GAME">Are you sure you want to quit&cr;the current game?</String>
+<String id="NO_GAME_SLOT_SELECTED">No Game Slot Selected</String>
+<String id="YOU_HAVE_NOT_SELECTED_A_SAVE_GAME_SLOT__">You have not selected a save game slot.  Please click on one of the save game slots, and try again.</String>
+<String id="OK">OK</String>
+<String id="OVERWRITE_SAVED_GAME">Overwrite Saved Game?</String>
+<String id="THIS_GAME_SLOT_ALREADY_HAS_A_SAVED_GAME__">This game slot already has a game saved in it.  Do you want to overwrite the saved game?</String>
+<String id="SAVED_GAME">Saved Game</String>
+<String id="GAME_SAVED">Game Saved</String>
+<String id="YOUR_GAME_HAS_BEEN_SAVED__">Your game has been saved!  You will now be returned to the main menu.</String>
+<String id="NO_WINDOWED">No Windowed</String>
+<String id="WINDOWED_MODE_IS_ONLY_AVAILABLE_IF_YOUR_DESKTOP__">Windowed mode is only available if your desktop is running in either 16 bit or 32 bit color mode, which it is not.</String>
+<String id="INVALID_CODE">Invalid Code</String>
+<String id="THE_LICENSE_CODE_YOU_ENTERED_IS_INVALID__">The license code you entered is not valid for that name.&cr;&cr;Make sure the name and registration number are entered correctly.</String>
+<String id="PLEASE_OPEN_THE_FOLLOWING_URL">Please open the following URL in your browser:&cr;</String>
+<String id="OPEN_BROWSER">OPEN BROWSER</String>
+<String id="OPENING_BROWSER">Opening Browser ...</String>
+<String id="FOSSAPP_UPDATE">Update</String>
+<String id="DO_YOU_WANT_TO_CHECK_FOR_UPDATES_TO_DYNOMITE__">Do you want to check for updates to Dynomite? New versions may offer new features and bug fixes.  This requires an active Internet connection.</String>
+
+<!-- GetSaveNameDialog.cpp -->
+<String id="SAVE">Save</String>
+<String id="GAME_DESCRIPTION">Game Description</String>
+<String id="GETSAVENAMEDLG_STOMPED_PUZZLE">Stomped Puzzle</String>
+<String id="GETSAVENAMEDLG_ENDLESS_PUZZLE">Endless Puzzle</String>
+<String id="GETSAVENAMEDLG_FOSSIL_PUZZLE">Fossil Puzzle</String>
+<String id="GETSAVENAMEDLG_TIME_TRIAL">Time Trial</String>
+<String id="ENTER_A_DESCRIPTION_FOR_YOUR_GAME">Enter a description for your game:</String>
+
+<!-- HighScoreDialog.cpp -->
+<String id="HSDLG_HIGH_SCORES">HIGH SCORES</String>
+<String id="HSDLG_DONE">DONE</String>
+<String id="STOMPED">STOMPED</String>
+<String id="ENDLESS">ENDLESS</String>
+<String id="FOSSIL">FOSSIL</String>
+<String id="HSDLG_TIME_TRIAL">TIME TRIAL</String>
+
+<!-- InchySmall.cpp -->
+<String id="COMBO">Combo!</String>
+<String id="SUPER_COMBO">Super Combo!</String>
+<String id="CAMBRIAN_COMBO">Cambrian Combo!</String>
+<String id="TRIASSIC_COMBO">Triassic Combo!</String>
+<String id="JURASSIC_COMBO">Jurassic Combo!</String>
+<String id="CRETACIOUS_COMBO">Cretacious Combo!</String>
+<String id="DYNOMITE_COMBO">Dynomite Combo!</String>
+
+<!-- IntroScreen.cpp -->
+<String id="INTRO_SCREEN_1">Select an option</String>
+<String id="INTRO_SCREEN_2">on the right and</String>
+<String id="INTRO_SCREEN_3">click next to</String>
+<String id="INTRO_SCREEN_4">get going!</String>
+<String id="INTRO_SCREEN_5">If you're new to</String>
+<String id="INTRO_SCREEN_6">Dynomite, you should</String>
+<String id="INTRO_SCREEN_7">try the tutorial to learn</String>
+<String id="INTRO_SCREEN_8">the ropes!</String>
+<String id="CONTINUE_GAME">CONTINUE GAME</String>
+<String id="TUTORIAL">TUTORIAL</String>
+<String id="INTROSCREEN_NEW_GAME">NEW GAME</String>
+<String id="NEW_GAME_BUTTON1">Click here to start a new game</String>
+<String id="NEW_GAME_BUTTON2">you saved previously.</String>
+<String id="CLICK_HERE_TO_LEARN_TO_PLAY_DYNOMITE">Click here to learn to play Dynomite!</String>
+<String id="THE_TUTORIAL_WILL_WALK_YOU_THROUGH">The tutorial will walk you through</String>
+<String id="DYNOMITE_BASICS_AND_GIVE_YOU_A_BRIEF">Dynomite basics, and give you a brief</String>
+<String id="EXPLANATION_OF_ALL_THE_PUZZLE_VARIETIES">explanation of all the puzzle varieties.</String>
+<String id="SELECT_GAME1">Select the game</String>
+<String id="SELECT_GAME2">you want to play!</String>
+<String id="SELECT_GAME3">Beginners, try the</String>
+<String id="SELECT_GAME4">Endless Puzzle.</String>
+<String id="SELECT_GAME5">If you want a</String>
+<String id="SELECT_GAME6">slow, relaxing</String>
+<String id="SELECT_GAME7">game, try Time</String>
+<String id="SELECT_GAME8">Trial. Pros will</String>
+<String id="SELECT_GAME9">enjoy Stomped</String>
+<String id="SELECT_GAME10">Puzzle or the</String>
+<String id="SELECT_GAME11">Fossil Challenge</String>
+<String id="INTROSCREEN_STOMPED_PUZZLE">STOMPED PUZZLE</String>
+<String id="INTROSCREEN_ENDLESS_PUZZLE">ENDLESS PUZZLE</String>
+<String id="INTROSCREEN_FOSSIL_CHALLENGE">FOSSIL CHALLENGE</String>
+<String id="INTROSCREEN_TIME_TRIAL">TIME TRIAL</String>
+<String id="STOMPED_DESC1">Clear screen after screen of mind-bending egg</String>
+<String id="STOMPED_DESC2">arrangements!  But keep an eye on Mama's mood</String>
+<String id="STOMPED_DESC3">meter! Every egg you fire makes her madder!</String>
+<String id="ENDLESS_DESC1">Pit your wits against an endless wall of eggs!</String>
+<String id="ENDLESS_DESC2">Watch the timekeeper... when his sand runs out,</String>
+<String id="ENDLESS_DESC3">Whirley will try to add a new color to the puzzle!</String>
+<String id="FOSSIL_DESC1">Fossil fragments are trapped in piles of eggs!</String>
+<String id="FOSSIL_DESC2">Break them out to add them to your fossil museum.</String>
+<String id="FOSSIL_DESC3">But hurry!  When the sand runs out, the puzzle falls!</String>
+<String id="TIME_TRIAL_DESC1">No pressure here!  Clear all the eggs as quickly</String>
+<String id="TIME_TRIAL_DESC2">as you can.  And you can fire freely, because</String>
+<String id="TIME_TRIAL_DESC3">in the Time Trial game, you can't lose!</String>
+<String id="SKILL_SELECT1">Now, choose</String>
+<String id="SKILL_SELECT2">your skill</String>
+<String id="SKILL_SELECT3">level.</String>
+<String id="SKILL_SELECT4">When you're</String>
+<String id="SKILL_SELECT5">ready, click</String>
+<String id="SKILL_SELECT6">Let's Play</String>
+<String id="SKILL_SELECT7">to begin!</String>
+<String id="NORMAL">EASY</String>
+<String id="HARD">NORMAL</String>
+<String id="EXPERT">HARD</String>
+<String id="EASY_SKILL_DESC1">Start here with the basic</String>
+<String id="EASY_SKILL_DESC2">difficulty setting for the</String>
+<String id="EASY_SKILL_DESC3">game!</String>
+<String id="NORMAL_SKILL_DESC1">When you know what you're doing,</String>
+<String id="NORMAL_SKILL_DESC2">try this!  It's tougher, but you'll</String>
+<String id="NORMAL_SKILL_DESC3">score more points!</String>
+<String id="EXPERT_SKILL_DESC1">Only for hardcore Dynomiters!</String>
+<String id="EXPERT_SKILL_DESC2">Extremely difficult, but you'll rack</String>
+<String id="EXPERT_SKILL_DESC3">up the most points... if you survive!</String>
+<String id="NO_GAMES">No Games!</String>
+<String id="SAVED_GAME_SELECT1">Select a saved</String>
+<String id="SAVED_GAME_SELECT2">game to continue.</String>
+<String id="SAVED_GAME_SELECT3">When you're</String>
+<String id="SAVED_GAME_SELECT4">ready, click Let's</String>
+<String id="SAVED_GAME_SELECT5">Play to resume</String>
+<String id="SAVED_GAME_SELECT6">the game where</String>
+<String id="SAVED_GAME_SELECT7">you left off!</String>
+<String id="MULT_STOMPED_PUZZLE_DIALOG1">There are several</String>
+<String id="MULT_STOMPED_PUZZLE_DIALOG2">Stomped Puzzles</String>
+<String id="MULT_STOMPED_PUZZLE_DIALOG3">on your computer.</String>
+<String id="MULT_STOMPED_PUZZLE_DIALOG4">Select a puzzle</String>
+<String id="MULT_STOMPED_PUZZLE_DIALOG5">from the list on</String>
+<String id="MULT_STOMPED_PUZZLE_DIALOG6">the right, and</String>
+<String id="MULT_STOMPED_PUZZLE_DIALOG7">click next!</String>
+<String id="GAME_TYPE_DIALOG1">Now, choose</String>
+<String id="GAME_TYPE_DIALOG2">your game</String>
+<String id="GAME_TYPE_DIALOG3">type.</String>
+<String id="GAME_TYPE_DIALOG4">When you're   </String>
+<String id="GAME_TYPE_DIALOG5">ready click</String>
+<String id="GAME_TYPE_DIALOG6">Let's Play</String>
+<String id="GAME_TYPE_DIALOG7">to begin!</String>
+<String id="STRATEGIC">STRATEGIC</String>
+<String id="PANIC">PANIC</String>
+<String id="STRATEGIC_MODE_DESC1">The Strategic mode is a slow, thoughtful</String>
+<String id="STRATEGIC_MODE_DESC2">version of the Fossil Puzzle that challenges </String>
+<String id="STRATEGIC_MODE_DESC3">you to use your head, not your reflexes.</String>
+<String id="PANIC_MODE_DESC1">The Panic mode is a speedy version of the fossil</String>
+<String id="PANIC_MODE_DESC2">puzzle.  The levels are less difficult... but the</String>
+<String id="PANIC_MODE_DESC3">pace is greatly increased!</String>
+<String id="SORRY__YOU_CANNOT_CONTINUE_SAVED_GAMES_UNTIL_YOU_BUY_DYNOMITE">Sorry!  You cannot continue saved games until you buy Dynomite!</String>
+<String id="SORRY__YOU_CANNOT_CONTINUE_SAVED_GAMES_IN_THE_UNREGISTERED_VERSION_OF_DYNOMITE">Sorry!  You cannot continue saved games in the unregistered version of Dynomite!</String>
+<String id="SORRY__YOU_CANNOT_PLAY_CUSTOM_STOMPED_LEVELS_UNTIL_YOU_BUY_DYNOMITE">Sorry, you cannot play custom Stomped levels until you buy Dynomite!</String>
+<String id="SORRY__YOU_CANNOT_PLAY_CUSTOM_STOMPED_LEVELS_IN_THE_UNREGISTERED_VERSION_OF_DYNOMITE">Sorry, you cannot play custom Stomped levels in the unregistered version of Dynomite!</String>
+
+<!-- Museum.cpp -->
+<String id="CLOSE_MUSEUM">Close Museum</String>
+<String id="BEWARE">BEWARE!</String>
+<String id="CONTINUE_TO_NEXT_FRAGMENT">Continue to Next Fragment!</String>
+<String id="CONTINUE_TO_NEXT_FOSSIL">Continue to Next Fossil!</String>
+<String id="END_GAME">END GAME</String>
+<String id="CONGRATULATIONS">Congratulations!</String>
+<String id="YOU_HAVE_BEATEN_THE_FOSSIL_CHALLENGE1">YOU HAVE BEATEN</String>
+<String id="YOU_HAVE_BEATEN_THE_FOSSIL_CHALLENGE2">THE FOSSIL CHALLENGE!</String>
+<String id="SCORE_TENK_BONUS_POINTS">SCORE 10,000 BONUS POINTS!</String>
+
+<!-- OptionsDialog.cpp -->
+<String id="OPTIONS">Options</String>
+<String id="DONE">DONE</String>
+<String id="UNLOCK">Unlock</String>
+<String id="REGISTER">Register</String>
+<String id="HIGH_SCORES">High Scores</String>
+<String id="UPDATE">Update</String>
+<String id="EDITOR">Editor</String>
+<String id="CLICK_HERE_TO_PLAY_ALCHEMY">Click Here to play Alchemy</String>
+<String id="VISIT_POPCAP_COM_FOR_MORE_GAMES">Visit PopCap.com For More Games</String>
+<String id="CLICK_HERE_TO_PLAY_BEJEWELED">Click Here to play Bejeweled</String>
+<String id="CLICK_HERE_TO_PLAY_DIAMOND_MINE">Click Here to play Diamond Mine</String>
+<String id="CHECK_FOR_DYNOMITE_GAME_UPDATES">Check for Dynomite Game updates</String>
+<String id="MUSIC">Music</String>
+<String id="SOUND_FX">Sound Fx</String>
+<String id="FULLSCREEN">Fullscreen</String>
+<String id="CUSTOM_CURSORS">Custom Cursors</String>
+<String id="LOCK_CURSOR_DURING_PLAY">Lock Cursor During Play</String>
+
+<!-- PuzzleListWidget.cpp -->
+<String id="NO_PUZZLES">No Puzzles!</String>
+
+<!-- ReadySetGo.cpp -->
+<String id="FIRE_YOUR_FIRST_EGG_TO_BEGIN1">Fire your first</String>
+<String id="FIRE_YOUR_FIRST_EGG_TO_BEGIN2">egg to begin!</String>
+
+<!-- RegisterDialog.cpp -->
+<String id="UNLOCK_DYNOMITE">UNLOCK DYNOMITE</String>
+<String id="REGISTRATION">REGISTRATION</String>
+<String id="CLICK_HERE_TO_BUY_ONLINE">Click here to buy online</String>
+<String id="CLICK_HERE_TO_REGISTER_ONLINE">Click here to register online</String>
+<String id="NOTE__THIS_WILL_OPEN_A_BROWSER_WINDOW">Note - This will open a browser window.</String>
+<String id="REG_INSTRUCTIONS_A1">After the purchase, enter your</String>
+<String id="REG_INSTRUCTIONS_A2">registration information below.</String>
+<String id="REG_INSTRUCTIONS_B1">When you have registered, enter your</String>
+<String id="REG_INSTRUCTIONS_B2">registration information below.</String>
+<String id="REGISTERED_NAME">Registered Name</String>
+<String id="LICENSE_CODE">License Code</String>
+<String id="YOU_MAY_USE_CTRLV_TO_PASTE">You may use CTRL-V to paste.</String>
+
+<!-- SaveGameDialog.cpp -->
+<String id="SAVE_GAME">SAVE GAME</String>
+<String id="SAVE_INSTRUCTIONS1">Select a save game slot below and click SAVE.</String>
+<String id="SAVE_INSTRUCTIONS2">Note: After you save your game, you will</String>
+<String id="SAVE_INSTRUCTIONS3">return to the main menu.</String>
+<String id="EMPTY">Empty</String>
+
+<!-- SideBar.cpp -->
+<String id="SAVE_GAME_DENY_SCREEN1">You can't save your games until you've bought and unlocked Dynomite!</String>
+<String id="SAVE_GAME_DENY_SCREEN2">Warning!  Although you can save your game now, you will not be able to resume it (after saving) unless you register Dynomite!</String>
+
+<!-- TitleScreen.cpp -->
+<String id="BUY_NOW_AND_UNLOCK_NEW_FEATURES">BUY NOW AND UNLOCK NEW FEATURES!</String>
+<String id="REGISTER_DYNOMITE_FOR_FASTER_STARTUP">REGISTER DYNOMITE FOR FASTER STARTUP!</String>
+<String id="CLICK_HERE_TO_BUY_DYNOMITE">CLICK HERE TO BUY DYNOMITE!</String>
+<String id="REGISTER_DYNOMITE_TO_CONTINUE_PLAYING">REGISTER DYNOMITE TO CONTINUE PLAYING!</String>
+<String id="CLICK_HERE_TO_PLAY">CLICK HERE TO PLAY!</String>
+<String id="CLICK_HERE_TO_QUIT">CLICK HERE TO QUIT</String>
+<String id="YOUR_FREE_PLAYS_HAVE_EXPIRED__YOU_MUST_PURCHASE_DYNOMITE_TO_CONTINUE_PLAYING">Your free plays have expired!  You must purchase Dynomite to continue playing!</String>
+<String id="YOUR_FREE_PLAYS_HAVE_EXPIRED__YOU_MUST_REGISTER_DYNOMITE_TO_CONTINUE_PLAYING">Your free plays have expired!  You must register Dynomite to continue playing!</String>
+<String id="YOU_MUST_REGISTER_TO_CONTINUE_PLAYING_DYNOMITE">You must register to continue playing Dynomite!</String>
+<String id="YOU_HAVE_D_FREE_PLAY_REMAINING">YOU HAVE %d FREE PLAY REMAINING</String>
+<String id="YOU_HAVE_D_FREE_PLAYS_REMAINING">YOU HAVE %d FREE PLAYS REMAINING</String>
+<String id="YOU_HAVE_PLAYED_D_TIMES">YOU HAVE PLAYED %d TIMES</String>
+<String id="YOU_HAVE_PLAYED_D_TIME">YOU HAVE PLAYED %d TIME</String>
+<String id="THANKS_FOR_BUYING_DYNOMITE">THANKS FOR BUYING DYNOMITE!</String>
+<String id="THANKS_FOR_REGISTERING">THANKS FOR REGISTERING!</String>
+<String id="REGISTER_DYNOMITE_TO_UNLOCK_NEW_FEATURES">REGISTER DYNOMITE TO UNLOCK NEW FEATURES!</String>
+<String id="BUY_DYNOMITE_FOR_FASTER_LOADING">BUY DYNOMITE FOR FASTER LOADING!</String>
+<String id="REGISTER_DYNOMITE_AND_SAVE_YOUR_HIGH_SCORES">REGISTER DYNOMITE AND SAVE YOUR HIGH SCORES!</String>
+<String id="BUY_DYNOMITE_AND_SAVE_YOUR_HIGH_SCORES">BUY DYNOMITE AND SAVE YOUR HIGH SCORES!</String>
+<String id="REGISTER_DYNOMITE_FOR_UNLIMITED_PLAY">REGISTER DYNOMITE FOR UNLIMITED PLAY!</String>
+<String id="REGISTER_NOW_AND_SAVE_LOAD_YOUR_GAMES">REGISTER NOW AND SAVE/LOAD YOUR GAMES!</String>
+<String id="BUY_NOW_AND_SAVE_LOAD_YOUR_GAMES">BUY NOW AND SAVE/LOAD YOUR GAMES!</String>
+<String id="REGISTER_DYNOMITE_FOR_FASTER_LOADING">REGISTER DYNOMITE FOR FASTER LOADING!!</String>
+
+<!-- Tutor.cpp -->
+<String id="ENDLESS_PUZZLE">Endless Puzzle</String>
+<String id="STOMPED_PUZZLE">Stomped Puzzle</String>
+<String id="FOSSIL_CHALLENGE">Fossil Challenge</String>
+<String id="TIME_TRIAL">Time Trial</String>
+<String id="HI_THERE__MY_NAME_IS_INCHY_AND_IM_HERE_TO_SHOW_YOU_HOW_TO_PLAY_DYNOMITE">Hi there.  My name is Inchy, and I'm here to show you how to play Dynomite.</String>
+<String id="YOU_CAN_EXIT_THIS_TUTORIAL_AT_ANY_TIME_BY_CLICKING_THE_NEW_GAME_BUTTON">You can exit this tutorial at any time by clicking the new game button.</String>
+<String id="IF_YOU_WANT_TO_SKIP_THE_GAME_BASICS_AND_VIEW_INFORMATION_ABOUT_EACH_OF_THE_INDIVIDUAL_GAME_TYPES_CLICK_ONE_OF_THE_LINKS_BELOW__OTHERWISE_CLICK_CONTINUE">If you want to skip the game basics and view information about each of the individual game types, click one of the links below.  Otherwise, click continue.</String>
+<String id="LETS_START_WITH_SOME_INTRODUCTIONS_TO_MAKE_SURE_WERE_ALL_ON_THE_SAME_PAGE">Let's start with some introductions, to make sure we're all on the same page.</String>
+<String id="THIS_IS_THE_SLINGSHOT_MANNED_BY_THE_CLAW__THIS_IS_WHAT_YOU_HAVE_CONTROL_OVER">This is the slingshot, manned by 'The Claw.'  This is what you have control over.</String>
+<String id="THIS_IS_STEGGY__HE_HAS_THE_ENVIABLE_JOB_OF_LOADING_THE_SLINGSHOT">This is Steggy.  He has the enviable job of loading the slingshot.</String>
+<String id="THIS_IS_KRONEY__HE_TAKES_CARE_OF_TIMEKEEPING_DUTIES">This is Kroney.  He takes care of timekeeping duties.</String>
+<String id="AND_THIS_IS_TANK__HE_HANDLES_THE_DETONATOR">And this is Tank.  He handles the detonator.</String>
+<String id="YOUVE_ALREADY_MET_ME__ILL_BE_AROUND_DURING_THE_GAME_TO_MAKE_ANNOUNCEMENTS">You've already met me.  I'll be around during the game to make announcements.</String>
+<String id="AND_WE_CALL_THIS_BIG_MESS_OF_EGGS__THE_PUZZLE">And we call this big mess of eggs... 'The Puzzle.'</String>
+<String id="OKAY_THEN__THE_GOAL_OF_DYNOMITE_IS_TO_AIM_THE_SLINGSHOT_AND_FIRE_EGGS_AT_THE_PUZZLE">Okay then!  The goal of Dynomite is to aim the slingshot and fire eggs at The Puzzle.</String>
+<String id="SWEEP_YOUR_MOUSE_CURSOR_AROUND_THE_SCREEN_AND_OBSERVE_THE_SLINGSHOT_AND_AIM">Sweep your mouse cursor around the screen, and observe the slingshot and aiming arrow.</String>
+<String id="NOW_YOU_CAN_FIRE_AN_EGG_BY_CLICKING_THE_MOUSE_BUTTON__GO_AHEAD_AND_FIRE_A_FEW_EGGS_AND_CLICK_CONTINUE_WHEN_YOURE_FINISHED__NOTE_THAT_YOU_CAN_BOUNCE_EGGS_OFF_THE_WALLS">Now, you can fire an egg by clicking the mouse button.  Go ahead and fire a few eggs, and click continue when you're finished.  Note that you can bounce eggs off the walls.</String>
+<String id="UP_ABOVE_ME_YOULL_NOTICE_THAT_I_HAVE_TWO_EGGS_OF_THE_SAME_COLOR_RIGHT_NEXT_TO_EACH_OTHER">Up above me, you'll notice that I have two eggs of the same color, right next to each other.</String>
+<String id="FURTHERMORE_THERES_A_VERY_TEMPTING_STICK_OF_DYNAMITE_WEDGED_IN_THERE_WITH_THEM">Furthermore, there's a very tempting stick of dynamite wedged in there with them.</String>
+<String id="NOW_FIRE_THE_RED_EGG_IN_THE_SLINGSHOT_RIGHT_AT_THE_REG_EGGS_UP_ABOVE">Now, fire the red egg in the slingshot right at the red eggs up above.</String>
+<String id="GREAT__HERES_THE_RULE_GET_THREE_OR_MORE_EGGS_OF_ONE_COLOR_IN_A_ROW_AND_TANK_WILL_DETONATE_THEM__THIS_IS_HOW_YOU_CLEAR_OUT_THE_PUZZLE">Great!  Here's the rule: Get three (or more) eggs of one color in a row, and Tank will detonate them.  This is how you clear out the puzzle.</String>
+<String id="WHEN_YOU_BREAK_SEVERAL_GROUPS_OF_EGGS_ONE_AFTER_ANOTHER_YOU_START_ACCUMULATING_COMBOS__COMBOS_MEAN_EXTRA_POINTS">When you break several groups of eggs, one after another, you start accumulating combos.  Combos mean extra points!</String>
+<String id="PLUS_IF_YOU_CAN_SCORE_SEVEN_COMBOS_IN_A_ROW_YOULL_RECEIVE_A_SPECIAL_SECRET_DYNOMITE_BONUS">Plus, if you can score seven combos in a row, you'll receive a special, secret Dynomite bonus.</String>
+<String id="BUT_THERES_ONE_OTHER_LITTLE_WRINKLE_TO_BE_EXPLAINED">But there's one other little wrinkle to be explained.</String>
+<String id="DETONATE_THE_BLUE_EGGS_IN_THE_PUZZLE__AND_WATCH_THE_RED_EGGS">Detonate the blue eggs in the puzzle... and watch the red eggs.</String>
+<String id="AHA__IF_ANY_EGGS_ARE_LEFT_UNSUPPORTED_IN_THE_PUZZLE__THEYLL_FALL__USE_THIS_TO_YOUR_ADVANTAGE">Aha!  If any eggs are left unsupported in the puzzle, they'll fall.  Use this to your advantage.</String>
+<String id="ROCKS_CAN_APPEAR_IN_THE_PUZZLE_AND_THE_ONLY_WAY_TO_GET_RID_OF_THEM_IS_TO_MAKE_THEM_FALL_BY_BREAKING_THE_EGGS_ABOVE_THEM">Rocks can appear in the puzzle, and the only way to get rid of them is to make them fall by breaking the eggs above them.</String>
+<String id="YOU_SCORE_POINTS_FOR_EVERY_EGG_YOU_BREAK_AND_THAT_SCORE_WILL_BE_MULTIPLIED_BY_HOW_MANY_EGGS_OR_ROCKS_FALL">You score points for every egg you break, and that score will be multiplied by how many eggs or rocks fall.</String>
+<String id="NOW_LETS_LOOK_AT_THIS_SITUATION__SOMETIMES_AN_EGG_GETS_A_LITTLE_SHAKY__SO_TO_SPEAK">Now, let's look at this situation... sometimes an egg gets a little shaky, so to speak.</String>
+<String id="WHEN_YOU_SEE_A_WIGGLING_EGG_LIKE_THIS_IT_MEANS_A_BONUS_BABY_IS_READY_TO_HATCH__IT_WONT_LAST_FOREVER_SO_YOU_HAVE_TO_BE_ON_THE_BALL">When you see a wiggling egg like this, it means a Bonus Baby is ready to hatch.  It won't last forever, so you have to be on the ball.</String>
+<String id="SO_BE_QUICK__FIRE_AT_THE_GREEN_EGGS_TO_GET_THE_BONUS_BABY">So be quick!  Fire at the green eggs to get the Bonus Baby!</String>
+<String id="HATCHING_A_BONUS_BABY_WILL_GET_YOU_SOME_BONUS_POINTS__AND_A_LITTLE_SOMETHING_EXTRA_TOO__FIRE_A_COUPLE_MORE_EGGS_AND_WATCH_THE_EGGS_THAT_STEGGY_PICKS">Hatching a bonus baby will get you some bonus points.  And a little something extra, too.  Fire a couple more eggs, and watch the eggs that Steggy picks.</String>
+<String id="WELL_FOR_BREAKING_THE_BONUS_BABY_WE_GET_TO_FIRE_AN_EGG_WITH_A_BONUS_ITEM_ON_IT">Well, for breaking the Bonus Baby, we get to fire an egg with a bonus item on it!</String>
+<String id="YOU_CAN_FIRE_A_BONUS_EGG_INTO_THE_PUZZLE_AND_THEN_DETONATE_IT_TO_USE_THE_BONUS_ITEM">You can fire a bonus egg into the puzzle, and then detonate it to use the bonus item.</String>
+<String id="THERE_ARE_MANY_DIFFERENT_BONUS_TYPES__SOME_WILL_HELP_YOU_GET_HIGHER_SCORES_AND_OTHERS_WILL_HELP_YOU_PLAY_LONGER">There are many different bonus types.  Some will help you get higher scores, and others will help you play longer.</String>
+<String id="THIS_IS_THE_LIGHTBULB_BONUS__WHEN_THIS_ITEM_IS_ACTIVE_YOU_CAN_TELL_EXACTLY_WHERE_YOUR_EGGS_WILL_END_UP_WHEN_YOU_SHOOT">This is the LIGHTBULB bonus.  When this item is active, you can tell exactly where your eggs will end up when you shoot them.</String>
+<String id="THIS_IS_A_SCORE_MULTIPLIER_BONUS__WHEN_THIS_IS_ACTIVE_ANY_POINTS_YOU_SCORE_WILL_BE_DOUBLED_TRIPLED_OR_EVEN_QUADRUPLED">This is a SCORE MULTIPLIER bonus.  When this is active, any points you score will be doubled, tripled, even quadrupled!</String>
+<String id="THIS_RAISE_BONUS_WILL_PUSH_THE_WHOLE_PUZZLE_UPWARD">This RAISE bonus will push the whole puzzle upward.</String>
+<String id="THE_WIDEN_BONUS_WILL_EXPAND_YOUR_SCREEN_GIVING_YOU_MORE_EGGS_TO_BREAK">The WIDEN bonus will expand your screen, giving you more eggs to break!</String>
+<String id="THE_NARROW_BONUS_DOES_JUST_THE_OPPOSITE">The NARROW bonus does just the opposite.</String>
+<String id="MEANWHILE_THE_VIRTUAL_EGG_BONUS_WILL_GIVE_YOU_EXTRA_POINTS_AS_THOUGH_YOU_BROKE_THIS_MANY_EXTRA_EGGS">Meanwhile, the VIRTUAL EGG bonus will give you extra points, as though you broke this many extra eggs.</String>
+<String id="EACH_BONUS_ITEM_HAS_A_DIFFERENT_DURATION__SOME_LIKE_THE_LIGHTBULB_LAST_A_LONG_TIME__OTHERS_LIKE_THE_VIRTUAL_EGG_HAPPEN_INSTANTLY">Each bonus item has a different duration.  Some, like the LIGHTBULB, last a long time.  Others, like the VIRTUAL EGG, happen instantly.</String>
+<String id="SO_LETS_TRY_A_LIGHTBULB_BONUS__FIRE_AT_WILL">So, let's try a LIGHTBULB bonus!  Fire at will!</String>
+<String id="WHEN_YOU_DETONATE_A_BONUS_ITEM_ITLL_SPIN_AROUND_KRONEY_UNTIL_IT_RUNS_OUT">When you detonate a bonus item, it'll spin around Kroney until it runs out.</String>
+<String id="AND_NOW_WEVE_GOT_TO_BROACH_A_DIFFICULT_SUBJECT__LOSING_THE_GAME">And now we've got to broach a difficult subject... losing the game.</String>
+<String id="THIS_IS_THE_WARNING_LINE__WHEN_AN_EGG_GETS_BELOW_THE_WARNING_LINE_YOU_ARE_IN_DANGER_OF_LOSING_THE_GAME">This is the warning line.  When an egg gets below the warning line, you are in danger of losing the game.</String>
+<String id="GO_AHEAD_AND_FIRE_SOME_EGGS_INTO_THE_PUZZLE__FIRE_AWAY_UNTIL_YOU_GET_AN_EGG_BELOW_THE_WARNING_LINE">Go ahead and fire some eggs into the puzzle.  Fire away until you get an egg below the warning line.</String>
+<String id="NOW_YOUVE_DONE_IT__YOUVE_GOT_AN_EGG_THATS_TOO_LOW__YOU_HAVE_ABOUT_THREE_SECONDS_TO_BREAK_THAT_EGG_OR_ELSE">Now you've done it!  You've got an egg that's too low!  You have about three seconds to break that egg, or else!</String>
+<String id="OUCH">Ouch.</String>
+<String id="BUT_ALL_IS_NOT_LOST__THERES_A_LITTLE_BUTTON_OVER_HERE_THAT_YOU_CAN_USE_TO_SAVE_YOUR_GAME_WHEN_THINGS_GET_HAIRY">But all is not lost.  There's a little button over here that you can use to save your game when things get hairy.</String>
+<String id="THAT_MEANS_YOU_CAN_SAVE_YOUR_GAME_AND_CONTINUE_IT_FROM_THE_MAIN_MENU_AT_ANY_TIME">That means you can save your game, and continue it from the main menu at any time!</String>
+<String id="AND_THATS_HOW_TO_PLAY_DYNOMITE__YOU_CAN_QUIT_THE_TUTORIAL_NOW_BY_CLICKING_THE_NEW_GAME_BUTTON_OR_STICK_AROUND_AND_ILL_TELL_YOU_ABOUT_EACH_OF_THE_GAME_TYPES">And that's how to play Dynomite!  You can quit the tutorial now by clicking the new game button, or stick around, and I'll tell you about each of the game types.</String>
+<String id="OKAY__GLAD_YOU_COULD_STICK_AROUND__WHEN_YOU_START_A_NEW_GAME_YOU_GET_A_CHOICE_OF_FOUR_GAMES_TO_PLAY__ENDLESS_PUZZLE__STOMPED_PUZZLE__FOSSIL_CHALLENGE__AND_TIME_TRIAL">Okay!  Glad you could stick around!  When you start a new game, you get a choice of four games to play: Endless Puzzle, Stomped Puzzle, Fossil Challenge, and Time Trial.</String>
+<String id="SO_LETS_TALK_ABOUT_ENDLESS_PUZZLES">So let's talk about Endless puzzles.</String>
+<String id="IN_THE_ENDLESS_PUZZLE_YOU_ARE_FACED_WITH_AN_EVER_DESCENDING_WALL_OF_EGGS__YOUR_GOAL_IS_TO_KEEP_THEM_ABOVE_THE_WARNING_LINE">In the Endless Puzzle, you are faced with an ever-descending wall of eggs.  Your goal is to keep them above the warning line.</String>
+<String id="LETS_TRY_IT_FOR_A_FEW_SECONDS__FIRE_AWAY">Let's try it for a few seconds.  Fire away!</String>
+<String id="ITS_EASY_ENOUGH__BUT_THERES_A_CATCH__AS_YOU_CLEAR_AWAY_MORE_EGGS_THE_PUZZLE_WILL_START_FALLING_FASTER_BUT_IF_THE_EGGS_GET_TOO_LOW_ITLL_SLOW_DOWN_AGAIN">It's easy enough... but there's a catch: As you clear away more eggs, the puzzle will start falling faster.  But, if the eggs get too low, it'll slow down again.</String>
+<String id="AND_YOU_NEED_TO_KEEP_AN_EYE_ON_KRONEYS_HOURGLASS">And you need to keep an eye on Kroney's hourglass.</String>
+<String id="LET_ME_SPEED_UP_KRONEY_A_BIT__AND_WATCH_WHAT_HE_DOES_AS_THE_SAND_RUNS_OUT">Let me speed up Kroney a bit... and watch what he does as the sand runs out.</String>
+<String id="THIS_IS_WHIRLEY">This is Whirley!</String>
+<String id="WHIRLEY_APPEARS_IN_ENDLESS_PUZZLES_CARRYING_AN_EGG_COLOR_THATS_NOT_ON_THE_SCREEN">Whirley appears in Endless Puzzles, carrying an egg color that's not on the screen.</String>
+<String id="IF_WHIRLEY_GETS_TO_THE_TOP_OF_THE_SCREEN_HELL_ADD_THAT_EGG_TO_THE_PUZZLE__THE_MORE_COLORS_IN_THE_PUZZLE_THE_HARDER_IT_IS_TO_GET_GROUPS_OF_THREE_OR_MORE">If Whirley gets to the top of the screen, he'll add that egg to the puzzle.  The more colors in the puzzle, the harder it is to get groups of three or more.</String>
+<String id="SO_WHEN_YOU_SEE_WHIRLEY_YOU_CAN_SHOOT_AT_HIS_EGG__THIS_PREVENTS_A_NEW_EGG_FROM_GETTING_ADDED_TO_THE_PUZZLE">So, when you see Whirley, you can shoot at his egg.  This prevents a new egg from getting added to the puzzle.</String>
+<String id="GO_AHEAD__IVE_STOPPED_WHIRLEY_IN_HIS_TRACKS__LET_HIM_HAVE_IT">Go ahead... I've stopped Whirley in his tracks.  Let him have it!</String>
+<String id="NICE__BUT_WHEN_YOU_SHOOT_WHIRLEY_THE_PUZZLE_SPEEDS_UP_VERY_SLIGHTLY__IT_WONT_SLOW_DOWN_AGAIN_UNTIL_WHIRLEY_MANAGES_TO_GET_TO_THE_TOP">Nice!  But when you shoot Whirley, the puzzle speeds up very slightly.  It won't slow down again until Whirley manages to get to the top.</String>
+<String id="SO_ITS_YOUR_CHOICE__DO_YOU_WANT_A_FASTER_PUZZLE_OR_DO_YOU_WANT_MORE_EGGS">So, it's your choice-- do you want a faster puzzle, or do you want more eggs?</String>
+<String id="THATS_THE_ENDLESS_PUZZLE__IT_CAN_BE_VERY_EASY_OR_VERY_HARD_DEPENDING_ON_HOW_YOU_CHOOSE_TO_PLAY">That's the Endless Puzzle!  It can be very easy, or very hard, depending on how you choose to play.</String>
+<String id="THE_SECOND_TYPE_OF_PUZZLE_IS_THE_STOMPED_PUZZLE">The second type of puzzle is the Stomped Puzzle.</String>
+<String id="IN_THE_STOMPEd_PUZZLE_YOUR_GOAL_IS_TO_CLEAR_LEVELS_OF_CREATIVELY_ARRANGED_EGGS">In the Stomped Puzzle, your goal is to clear levels of creatively arranged eggs.</String>
+<String id="YOU_CAN_USE_THE_EDITOR_AVAILABLE_IN_THE_OPTIONS_SCREEN_TO_SET_UP_YOUR_OWN_LEVELS_TO_TRADE_WITH_FRIENDS_TOO">There's no rush here, but it's still not easy.  Let me explain...</String>
+<String id="NOW_KRONEY_DOESNT_APPEAR_IN_THE_STOMPED_PUZZLE__INSTEAD_WE_HAVE_THE_MAMA_METER">Now, Kroney doesn't appear in the Stomped puzzle.  Instead, we have the Mama Meter.</String>
+<String id="MAMA_BRONTOSAURUS_DOESNT_CARE_MUCH_FOR_FOLKS_FIRING_HER_EGGS_AROUND__YOULL_NOTICE_THAT_EVERY_TIME_YOU_FIRE_AN_EGG_MAMAS_TEMPER_RISES">Mama Brontosaurus doesn't care much for folks firing her eggs around.  You'll notice that every time you fire an egg, Mama's temper rises.</String>
+<String id="FIRE_A_FEW_EGGS_NOW_AND_WATCH_THE_MAMA_METER">Fire a few eggs now, and watch the Mama meter.</String>
+<String id="MAMAS_GETTING_MAD_NOW">Mama's getting mad now.</String>
+<String id="GO_AHEAD_AND_FIRE_A_FEW_MORE_EGGS">Go ahead and fire a few more eggs.</String>
+<String id="WHEN_THE_MAMA_METER_GETS_TO_THE_TOP_MAMA_COOLS_OFF_BY_PUTTING_HER_FOOT_DOWN">When the Mama Meter gets to the top, Mama cools off by putting her foot down.</String>
+<String id="SO_IF_YOU_FIRE_ENOUGH_EGGS_MAMA_WILL_SQUASH_YOU_FLAT">So, if you fire enough eggs, Mama will squash you flat.</String>
+<String id="STOMPED_PUZZLES_CAN_BE_SLOW_PACED_GAMES_THAT_GIVE_YOU_TIME_TO_THINK_ABOUT_WHERE_AND_WHY_YOURE_GOING_TO_SHOOT_EACH_EGG">Stomped Puzzles can be slow paced games that give you time to think about where and why you're going to shoot each egg.</String>
+<String id="BUT_BEWARE__SOME_OF_THE_HARDER_PUZZLES_CAN_TWIST_YOUR_MIND">But beware!  Some of the harder puzzles can twist your mind!</String>
+<String id="NOW_I_WANT_TO_TALK_TO_YOU_ABOUT_THE_FOSSIL_CHALLENGE">Now I want to talk to you about the fossil challenge.</String>
+<String id="THERES_ONLY_ONE_SKILL_LEVEL_IN_THE_FOSSIL_CHALLENGE__IT_STARTS_OUT_EASY_AND_ENDS_UP_HARD">There's only one skill level in the fossil challenge.  It starts out easy, and ends up hard.</String>
+<String id="HERES_A_FOSSIL">Here's a fossil!</String>
+<String id="WELL_ITS_A_FRAGMENT_OF_A_FOSSIL__EVERY_FOSSIL_HERE_IS_MADE_UP_OF_THREE_FRAGMENTS">Well, it's a fragment of a fossil.  Every fossil here is made up of three fragments.</String>
+<String id="YOUR_GOAL_IS_TO_BREAK_ALL_THE_EGGS_AROUND_THE_FOSSIL_SO_THAT_IT_FALLS">Your goal is to break all the eggs around the fossil, so that it falls.</String>
+<String id="THE_FOSSIL_PUZZLE_HAS_TWO_PLAY_MODES__STRATEGIC_AND_PANIC">The Fossil Puzzle has two play modes: Strategic and Panic.</String>
+<String id="STRATEGIC_MODE_IS_GEARED_MORE_TOWARD_PEOPLE_WHO_PREFER_A_THOUGHFUL_PUZZLE_AND_RELY_LESS_ON_THEIR_REFLEXES">Strategic mode is geared more toward people who prefer a thoughtful puzzle, and rely less on their reflexes.</String>
+<String id="IN_STRATEGIC_MODE_THE_EGGS_DONT_MOVE__YET___THINK_OF_IT_AS_A_STOMPED_PUZZLE_WITHOUT_THE_MAMA_METER">In Strategic mode, the eggs don't move-- yet.  Think of it as a Stomped Puzzle without the Mama Meter.</String>
+<String id="AND_KRONEYS_BACK">And Kroney's back!</String>
+<String id="WHEN_KRONEYS_SAND_RUNS_OUT_THE_WHOLE_PUZZLE_WILL_SHIFT_DOWN_A_BIT__SO_STRATEGIC_MODE_GIVES_YOU_MORE_TIME_TO_MAKE_DECISIONS__BUT_NOT_ALL_THE_TIME_IN_THE_WORLD">When Kroney's sand runs out, the whole puzzle will shift down a bit.  So, Strategic mode gives you more time to make decisions...but not all the time in the world.</String>
+<String id="BUT_PANIC_MODE_IS_MORE_INTENSE__THE_WALL_OF_EGGS_WILL_SLOWLY_COME_DOWN_TOWARD_YOU_CONSTANTLY_AND_YOU_HAVE_TO_SHOOT_AS_QUICKLY_AS_YOU_CAN">But Panic mode is more intense.  The wall of eggs will slowly come down toward you, constantly, and you have to shoot as quickly as you can!</String>
+<String id="TO_MAKE_MATTERS_WORSE_WHENEVER_KRONEYS_SAND_RUNS_OTU_THE_PUZZLE_WILL_SPEED_UP_PERMANENTLY">To make matters worse, whenever Kroney's sand runs out, the puzzle will speed up permanently!</String>
+<String id="SO_CHOOSE_YOUR_FOSSIL_GAME_MODE_CAREFULLY__IF_YOURE_A_THINKER_GO_STRATEGIC__IF_YOU_WANT_ACTION_PANIC_IS_RIGHT_FOR_YOU">So choose your Fossil game mode carefully.  If you're a thinker, go Strategic.  If you want action, Panic is right for you.</String>
+<String id="DOWN_HERE_YOULL_SEE_THE_MUSEUM_BUTTON__GO_AHEAD_AND_CLICK_IT">Down here, you'll see the Museum button.  Go ahead and click it.</String>
+<String id="WELCOME_TO_THE_GLORIOUS_DYNOMITE_MUSEUM">Welcome to the glorious Dynomite Museum!</String>
+<String id="THE_MUSEUM_SHOWS_YOU_ALL_THE_FOSSILS_YOU_HAVE_COMPLETED_AND_ALL_THE_FOSSILS_YOU_HAVE_LEFT_TO_GO">The Museum shows you all the fossils you have completed, and all the fossils you have left to go.</String>
+<String id="THE_TWO_ARROWS_AT_THE_BOTTOM_OF_THE_SCREEN_WILL_LET_YOU_VIEW_FOSSILS_THAT_ARE_OFFSCREEN__TRY_IT">The two arrows at the bottom of the screen will let you view fossils that are offscreen.  Try it!</String>
+<String id="AND_I_DONT_MIND_TELLING_YOU_IF_YOU_MANAGE_TO_ASSEMBLE_ALL_THE_FOSSILS_YOULL_GET_A_RATHER_LARGE_BONUS">And, I don't mind telling you, if you manage to assemble all the fossils, you'll get a rather large bonus.</String>
+<String id="THATS_THE_FOSSIL_CHALLENGE__CLOSE_THE_MUSEUM_AND_WELL_GO_ON_TO_TIME_TRIAL">That's the fossil challenge!  Close the museum, and we'll go on to Time Trial.</String>
+<String id="AND_THATS_THE_FOSSIL_CHALLENGE">And that's the fossil challenge!</String>
+<String id="THE_LAST_GAME_TYPE_IS_THE_TIME_TRIAL">The last game type is the Time Trial.</String>
+<String id="IT_LOOKS_FORMIDABLE_BUT_DONT_BE_INTIMIDATED__THE_GOAL_HERE_IS_JUST_TO_CLEAR_THE_WHOLE_PUZZLE_OF_EGGS_AS_QUICKLY_AS_YOU_CAN">It looks formidable, but don't be intimidated.  The goal here is just to clear the whole puzzle of eggs, as quickly as you can.</String>
+<String id="THE_TIME_TRIAL_IS_A_FAIRLY_RELAXING_GAME__YOU_HAVE_NOTHING_TO_FEAR_FROM_MAMAS_FOOT_BECAUSE_IN_TIME_TRIAL_YOU_CANT_LOSE">The Time Trial is a fairly relaxing game.  You have nothing to fear from Mama's foot, because in Time Trial, you can't lose!</String>
+<String id="GO_AHEAD__FIRE_SOME_EGGS_AT_THE_PUZZLE_AND_WATCH_WHAT_HAPPENS_WHEN_YOU_GET_EGGS_BELOW_THE_WARNING_LINE">Go ahead... fire some eggs at the puzzle, and watch what happens when you get eggs below the warning line.</String>
+<String id="EASY_ENOUGH__YOU_CAN_SHOOT_TO_YOUR_HEARTS_CONTENT_AND_THE_PUZZLE_JUST_KEEPS_MOVING_UP">Easy enough!  You can shoot to your heart's content, and the puzzle just keeps moving up.</String>
+<String id="LOOKY_HERE">Looky here!</String>
+<String id="THE_ROWS_TO_GO_COUNTER_LETS_YOU_KNOW_HOW_MANY_ROWS_OF_EGGS_ARE_UP_ABOVE">The Rows-To-Go counter lets you know how many rows of eggs are up above.</String>
+<String id="AS_YOU_BREAK_EGGS_THE_WHOLE_PUZZLE_WILL_SLIP_DOWNWARD_TO_THE_WARNING_LINE_AND_YOU_CAN_CONTINUE_CLEARING_OFF_EGGS">As you break eggs, the whole puzzle will slip downward to the warning line, and you can continue clearing off eggs.</String>
+<String id="SPEED_IS_ESSENTIAL_FOR_GETTING_A_HIGH_SCORE_BUT_THE_TIME_TRIAL_GAME_IS_A_GOOD_PLACE_TO_RELAX_AND_PRACTICE_YOUR_TRICK_SHOTS">Speed is essential for getting a high score, but the Time Trial game is a good place to relax and practice your trick shots.</String>
+<String id="WELL_THATS_ALL_I_CAN_TELL_YOU_ABOUT_DYNOMITE__YOURE_READY_FOR_YOUR_FIRST_GAME">Well, that's all I can tell you about Dynomite!  You're ready for your first game!</String>
+<String id="SO_GET_OUT_THERE_AND_IMPRESS_ME_WITH_SOME_HIGH_SCORES">So get out there, and impress me with some high scores!</String>
+
+<!-- UpsellDialog.cpp -->
+<String id="BUY_AND_UNLOCK_DYNOMITE">BUY AND UNLOCK DYNOMITE!</String>
+<String id="BUY_NOW">Buy now!</String>
+<String id="MAYBE_LATER">Maybe Later</String>
+<String id="UPSELL_PITCH1">Buy Dynomite now to unlock new</String>
+<String id="UPSELL_PITCH2">features and unlimited play!</String>
+<String id="UPSELL_PITCH3">Record your high scores to compete</String>
+<String id="UPSELL_PITCH4">against family and friends!</String>
+<String id="UPSELL_PITCH5">Save your game anywhere and come</String>
+<String id="UPSELL_PITCH6">back to it later!  Retry a particularly</String>
+<String id="UPSELL_PITCH7">fiendish puzzle, or just take a break!</String>
+
+</Properties>

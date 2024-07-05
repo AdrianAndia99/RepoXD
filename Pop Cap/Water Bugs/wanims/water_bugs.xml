@@ -1,0 +1,1025 @@
+
+<animation name="sparkles1" start_frame="sparkles_.eco" frame_time="30">
+<animation name="sparkles2" start_frame="sparkles_.eco" frame_time="30">
+<animation name="sparkles3" start_frame="sparkles_.eco" frame_time="30">
+
+
+<animation name="shooter_magnet"  start_frame="magnet_.eco" frame_time="45">
+<animation name="missile_up"  start_frame="missile_.eco" frame_time="45">
+<animation name="missile_down" rotation="180" start_frame="missile_.eco" frame_time="45">
+<animation name="missile_left"  rotation="270" start_frame="missile_.eco" frame_time="45">
+<animation name="missile_right"  rotation="90" start_frame="missile_.eco" frame_time="45">
+
+<animation name="horizontal_tiles" start_frame="rail_h_01" num_frames="9" frame_time="30">
+<animation name="vertical_tiles" start_frame="rail_v_01" num_frames="9" frame_time="30">
+<animation name="corner_tiles" start_frame="rail_x_01" num_frames="1" frame_time="30">
+
+<animation name="roller" start_frame="roller06_.eco" frame_time="30">
+<animation name="roller2a" start_frame="roller07_.eco" frame_time="30">
+<animation name="roller3" start_frame="roller05_.eco" frame_time="30">
+<animation name="roller4" start_frame="roller08_.eco" frame_time="20">
+
+
+swap blue with green                 swap red to blue
+<animation rotation="180" name="walker_right5" start_frame="walker07_.eco" frame_time="30">
+<animation rotation="270" name="walker_right3" start_frame="walker05_.eco" frame_time="30">
+<animation name="walker_right2" rotation="270" start_frame="stingray_.eco" frame_time="30">
+
+<animation name="generic_explo" start_frame="explosion03_.eco" frame_time="30">
+<animation name="second_explo" start_frame="explosion05_.eco" frame_time="30">
+<animation name="small_explo" start_frame="explosion_small_.eco" frame_time="30">
+
+<animation name="powerup_speed" start_frame="pwrup_speed_.eco" frame_time="60">
+<animation name="powerup_slowmo" start_frame="pwrup_slowmotion_.eco" frame_time="60">
+<animation name="powerup_plusone" start_frame="pwrup_xtra_.eco" frame_time="100">
+<animation name="powerup_slow" start_frame="pwrdn_slowshoot_.eco" frame_time="60">
+<animation name="powerup_magnet" start_frame="pwrup_magnet_.eco" frame_time="60">
+<animation name="powerup_missile" start_frame="pwrup_missile_.eco" frame_time="60">
+<animation name="powerup_freeze" start_frame="pwrup_ice_.eco" frame_time="60">
+<animation name="powerup_hypermo" start_frame="pwrdn_fastenemies_.eco" frame_time="60">
+<animation name="powerup_timebomb" start_frame="pwrup_timebomb_.eco" frame_time="60">
+<animation name="powerup_2x" start_frame="pwrup_2x_.eco" frame_time="100">
+<animation name="grab_this" start_frame="grabthis_.eco" frame_time="60">
+<animation name="powerup_flip_flopper" start_frame="pwrdn_flipflop_.eco" frame_time="30">
+<animation name="powerup_destroyrollers" start_frame="pwrup_destroyrollers_.eco" frame_time="30">
+<animation name="powerup_destroywalkers" start_frame="pwrup_destroywalkers_.eco" frame_time="30">
+<animation name="powerup_invincibubble" start_frame="pwrup_invincibubble_.eco" frame_time="30">
+<animation name="powerup_anchor" start_frame="pwrup_anchor_.eco" frame_time="30">
+
+<animation name="shooter_horizontal" start_frame="shooter_idle_.eco" frame_time="30">
+<animation name="wings_horizontal" start_frame="wings_idle_.eco" frame_time="30">
+<animation rotation="90" name="shooter_vertical" start_frame="shooter_idle_.eco" frame_time="30">
+
+<animation name="shooter_vertical" start_frame="shooter_idle_.eco" frame_time="30" rotation="90" >
+<animation name="wings_vertical" start_frame="wings_idle_.eco" frame_time="30" rotation="90" >
+<animation name="shooter_vertical" start_frame="shooter_idle_.eco" frame_time="30" >
+
+
+<animation name="star" start_frame="star" num_frames="1" frame_time="200">
+
+<animation name="bubble1" start_frame="bubble01" num_frames="1" frame_time="200">
+<animation name="bubble2" start_frame="bubble02" num_frames="1" frame_time="200">
+<animation name="bubble3" start_frame="bubble03" num_frames="1" frame_time="200">
+
+<animation name="enemy_shield" start_frame="shield_.eco" frame_time="30">
+<animation name="smoke" start_frame="smoke_.eco" frame_time="60">
+<animation name="cannon_ball" start_frame="cannonball_.eco" frame_time="30">
+
+<animation name="nag_ss" start_frame="nag_ss" num_frames="1" frame_time="0">
+<animation name="nag_logo" start_frame="nag_logo" num_frames="1" frame_time="0">
+<animation name="porthole" start_frame="porthole" num_frames="1" frame_time="0">
+<animation name="water" start_frame="water_logo.eco" frame_time="30">
+<animation name="bugs" start_frame="bugs" num_frames="1" frame_time="0">
+<animation name="sign" start_frame="sign" num_frames="1" frame_time="0">
+<animation name="user_panel" start_frame="user_panel" num_frames="1" frame_time="0">
+<animation name="requester" start_frame="requester" num_frames="1" frame_time="0">
+<animation name="rename" start_frame="rename.eco" num_frames="1" frame_time="90">
+<animation name="delete" start_frame="delete.eco" num_frames="1" frame_time="90">
+<animation name="done" start_frame="done.eco" num_frames="1" frame_time="90">
+<animation name="okay" start_frame="okay.eco" num_frames="1" frame_time="90">
+<animation name="cancel" start_frame="cancel.eco" num_frames="1" frame_time="90">
+<animation name="yes" start_frame="yes.eco" num_frames="1" frame_time="90">
+<animation name="no" start_frame="no.eco" num_frames="1" frame_time="90">
+
+
+
+<animation name="help" start_frame="help.eco" num_frames="2" frame_time="90">
+<animation name="startgame" start_frame="startgame.eco" num_frames="2" frame_time="90">
+<animation name="options" start_frame="options.eco" num_frames="2" frame_time="90">
+<animation name="highscores" start_frame="highscores.eco" num_frames="2" frame_time="90">
+<animation name="credits" start_frame="credits.eco" num_frames="2" frame_time="90">
+<animation name="quit" start_frame="quit.eco" num_frames="2" frame_time="90">
+<animation name="changeuser" start_frame="cu.eco" num_frames="2" frame_time="90">
+
+
+<animation name="pointer" start_frame="mouse_.eco" num_frames="10" frame_time="50">
+<animation name="left_arrow" start_frame="arrow_lft.eco" frame_time="30">
+<animation name="right_arrow" start_frame="arrow_rgt.eco" frame_time="30">
+<animation name="retro64" start_frame="r64_.eco" frame_time="50">
+<animation name="portal1" start_frame="portal1.tga" num_frames="1" frame_time="1500">
+<animation name="portal2" start_frame="portal2.tga" num_frames="1" frame_time="1500">
+<animation name="portal3" start_frame="portal3.tga" num_frames="1" frame_time="1500">
+<animation name="portal4" start_frame="portal4.tga" num_frames="1" frame_time="1500">
+<animation name="portalsmall1" start_frame="portalsmall1.tga" num_frames="1" frame_time="1500">
+<animation name="portalsmall2" start_frame="portalsmall2.tga" num_frames="1" frame_time="1500">
+<animation name="portalsmall3" start_frame="portalsmall3.tga" num_frames="1" frame_time="1500">
+<animation name="portalsmall4" start_frame="portalsmall4.tga" num_frames="1" frame_time="1500">
+
+
+<animation name="ls_window_active" start_frame="ls_window_active" num_frames="1">
+<animation name="ls_window_inactive" start_frame="ls_window_inactive" num_frames="1">
+<animation name="ls_hiddenlevel" start_frame="ls_hiddenlevel" num_frames="1">
+
+<sound file="audio\click.wav">
+
+<game>
+	<font name="main_font" face="gamefont2" spacing="1" strip="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789,./?:`'+-*=!@&$%()">
+	<font name="main_font2" face="gamefont1" spacing="1" strip="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789,./?:`'+-*=!@&$%()">
+	<font name="percent_font" face="34p_" spacing="1">
+	<font name="score_font" face="34p_" spacing="2">
+	<font name="trial_font" face="20p_" spacing="1">
+	<font name="lives_font" face="34p_" spacing="1">
+	<font name="tiny_font" face="treb11_" spacing="1" 8bit="1">
+	<font name="micro_font" face="st_sfont_" spacing="1" 8bit="1">
+	<font name="bonus_font" face="gamefont3" spacing="1" strip="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789,./?:`'+-*=!@&$%()">
+	<font name="bonus_font2" face="gamefont4" spacing="1" strip="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789,./?:`'+-*=!@&$%()">
+
+
+	<!level
+		type="opening_nag"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="mainmenu"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+		<menu x="350" y="80" blit_type="alpha_edge" animation="nag_ss" logo_animation="nag_logo" logo_x="0" logo_y="10">
+			<menu_item type="logo" name="MAYBE LATER" x="184" y="560" font="main_font" box="1" box_size="23">
+			<menu_item type="buy_now" name="BUY NOW!" x="660" y="560" font="main_font" box="1" box_size="23">
+		</menu>
+
+		<text x="400" y="80" text="GET THE FULL VERSION!" font="main_font" dormant_time="300"
+			fade_in_time="1000" idle_time="9999999">
+
+		<text x="30" y="320" text="^4600 LEVELS!" font="main_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="370" text="^4UNLIMITED PLAY" font="main_font" dormant_time="1100"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="420" text="^4NEW SCENERY" font="main_font" dormant_time="1500"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="470" text="^4INSTANT DOWNLOAD!" font="main_font" dormant_time="1900"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+			
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+
+	<level
+		type="logo"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="background_black"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+		
+
+		<enemy type="roller" buffered="1" x="400" y="285"
+		  blit_type="block" animation="retro64" mid_handle="1" loop="0" >
+
+		<text x="400" y="900" text="www.retro64.com" font="tiny_font" dormant_time="0"
+			fade_in_time="0" idle_time="1900" fade_out_time="255">
+		
+		<stars number="1">
+
+	</level>
+
+
+	<level
+		type="logo"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="background_black"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+		
+
+		<text x="400" y="300" animation="portal1" text="www.retro64.com" font="tiny_font" dormant_time="0"
+			buffered="1" mid_handle="1" blit_type="alpha_edge" fade_in_time="300" idle_time="1600" fade_out_time="300">
+
+		<text x="400" y="900" text="www.retro64.com" font="tiny_font" dormant_time="0"
+			fade_in_time="0" idle_time="2200" fade_out_time="255">
+		
+		<stars number="1">
+
+	</level>
+
+
+	<level
+		type="logo"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="background_black"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+		
+
+		<text x="400" y="300" animation="portal2" text="www.retro64.com" font="tiny_font" dormant_time="0"
+			buffered="1" mid_handle="1" blit_type="alpha_edge" fade_in_time="300" idle_time="1600" fade_out_time="300">
+
+		<text x="400" y="900" text="www.retro64.com" font="tiny_font" dormant_time="0"
+			fade_in_time="0" idle_time="2200" fade_out_time="255">
+		
+		<stars number="1">
+
+	</level>
+
+
+	<level
+		type="logo"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="background_black"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+		
+
+		<text x="400" y="300" animation="portal3" text="www.retro64.com" font="tiny_font" dormant_time="0"
+			buffered="1" mid_handle="1" blit_type="alpha_edge" fade_in_time="300" idle_time="1600" fade_out_time="300">
+
+		<text x="400" y="900" text="www.retro64.com" font="tiny_font" dormant_time="0"
+			fade_in_time="0" idle_time="2200" fade_out_time="255">
+		
+		<stars number="1">
+
+	</level>
+
+
+	<level
+		type="logo"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="background_black"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+		
+
+		<text x="400" y="300" animation="portal4" text="www.retro64.com" font="tiny_font" dormant_time="0"
+			buffered="1" mid_handle="1" blit_type="alpha_edge" fade_in_time="300" idle_time="1600" fade_out_time="300">
+
+		<text x="400" y="900" text="www.retro64.com" font="tiny_font" dormant_time="0"
+			fade_in_time="0" idle_time="2200" fade_out_time="255">
+		
+		<stars number="1">
+
+	</level>
+
+
+	<level
+		type="main_menu"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="mainmenu"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+		<text x="400" y="590" text="Copyright 2007, PopCap Games" font="micro_font" dormant_time="300"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<text animation="portalsmall1" x="right" y="bottom" text="www.retro64.com" font="tiny_font" dormant_time="0"
+			buffered="1" blit_type="alpha_edge" fade_in_time="300" idle_time="9999999" fade_out_time="300">
+		<text animation="portalsmall2" x="left" y="bottom" text="www.retro64.com" font="tiny_font" dormant_time="0"
+			buffered="1" blit_type="alpha_edge" fade_in_time="300" idle_time="9999999" fade_out_time="300">
+		<text animation="portalsmall3" x="left" y="top" text="www.retro64.com" font="tiny_font" dormant_time="0"
+			buffered="1" blit_type="alpha_edge" fade_in_time="300" idle_time="9999999" fade_out_time="300">
+		<text animation="portalsmall4" x="right" y="top" text="www.retro64.com" font="tiny_font" dormant_time="0"
+			buffered="1" blit_type="alpha_edge" fade_in_time="300" idle_time="9999999" fade_out_time="300">
+
+		
+		<menu x="234" y="399" blit_type="alpha_edge" animation="sign">
+			<menu_item x="234" y="360" type="change_user" font="micro_font" name="Hello, USERNAME" buffered="1" mid_handle="1" blit_type="alpha_edge" height_adder="20">
+			<menu_item x="234" y="370" type="change_user" font="micro_font" name="Not You? Click Here." buffered="1" mid_handle="1" blit_type="alpha_edge" height_adder="20">
+		</menu>
+		
+		
+		<menu x="400" y="136" blit_type="alpha_edge" animation="porthole">
+			<menu_item x="400" y="303" type="select_level" animation="startgame" font="main_font" name="aaa" buffered="1" mid_handle="1" blit_type="alpha_edge">
+			<menu_item x="400" y="397" type="options" animation="options" font="main_font" name="aaa" buffered="1" mid_handle="1" blit_type="alpha_edge">
+			<menu_item x="400" y="444" type="high_scores" animation="highscores" font="main_font" name="aaa" buffered="1" mid_handle="1" blit_type="alpha_edge">
+			<menu_item x="400" y="350" type="help" animation="help" font="main_font" name="aaa" buffered="1" mid_handle="1" blit_type="alpha_edge">
+			<menu_item x="400" y="491" type="change_user" animation="changeuser" font="main_font" name="aaa" buffered="1" mid_handle="1" blit_type="alpha_edge">
+			<menu_item x="400" y="537" type="closing_nag" animation="quit" font="main_font" name="aaa" buffered="1" mid_handle="1" blit_type="alpha_edge">
+		</menu>
+		
+		<enemy type="roller" buffered="1" x="400" y="88"
+		  blit_type="alpha_edge" animation="water" mid_handle="1" loop="1" >
+		<enemy type="roller" buffered="1" x="400" y="180"
+		  blit_type="alpha_edge" animation="bugs" mid_handle="1" loop="1" >
+
+		<row cells=":                                                :">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells=":                                                :">
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+		<stars number="20" x_speed="0" y_speed="-.10" buffered="1" blit_type="alpha" animation="bubble3"  mid_handle="1">
+		<stars number="60" x_speed="0" y_speed="-.05" buffered="1" blit_type="alpha" animation="bubble2"  mid_handle="1">
+		<stars number="60" x_speed="0" y_speed="-.025" buffered="1" blit_type="alpha" animation="bubble1"  mid_handle="1">
+
+	</level>
+
+
+
+	<level
+		type="credits"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="mainmenu"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+		
+		<text x="400" y="80" text="GAME DESIGN, PROGRAMMING" font="main_font2" dormant_time="300"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="110" text="^5MIKE BOEH" font="main_font" dormant_time="500"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<text x="400" y="180" text="ART, ADDITIONAL DESIGN" font="main_font2" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="210" text="^4JAMES ABRAHAM" font="main_font" dormant_time="900"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<text x="400" y="280" text="ENGINE PROGRAMMING" font="main_font2" dormant_time="1100"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="310" text="^7MICHAEL WELCH" font="main_font" dormant_time="1300"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<text x="400" y="380" text="MUSIC COMPOSITION, AUDIO" font="main_font2" dormant_time="1500"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="410" text="^9STAFFAN MELIN" font="main_font" dormant_time="1700"
+			fade_in_time="1000" idle_time="9999999"></text>
+		
+		<menu>
+			<menu_item type="back" name="BACK TO MAIN MENU" x="400" y="510" font="main_font" hot_font="main_font2" box="1">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+
+
+	<level
+		type="options"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="mainmenu"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+		<menu>
+			<menu_item type="video" name="VIDEO: " x="400" y="60" font="main_font" hot_font="main_font2">
+			<menu_item type="lcd" name="LCD MODE: " x="400" y="120" font="main_font" hot_font="main_font2">
+			<menu_item type="sound" name="SOUND: " x="400" y="180" font="main_font" hot_font="main_font2">
+			<menu_item type="music" name="MUSIC: " x="400" y="240" font="main_font" hot_font="main_font2">
+			<menu_item type="shooter_mode" name="SHOOTER MODE: " x="400" y="300" font="main_font" hot_font="main_font2">
+			<menu_item type="difficulty" name="DIFFICULTY: " x="400" y="360" font="main_font" hot_font="main_font2">
+			<menu_item type="credits" name="CREDITS" x="400" y="420" font="main_font" hot_font="main_font2">
+			<menu_item type="back" name="BACK TO MAIN MENU" x="400" y="520" font="main_font" hot_font="main_font2" box="1">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+
+	<level
+		type="high_scores"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="mainmenu"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+		
+		<text x="400" y="30" text="HALL OF FAME" font="main_font" dormant_time="300"
+			fade_in_time="1000" idle_time="9999999"></text>
+			
+		<text type="hs" x="400" y="100" text="HS_SLOT_0" font="main_font" dormant_time="500"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text type="hs" x="400" y="150" text="HS_SLOT_1" font="main_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text type="hs" x="400" y="200" text="HS_SLOT_2" font="main_font" dormant_time="900"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text type="hs" x="400" y="250" text="HS_SLOT_3" font="main_font" dormant_time="1100"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text type="hs" x="400" y="300" text="HS_SLOT_4" font="main_font" dormant_time="1300"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text type="hs" x="400" y="350" text="HS_SLOT_5" font="main_font" dormant_time="1500"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text type="hs" x="400" y="400" text="HS_SLOT_6" font="main_font" dormant_time="1700"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text type="hs" x="400" y="450" text="HS_SLOT_7" font="main_font" dormant_time="1900"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		
+		<menu>
+			<menu_item type="back" name="BACK TO MAIN MENU" x="400" y="535" font="main_font" hot_font="main_font2" box="1">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+
+
+
+	<level
+		type="change_user"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="mainmenu"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+		
+		<text x="400" y="30" text="PLEASE SELECT A PLAYER" font="main_font" dormant_time="0"
+			fade_in_time="300" idle_time="9999999"></text>
+			
+			
+		<menu x="400" y="300" blit_type="alpha_edge" animation="user_panel">
+			<menu_item x="400" y="168" type="user_slot"  font="bonus_font" hot_font="bonus_font2" name="0" buffered="1" mid_handle="1" blit_type="alpha_edge" height_adder="5">
+			<menu_item x="400" y="193" type="user_slot"  font="bonus_font" hot_font="bonus_font2" name="1" buffered="1" mid_handle="1" blit_type="alpha_edge" height_adder="5">
+			<menu_item x="400" y="218" type="user_slot"  font="bonus_font" hot_font="bonus_font2" name="2" buffered="1" mid_handle="1" blit_type="alpha_edge" height_adder="5">
+			<menu_item x="400" y="243" type="user_slot"  font="bonus_font" hot_font="bonus_font2" name="3" buffered="1" mid_handle="1" blit_type="alpha_edge" height_adder="5">
+			<menu_item x="400" y="268" type="user_slot"  font="bonus_font" hot_font="bonus_font2" name="4" buffered="1" mid_handle="1" blit_type="alpha_edge" height_adder="5">
+			<menu_item x="400" y="293" type="user_slot"  font="bonus_font" hot_font="bonus_font2" name="5" buffered="1" mid_handle="1" blit_type="alpha_edge" height_adder="5">
+			<menu_item x="400" y="318" type="user_slot"  font="bonus_font" hot_font="bonus_font2" name="6" buffered="1" mid_handle="1" blit_type="alpha_edge" height_adder="5">
+			<menu_item x="400" y="343" type="user_slot"  font="bonus_font" hot_font="bonus_font2" name="7" buffered="1" mid_handle="1" blit_type="alpha_edge" height_adder="5">
+			<menu_item x="400" y="368" type="user_slot"  font="bonus_font" hot_font="bonus_font2" name="8" buffered="1" mid_handle="1" blit_type="alpha_edge" height_adder="5">
+			<menu_item x="400" y="393" type="user_slot"  font="bonus_font" hot_font="bonus_font2" name="9" buffered="1" mid_handle="1" blit_type="alpha_edge" height_adder="5">
+			<menu_item x="316" y="452" type="user_rename"  font="bonus_font" name="RENAME" buffered="1" mid_handle="1" blit_type="alpha_edge" animation="rename">
+			<menu_item x="400" y="452" type="user_delete"  font="bonus_font" name="DELETE" buffered="1" mid_handle="1" blit_type="alpha_edge" animation="delete">
+			<menu_item x="484" y="452" type="back"  font="bonus_font" name="DONE" buffered="1" mid_handle="1" blit_type="alpha_edge" animation="done">
+		</menu>
+			
+	
+		<!menu>
+			<!menu_item type="back" name="BACK TO MAIN MENU" x="400" y="535" font="main_font" hot_font="main_font2" box="1">
+		<!/menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+
+
+
+
+	<level
+		type="high_score_entry"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="mainmenu"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+		
+		<text x="400" y="60" text="^4CONGRATULATIONS!" font="main_font" dormant_time="0"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="120" text="^5PLEASE ENTER YOUR NAME" font="main_font" dormant_time="100"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="200" type="hs_entry" text="AAA" font="main_font" dormant_time="300"
+			fade_in_time="1000" idle_time="9999999" width="480"></text>
+
+		
+		<menu>
+			<menu_item type="hs_entered" name="CLICK HERE WHEN DONE" x="400" y="510" font="main_font" hot_font="main_font2" box="1">
+			
+			<menu_item type="hs_stuff" name="A" x="100" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="B" x="150" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="C" x="200" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="D" x="250" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="E" x="300" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="F" x="350" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="G" x="400" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="H" x="450" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="I" x="500" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="J" x="550" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="K" x="600" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="L" x="650" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="M" x="700" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="N" x="100" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="O" x="150" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="P" x="200" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="Q" x="250" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="R" x="300" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="S" x="350" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="T" x="400" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="U" x="450" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="V" x="500" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="W" x="550" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="X" x="600" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="Y" x="650" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="Z" x="700" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="0" x="100" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="1" x="150" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="2" x="200" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="3" x="250" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="4" x="300" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="5" x="350" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="6" x="400" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="7" x="450" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="8" x="500" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="9" x="550" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="." x="600" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="!" x="650" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="?" x="700" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="," x="100" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="$" x="150" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="@" x="200" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="(" x="250" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name=")" x="300" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="+" x="350" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="-" x="400" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="*" x="450" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="=" x="500" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="&" x="550" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name=";" x="600" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name=" " x="650" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="<" x="700" y="450" font="main_font" box="1" box_size="23">
+		</menu>
+
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+
+<level
+  type="select_level"
+  wall_image="rail"
+  fill_image="fill09"
+  fill_sound="audio\fill.wav"
+  fill_end_sound="audio\fill_end.wav"
+  beam_image="beam"
+  back_image="levelselect"
+  h_pattern="11111111145333333333333333333333333333364111111111"
+  v_pattern="144178199944999178144"
+  fill_quota="90"> 
+  
+
+
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells=":                                                :">
+
+  <text x="400" y="3" text="Select Starting Area" font="main_font" dormant_time="100"
+   fade_in_time="1000" idle_time="9999999"></text>
+  
+  <menu x="76" y="263" blit_type="alpha_edge" animation="ls_window_inactive"
+   logo_animation="ls_window_inactive" logo_x="76" logo_y="263"
+   locked_level="0" locked_animation="ls_hiddenlevel">
+   <menu_item type="select_world" value="1" animation="ls_window_active"
+    x="76" y="263" buffered="1"  mid_handle="1" blit_type="alpha_edge"
+    show_only_hot="1" name="aaa" font="main_font">
+  </menu>
+  <text x="76" y="333" text="Levels 1-9" font="micro_font" dormant_time="0"
+   fade_in_time="100" idle_time="9999999"></text>
+
+
+  <menu x="101" y="486" blit_type="alpha_edge" animation="ls_window_inactive"
+   logo_animation="ls_window_inactive" logo_x="101" logo_y="486"
+   locked_level="10" locked_animation="ls_hiddenlevel">
+   <menu_item type="select_world" value="1" animation="ls_window_active"
+    x="101" y="486" buffered="1"  mid_handle="1" blit_type="alpha_edge"
+    show_only_hot="1" name="aaa" font="main_font">
+  </menu>
+  <text x="101" y="556" text="Levels 10-19" font="micro_font" dormant_time="0"
+   fade_in_time="100" idle_time="9999999"></text>
+
+  <menu x="320" y="493" blit_type="alpha_edge" animation="ls_window_inactive"
+   logo_animation="ls_window_inactive" logo_x="320" logo_y="493"
+   locked_level="20" locked_animation="ls_hiddenlevel">
+   <menu_item type="select_world" value="1" animation="ls_window_active"
+    x="320" y="493" buffered="1"  mid_handle="1" blit_type="alpha_edge"
+    show_only_hot="1" name="aaa" font="main_font">
+  </menu>
+  <text x="320" y="563" text="Levels 20-49" font="micro_font" dormant_time="0"
+   fade_in_time="100" idle_time="9999999"></text>
+
+  <menu x="521" y="524" blit_type="alpha_edge" animation="ls_window_inactive"
+   logo_animation="ls_window_inactive" logo_x="521" logo_y="524"
+   locked_level="50" locked_animation="ls_hiddenlevel">
+   <menu_item type="select_world" value="1" animation="ls_window_active"
+    x="521" y="524" buffered="1"  mid_handle="1" blit_type="alpha_edge"
+    show_only_hot="1" name="aaa" font="main_font">
+  </menu>
+  <text x="521" y="594" text="Levels 50-99" font="micro_font" dormant_time="0"
+   fade_in_time="100" idle_time="9999999"></text>
+
+  <menu x="711" y="371" blit_type="alpha_edge" animation="ls_window_inactive"
+   logo_animation="ls_window_inactive" logo_x="711" logo_y="371"
+   locked_level="100" locked_animation="ls_hiddenlevel">
+   <menu_item type="select_world" value="1" animation="ls_window_active"
+    x="711" y="371" buffered="1"  mid_handle="1" blit_type="alpha_edge"
+    show_only_hot="1" name="aaa" font="main_font">
+  </menu>
+  <text x="711" y="441" text="Levels 100-199" font="micro_font" dormant_time="0"
+   fade_in_time="100" idle_time="9999999"></text>
+
+  <menu x="719" y="150" blit_type="alpha_edge" animation="ls_window_inactive"
+   logo_animation="ls_window_inactive" logo_x="719" logo_y="150"
+   locked_level="200" locked_animation="ls_hiddenlevel">
+   <menu_item type="select_world" value="1" animation="ls_window_active"
+    x="719" y="150" buffered="1"  mid_handle="1" blit_type="alpha_edge"
+    show_only_hot="1" name="aaa" font="main_font">
+  </menu>
+  <text x="719" y="220" text="Levels 200-299" font="micro_font" dormant_time="0"
+   fade_in_time="100" idle_time="9999999"></text>
+
+  <menu x="356" y="119" blit_type="alpha_edge" animation="ls_window_inactive"
+   logo_animation="ls_window_inactive" logo_x="356" logo_y="119"
+   locked_level="300" locked_animation="ls_hiddenlevel">
+   <menu_item type="select_world" value="1" animation="ls_window_active"
+    x="356" y="119" buffered="1"  mid_handle="1" blit_type="alpha_edge"
+    show_only_hot="1" name="aaa" font="main_font">
+  </menu>
+  <text x="356" y="189" text="Levels 300-399" font="micro_font" dormant_time="0"
+   fade_in_time="100" idle_time="9999999"></text>
+
+  <menu x="311" y="295" blit_type="alpha_edge" animation="ls_window_inactive"
+   logo_animation="ls_window_inactive" logo_x="311" logo_y="295"
+   locked_level="400" locked_animation="ls_hiddenlevel">
+   <menu_item type="select_world" value="1" animation="ls_window_active"
+    x="311" y="295" buffered="1"  mid_handle="1" blit_type="alpha_edge"
+    show_only_hot="1" name="aaa" font="main_font">
+  </menu>
+  <text x="311" y="365" text="Levels 400-499" font="micro_font" dormant_time="0"
+   fade_in_time="100" idle_time="9999999"></text>
+
+  <menu x="516" y="256" blit_type="alpha_edge" animation="ls_window_inactive"
+   logo_animation="ls_window_inactive" logo_x="516" logo_y="256"
+   locked_level="500" locked_animation="ls_hiddenlevel">
+   <menu_item type="select_world" value="1" animation="ls_window_active"
+    x="516" y="256" buffered="1"  mid_handle="1" blit_type="alpha_edge"
+    show_only_hot="1" name="aaa" font="main_font">
+  </menu>
+  <text x="516" y="326" text="Levels 500-599" font="micro_font" dormant_time="0"
+   fade_in_time="100" idle_time="9999999"></text>
+
+	<menu>
+		<menu_item type="back" name="BACK" x="750" y="566" font="bonus_font" hot_font="bonus_font2" box="1">
+	</menu>
+
+  <pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+ </level>
+
+
+
+	<level
+		type="select_level2"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="mainmenu"
+		h_pattern="22455622"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+		
+
+
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="         XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX         ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells=":                                                :">
+
+		<text x="400" y="30" text="^5SELECT STARTING LEVEL" font="main_font" dormant_time="100"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="260" type="level_select" text="AAA" font="main_font" dormant_time="1"
+			fade_in_time="10" idle_time="9999999" width="480"></text>
+
+		<menu>
+			<menu_item type="start" name="CLICK HERE TO START" x="400" y="554" font="main_font" hot_font="main_font2" box="1">
+			<menu_item type="select_up" name="select_up" animation="right_arrow" x="690" y="312" buffered="1" mid_handle="1" blit_type="alpha_edge" font="main_font">
+			<menu_item type="select_down" name="select_down" animation="left_arrow" x="110" y="312" buffered="1"  mid_handle="1" blit_type="alpha_edge" font="main_font">
+			<menu_item type="select_slide" name="select_slide" animation="walker_right2" x="200" y="310" buffered="1"  mid_handle="1" blit_type="alpha_edge" font="main_font">
+		</menu>
+
+		<menu>
+			<menu_item type="back" name="BACK" x="750" y="566" font="bonus_font" hot_font="bonus_font2" box="1">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+
+
+
+
+	<level
+		type="help"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="instructions"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+		<menu x="425" y="150" blit_type="alpha_edge">
+			<menu_item type="help2" name="CLICK HERE TO CONTINUE" x="400" y="559" font="main_font"  hot_font="main_font2" box="1">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+	</level>
+
+	<level
+		type="help2"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="powerups"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+		<menu x="425" y="150" blit_type="alpha_edge">
+			<menu_item type="back" name="CLICK HERE TO CONTINUE" x="400" y="559" font="main_font"  hot_font="main_font2" box="1">
+		</menu>
+
+		<text x="400" y="4" text="Power-Ups" font="main_font" dormant_time="0"
+			fade_in_time="1000" idle_time="9999999">
+
+
+		<enemy type="roller" buffered="1" x="64" y="64" shadow="1"
+		  blit_type="alpha_edge" animation="powerup_speed" mid_handle="1" loop="1" >
+
+		<enemy type="roller" buffered="1" x="64" y="128" shadow="1"
+		  blit_type="alpha_edge" animation="powerup_2x" mid_handle="1" loop="1" >
+
+		<enemy type="roller" buffered="1" x="64" y="192" shadow="1"
+		  blit_type="alpha_edge" animation="powerup_magnet" mid_handle="1" loop="1" >
+
+		<enemy type="roller" buffered="1" x="64" y="256" shadow="1"
+		  blit_type="alpha_edge" animation="powerup_slowmo" mid_handle="1" loop="1" >
+
+		<enemy type="roller" buffered="1" x="64" y="256" shadow="1"
+		  blit_type="alpha_edge" animation="powerup_slowmo" mid_handle="1" loop="1" >
+
+		<enemy type="roller" buffered="1" x="64" y="320" shadow="1"
+		  blit_type="alpha_edge" animation="powerup_plusone" mid_handle="1" loop="1" >
+
+		<enemy type="roller" buffered="1" x="64" y="384" shadow="1"
+		  blit_type="alpha_edge" animation="powerup_missile" mid_handle="1" loop="1" >
+
+		<enemy type="roller" buffered="1" x="64" y="448" shadow="1"
+		  blit_type="alpha_edge" animation="powerup_timebomb" mid_handle="1" loop="1" >
+
+		<enemy type="roller" buffered="1" x="64" y="512" shadow="1"
+		  blit_type="alpha_edge" animation="powerup_anchor" mid_handle="1" loop="1" >
+
+		<enemy type="roller" buffered="1" x="448" y="64" shadow="1"
+		  blit_type="alpha_edge" animation="powerup_invincibubble" mid_handle="1" loop="1" >
+
+		<enemy type="roller" buffered="1" x="448" y="128" shadow="1"
+		  blit_type="alpha_edge" animation="powerup_destroyrollers" mid_handle="1" loop="1" >
+
+		<enemy type="roller" buffered="1" x="448" y="192" shadow="1"
+		  blit_type="alpha_edge" animation="powerup_destroywalkers" mid_handle="1" loop="1" >
+
+		<enemy type="roller" buffered="1" x="448" y="384" shadow="1"
+		  blit_type="alpha_edge" animation="powerup_slow" mid_handle="1" loop="1" >
+
+		<enemy type="roller" buffered="1" x="448" y="448" shadow="1"
+		  blit_type="alpha_edge" animation="powerup_flip_flopper" mid_handle="1" loop="1" >
+
+		<enemy type="roller" buffered="1" x="448" y="512" shadow="1"
+		  blit_type="alpha_edge" animation="powerup_hypermo" mid_handle="1" loop="1" >
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+	</level>
+
+
+	<level
+		type="help2"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="instructions"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+		<menu x="425" y="150" blit_type="alpha_edge">
+			<menu_item type="start" name="CLICK HERE TO PLAY" x="400" y="554" font="main_font" hot_font="main_font2" box="1">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+	</level>
+
+
+	<level
+		type="closing_nag"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="mainmenu"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+		<menu x="575" y="300" blit_type="alpha_edge" animation="nag_ss" logo_animation="nag_logo" logo_x="200" logo_y="150">
+			<menu_item type="quit" name="MAYBE LATER" x="184" y="556" font="main_font" hot_font="main_font2" box="1">
+			<menu_item type="buy_now" name="BUY NOW!" x="660" y="556" font="main_font" hot_font="main_font2" box="1">
+		</menu>
+
+		<text x="560" y="20" text="GET THE FULL VERSION!" font="main_font" dormant_time="300"
+			fade_in_time="500" idle_time="100" fade_out_time="500" loop_time="1">
+		<!text x="225" y="225" text="FULL VERSION!" font="main_font" dormant_time="300"
+			fade_in_time="500" idle_time="100" fade_out_time="500" loop_time="1">
+
+		<text x="30" y="300" text="^4-OVER 500 LEVELS FOR" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="320" text="^4 COUNTLESS HOURS OF FUN!" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+
+		<text x="30" y="360" text="^5-NEW POWER-UPS TO HELP" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="380" text="^5 YOU BEAT THOSE BUGS!" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+
+		<text x="30" y="420" text="^8-BEAUTIFUL NEW SCENERY FOR" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="440" text="^8 YOU TO ENJOY WHILE PLAYING!" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+
+		<text x="30" y="480" text="^6-INSTANT DOWNLOAD DELIVERY," font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="500" text="^6 SO YOU CAN PLAY RIGHT AWAY!" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+
+
+		<!text x="30" y="370" text="^4UNLIMITED PLAY" font="main_font" dormant_time="1100"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<!text x="30" y="420" text="^4NEW SCENERY" font="main_font" dormant_time="1500"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<!text x="30" y="470" text="^4INSTANT DOWNLOAD!" font="main_font" dormant_time="1900"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+			
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+
+	<song name="audio\cosmo1.mo3">
+	<next_file name="wanims\water_level1.eco">
+	
+	<level_set start_range="0" end_range="9" song="audio\cosmo4.mo3"></level_set>
+	<level_set start_range="10" end_range="19" song="audio\cosmo3.mo3"></level_set>
+	<level_set start_range="20" end_range="49" song="audio\cosmo2.mo3"></level_set>
+	<level_set start_range="50" end_range="99" song="audio\cosmo5.mo3"></level_set>
+	<level_set start_range="100" end_range="199" song="audio\cosmo4.mo3"></level_set>
+	<level_set start_range="200" end_range="299" song="audio\cosmo3.mo3"></level_set>
+	<level_set start_range="300" end_range="399" song="audio\cosmo2.mo3"></level_set>
+	<level_set start_range="400" end_range="499" song="audio\cosmo5.mo3"></level_set>
+	<level_set start_range="500" end_range="599" song="audio\cosmo4.mo3"></level_set>
+</game>
+			

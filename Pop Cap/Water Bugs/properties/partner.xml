@@ -1,0 +1,9 @@
+<Properties>
+<String id="ProdName">WaterBugs</String>
+<String id="RegistryKey">PopCap\WaterBugs</String>
+
+<String id="DisplayName">Water Bugs</String>
+<String id="Offering">10199</String>
+<Integer id="Height">480</Integer>
+<Integer id="Width">640</Integer>
+</Properties>

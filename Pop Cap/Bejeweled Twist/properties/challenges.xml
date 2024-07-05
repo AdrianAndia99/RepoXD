@@ -1,0 +1,770 @@
+
+<Category id="DETONATOR" layer0="planet_detonator" layer1="cloud_detonator" viz="VizWarpBars" bkg2d=3 color="255,200,45">
+
+  <challenge>
+    <description>"Destroy 8 gems in 1 move"</description>
+    <donedescription>"You destroyed # gems"</donedescription>
+    <rules> "Gems>=8, Onemove, nocascades " </rules>
+  </challenge>
+  
+  <challenge>
+    <description>"Destroy 12 gems in 1 move without using any Lightning"</description>
+    <donedescription> "You destroyed # gems without Lightning"</donedescription>
+    <rules> "Gems>=12, Onemove, Lightninggems=0, nocascades " </rules>
+  </challenge>
+  
+  <challenge>
+    <description> "Destroy 15 gems in 1 move"</description>
+    <donedescription> "You destroyed # gems"</donedescription>
+    <rules> " Gems>=15, Onemove, nocascades " </rules>
+    </challenge>
+
+  <challenge>
+    <description>"Destroy 18 gems in 1 move without using any Lightning"</description>
+    <donedescription> "You destroyed # gems without Lightning"</donedescription>
+    <rules> " Gems>=18, Onemove, Lightninggems=0, nocascades " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Destroy 25 gems in 1 move"</description>
+    <donedescription> "You destroyed # gems"</donedescription>
+    <rules> " Gems>=25, Onemove, nocascades " </rules>
+  </challenge>
+  
+  <challenge>
+    <description>"Destroy 35 gems in 1 move"</description>
+    <donedescription> "You destroyed # gems"</donedescription>
+    <rules> " Gems>=35, Onemove, nocascades " </rules>
+  </challenge>
+  
+  <challenge>
+    <description>"Destroy all gems on board in 1 move"</description>
+    <donedescription> "You destroyed # gems"</donedescription>
+    <rules> " Gems>=64, Onemove, nocascades " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Get the highest single move score possible in 3 minutes"</description>
+    <counttitle> "Points" </counttitle>
+    <lowscore> 150 </lowscore>
+    <bestscore> 3000 </bestscore>
+    <rules> "Points>=0, Onemove, Time<3, nightmode"</rules>
+  </challenge>
+</Category>
+
+
+
+<Category id="SPECTRUM" layer0="planet_spectrum" layer1="cloud_spectrum" viz="UVWarp" bkg2d=33 color="255,255,255">
+
+
+  <challenge>
+    <description>"Make 3 red matches in a row"</description>
+    <donedescription>"You made 3 red matches in a row"</donedescription>
+    <rules>"pattern='RRR'"</rules>
+  </challenge>
+
+  <challenge>
+    <description>"Make 4 orange matches in a row"</description>
+    <donedescription>"You made 4 orange matches in a row"</donedescription>
+    <rules> "pattern='OOOO'" </rules>
+  </challenge>
+
+  <challenge>
+    <description> "Make 5 yellow matches in a row" </description>
+    <donedescription> "You made 5 yellow matches in a row" </donedescription>
+    <rules>"pattern='YYYYY'"</rules>
+  </challenge>
+
+  <challenge>
+    <description>"Make 6 green matches in a row"</description>
+    <donedescription>"You made 6 green matches in a row"</donedescription>
+    <rules>"pattern='GGGGGG'"</rules>
+  </challenge>
+
+  <challenge>
+    <description>"Make 7 blue matches in a row"</description>
+    <donedescription>"You made 7 blue matches in a row"</donedescription>
+    <rules>"pattern='BBBBBBB'"</rules>
+  </challenge>
+
+  <challenge>
+    <description>"Make 8 white matches in a row"</description>
+    <donedescription>"You made 8 white matches in a row"</donedescription>
+    <rules>"pattern='WWWWWWWW'"</rules>
+  </challenge>
+
+  <challenge>
+    <description>"Make 9 violet matches in a row"</description>
+    <donedescription> "You made 9 violet matches" </donedescription>
+    <rules> "pattern='VVVVVVVVV'" </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Make as many violet matches in a row as you can in 3 minutes"</description>
+    <lowscore> 2 </lowscore>
+    <bestscore> 5 </bestscore>
+    <counttitle> "Violet Matches" </counttitle>
+    <rules> "pattern='VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV', Time<3, nightmode"</rules>
+  </challenge>
+</Category>
+
+
+
+<Category id="COAL_MINE" layer0="planet_coal_mine" layer1="cloud_coal_mine" viz="Raptis_Pulse" bkg2d=17 color="180,150,100">
+  <challenge>
+    <description>"Destroy 3 coals in 1 move"</description>
+    <donedescription> "You destroyed # coals in 1 move"</donedescription>
+    <rules> " Coalgems>=3, Onemove, CONFIG='properties/config_coalmine.xml' " </rules>
+    </challenge>
+
+
+  <challenge>
+    <description>"Destroy 6 coals in 1 move"</description>
+    <donedescription> "You destroyed # coals in 1 move"</donedescription>
+    <rules> " Coalgems>=6, Onemove, CONFIG='properties/config_coalmine.xml' " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Destroy 8 coals in 1 move without using any Lightning"</description>
+    <donedescription> "You destroyed # coals without Lightning"</donedescription>
+    <rules> " Coalgems>=8, Onemove, Lightninggems=0, CONFIG='properties/config_coalmine.xml' " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Destroy 12 coals in 1 move"</description>
+    <donedescription> "You destroyed # coals in 1 move"</donedescription>
+    <rules> " Coalgems>=12, Onemove, CONFIG='properties/config_coalmine.xml' " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Destroy 15 coals in 1 move without using any Lightning"</description>
+    <donedescription> "You destroyed # coals without Lightning"</donedescription>
+    <rules> " Coalgems>=15, Onemove, Lightninggems=0, CONFIG='properties/config_coalmine.xml' " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Destroy 18 coals in 1 move"</description>
+    <donedescription> "You destroyed # coals in 1 move"</donedescription>
+    <rules> " Coalgems>=18, Onemove, CONFIG='properties/config_coalmine.xml' " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Destroy 20 coals in 1 move without using any Lightning"</description>
+    <donedescription> "You destroyed # coals without Lightning"</donedescription>
+    <rules> " Coalgems>=20, Onemove, Lightninggems=0, CONFIG='properties/config_coalmine.xml' " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Destroy as much Coal as you can in 3 minutes"</description>
+    <counttitle> "Coal" </counttitle>
+    <bestscore> 18 </bestscore>
+    <rules> "Coalgems>=0, Time<3, CONFIG='properties/config_coalmine.xml', nightmode"</rules>
+  </challenge>
+</Category>
+
+
+<Category id="CHAIN_REACTION" layer0="planet_chain_gang" layer1="cloud_chain_gang" viz="SubAtomic" bkg2d=18 color="255,60,100">
+
+  <challenge>
+    <description> "Create 15 matches in a row (x15 chain)"</description>
+    <counttitle> "Chains" </counttitle>
+    <donedescription> "You created a x# chain"</donedescription>
+    <rules> " MaxChain>=15 " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Create a x25 chain"</description>
+    <counttitle> "Chains" </counttitle>
+    <donedescription> "You created a x# chain"</donedescription>
+    <rules> " MaxChain>=25 " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Create a x40 chain"</description>
+    <counttitle> "Chains" </counttitle>
+    <donedescription> "You created a x# chain"</donedescription>
+    <rules> " MaxChain>=40 " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Create a x50 chain in 5 minutes"</description>
+    <counttitle> "Chains" </counttitle>
+    <donedescription> "You created a x# chain in 5 minutes"</donedescription>
+    <rules> " MaxChain>=50, Time<5 " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Create a x65 chain in 5 minutes"</description>
+    <counttitle> "Chains" </counttitle>
+    <donedescription> "You created a x# chain in 5 minutes"</donedescription>
+    <rules> " MaxChain>=65, Time<5 " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Create a x85 chain in 5 minutes"</description>
+    <counttitle> "Chains" </counttitle>
+    <donedescription> "You created a x# chain in 5 minutes"</donedescription>
+    <rules> " MaxChain>=85, Time<5 " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Create a x100 chain in 5 minutes"</description>
+    <counttitle> "Chains" </counttitle>
+    <donedescription> "You created a x# chain in 5 minutes"</donedescription>
+    <rules> " MaxChain>=100, Time<5 " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Make the longest chain possible in 3 minutes"</description>
+    <counttitle> "Chains" </counttitle>
+    <bestscore> 60 </bestscore>
+    <rules> "MaxChain>=0, constantdoom, Time<3, CONFIG='properties/config_chainreaction1.xml', nightmode"</rules>
+  </challenge>
+</Category>
+
+
+<Category id="GEM_FALL" layer0="planet_gem_fall" layer1="cloud_gem_fall" viz="PlasmaClouds" bkg2d=13 color="205,140,255">
+  <challenge>
+    <description>"Create a x3 cascade"</description>
+    <donedescription> "You made a x# cascade"</donedescription>
+    <counttitle> "Cascades" </counttitle>
+    <rules> "Cascades>=3, onemove" </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Clear 15 gems in 1 move without using any Flame or Lightning"</description>
+    <donedescription> "You cleared x# gems with no Flame or Lightning"</donedescription>
+    <counttitle> "Gems" </counttitle>
+    <rules> " Gems>=15, FlameGems=0, LightningGems=0, Onemove " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Create a x4 cascade"</description>
+    <donedescription> "You made a x# cascade"</donedescription>
+    <counttitle> "Cascades" </counttitle>
+    <rules> "Cascades>=4, onemove" </rules>
+    </challenge>
+
+  <challenge>
+    <description>"Clear 20 gems in 1 move without using any Flame or Lightning"</description>
+    <donedescription> "You cleared x# gems with no Flame or Lightning"</donedescription>
+    <counttitle> "Gems" </counttitle>
+    <rules> " Gems>=20, FlameGems=0, LightningGems=0, Onemove " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Clear 25 gems in 1 move without using any Flame or Lightning"</description>
+    <donedescription> "You cleared x# gems with no Flame or Lightning"</donedescription>
+    <counttitle> "Gems" </counttitle>
+    <rules> " Gems>=25, FlameGems=0, LightningGems=0, Onemove " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Create a x5 cascade"</description>
+    <donedescription> "You made a x# cascade"</donedescription>
+    <counttitle> "Cascades" </counttitle>
+    <rules> "Cascades>=5, onemove " </rules>
+    </challenge>
+
+  <challenge>
+    <description>"Clear 30 gems in 1 move without using any Flame or Lightning"</description>
+    <donedescription> "You cleared x# gems with no Flame or Lightning"</donedescription>
+    <counttitle> "Gems" </counttitle>
+    <rules> " Gems>=30, FlameGems=0, LightningGems=0, Onemove " </rules>
+  </challenge>
+
+
+  <challenge>
+    <description>"Make the biggest cascade possible in 3 minutes"</description>
+    <counttitle> "Cascades" </counttitle>
+    <lowscore> 1 </lowscore>
+    <bestscore> 4 </bestscore>
+    <rules> "Cascades>=0, Time<3, Onemove, nightmode"</rules>
+  </challenge>
+
+</Category>
+
+
+
+<Category id="PRESERVER" layer0="planet_preserver" layer1="cloud_preserver" viz="WindCloud" bkg2d=19 color="125,210,40">
+  <challenge>
+    <description>"Get 15 green gems onscreen at the same time"</description>
+    <donedescription> "You got # green gems onscreen"</donedescription>
+    <rules> " Greengems>=15, Onboard " </rules>
+  </challenge>
+  
+  <challenge>
+    <description>"Get 20 red gems onscreen at the same time"</description>
+    <donedescription> "You got # red gems onscreen"</donedescription>
+    <rules> " redgems>=20, Onboard " </rules>
+  </challenge>
+  
+  <challenge>
+    <description> "Get 25 blue gems onscreen at the same time"</description>
+    <donedescription> "You got # blue gems onscreen"</donedescription>
+    <rules> " bluegems>=25, Onboard " </rules>
+  </challenge>
+  
+  <challenge>
+    <description>"Get 15 white and 15 red gems onscreen"</description>
+    <donedescription> "You got # white and # red gems onscreen"</donedescription>
+    <rules> " whitegems>=15, redgems>=15, Onboard " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Get 30 yellow gems onscreen"</description>
+    <donedescription> "You got # yellow gems onscreen"</donedescription>
+    <rules> " yellowgems>=30, Onboard " </rules>
+  </challenge>
+  
+  <challenge>
+    <description>"Get 20 red and 20 blue gems onscreen"</description>
+    <donedescription> "You got # red and # blue gems onscreen"</donedescription>
+    <rules> " Bluegems>=20, Redgems>=20, Onboard " </rules>
+  </challenge>
+  
+  <challenge>
+    <description>"Get 15 green, 15 red and 15 blue gems onscreen"</description>
+    <donedescription> "You got # green, # blue and # red gems onscreen"</donedescription>
+    <rules> " Greengems>=15, Bluegems>=15, Redgems>=15, Onboard " </rules>
+  </challenge>
+
+
+  <challenge>
+    <description>"Clear as many non-green gems as you can in 3 minutes"</description>
+    <counttitle> "Gems" </counttitle>
+    <lowscore> 16 </lowscore>
+    <bestscore> 70 </bestscore>
+    <rules> "Gems>0, Time<3, badgem=green, nightmode="", quitonfail"</rules>
+  </challenge>
+</Category>
+
+
+
+<Category id="FIRESTORM" layer0="planet_firestorm" layer1="cloud_firestorm" additive viz="GravityField" bkg2d=24 color="255,100,0">
+  <challenge>
+    <description>"Detonate 5 Flame Gems in 5 minutes"</description>
+    <counttitle> "Flame Gems" </counttitle>
+    <donedescription>  "You detonated # Flame Gems in #"</donedescription>
+    <rules> "Flamegems >=5, Time<5"    </rules>
+  </challenge>
+  
+  <challenge>
+    <description>"Detonate 10 Flame Gems in 5 minutes"</description>
+    <counttitle> "Flame Gems" </counttitle>
+    <donedescription>  "You detonated # Flame Gems in #"</donedescription>
+    <rules> "Flamegems >=10, Time<5"    </rules>
+  </challenge>
+  
+  <challenge>
+    <description>"Detonate 8 Flame Gems in 1 move in 5 minutes"</description>
+    <counttitle> "Flame Gems" </counttitle>
+    <donedescription>   "You detonated # Flame Gems in 1 move"</donedescription>
+    <rules>  "Flamegems >=8, Onemove, Time<5"  </rules>
+  </challenge>
+  
+  <challenge>
+    <description>"Detonate 15 Flame Gems in 5 minutes"</description>
+    <counttitle> "Flame Gems" </counttitle>
+    <donedescription>   "You detonated # Flame Gems in #"</donedescription>
+    <rules>  "Flamegems >=15, Time<5"  </rules>
+  </challenge>
+  
+  <challenge>
+    <description>"Detonate 10 Flame Gems in 1 move in 5 minutes"</description>
+    <counttitle> "Flame Gems" </counttitle>
+    <donedescription>   "You detonated # Flame Gems in 1 move"</donedescription>
+    <rules>  "Flamegems >=10, Onemove, Time<5"  </rules>
+    </challenge>
+
+  <challenge>
+    <description>"Detonate 20 Flame Gems in 5 minutes"</description>
+    <counttitle> "Flame Gems" </counttitle>
+    <donedescription>   "You detonated # Flame Gems in #"</donedescription>
+    <rules>  "Flamegems >=20, Time<5"  </rules>
+  </challenge>
+  
+
+  <challenge>
+    <description>"Detonate 30 Flame Gems in 5 minutes"</description>
+    <counttitle> "Flame Gems" </counttitle>
+    <donedescription>   "You detonated # Flame Gems in #"</donedescription>
+    <rules> "Flamegems >=30, Time<5" </rules>
+  </challenge>
+
+
+
+  <challenge>
+    <description>"Detonate as many Flame Gems as you can in 3 minutes"</description>
+    <counttitle> "Flame Gems" </counttitle>
+    <bestscore> 16 </bestscore>
+    <rules> "Flamegems>=0, Time<3, nightmode"</rules>
+  </challenge>
+</Category>
+
+
+
+
+<Category id="STRATAMAX"  layer0="planet_stratamax" layer1="cloud_stratamax" viz="ContainmentField" bkg2d=32 color="205,100,255">
+  <challenge>
+    <description>"Clear 70 gems in 20 moves"</description>
+    <counttitle> "Gems" </counttitle>
+    <donedescription> "You cleared # gems in # moves"</donedescription>
+    <rules>
+      "Gems>=70, Moves<20"
+        </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Clear 90 gems in 20 moves"</description>
+    <counttitle> "Gems" </counttitle>
+    <donedescription> "You cleared # gems in # moves"</donedescription>
+    <rules>
+      "Gems>=90, Moves<20"
+        </rules>
+  </challenge>
+
+  <challenge>
+    <description> "Clear 110 gems in 25 moves"</description>
+    <counttitle> "Gems" </counttitle>
+    <donedescription> "You cleared # gems in # moves"</donedescription>
+    <rules>
+      "Gems>=110, Moves<25"
+        </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Clear 140 gems in 30 moves"</description>
+    <counttitle> "Gems" </counttitle>
+    <donedescription> "You cleared # gems in # moves"</donedescription>
+    <rules>
+      "Gems>=140, Moves<30"
+        </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Clear 170 gems in 35 moves"</description>
+    <counttitle> "Gems" </counttitle>
+    <donedescription> "You cleared # gems in # moves"</donedescription>
+    <rules>
+      "Gems>=170, Moves<35"
+        </rules>
+  </challenge>
+
+  <challenge>
+    <description> "Clear 200 gems in 40 moves"</description>
+    <counttitle> "Gems" </counttitle>
+    <donedescription> "You cleared # gems in # moves"</donedescription>
+    <rules>
+      "Gems>=200, Moves<40"
+        </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Clear 300 gems in 50 moves"</description>
+    <counttitle> "Gems" </counttitle>
+    <donedescription> "You cleared # gems in # moves"</donedescription>
+    <rules>
+      "Gems>=300, Moves<50"
+        </rules>
+  </challenge>
+
+
+  <challenge>
+    <description>"Clear as many gems as you can in 50 moves"</description>
+    <counttitle> "Gems" </counttitle>
+    <bestscore> 250 </bestscore>
+    <rules> "Gems>=0, Moves<50, nightmode"</rules>
+  </challenge>
+</Category>
+
+
+<Category id="ARSENAL" layer0="planet_arsenal" layer1="cloud_arsenal" viz="SpaceThreads" bkg2d=21 color="145,165,80">
+  <challenge>
+    <description>    "Explode 5 Flame Gems in 1 move"</description>
+    <donedescription> "You detonated # Flame Gems in 1 move"</donedescription>
+    <rules> " Flamegems>=5, Onemove" </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Trigger 5 Lightning Gems in 1 move"</description>
+    <donedescription> "You triggered # Lightning Gems in 1 move"</donedescription>
+    <rules> " Lightninggems >=5, Onemove " </rules>
+  </challenge>
+
+<challenge>
+    <description>  "Trigger 4 Flame and 4 Lightning Gems in 1 move"</description>
+    <donedescription>    "You triggered # Flame and # Lightning Gems in 1 move"</donedescription>
+    <rules> "Flamegems >=4, Lightninggems >=4, Onemove " </rules>
+  </challenge>
+  
+  <challenge>
+    <description>"Explode 10 Flame Gems in 1 move"</description>
+    <donedescription> "You detonated # Flame Gems in 1 move"</donedescription>
+    <rules> " Flamegems>=10, Onemove " </rules>
+  </challenge>
+  
+    
+  <challenge>
+    <description>"Trigger 10 Lightning Gems in 1 move"</description>
+    <donedescription> "You triggered # Lightning Gems in 1 move"</donedescription>
+    <rules> "Lightninggems>=10, Onemove " </rules>
+  </challenge>
+  
+  <challenge>
+    <description>"Trigger 7 Flame and 7 Lightning gems in 1 move"</description>
+    <donedescription> "You triggered # Flame and # Lightning Gems in 1 move"</donedescription>
+    <rules> "Flamegems>=7, Lightninggems>=7, Onemove " </rules>
+  </challenge>
+  
+  <challenge>
+    <description>"Trigger 10 Flame and 10 Lightning gems in 1 move"</description>
+    <donedescription> "You triggered # Flame and # Lightning Gems in 1 move"</donedescription>
+    <rules> "Flamegems>=10, Lightninggems>=10, Onemove " </rules>
+  </challenge>
+
+
+  <challenge>
+    <description>"Trigger as many Flame Gems as you can in 1 move in 3 minutes"</description>
+    <counttitle> "Gems" </counttitle>
+    <bestscore> 12 </bestscore>
+    <rules> "Flamegems>=0, onemove, Time<3, nightmode"</rules>
+  </challenge>
+</Category>
+
+
+<Category id="BONANZA" layer0="planet_bonanza" layer1="cloud_bonanza" viz="BlobDrift" bkg2d=45 color="220,180,145">
+  
+  <challenge>
+    <description>"Clear 200 gems in 5 minutes"</description>
+    <donedescription> "You cleared # gems in #"</donedescription>
+    <counttitle> "Gems" </counttitle>
+    <rules> "Gems>=200, Time<5" </rules>
+  </challenge>
+  
+  <challenge>
+    <description>"Clear 250 gems in 5 minutes"</description>
+    <counttitle> "Gems" </counttitle>
+    <donedescription> "You cleared # gems in #"</donedescription>
+    <rules> "Gems>=250, Time<5" </rules>
+    </challenge>
+
+  <challenge>
+    <description>"Clear 350 gems in 5 minutes"</description>
+    <counttitle> "Gems" </counttitle>
+    <donedescription> "You cleared # gems in #"</donedescription>
+    <rules> "Gems>=350, Time<5" </rules>
+    </challenge>
+
+  <challenge>
+    <description>"Clear 450 gems in 5 minutes"</description>
+    <counttitle> "Gems" </counttitle>
+    <donedescription> "You cleared # gems in #"</donedescription>
+    <rules> "Gems>=450, Time<5" </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Clear 550 gems in 5 minutes"</description>
+    <counttitle> "Gems" </counttitle>
+    <donedescription> "You cleared # gems in #"</donedescription>
+    <rules> "Gems>=550, Time<5"  </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Clear 600 gems in 5 minutes"</description>
+    <counttitle> "Gems" </counttitle>
+    <donedescription> "You cleared # gems in #"</donedescription>
+    <rules> "Gems>=600, Time<5" </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Clear 700 gems in 5 minutes"</description>
+    <counttitle> "Gems" </counttitle>
+    <donedescription> "You cleared # gems in #"</donedescription>
+    <rules> "Gems>=700, Time<5" </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Destroy as many gems as you can in 3 minutes"</description>
+    <counttitle> "Gems" </counttitle>
+    <bestscore> 250 </bestscore>
+    <rules> "Gems>=0, Time<3, nightmode"</rules>
+  </challenge>
+</Category>
+
+
+<Category id="SURVIVOR" layer0="planet_survivor" layer1="cloud_survivor" viz="VizMoleculeRedux" bkg2d=37 color="255,95,45">
+  <challenge>
+    <description>"  Survive 30 turns  "</description>
+    <donedescription> "You survived # turns"</donedescription>
+    <counttitle> "Turns" </counttitle>
+    <rules> " Moves>=30, CONFIG='properties/config_survivor1.xml', constantdoom " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"  Survive 45 turns  "</description>
+    <donedescription> "You survived # turns"</donedescription>
+    <counttitle> "Turns" </counttitle>
+    <rules> " Moves>=45, CONFIG='properties/config_survivor1.xml', constantdoom " </rules>
+    </challenge>
+
+  <challenge>
+    <description>"  Survive 60 turns  "</description>
+    <donedescription> "You survived # turns"</donedescription>
+    <counttitle> "Turns" </counttitle>
+    <rules> " Moves>=60, CONFIG='properties/config_survivor1.xml', constantdoom " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"  Survive 80 turns  "</description>
+    <donedescription> "You survived # turns"</donedescription>
+    <counttitle> "Turns" </counttitle>
+    <rules> " Moves>=80, CONFIG='properties/config_survivor1.xml', constantdoom " </rules>
+    </challenge>
+
+  <challenge>
+    <description>"  Survive 100 turns  "</description>
+    <donedescription> "You survived # turns"</donedescription>
+    <counttitle> "Turns" </counttitle>
+    <rules> " Moves>=100, CONFIG='properties/config_survivor1.xml', constantdoom " </rules>
+    </challenge>
+
+  <challenge>
+    <description>"  Survive 125 turns  "</description>
+    <donedescription> "You survived # turns"</donedescription>
+    <counttitle> "Turns" </counttitle>
+    <rules> " Moves>=125, CONFIG='properties/config_survivor1.xml', constantdoom " </rules>
+    </challenge>
+
+  <challenge>
+    <description>"  Survive 150 turns  "</description>
+    <donedescription> "You survived # turns"</donedescription>
+    <counttitle> "Turns" </counttitle>
+    <rules> " Moves>=150, CONFIG='properties/config_survivor1.xml', constantdoom " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"  Survive for as many turns as possible  "</description>
+    <bestscore> 120 </bestscore>
+    <counttitle> "Turns" </counttitle>
+    <rules> "Moves>=0, constantdoom, nocount, CONFIG='properties/config_survivor2.xml', nightmode"</rules>
+  </challenge>
+</Category>
+
+
+
+<Category id="VOLTAGE" layer0="planet_voltage" layer1="cloud_voltage" viz="VizMagicSnakes" bkg2d=11 color="0,190,255">
+  <challenge>
+    <description>"Detonate 5 Lightning Gems in 5 minutes"</description>
+    <counttitle> "Lightning Gems" </counttitle>
+    <donedescription> "You detonated # Lightning Gems in #"</donedescription>
+    <rules> "Lightninggems >= 5, Time<5" </rules>
+  </challenge>
+  
+  <challenge>
+    <description>"Detonate 8 Lightning Gems in 5 minutes"</description>
+    <counttitle> "Lightning Gems" </counttitle>
+    <donedescription> "You detonated # Lightning Gems in #"</donedescription>
+    <rules> "Lightninggems >= 8, Time<5" </rules>
+  </challenge>
+  
+  <challenge>
+    <description>"Detonate 6 Lightning Gems in 1 move in 5 minutes"</description>
+    <counttitle> "Lightning Gems" </counttitle>
+    <donedescription> "You detonated # Lightning Gems in 1 move"</donedescription>
+    <rules> "Lightninggems>= 6, Onemove, Time<5" </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Detonate 12 Lightning Gems in 5 minutes"</description>
+    <counttitle> "Lightning Gems" </counttitle>
+    <donedescription> "You detonated # Lightning Gems in #"</donedescription>
+    <rules>  "Lightninggems >= 12, Time<5"  </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Detonate 10 Lightning Gems in 1 move in 5 minutes"</description>
+    <counttitle> "Lightning Gems" </counttitle>
+    <donedescription> "You detonated # Lightning Gems in 1 move"</donedescription>
+    <rules> "Lightninggems>= 10, Onemove, Time<5" </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Detonate 15 Lightning Gems in 5 minutes"</description>
+    <counttitle> "Lightning Gems" </counttitle>
+    <donedescription> "You detonated # Lightning Gems in #"</donedescription>
+    <rules>  "Lightninggems >= 15, Time<5"  </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Detonate 20 Lightning Gems in 5 minutes"</description>
+    <counttitle> "Lightning" </counttitle>
+    <donedescription> "You detonated # Lightning Gems in #"</donedescription>
+    <rules> "Lightninggems >= 20, Time<5" </rules>
+  </challenge>
+
+
+
+  <challenge>
+    <description>"Destroy as many Lightning Gems as you can in 3 minutes"</description>
+    <counttitle> "Lightning Gems" </counttitle>
+    <bestscore> 9 </bestscore>
+    <rules> "Lightninggems>=0, Time<3, nightmode"</rules>
+  </challenge>
+
+</Category>
+
+
+<Category id="ENIGMA" layer0="planet_enigma" layer1="cloud_enigma" viz="VizRainbowGlyphs" bkg2d=39 color="255,200,45">
+ 
+
+  <challenge>
+    <description>"Create 2 Flame Gems in 1 move"</description>
+    <donedescription> "You created # Flame Gems in 1 move"</donedescription>
+    <counttitle> "Flame Gems" </counttitle>
+    <rules> " FlamegemsMade>=2, Onemove " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Create a Flame and Lightning Gem in 1 move"</description>
+    <donedescription>"You created # Flame and # Lightning Gems in 1 move"</donedescription>
+    <rules> " FlamegemsMade>=1, LightninggemsMade>=1, Onemove " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Create 2 Lightning Gems in 1 move"</description>
+    <donedescription> "You created # Lightning Gems in 1 move"</donedescription>
+    <rules> " LightninggemsMade>=2, Onemove " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Create 3 Flame Gems in 1 move"</description>
+    <donedescription> "You created # Flame Gems in 1 move"</donedescription>
+    <rules> " FlamegemsMade>=3, Onemove " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Make 2 Flame and 1 Lightning Gem in 1 move"</description>
+    <donedescription>"You created # Flame and # Lightning Gems in 1 move"</donedescription>
+    <rules> " FlamegemsMade>=2, LightninggemsMade>=1, Onemove " </rules>
+  </challenge>
+
+ <challenge>
+    <description>"Match 6 gems in a row"</description>
+    <donedescription> "You created a # gem match"</donedescription>
+    <rules> " biggestmatch >=6, Onemove " </rules>
+  </challenge>
+
+  <challenge>
+    <description>"Match 8 gems in a row"</description>
+    <donedescription> "You created an # gem match"</donedescription>
+    <rules> " biggestmatch >=8, Onemove " </rules>
+    </challenge>
+
+  <challenge>
+    <description>"Detonate as many Supernovas as you can in 3 minutes"</description>
+    <counttitle> "Supernovas" </counttitle>
+    <bestscore> 2 </bestscore>
+    <rules> "Supernovas>=0, Time<3, nightmode"</rules>
+  </challenge>
+</Category>

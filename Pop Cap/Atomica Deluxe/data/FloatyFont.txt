@@ -1,0 +1,15 @@
+Define Charlist
+ ('+', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' );
+
+Define WidthList
+ (17, 31, 13, 31, 31, 31, 31, 31, 31, 31, 31 );
+
+Define RectList
+ ((1,0,17,30) , (25,0,31,30) , (71,0,13,30) , (92,0,31,30) , (130,0,31,30) , (169,0,31,30) , (207,0,31,30) , (245,0,31,30) , (283,0,31,30) , (321,0,31,30) , (359,0,31,30)  );
+
+CreateLayer Main;
+LayerSetImage Main '../images/floatyfont';
+LayerSetImageMap Main CharList RectList;
+LayerSetAscent Main 28;
+LayerSetCharWidths Main CharList WidthList;
+LayerSetCharWidths Main (' ') (5);

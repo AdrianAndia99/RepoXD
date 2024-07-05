@@ -1,0 +1,14 @@
+<screen name="splashScreen" >
+	<image file="splash/blackSquare.png" scaleX="320" scaleY="240"/>
+	<image file="splash/logo.png" pivot="center" x="320" y="180" />
+
+	<image file="splash/loadText.jpg" pivot="center" x="330" y="300" />
+	
+	<image file="splash/credits.png" pivot="center" x="330" y="370" opacity="0.9" />
+	<!--<text font="res/fonts/dialogFont.xml" xAlign="center" yAlign="middle" x="320" y="290" string="Now Loading..." />-->
+	
+	<group name="loadBar" x="330" y="330" >
+		<image file="splash/loadBarEmpty.png" pivot="center" />	
+	</group>
+	<image name="distGame" file="splash/distLogo.jpg" x="325" y="440" pivot="center" />	
+</screen>

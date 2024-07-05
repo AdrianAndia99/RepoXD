@@ -1,0 +1,54 @@
+<SONGFILE>MUSIC\chuzzle.mo3</SONGFILE>
+
+<BASE>10</BASE>
+
+<SONG>
+	<NAME>Loading Theme</NAME>
+	<HEX>59</HEX>
+</SONG>
+
+<SONG>
+	<NAME>Main Menu Theme</NAME>
+	<HEX>61</HEX>
+</SONG>
+
+<SONG>
+	<NAME>Classic Theme</NAME>
+	<HEX>0</HEX>
+</SONG>
+
+<SONG>
+	<NAME>Speed Theme</NAME>
+	<HEX>18</HEX>
+</SONG>
+
+<SONG>
+	<NAME>Zen Theme</NAME>
+	<HEX>39</HEX>
+</SONG>
+
+<SONG>
+	<NAME>Mindbender Theme</NAME>
+	<HEX>0</HEX>
+</SONG>
+
+<SONG>
+	<NAME>Game Over Theme</NAME>
+	<HEX>99</HEX>
+</SONG>
+
+<SONG>
+	<NAME>High Score Theme</NAME>
+	<HEX>54</HEX>
+</SONG>
+
+<SONG>
+	<NAME>Trophy Room</NAME>
+	<HEX>57</HEX>
+</SONG>
+
+<SONG>
+	<NAME>Chuzzle Dance</NAME>
+	<HEX>66</HEX>
+</SONG>
+

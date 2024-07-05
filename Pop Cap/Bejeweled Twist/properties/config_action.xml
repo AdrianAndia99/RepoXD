@@ -1,0 +1,181 @@
+<Properties>
+	<!-- Number of rows, columns in game board  -->
+	<Integer id="GameRows">	8		</Integer>
+	<Integer id="GameColumns">	8		</Integer>
+
+  
+  
+  <!--              COUNTER GEMS                 -->
+  <!-- what is the first level they appear on? -->
+  <Integer id="CounterFirstLevel"> 2 </Integer>
+  
+  <!-- what is the value for that first level -->
+  <Integer id="CounterBase"> 18 </Integer>
+  
+  <!-- does this value decrement based on turns or gems? -->
+  <Boolean id="CounterTurnBased"> false </Boolean>
+  
+  <!-- how many level ups until the value changes -->
+  <Integer id="CounterLevelsBetweenChange" > 2 </Integer>
+  
+  <!-- what is the change to the value? -->
+  <Integer id="CounterChange"> -1 </Integer>
+  
+  <!-- what level does this value start to change? -->
+  <Integer id="CounterFirstChangeLevel"> 6 </Integer>
+  
+  <!-- what is the minimum the value can be? -->
+  <Integer id="CounterMin"> 10 </Integer>
+
+  
+  
+  <!-- what is the initial value of the counter as levels increase? -->
+  <Integer id="CounterValueFirstLevel"> 2 </Integer>
+  
+  <!-- what is the value for that first level -->
+  <Integer id="CounterValueBase"> 15 </Integer>
+  
+  <!-- how many level ups until the value changes -->
+  <Integer id="CounterValueLevelsBetweenChange" > 2 </Integer>
+  
+  <!-- what is the change to the value? -->
+  <Integer id="CounterValueChange"> -1 </Integer>
+  
+  <!-- what level does this value start to change? -->
+  <Integer id="CounterValueFirstChangeLevel"> 4 </Integer>
+  
+  <!-- what is the minimum the value can be? -->
+  <Integer id="CounterValueMin"> 8 </Integer>
+  
+  <Integer id="CounterValueMax"> 20 </Integer>
+
+
+  
+
+  <!--                BAD GEMS              -->
+  <!-- how many "bad" gems (skulls, devils, counters, locks) can be on the board at once? -->
+
+  <!-- what is the first level they appear on? -->
+  <Integer id="BadGemsOnBoardMaxFirstLevel"> 1 </Integer>
+  
+  <!-- what is the value for that first level -->
+  <Integer id="BadGemsOnBoardMaxBase"> 3 </Integer>
+  
+  <!-- what is the change to the value? -->
+  <Integer id="BadGemsOnBoardMaxChange"> 1 </Integer>
+  
+  <!-- how many level ups until the value changes -->
+  <Integer id="BadGemsOnBoardMaxLevelsBetweenChange" > 3 </Integer>
+  
+  <!-- what level does this value start to change? -->
+  <Integer id="BadGemsOnBoardMaxFirstChangeLevel"> 6 </Integer>
+
+  <!-- what is the maximum the value can be? -->
+  <Integer id="BadGemsOnBoardMaxMax"> 15 </Integer>
+
+  
+  
+
+
+  <!-- what is the first level they appear on? -->
+  <Integer id="LevelUpPointsFirstLevel"> 1 </Integer>
+
+  <!-- what is the value for that first level -->
+  <Integer id="LevelUpPointsBase"> 2000 </Integer>
+
+  <!-- what is the change to the value? -->
+  <Integer id="LevelUpPointsChange"> 300 </Integer>
+
+
+
+
+  <!-- gem combo size required to get "amnesty" on bad gem appearing next move -->
+  <Integer id="AmnestyGemCount"> 8 </Integer>
+
+  
+  <!--               LOCK GEMS                      -->
+  <!-- what is the first level they appear on? -->
+  <Integer id="LockGemFirstLevel"> 6 </Integer>
+  
+  <!-- what is the value for that first level -->
+  <Integer id="LockGemBase"> 16 </Integer>
+  
+  <!-- does this value decrement based on turns or gems? -->
+  <Boolean id="LockGemTurnBased"> true </Boolean>
+  
+  <!-- how many level ups until the value changes -->
+  <Integer id="LockGemLevelsBetweenChange" > 3 </Integer>
+  
+  <!-- what is the change to the value? -->
+  <Integer id="LockGemChange"> -1 </Integer>
+  
+  <!-- what is the minimum the value can be? -->
+  <Integer id="LockGemMin"> 5 </Integer>
+  
+  
+  <!--                  SKULL GEMS                   -->
+  
+  <!-- what is the first level they appear on? -->
+  <Integer id="SkullsFirstLevel"> 9 </Integer>
+  
+  <!-- what is the value for that first level -->
+  <Integer id="SkullsBase"> 30 </Integer>
+  
+  <!-- does this value decrement based on turns(true)  or gems (false) ? -->
+  <Boolean id="SkullsTurnBased"> true </Boolean>
+  
+  <!-- how many level ups until the value changes -->
+  <Integer id="SkullsLevelsBetweenChange"> 3 </Integer>
+  
+  <!-- what is the change to the value? -->
+  <Integer id="SkullsChange"> -1 </Integer>
+  
+  <!-- what is the minimum the value can be? -->
+  <Integer id="SkullsMin"> 10 </Integer>
+
+
+
+  <!--             DEVIL GEMS               -->
+  <!-- what is the first level they appear on? -->
+  <Integer id="DevilFirstLevel"> 12 </Integer>
+
+  <!-- what is the value for that first level -->
+  <Integer id="DevilBase"> 100 </Integer>
+
+  <!-- what is the change to the value? -->
+  <Integer id="DevilChange"> -1 </Integer>
+
+  <!-- does this value decrement based on turns or gems? -->
+  <Boolean id="DevilTurnBased"> false </Boolean>
+
+  <!-- how many level ups until the value changes -->
+  <Integer id="DevilLevelsBetweenChange" > 1 </Integer>
+
+  <!-- what is the minimum the value can be? -->
+  <Integer id="DevilMin"> 20 </Integer>
+
+
+  <!-- what is the first level they appear on? -->
+  <Integer id="DevilValueFirstLevel"> 1 </Integer>
+
+  <!-- what is the value for that first level -->
+  <Integer id="DevilValueBase"> 10 </Integer>
+
+  <!-- what is the change to the value? -->
+  <Integer id="DevilValueChange"> -1 </Integer>
+
+  <!-- how many level ups until the value changes -->
+  <Integer id="DevilValueLevelsBetweenChange" > 1 </Integer>
+
+  <!-- what is the minimum the value can be? -->
+  <Integer id="DevilValueMin"> 10 </Integer>
+
+  <!--  overall multiplier of points for each move based on what game you're playing -->
+  <Integer id="ModeMultiplier"> 3 </Integer>
+
+
+  <Boolean id="IceGemsAllowed"> true </Boolean>
+
+
+
+</Properties>

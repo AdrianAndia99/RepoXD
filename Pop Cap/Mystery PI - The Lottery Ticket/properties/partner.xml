@@ -1,0 +1,10 @@
+<Properties>
+<String id="PartnerName">PopCap Games</String>
+<String id="ProdName">MysteryPI</String>
+<String id="RegistryKey">PopCap\MysteryPI</String>
+<String id="DisplayName">Mystery P.I. - The Lottery Ticket</String>
+<String id="Offering">10206</String>
+<Integer id="Height">480</Integer>
+<Integer id="Width">640</Integer>
+<Boolean id="CheckActivity">false</Boolean>
+</Properties>

@@ -1,0 +1,385 @@
+<animation name="sweeper" start_frame="sweeper_.eco" frame_time="30">
+
+<animation name="sparkles1" start_frame="sparkles_small_.eco" frame_time="30">
+<animation name="sparkles2" start_frame="sparkles_small_.eco" frame_time="30">
+<animation name="sparkles3" start_frame="sparkles_small_.eco" frame_time="30">
+
+
+
+<animation name="shooter_fire_horizontal" start_frame="shooter_firing_.eco" frame_time="30">
+<animation rotation="90" name="shooter_fire_vertical" start_frame="shooter_firing_.eco" frame_time="30">
+<animation name="shooter_horizontal" start_frame="shooter_idle_.eco" frame_time="30">
+<animation rotation="90" name="shooter_vertical" start_frame="shooter_idle_.eco" frame_time="30">
+<animation name="wings_horizontal" start_frame="wings_idle_.eco" frame_time="30">
+<animation rotation="90" name="wings_vertical" start_frame="wings_idle_.eco" frame_time="30">
+<animation name="wings_fire_horizontal" start_frame="wings_firing_.eco" frame_time="30">
+<animation rotation="90" name="wings_fire_vertical" start_frame="wings_firing_.eco" frame_time="30">
+
+<animation rotation="270" name="laser_shot_left" start_frame="lasershot_.eco" frame_time="30">
+<animation rotation="90" name="laser_shot_right" start_frame="lasershot_.eco" frame_time="30">
+<animation rotation="180" name="laser_shot_down" start_frame="lasershot_.eco" frame_time="30">
+<animation name="laser_shot_up" start_frame="lasershot_.eco" frame_time="30">
+
+<animation name="shooter_timebomb"  start_frame="timebomb_.eco" frame_time="45">
+<animation name="shooter_mine"  start_frame="mine_.eco" frame_time="45">
+<animation name="missile_up"  start_frame="missile_.eco" frame_time="45">
+<animation name="missile_down" rotation="180" start_frame="missile_.eco" frame_time="45">
+<animation name="missile_left"  rotation="270" start_frame="missile_.eco" frame_time="45">
+<animation name="missile_right"  rotation="90" start_frame="missile_.eco" frame_time="45">
+<animation name="ice_shot"  start_frame="iceshot_.eco" frame_time="45">
+<animation name="ice_capsule"  start_frame="icecapsule_.eco" frame_time="30">
+
+<animation name="shooter_beam_up" start_frame="shooterbeam_up_.eco" frame_time="30">
+<animation name="shooter_beam_down" start_frame="shooterbeam_down_.eco" frame_time="30">
+<animation name="shooter_beam_left" start_frame="shooterbeam_left_.eco" frame_time="30">
+<animation name="shooter_beam_right" start_frame="shooterbeam_right_.eco" frame_time="30">
+
+<animation name="horizontal_tiles" start_frame="rail_h_01" num_frames="9" frame_time="30">
+<animation name="vertical_tiles" start_frame="rail_v_01" num_frames="9" frame_time="30">
+<animation name="corner_tiles" start_frame="rail_x_01" num_frames="1" frame_time="30">
+
+<animation rotation="90"  name="walker_left4" start_frame="walker06_.eco" frame_time="30">
+<animation rotation="270" name="walker_right4" start_frame="walker06_.eco" frame_time="30">
+<animation rotation="180" name="walker_up4" start_frame="walker06_.eco" frame_time="30">
+<animation name="walker_down4" start_frame="walker06_.eco" frame_time="30">
+
+<animation rotation="0"  name="walker_left5" start_frame="walker07_.eco" frame_time="30">
+<animation rotation="180" name="walker_right5" start_frame="walker07_.eco" frame_time="30">
+<animation rotation="270" name="walker_up5" start_frame="walker07_.eco" frame_time="30">
+<animation rotation="90"name="walker_down5" start_frame="walker07_.eco" frame_time="30">
+
+
+this swap here will remove the blue channel, but not swap it at all,
+leaving dark grey
+<animation rotation="90"  name="walker_left3" start_frame="walker05_.eco" frame_time="30">
+<animation rotation="270" name="walker_right3" start_frame="walker05_.eco" frame_time="30">
+<animation rotation="180" name="walker_up3" start_frame="walker05_.eco" frame_time="30">
+<animation name="walker_down3" start_frame="walker05_.eco" frame_time="30">
+
+
+swap blue with green                 swap red to blue
+<animation name="walker_left2" rotation="90" start_frame="walker04_.eco" frame_time="30">
+<animation name="walker_right2" rotation="270" start_frame="walker04_.eco" frame_time="30">
+<animation name="walker_up2" rotation="180" start_frame="walker04_.eco" frame_time="30">
+<animation name="walker_down2" start_frame="walker04_.eco" frame_time="30">
+
+
+<animation rotation="90"  name="walker_left" start_frame="walker03_.eco" frame_time="30">
+<animation rotation="270" name="walker_right4" start_frame="walker06_.eco" frame_time="30">
+<animation rotation="180" name="walker_right5" start_frame="walker07_.eco" frame_time="30">
+<animation rotation="270" name="walker_right3" start_frame="walker05_.eco" frame_time="30">
+<animation name="walker_right2" rotation="270" start_frame="walker04_.eco" frame_time="30">
+<animation rotation="270" name="walker_right" start_frame="walker03_.eco" frame_time="30">
+<animation rotation="180" name="walker_up" start_frame="walker03_.eco" frame_time="30">
+<animation name="walker_down" start_frame="walker03_.eco" frame_time="30">
+
+
+<animation name="panel" start_frame="panel_level" num_frames="1" frame_time="0">
+
+<animation name="roller" start_frame="roller06_.eco" frame_time="30">
+<animation name="roller2" start_frame="roller09_.eco" frame_time="20">
+<animation name="roller2a" start_frame="roller07_.eco" frame_time="30">
+<animation name="roller3" start_frame="roller05_.eco" frame_time="30">
+<animation name="roller4" start_frame="roller08_.eco" frame_time="20">
+<animation name="roller5" start_frame="roller10_.eco" frame_time="20">
+<animation name="snake" start_frame="roller08_31x_.eco" frame_time="10">
+
+<animation name="generic_explo" start_frame="explosion03_.eco" frame_time="30">
+<animation name="second_explo" start_frame="explosion05_.eco" frame_time="30">
+<animation name="small_explo" start_frame="explosion_small_.eco" frame_time="30">
+
+<animation name="powerup_speed" start_frame="pwrup_speed_.eco" frame_time="100">
+<animation name="powerup_slowmo" start_frame="pwrup_slowmotion_.eco" frame_time="100">
+<animation name="powerup_plusone" start_frame="pwrup_xtra_.eco" frame_time="100">
+<animation name="powerup_slow" start_frame="pwrdn_slowshoot_.eco" frame_time="60">
+<animation name="powerup_mine" start_frame="pwrup_mine_.eco" frame_time="60">
+<animation name="powerup_missile" start_frame="pwrup_missile_.eco" frame_time="60">
+<animation name="powerup_sweeper" start_frame="pwrup_sweeper_.eco" frame_time="60">
+<animation name="powerup_freeze" start_frame="pwrup_ice_.eco" frame_time="60">
+<animation name="powerup_hypermo" start_frame="pwrdn_fastenemies_.eco" frame_time="100">
+<animation name="powerup_timebomb" start_frame="pwrup_timebomb_.eco" frame_time="60">
+<animation name="powerup_2x" start_frame="pwrup_2x_.eco" frame_time="100">
+<animation name="grab_this" start_frame="grabthis_.eco" frame_time="60">
+<animation name="do_not_touch" start_frame="donottouch_.eco" frame_time="60">
+
+
+<animation name="star" start_frame="star" num_frames="1" frame_time="200">
+<animation name="enemy_shield" start_frame="shield_.eco" frame_time="30">
+<animation name="smoke" start_frame="smoke_.eco" frame_time="60">
+<animation name="spark" start_frame="spark" num_frames="1" frame_time="60">
+<animation name="cannon_ball" start_frame="cannonball_.eco" frame_time="30">
+
+
+<animation name="pointer" start_frame="mouse_.eco" frame_time="30">
+<animation name="logo_o" start_frame="o_gear_panel_.eco" frame_time="30">
+<animation name="nag_ss" start_frame="nag_ss" num_frames="1" frame_time="0">
+<animation name="nag_logo" start_frame="nag_logo" num_frames="1" frame_time="0">
+
+<sound file="audio\ice.wav">
+<sound file="audio\ice_launch.wav">
+<sound file="audio\missile.wav">
+<sound file="audio\electricity.wav">
+<sound file="audio\mine.wav">
+<sound file="audio\powerup.wav">
+<sound file="audio\powerdn.wav">
+<sound file="audio\canon.wav">
+<sound file="audio\laser.wav">
+<sound file="audio\spawn.wav">
+<sound file="audio\bump.wav">
+<sound file="audio\beam_hit.wav">
+<sound file="audio\exp100.wav">
+<sound file="audio\exp200.wav">
+<sound file="audio\exp300.wav">
+<sound file="audio\exp400.wav">
+<sound file="audio\exp500.wav">
+<sound file="audio\exp600.wav">
+<sound file="audio\exp700.wav">
+<sound file="audio\exp800.wav">
+<sound file="audio\exp900.wav">
+<sound file="audio\explosion1.wav">
+<sound file="audio\explosion2.wav">
+<sound file="audio\fuse.wav">
+
+
+<enemy type="line_walker" buffered="1" velocity=".06"
+	up_animation="walker_up" down_animation="walker_down"
+	left_animation="walker_left" right_animation="walker_right"
+	explo_sound="audio\explosion1.wav" blit_type="alpha_edge" explo_animation="generic_explo"
+	mid_handle="1" acceleration="1.01" decay =".999">			
+
+<enemy type="scurry_walker" buffered="1" velocity=".04"
+	up_animation="walker_up2" down_animation="walker_down2"
+	left_animation="walker_left2" right_animation="walker_right2"
+	explo_sound="audio\explosion1.wav" blit_type="alpha_edge" explo_animation="generic_explo"
+	mid_handle="1" acceleration="1.01" decay =".999">
+
+<enemy type="smart_walker" buffered="1" velocity=".04" 
+	up_animation="walker_up4" down_animation="walker_down4"
+	left_animation="walker_left4" right_animation="walker_right4"
+	blit_type="alpha_edge" explo_animation="generic_explo"
+	explo_sound="audio\explosion1.wav" mid_handle="1"
+	acceleration="1.01" decay =".999">
+
+<enemy type="laser_walker" buffered="1" velocity=".06"
+	  up_animation="walker_up5" down_animation="walker_down5"
+	  left_animation="walker_left5" right_animation="walker_right5"
+	  explo_sound="audio\explosion1.wav" blit_type="alpha_edge" explo_animation="generic_explo"
+	  mid_handle="1" acceleration="1.01" decay =".999">
+
+<enemy type="cannon_walker" buffered="1" velocity=".04"
+	up_animation="walker_up3" down_animation="walker_down3"
+	left_animation="walker_left3" right_animation="walker_right3"
+	blit_type="alpha_edge" explo_animation="generic_explo"
+	explo_sound="audio\explosion1.wav" mid_handle="1">
+
+
+<enemy type="roller" x_speed=".06" y_speed=".06" buffered="1"
+	blit_type="alpha_edge" animation="roller2" explo_animation="generic_explo"
+	explo_sound="audio\explosion1.wav" mid_handle="1" accel="" decay="">
+	<emitter x="21" y="9" x_speed="-60" frequency="30" animation="smoke" emit_type="angular" rotation="120"
+		start_alpha="200" end_alpha="10" time="200">
+	<emitter copy_prev="1" rotation="120">
+	<emitter copy_prev="1" rotation="120">
+
+<enemy type="burst_roller" x_speed=".05" y_speed=".05" buffered="1"
+	  blit_type="alpha_edge" animation="roller" explo_animation="generic_explo"
+	  explo_sound="audio\explosion1.wav" mid_handle="1" acceleration="1.01" decay=".9975">
+
+<enemy type="spin_roller" x_speed=".045" y_speed="-.045" buffered="1"
+	blit_type="alpha_edge" animation="roller3" explo_animation="generic_explo"
+	explo_sound="audio\explosion1.wav" mid_handle="1" acceleration="1.003" decay=".9991">
+		<emitter x="12" y="53" x_speed="-60" frequency="30" animation="smoke" emit_type="angular" rotation="180"
+			 start_alpha="200" end_alpha="10" time="200">
+		<emitter copy_prev="1" rotation="180">
+
+<enemy type="turn_roller" x_speed="-.085" y_speed="-.08" buffered="1" turn_speed="41.0"
+	blit_type="alpha_edge" animation="roller2a" explo_animation="generic_explo"
+	explo_sound="audio\explosion1.wav" mid_handle="1">
+
+<enemy type="bump_roller" x_speed=".11" buffered="1"
+	blit_type="alpha_edge" animation="roller4" explo_animation="generic_explo"
+	explo_sound="audio\explosion1.wav" mid_handle="1" accel="" decay="">
+		<emitter x="9" y="21" x_speed="-15" frequency="15" animation="spark" emit_type="angular"
+			 start_alpha="350" end_alpha="10" time="490" rotation="360">
+
+<enemy type="snake_shooter" x_speed=".04" buffered="1"
+	blit_type="alpha_edge" animation="roller5" explo_animation="generic_explo"
+	explo_sound="audio\explosion1.wav" mid_handle="1" accel="" decay="">
+
+
+<game>
+	<font name="main_font" face="quad_" spacing="2" 8bit="1">
+	<font name="percent_font" face="34p_" spacing="1">
+	<font name="score_font" face="34p_" spacing="2">
+	<font name="level_font" face="20p_" spacing="1">
+	<font name="lives_font" face="34p_" spacing="1">
+	<font name="tiny_font" face="treb11_" spacing="1" 8bit="1">
+	<font name="micro_font" face="st_sfont_" spacing="1" 8bit="1">
+	<font name="bonus_font" face="bonus_" spacing="1" 8bit="1">
+
+
+
+
+	<level
+		name="^4NOW TRY WITH 2 BOTS"
+		wall_image="rail"
+		fill_image="fill03"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="background01"
+		h_pattern="145564555622133314556"
+		v_pattern="144178199944999178144"
+		fill_quota="85"
+		song="">	
+
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="              XXXXXXXXXXXXXXXXXXXXXX              ">
+		<row cells="              X::::::::::::::::::::X              ">
+		<row cells="              X::::::::::::::::::::X              ">
+		<row cells="              X::::::::::::::::::::X              ">
+		<row cells="              X::::::::::::::::::::X              ">
+		<row cells="              X::::::::::::::::::::X              ">
+		<row cells="              X::::::::::::::::::::X              ">
+		<row cells="  XXXXXXXXXXXXX::::::::::::::::::::XXXXXXXXXXXXX  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::A:::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  XXXXXXXXXXXXX::::::::::::::::::::XXXXXXXXXXXXX  ">
+		<row cells="              X::::::::::::::::::::X              ">
+		<row cells="              X::::::::::::::::::::X              ">
+		<row cells="              X::::::::::::::::::::X              ">
+		<row cells="              X::::::::::::::::::::X              ">
+		<row cells="              X::::::::::::::::::::X              ">
+		<row cells="              X::::::::::::::::::::X              ">
+		<row cells="              XXXXXXXXXXXXXXXXXXXXXX              ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+
+
+
+		<enemy type="roller" position="A" x_speed=".06" y_speed=".06" buffered="1"
+		  blit_type="alpha_edge" animation="roller2" explo_animation="generic_explo"
+		  explo_sound="audio\explosion1.wav" mid_handle="1" accel="" decay="">
+			<emitter x="21" y="9" x_speed="-60" frequency="30" animation="smoke" emit_type="angular" rotation="120"
+			 start_alpha="200" end_alpha="10" time="200">
+			<emitter copy_prev="1" rotation="120">
+			<emitter copy_prev="1" rotation="120">
+
+
+		<shooter mid_handle="1" buffered="1" blit_type="blend"
+		 vertical_animation="shooter_vertical" horizontal_animation="shooter_horizontal"
+		 vertical_shoot_animation="shooter_fire_vertical"
+		 horizontal_shoot_animation="shooter_fire_horizontal"
+		 orientation="vertical" explo_animation="generic_explo"
+		 mid_handle="1" explo_sound="audio\explosion2.wav"
+		 drill_sound="audio\drill.wav" clank_sound="audio\clank.wav"
+		 shoot_sound="audio\drill_shoot.wav">
+
+	</level>
+
+
+
+	<!random_levels number="38" start_seed="33453">
+	<random_levels number="48" start_seed="334413">
+
+	<level
+		type="mission_complete"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="logo_background"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+
+		<text x="400" y="80" text="^4CONGRATULATIONS!" font="main_font" dormant_time="300"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="150" text="^5MISSION COMPLETE!" font="main_font" dormant_time="500"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<text fv="1" x="400" y="250" text="^6BE SURE TO ORDER THE" font="main_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text fv="1" x="400" y="290" text="^6AMAZING FULL VERSION" font="main_font" dormant_time="900"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text fv="1" x="400" y="330" text="^6WITH 500 LEVELS!" font="main_font" dormant_time="1100"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<menu>
+			<menu_item type="high_scores" name="CLICK HERE TO CONTINUE" x="400" y="510" font="main_font">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+	
+	<level
+		type="expiring_nag"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="logo_background"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+		<menu x="617" y="349" blit_type="alpha_edge" animation="nag_ss" logo_animation="nag_logo" logo_x="399" logo_y="67">
+			<menu_item type="quit" name="EXIT GAME" x="184" y="560" font="main_font" box="1">
+			<menu_item type="buy_now" name="BUY NOW!" x="660" y="560" font="main_font" box="1">
+		</menu>
+
+		<text x="230" y="190" text="YOUR FREE TRIAL" font="main_font" dormant_time="300"
+			fade_in_time="500" idle_time="100" fade_out_time="500" loop_time="1">
+		<text x="230" y="225" text="HAS EXPIRED!" font="main_font" dormant_time="300"
+			fade_in_time="500" idle_time="100" fade_out_time="500" loop_time="1">
+
+		<text x="30" y="300" text="^6IN ORDER TO KEEP PLAYING" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="320" text="^6COSMO BOTS, YOU MUST NOW" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="340" text="^6PURCHASE THE FULL VERSION." font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+
+		<text x="30" y="380" text="^6WITH OVER 500 LEVELS TO PLAY" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="400" text="^6THE FULL VERSION WILL KEEP YOU" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="420" text="^6ENTERTAINED FOR MANY HOURS!" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+
+		<text x="30" y="460" text="^6AFTER PURCHASING, YOU WILL BE" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="480" text="^6ABLE TO DOWNLOAD AND PLAY THE" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="500" text="^6FULL VERSION IMMEDIATELY." font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+			
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+	
+	<next_file name="animations\main.eco">
+
+</game>
+			

@@ -1,0 +1,17 @@
+<Properties>
+<Boolean id="NoReg">true</Boolean>
+<Boolean id="DontUpdate">false</Boolean>
+<Boolean id="DefaultWindowed">false</Boolean>
+<Boolean id="Cobranded">false</Boolean>
+<String id="Title">Hammer Heads Deluxe</String>
+<String id="MoreGamesLink">http://www.popcap.com</String>
+<String id="AllowRestart">Non-Empty</String>
+<String id="ProdName">HammerHeads</String>
+<String id="RegistryKey">PopCap\HammerHeads</String>
+
+<Boolean id="VistaCompliant">true</Boolean>
+<String id="DisplayName">Hammer Heads Deluxe</String>
+<String id="Offering">57</String>
+<Integer id="Width">640</Integer>
+<Integer id="Height">480</Integer>
+</Properties>

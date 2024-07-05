@@ -1,0 +1,97 @@
+Define CharList
+ ( 'x', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9');
+
+Define WidthList
+ (  15,  41,  14,  41,  41,  41,  41,  41,  41,  41,  41);
+
+Define RectList
+ ( (   0,  0, 58, 57), (  59,  0, 58, 57), ( 118,  0, 29, 57), ( 148,  0, 58, 57),
+   ( 207,  0, 58, 57), ( 266,  0, 58, 57), ( 325,  0, 58, 57), ( 384,  0, 58, 57),
+   ( 443,  0, 58, 57), ( 502,  0, 58, 57), ( 561,  0, 58, 57));
+
+Define OffsetList
+ ( (-9, 0), (-9, 0), (-9, 0), (-9, 0), (-9, 0), (-9, 0), (-9, 0), (-9, 0),
+   (-9, 0), (-9, 0), (-9, 0));
+
+Define OutlineWidthList
+ (  41,  41,  14,  41,  41,  41,  41,  41,  41,  41,  41);
+
+Define OutlineRectList
+ ( (   0,  0, 58, 57), (  59,  0, 58, 57), ( 118,  0, 29, 57), ( 148,  0, 58, 57),
+   ( 207,  0, 58, 57), ( 266,  0, 58, 57), ( 325,  0, 58, 57), ( 384,  0, 58, 57),
+   ( 443,  0, 58, 57), ( 502,  0, 58, 57), ( 561,  0, 58, 57));
+
+Define OutlineOffsetList
+ ( (-9, 0), (-9, 0), (-9, 0), (-9, 0), (-9, 0), (-9, 0), (-9, 0), (-9, 0),
+   (-9, 0), (-9, 0), (-9, 0));
+
+CreateLayer               Main;
+LayerSetImage             Main 'Fusion28';
+LayerSetAscent            Main 40;
+LayerSetCharWidths        Main CharList WidthList;
+LayerSetCharWidths        Main (' ') (30);
+LayerSetImageMap          Main CharList RectList;
+LayerSetCharOffsets       Main CharList OffsetList;
+LayerSetAscentPadding     Main 10;
+LayerSetLineSpacingOffset Main -5;
+LayerSetPointSize         Main 28;
+
+CreateLayer               Outline;
+LayerSetImage             Outline 'Fusion28outline';
+LayerSetAscent            Outline 40;
+LayerSetCharWidths        Outline CharList OutlineWidthList;
+LayerSetCharWidths        Outline (' ') (30);
+LayerSetImageMap          Outline CharList OutlineRectList;
+LayerSetCharOffsets       Outline CharList OutlineOffsetList;
+LayerSetAscentPadding     Outline 10;
+LayerSetLineSpacingOffset Outline -5;
+LayerSetPointSize         Outline 28;
+LayerSetColorMult	  Outline (0,0,0,1);
+LayerSetBaseOrder         Outline -1;
+
+CreateLayer               Stroke1;
+LayerSetImage             Stroke1 'Fusion28stroke';
+LayerSetAscent            Stroke1 40;
+LayerSetCharWidths        Stroke1 CharList OutlineWidthList;
+LayerSetCharWidths        Stroke1 (' ') (30);
+LayerSetImageMap          Stroke1 CharList OutlineRectList;
+LayerSetCharOffsets       Stroke1 CharList OutlineOffsetList;
+LayerSetAscentPadding     Stroke1 10;
+LayerSetLineSpacingOffset Stroke1 -5;
+LayerSetPointSize         Stroke1 28;
+LayerSetColorMult	  Stroke1 (0,0,0,1);
+LayerSetColorAdd          Stroke1 (0.9, 0.07, 0.0, 1);
+LayerSetBaseOrder         Stroke1 -2;
+LayerRequireTags	  Stroke1 ("Red");
+
+CreateLayer               Stroke2;
+LayerSetImage             Stroke2 'Fusion28stroke';
+LayerSetAscent            Stroke2 40;
+LayerSetCharWidths        Stroke2 CharList OutlineWidthList;
+LayerSetCharWidths        Stroke2 (' ') (30);
+LayerSetImageMap          Stroke2 CharList OutlineRectList;
+LayerSetCharOffsets       Stroke2 CharList OutlineOffsetList;
+LayerSetAscentPadding     Stroke2 10;
+LayerSetLineSpacingOffset Stroke2 -5;
+LayerSetPointSize         Stroke2 28;
+LayerSetColorMult	  Stroke2 (0,0,0,1);
+LayerSetColorAdd          Stroke2 (0.20, 0.20, 0.9, 1);
+LayerSetBaseOrder         Stroke2 -2;
+LayerRequireTags	  Stroke2 ("Blue");
+
+CreateLayer               Stroke3;
+LayerSetImage             Stroke3 'Fusion28stroke';
+LayerSetAscent            Stroke3 40;
+LayerSetCharWidths        Stroke3 CharList OutlineWidthList;
+LayerSetCharWidths        Stroke3 (' ') (30);
+LayerSetImageMap          Stroke3 CharList OutlineRectList;
+LayerSetCharOffsets       Stroke3 CharList OutlineOffsetList;
+LayerSetAscentPadding     Stroke3 10;
+LayerSetLineSpacingOffset Stroke3 -5;
+LayerSetPointSize         Stroke3 28;
+LayerSetColorMult	  Stroke3 (0,0,0,1);
+LayerSetColorAdd          Stroke3 (1, 0.95, 0, 1);
+LayerSetBaseOrder         Stroke3 -2;
+LayerRequireTags	  Stroke3 ("Yellow");
+
+SetDefaultPointSize  28;

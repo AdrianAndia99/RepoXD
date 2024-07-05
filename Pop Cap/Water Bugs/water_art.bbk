@@ -1,0 +1,574 @@
+<BANK datafile="water_art.dat">
+  <IMAGELIST>
+    <IMAGE name="20p_032" dataOffset="0" dataSize="1200" bpp="32" width="15" height="20" pitch="60" originalWidth="15" originalHeight="20" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="20p_048" dataOffset="1200" dataSize="1200" bpp="32" width="15" height="20" pitch="60" originalWidth="15" originalHeight="20" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="20p_049" dataOffset="2400" dataSize="1200" bpp="32" width="15" height="20" pitch="60" originalWidth="15" originalHeight="20" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="20p_050" dataOffset="3600" dataSize="1200" bpp="32" width="15" height="20" pitch="60" originalWidth="15" originalHeight="20" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="20p_051" dataOffset="4800" dataSize="1200" bpp="32" width="15" height="20" pitch="60" originalWidth="15" originalHeight="20" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="20p_052" dataOffset="6000" dataSize="1200" bpp="32" width="15" height="20" pitch="60" originalWidth="15" originalHeight="20" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="20p_053" dataOffset="7200" dataSize="1200" bpp="32" width="15" height="20" pitch="60" originalWidth="15" originalHeight="20" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="20p_054" dataOffset="8400" dataSize="1200" bpp="32" width="15" height="20" pitch="60" originalWidth="15" originalHeight="20" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="20p_055" dataOffset="9600" dataSize="1200" bpp="32" width="15" height="20" pitch="60" originalWidth="15" originalHeight="20" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="20p_056" dataOffset="10800" dataSize="1200" bpp="32" width="15" height="20" pitch="60" originalWidth="15" originalHeight="20" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="20p_057" dataOffset="12000" dataSize="1200" bpp="32" width="15" height="20" pitch="60" originalWidth="15" originalHeight="20" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="anchor" dataOffset="13200" dataSize="9216" bpp="32" width="48" height="48" pitch="192" originalWidth="48" originalHeight="48" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="arctic" dataOffset="22416" dataSize="480000" bpp="8" width="800" height="600" pitch="800" originalWidth="800" originalHeight="600" xOffset="0" yOffset="0" paletteNumber="0" />
+    <IMAGE name="background_black" dataOffset="502416" dataSize="480000" bpp="8" width="800" height="600" pitch="800" originalWidth="800" originalHeight="600" xOffset="0" yOffset="0" paletteNumber="1" />
+    <IMAGE name="beam_horizontal" dataOffset="982416" dataSize="1024" bpp="32" width="16" height="16" pitch="64" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="beam_middle" dataOffset="983440" dataSize="768" bpp="24" width="16" height="16" pitch="48" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="beam_vertical" dataOffset="984208" dataSize="1024" bpp="32" width="16" height="16" pitch="64" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="beamrider" dataOffset="985232" dataSize="1444" bpp="32" width="19" height="19" pitch="76" originalWidth="19" originalHeight="19" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="bubble01" dataOffset="986676" dataSize="64" bpp="32" width="4" height="4" pitch="16" originalWidth="4" originalHeight="4" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="bubble02" dataOffset="986740" dataSize="144" bpp="32" width="6" height="6" pitch="24" originalWidth="6" originalHeight="6" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="bubble03" dataOffset="986884" dataSize="400" bpp="32" width="10" height="10" pitch="40" originalWidth="10" originalHeight="10" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="bugs" dataOffset="987284" dataSize="131440" bpp="32" width="310" height="106" pitch="1240" originalWidth="310" originalHeight="106" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="coralreef" dataOffset="1118724" dataSize="480000" bpp="8" width="800" height="600" pitch="800" originalWidth="800" originalHeight="600" xOffset="0" yOffset="0" paletteNumber="2" />
+    <IMAGE name="crashsite" dataOffset="1598724" dataSize="480000" bpp="8" width="800" height="600" pitch="800" originalWidth="800" originalHeight="600" xOffset="0" yOffset="0" paletteNumber="3" />
+    <IMAGE name="empty" dataOffset="2078724" dataSize="256" bpp="8" width="16" height="16" pitch="16" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="4" />
+    <IMAGE name="end_level_panel" dataOffset="2078980" dataSize="624000" bpp="32" width="390" height="400" pitch="1560" originalWidth="390" originalHeight="400" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="exp_0" dataOffset="2702980" dataSize="676" bpp="32" width="13" height="13" pitch="52" originalWidth="13" originalHeight="13" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="exp_1" dataOffset="2703656" dataSize="484" bpp="32" width="11" height="11" pitch="44" originalWidth="11" originalHeight="11" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="exp_2" dataOffset="2704140" dataSize="324" bpp="32" width="9" height="9" pitch="36" originalWidth="9" originalHeight="9" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="exp_3" dataOffset="2704464" dataSize="196" bpp="32" width="7" height="7" pitch="28" originalWidth="7" originalHeight="7" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="exp_4" dataOffset="2704660" dataSize="100" bpp="32" width="5" height="5" pitch="20" originalWidth="5" originalHeight="5" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="facility" dataOffset="2704760" dataSize="480000" bpp="8" width="800" height="600" pitch="800" originalWidth="800" originalHeight="600" xOffset="0" yOffset="0" paletteNumber="5" />
+    <IMAGE name="fill01" dataOffset="3184760" dataSize="27648" bpp="24" width="96" height="96" pitch="288" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="fill02" dataOffset="3212408" dataSize="36864" bpp="32" width="96" height="96" pitch="384" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="fill03" dataOffset="3249272" dataSize="36864" bpp="32" width="96" height="96" pitch="384" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="fill04" dataOffset="3286136" dataSize="36864" bpp="32" width="96" height="96" pitch="384" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="fill05" dataOffset="3323000" dataSize="36864" bpp="32" width="96" height="96" pitch="384" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="fill06" dataOffset="3359864" dataSize="9216" bpp="8" width="96" height="96" pitch="96" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="6" />
+    <IMAGE name="fill07" dataOffset="3369080" dataSize="9216" bpp="8" width="96" height="96" pitch="96" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="7" />
+    <IMAGE name="fill08" dataOffset="3378296" dataSize="27648" bpp="24" width="96" height="96" pitch="288" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="fill09" dataOffset="3405944" dataSize="9216" bpp="8" width="96" height="96" pitch="96" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="8" />
+    <IMAGE name="fill10" dataOffset="3415160" dataSize="36864" bpp="32" width="96" height="96" pitch="384" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="fill11" dataOffset="3452024" dataSize="9216" bpp="8" width="96" height="96" pitch="96" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="9" />
+    <IMAGE name="finalshowdown" dataOffset="3461240" dataSize="480000" bpp="8" width="800" height="600" pitch="800" originalWidth="800" originalHeight="600" xOffset="0" yOffset="0" paletteNumber="10" />
+    <IMAGE name="gamefont1" dataOffset="3941240" dataSize="326400" bpp="32" width="2400" height="34" pitch="9600" originalWidth="2400" originalHeight="34" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="gamefont2" dataOffset="4267640" dataSize="326400" bpp="32" width="2400" height="34" pitch="9600" originalWidth="2400" originalHeight="34" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="gamefont3" dataOffset="4594040" dataSize="91512" bpp="32" width="1271" height="18" pitch="5084" originalWidth="1271" originalHeight="18" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="gamefont4" dataOffset="4685552" dataSize="91512" bpp="32" width="1271" height="18" pitch="5084" originalWidth="1271" originalHeight="18" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="instructions" dataOffset="4777064" dataSize="480000" bpp="8" width="800" height="600" pitch="800" originalWidth="800" originalHeight="600" xOffset="0" yOffset="0" paletteNumber="11" />
+    <IMAGE name="kelpjungle" dataOffset="5257064" dataSize="480000" bpp="8" width="800" height="600" pitch="800" originalWidth="800" originalHeight="600" xOffset="0" yOffset="0" paletteNumber="12" />
+    <IMAGE name="levelselect" dataOffset="5737064" dataSize="1920000" bpp="32" width="800" height="600" pitch="3200" originalWidth="800" originalHeight="600" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="lostcity" dataOffset="7657064" dataSize="480000" bpp="8" width="800" height="600" pitch="800" originalWidth="800" originalHeight="600" xOffset="0" yOffset="0" paletteNumber="13" />
+    <IMAGE name="ls_hiddenlevel" dataOffset="8137064" dataSize="73440" bpp="32" width="135" height="136" pitch="540" originalWidth="135" originalHeight="136" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="ls_window_active" dataOffset="8210504" dataSize="55488" bpp="24" width="135" height="136" pitch="408" originalWidth="135" originalHeight="136" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="ls_window_inactive" dataOffset="8265992" dataSize="55488" bpp="24" width="135" height="136" pitch="408" originalWidth="135" originalHeight="136" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="mainmenu" dataOffset="8321480" dataSize="480000" bpp="8" width="800" height="600" pitch="800" originalWidth="800" originalHeight="600" xOffset="0" yOffset="0" paletteNumber="14" />
+    <IMAGE name="mask_beam_horizontal" dataOffset="8801480" dataSize="256" bpp="8" width="16" height="16" pitch="16" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_beam_middle" dataOffset="8801736" dataSize="256" bpp="8" width="16" height="16" pitch="16" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_beam_vertical" dataOffset="8801992" dataSize="256" bpp="8" width="16" height="16" pitch="16" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_empty" dataOffset="8802248" dataSize="256" bpp="8" width="16" height="16" pitch="16" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_fill01" dataOffset="8802504" dataSize="9216" bpp="8" width="96" height="96" pitch="96" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_fill02" dataOffset="8811720" dataSize="9216" bpp="8" width="96" height="96" pitch="96" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_fill03" dataOffset="8820936" dataSize="9216" bpp="8" width="96" height="96" pitch="96" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_fill04" dataOffset="8830152" dataSize="9216" bpp="8" width="96" height="96" pitch="96" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_fill05" dataOffset="8839368" dataSize="9216" bpp="8" width="96" height="96" pitch="96" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_fill06" dataOffset="8848584" dataSize="9216" bpp="8" width="96" height="96" pitch="96" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_fill07" dataOffset="8857800" dataSize="9216" bpp="8" width="96" height="96" pitch="96" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_fill08" dataOffset="8867016" dataSize="9216" bpp="8" width="96" height="96" pitch="96" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_fill09" dataOffset="8876232" dataSize="9216" bpp="8" width="96" height="96" pitch="96" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_fill10" dataOffset="8885448" dataSize="9216" bpp="8" width="96" height="96" pitch="96" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_fill11" dataOffset="8894664" dataSize="9216" bpp="8" width="96" height="96" pitch="96" originalWidth="96" originalHeight="96" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_ls_bkgd1" dataOffset="8903880" dataSize="10000" bpp="8" width="100" height="100" pitch="100" originalWidth="100" originalHeight="100" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_ls_bkgd2" dataOffset="8913880" dataSize="10000" bpp="8" width="100" height="100" pitch="100" originalWidth="100" originalHeight="100" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_ls_bkgd3" dataOffset="8923880" dataSize="10000" bpp="8" width="100" height="100" pitch="100" originalWidth="100" originalHeight="100" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_ls_bkgd4" dataOffset="8933880" dataSize="10000" bpp="8" width="100" height="100" pitch="100" originalWidth="100" originalHeight="100" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_ls_bkgd5" dataOffset="8943880" dataSize="10000" bpp="8" width="100" height="100" pitch="100" originalWidth="100" originalHeight="100" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_ls_bkgd6" dataOffset="8953880" dataSize="10000" bpp="8" width="100" height="100" pitch="100" originalWidth="100" originalHeight="100" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_ls_bkgd7" dataOffset="8963880" dataSize="10000" bpp="8" width="100" height="100" pitch="100" originalWidth="100" originalHeight="100" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_ls_bkgd8" dataOffset="8973880" dataSize="10000" bpp="8" width="100" height="100" pitch="100" originalWidth="100" originalHeight="100" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_ls_bkgd9" dataOffset="8983880" dataSize="10000" bpp="8" width="100" height="100" pitch="100" originalWidth="100" originalHeight="100" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_ls_bkgds" dataOffset="8993880" dataSize="10000" bpp="8" width="100" height="100" pitch="100" originalWidth="100" originalHeight="100" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_ls_hiddenlevel" dataOffset="9003880" dataSize="18496" bpp="8" width="135" height="136" pitch="136" originalWidth="135" originalHeight="136" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_ls_window_active" dataOffset="9022376" dataSize="18496" bpp="8" width="135" height="136" pitch="136" originalWidth="135" originalHeight="136" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="mask_ls_window_inactive" dataOffset="9040872" dataSize="18496" bpp="8" width="135" height="136" pitch="136" originalWidth="135" originalHeight="136" xOffset="0" yOffset="0" paletteNumber="15" />
+    <IMAGE name="minefield" dataOffset="9059368" dataSize="480000" bpp="8" width="800" height="600" pitch="800" originalWidth="800" originalHeight="600" xOffset="0" yOffset="0" paletteNumber="16" />
+    <IMAGE name="nag_background" dataOffset="9539368" dataSize="480000" bpp="8" width="800" height="600" pitch="800" originalWidth="800" originalHeight="600" xOffset="0" yOffset="0" paletteNumber="17" />
+    <IMAGE name="nag_logo" dataOffset="10019368" dataSize="382432" bpp="32" width="323" height="296" pitch="1292" originalWidth="323" originalHeight="296" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="nag_ss" dataOffset="10401800" dataSize="842000" bpp="32" width="421" height="500" pitch="1684" originalWidth="421" originalHeight="500" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="panel03" dataOffset="11243800" dataSize="256000" bpp="32" width="800" height="80" pitch="3200" originalWidth="800" originalHeight="80" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="particle1" dataOffset="11499800" dataSize="256" bpp="32" width="8" height="8" pitch="32" originalWidth="8" originalHeight="8" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="particle_0" dataOffset="11500056" dataSize="8" bpp="32" width="1" height="2" pitch="4" originalWidth="1" originalHeight="2" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="particle_1" dataOffset="11500064" dataSize="324" bpp="32" width="9" height="9" pitch="36" originalWidth="9" originalHeight="9" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="particle_2" dataOffset="11500388" dataSize="196" bpp="32" width="7" height="7" pitch="28" originalWidth="7" originalHeight="7" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="particle_3" dataOffset="11500584" dataSize="100" bpp="32" width="5" height="5" pitch="20" originalWidth="5" originalHeight="5" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="particle_4" dataOffset="11500684" dataSize="36" bpp="32" width="3" height="3" pitch="12" originalWidth="3" originalHeight="3" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="particle_5" dataOffset="11500720" dataSize="1444" bpp="32" width="19" height="19" pitch="76" originalWidth="19" originalHeight="19" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="pirateship" dataOffset="11502164" dataSize="480000" bpp="8" width="800" height="600" pitch="800" originalWidth="800" originalHeight="600" xOffset="0" yOffset="0" paletteNumber="18" />
+    <IMAGE name="porthole" dataOffset="11982164" dataSize="305640" bpp="32" width="270" height="283" pitch="1080" originalWidth="270" originalHeight="283" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="powerups" dataOffset="12287804" dataSize="480000" bpp="8" width="800" height="600" pitch="800" originalWidth="800" originalHeight="600" xOffset="0" yOffset="0" paletteNumber="19" />
+    <IMAGE name="rail_h_01" dataOffset="12767804" dataSize="1024" bpp="32" width="16" height="16" pitch="64" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="rail_h_02" dataOffset="12768828" dataSize="1024" bpp="32" width="16" height="16" pitch="64" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="rail_h_03" dataOffset="12769852" dataSize="1024" bpp="32" width="16" height="16" pitch="64" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="rail_h_04" dataOffset="12770876" dataSize="1024" bpp="32" width="16" height="16" pitch="64" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="rail_h_05" dataOffset="12771900" dataSize="1024" bpp="32" width="16" height="16" pitch="64" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="rail_h_06" dataOffset="12772924" dataSize="1024" bpp="32" width="16" height="16" pitch="64" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="rail_h_07" dataOffset="12773948" dataSize="1024" bpp="32" width="16" height="16" pitch="64" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="rail_h_08" dataOffset="12774972" dataSize="1024" bpp="32" width="16" height="16" pitch="64" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="rail_v_01" dataOffset="12775996" dataSize="1024" bpp="32" width="16" height="16" pitch="64" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="rail_v_02" dataOffset="12777020" dataSize="1024" bpp="32" width="16" height="16" pitch="64" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="rail_v_03" dataOffset="12778044" dataSize="1024" bpp="32" width="16" height="16" pitch="64" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="rail_v_04" dataOffset="12779068" dataSize="1024" bpp="32" width="16" height="16" pitch="64" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="rail_v_05" dataOffset="12780092" dataSize="1024" bpp="32" width="16" height="16" pitch="64" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="rail_v_06" dataOffset="12781116" dataSize="1024" bpp="32" width="16" height="16" pitch="64" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="rail_v_07" dataOffset="12782140" dataSize="1024" bpp="32" width="16" height="16" pitch="64" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="rail_v_08" dataOffset="12783164" dataSize="1024" bpp="32" width="16" height="16" pitch="64" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="rail_v_09" dataOffset="12784188" dataSize="1024" bpp="32" width="16" height="16" pitch="64" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="rail_x_01" dataOffset="12785212" dataSize="1024" bpp="32" width="16" height="16" pitch="64" originalWidth="16" originalHeight="16" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="requester" dataOffset="12786236" dataSize="288000" bpp="32" width="450" height="160" pitch="1800" originalWidth="450" originalHeight="160" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel01_0001" dataOffset="13074236" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel01_0002" dataOffset="13074812" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel01_0003" dataOffset="13075388" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel01_0004" dataOffset="13075964" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel01_0005" dataOffset="13076540" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel01_0006" dataOffset="13077116" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel01_0007" dataOffset="13077692" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel01_0008" dataOffset="13078268" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel01_0009" dataOffset="13078844" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel01_0010" dataOffset="13079420" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel01_0011" dataOffset="13079996" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel01_0012" dataOffset="13080572" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel01_0013" dataOffset="13081148" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel01_0014" dataOffset="13081724" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel01_0015" dataOffset="13082300" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel01_0016" dataOffset="13082876" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel02_0001" dataOffset="13083452" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel02_0002" dataOffset="13084028" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel02_0003" dataOffset="13084604" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel02_0004" dataOffset="13085180" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel02_0005" dataOffset="13085756" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel02_0006" dataOffset="13086332" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel02_0007" dataOffset="13086908" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel02_0008" dataOffset="13087484" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel02_0009" dataOffset="13088060" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel02_0010" dataOffset="13088636" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel02_0011" dataOffset="13089212" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel02_0012" dataOffset="13089788" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel02_0013" dataOffset="13090364" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel02_0014" dataOffset="13090940" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel02_0015" dataOffset="13091516" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel02_0016" dataOffset="13092092" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel03_0001" dataOffset="13092668" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel03_0002" dataOffset="13093244" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel03_0003" dataOffset="13093820" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel03_0004" dataOffset="13094396" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel03_0005" dataOffset="13094972" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel03_0006" dataOffset="13095548" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel03_0007" dataOffset="13096124" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel03_0008" dataOffset="13096700" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel03_0009" dataOffset="13097276" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel03_0010" dataOffset="13097852" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel03_0011" dataOffset="13098428" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel03_0012" dataOffset="13099004" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel03_0013" dataOffset="13099580" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel03_0014" dataOffset="13100156" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel03_0015" dataOffset="13100732" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel03_0016" dataOffset="13101308" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel04_0001" dataOffset="13101884" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel04_0002" dataOffset="13102460" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel04_0003" dataOffset="13103036" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel04_0004" dataOffset="13103612" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel04_0005" dataOffset="13104188" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel04_0006" dataOffset="13104764" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel04_0007" dataOffset="13105340" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel04_0008" dataOffset="13105916" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel04_0009" dataOffset="13106492" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel04_0010" dataOffset="13107068" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel04_0011" dataOffset="13107644" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel04_0012" dataOffset="13108220" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel04_0013" dataOffset="13108796" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel04_0014" dataOffset="13109372" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel04_0015" dataOffset="13109948" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="shrapnel04_0016" dataOffset="13110524" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="sign" dataOffset="13111100" dataSize="88200" bpp="32" width="147" height="150" pitch="588" originalWidth="147" originalHeight="150" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="spark" dataOffset="13199300" dataSize="4" bpp="32" width="1" height="1" pitch="4" originalWidth="1" originalHeight="1" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="sparkles" dataOffset="13199304" dataSize="576" bpp="32" width="12" height="12" pitch="48" originalWidth="12" originalHeight="12" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="star" dataOffset="13199880" dataSize="48" bpp="32" width="4" height="3" pitch="16" originalWidth="4" originalHeight="3" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="user_panel" dataOffset="13199928" dataSize="530400" bpp="32" width="340" height="390" pitch="1360" originalWidth="340" originalHeight="390" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="water" dataOffset="13730328" dataSize="105400" bpp="32" width="310" height="85" pitch="1240" originalWidth="310" originalHeight="85" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+    <IMAGE name="winscreen_bkgrd" dataOffset="13835728" dataSize="480000" bpp="8" width="800" height="600" pitch="800" originalWidth="800" originalHeight="600" xOffset="0" yOffset="0" paletteNumber="20" />
+    <IMAGE name="winscreen_medal02" dataOffset="14315728" dataSize="447440" bpp="32" width="238" height="470" pitch="952" originalWidth="238" originalHeight="470" xOffset="0" yOffset="0" paletteNumber="-1" redMask="16711680" greenMask="65280" blueMask="255" />
+  </IMAGELIST>
+  <PALETTELIST>
+    <PALETTE number="0" colorsUsed="256">
+       0 0 0 125 127 187 145 154 228 105 111 165 93 100 147 71 84 126 62 84 140 73 92 141 52 76 132 62 84 132 44 68 116 53 76 121 75 101 154 36 68 124 52 84 140 40 60 92
+       53 74 108 40 76 132 44 84 141 36 68 116 44 76 124 55 92 149 52 84 132 60 92 140 85 126 185 78 116 170 46 68 100 64 92 132 110 154 221 28 68 124 54 108 180 54 84 124
+       23 60 104 28 68 116 36 84 141 36 76 124 44 84 132 36 69 108 52 92 140 44 76 116 4 52 108 20 68 124 28 84 148 25 76 132 40 92 148 55 107 166 83 142 207 4 60 116
+       4 52 100 12 68 124 12 60 108 20 84 148 20 68 116 28 92 156 28 84 140 28 76 124 28 68 108 36 84 132 44 99 157 36 76 116 44 92 140 66 129 191 54 103 152 44 76 108
+       20 92 156 36 99 157 57 122 182 40 84 124 52 93 131 4 68 124 4 60 108 12 76 132 12 68 116 12 60 100 20 84 140 20 76 124 20 68 108 28 92 148 28 84 132 43 119 182
+       39 108 166 28 76 116 36 92 140 44 100 148 62 136 201 44 92 132 4 68 116 12 84 140 12 76 124 20 92 148 20 84 132 28 100 156 28 92 140 36 100 148 28 68 100 44 108 156
+       54 117 167 55 104 140 38 68 92 52 84 108 4 76 124 4 60 100 12 92 148 12 84 132 12 68 108 20 100 156 20 92 140 20 76 116 28 100 148 35 116 173 20 68 100 28 84 124
+       36 108 156 42 116 166 28 76 108 36 92 132 40 100 140 4 68 108 12 76 116 20 84 124 28 110 164 44 108 148 66 117 149 4 92 140 4 84 132 4 76 116 12 92 140 12 84 124
+       12 68 100 20 108 159 20 100 148 28 108 156 20 76 108 28 93 132 28 84 116 36 108 148 39 93 124 32 76 100 53 118 154 4 84 124 12 92 132 12 76 108 20 93 132 20 84 116
+       28 108 148 28 92 124 4 92 132 12 84 116 20 108 148 20 92 124 23 103 140 40 119 154 33 84 108 4 84 116 6 108 148 6 100 140 12 92 124 4 116 156 4 92 124 12 116 156
+       30 92 116 5 100 132 6 108 140 12 140 180 12 116 148 20 140 180 24 119 150 20 92 116 24 100 124 44 137 166 4 116 148 13 124 157 38 170 206 38 116 139 4 124 156 12 136 166
+       23 138 166 23 116 140 4 124 148 7 132 157 8 116 140 12 172 204 13 164 196 12 124 148 23 155 181 28 172 205 34 197 230 42 152 177 56 168 190 71 187 212 74 168 189 11 155 180
+       12 149 172 21 172 199 28 190 220 28 180 207 23 149 172 39 163 187 4 180 204 4 172 196 4 164 188 12 188 212 12 180 204 12 172 196 12 164 188 20 180 204 22 188 212 23 166 187
+       44 223 249 40 172 192 59 194 212 56 184 201 71 215 235 72 196 213 71 186 202 96 189 204 106 200 213 133 218 230 12 164 180 25 205 227 28 180 196 36 195 212 42 205 223 41 186 204
+       41 180 196 83 204 220 88 217 232 87 198 212 84 190 204 4 180 196 4 172 188 4 164 180 12 188 204 12 180 196 12 172 188 21 224 242 20 188 204 22 198 215 20 180 196 28 188 204
+       49 197 211 61 205 219 107 218 229 13 216 229 12 201 215 20 180 188 32 188 196 67 196 204 4 188 196 12 212 220 12 196 204 12 188 196 12 180 188 21 196 204 20 188 196 4 4 4
+    </PALETTE>
+    <PALETTE number="1" colorsUsed="256">
+       0 0 0 0 0 51 0 0 102 0 0 153 0 0 204 0 0 255 51 0 0 51 0 51 51 0 102 51 0 153 51 0 204 51 0 255 102 0 0 102 0 51 102 0 102 102 0 153
+       102 0 204 102 0 255 153 0 0 153 0 51 153 0 102 153 0 153 153 0 204 153 0 255 204 0 0 204 0 51 204 0 102 204 0 153 204 0 204 204 0 255 255 0 0 255 0 51
+       255 0 102 255 0 153 255 0 204 255 0 255 0 51 0 0 51 51 0 51 102 0 51 153 0 51 204 0 51 255 51 51 0 51 51 51 51 51 102 51 51 153 51 51 204 51 51 255
+       102 51 0 102 51 51 102 51 102 102 51 153 102 51 204 102 51 255 153 51 0 153 51 51 153 51 102 153 51 153 153 51 204 153 51 255 204 51 0 204 51 51 204 51 102 204 51 153
+       204 51 204 204 51 255 255 51 0 255 51 51 255 51 102 255 51 153 255 51 204 255 51 255 0 102 0 0 102 51 0 102 102 0 102 153 0 102 204 0 102 255 51 102 0 51 102 51
+       51 102 102 51 102 153 51 102 204 51 102 255 102 102 0 102 102 51 102 102 102 102 102 153 102 102 204 102 102 255 153 102 0 153 102 51 153 102 102 153 102 153 153 102 204 153 102 255
+       204 102 0 204 102 51 204 102 102 204 102 153 204 102 204 204 102 255 255 102 0 255 102 51 255 102 102 255 102 153 255 102 204 255 102 255 0 153 0 0 153 51 0 153 102 0 153 153
+       0 153 204 0 153 255 51 153 0 51 153 51 51 153 102 51 153 153 51 153 204 51 153 255 102 153 0 102 153 51 102 153 102 102 153 153 102 153 204 102 153 255 153 153 0 153 153 51
+       153 153 102 153 153 153 153 153 204 153 153 255 204 153 0 204 153 51 204 153 102 204 153 153 204 153 204 204 153 255 255 153 0 255 153 51 255 153 102 255 153 153 255 153 204 255 153 255
+       0 204 0 0 204 51 0 204 102 0 204 153 0 204 204 0 204 255 51 204 0 51 204 51 51 204 102 51 204 153 51 204 204 51 204 255 102 204 0 102 204 51 102 204 102 102 204 153
+       102 204 204 102 204 255 153 204 0 153 204 51 153 204 102 153 204 153 153 204 204 153 204 255 204 204 0 204 204 51 204 204 102 204 204 153 204 204 204 204 204 255 255 204 0 255 204 51
+       255 204 102 255 204 153 255 204 204 255 204 255 0 255 0 0 255 51 0 255 102 0 255 153 0 255 204 0 255 255 51 255 0 51 255 51 51 255 102 51 255 153 51 255 204 51 255 255
+       102 255 0 102 255 51 102 255 102 102 255 153 102 255 204 102 255 255 153 255 0 153 255 51 153 255 102 153 255 153 153 255 204 153 255 255 204 255 0 204 255 51 204 255 102 204 255 153
+       204 255 204 204 255 255 255 255 0 255 255 51 255 255 102 255 255 153 255 255 204 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    </PALETTE>
+    <PALETTE number="2" colorsUsed="256">
+       0 0 0 107 27 47 85 25 45 70 20 39 87 41 70 56 24 46 98 52 89 126 82 118 104 65 100 72 44 83 142 85 179 74 52 92 100 64 130 57 41 73 77 55 102 65 52 82
+       57 44 86 77 53 148 94 65 180 53 38 106 65 48 135 70 58 115 42 35 69 40 28 95 36 28 81 77 59 164 54 43 119 44 36 108 44 36 100 32 31 50 45 44 100 55 54 104
+       56 55 92 28 28 103 36 36 110 55 55 152 36 36 100 49 49 132 37 37 90 41 44 120 65 69 182 44 45 108 48 56 167 46 52 116 28 36 110 23 28 71 56 68 169 41 53 150
+       28 36 100 28 35 92 36 44 108 28 35 84 70 84 196 36 44 100 44 50 93 44 49 84 35 54 164 49 69 182 37 51 136 55 67 135 20 36 110 44 62 156 38 52 124 28 36 76
+       20 36 100 28 49 133 26 44 119 28 44 108 36 52 116 47 61 124 47 60 116 28 36 68 36 44 76 20 36 92 28 44 100 34 64 156 35 62 148 42 72 166 44 68 148 44 67 140
+       20 44 108 28 52 124 20 36 84 28 52 116 13 21 45 36 60 124 28 44 92 44 68 132 28 36 60 36 44 68 44 52 76 36 65 140 20 36 76 44 76 156 17 28 55 28 44 84
+       36 52 92 12 44 116 20 52 125 20 44 100 44 84 172 28 52 108 44 76 148 36 61 116 36 51 84 20 52 116 12 28 61 20 44 92 28 60 126 35 76 156 44 84 164 36 68 132
+       28 52 100 20 36 68 44 76 140 28 44 76 44 60 92 44 52 68 12 44 101 20 52 108 36 83 172 28 60 116 44 92 180 36 76 148 44 84 156 37 68 124 44 76 132 37 59 101
+       54 70 100 11 40 87 26 72 144 36 84 164 20 44 84 44 92 172 36 76 140 44 84 148 44 68 108 45 60 84 12 53 116 19 62 129 20 52 100 36 92 172 35 84 156 44 100 180
+       28 60 108 44 92 164 28 52 86 20 36 60 28 44 68 36 52 76 64 82 110 20 60 116 36 84 148 20 44 76 36 76 132 44 92 156 45 84 137 52 95 152 44 75 116 44 68 100
+       12 52 103 10 39 74 28 98 180 28 89 167 19 60 108 36 100 180 36 92 164 44 100 172 28 60 100 36 68 108 36 61 92 50 68 91 36 108 188 36 100 172 36 92 156 44 108 180
+       44 100 164 63 116 176 11 52 92 36 108 180 36 100 164 44 116 188 44 108 172 20 44 68 43 93 143 36 68 100 60 110 159 20 36 52 44 76 108 52 88 123 36 60 84 28 44 60
+       68 99 130 36 52 68 44 60 76 36 116 188 36 108 172 44 116 180 27 70 109 28 52 75 52 95 134 20 60 95 44 84 119 61 106 143 72 123 166 36 116 180 44 124 188 36 76 108
+       44 76 100 68 117 154 36 124 188 36 116 172 44 132 191 44 124 180 78 138 179 88 155 200 36 60 76 36 124 180 45 84 108 12 52 76 36 139 196 36 132 188 44 142 196 15 44 60
+       102 177 222 36 148 204 36 132 180 31 76 100 44 60 68 36 140 188 36 156 204 36 148 196 44 156 204 28 154 198 36 148 188 36 164 205 36 156 196 45 182 229 36 60 68 28 166 204
+       31 172 212 29 188 228 30 180 220 28 188 220 29 180 212 44 212 247 20 188 220 36 198 229 28 202 228 27 196 220 28 188 212 71 227 252 29 220 244 25 215 234 23 230 240 4 4 4
+    </PALETTE>
+    <PALETTE number="3" colorsUsed="256">
+       15 15 15 36 44 74 51 60 92 51 70 134 39 51 83 56 70 103 27 42 70 40 60 95 62 82 117 35 66 116 27 46 78 28 42 66 27 40 62 22 50 90 18 38 67 35 56 88
+       23 54 94 20 46 82 28 54 90 32 58 94 43 68 101 18 50 90 19 45 76 22 50 86 27 52 84 43 71 107 18 57 101 18 54 94 18 50 86 22 54 90 22 50 82 19 43 70
+       26 58 94 18 37 59 78 107 138 18 70 122 17 62 108 18 54 90 18 50 82 22 58 94 24 61 98 22 54 86 18 42 66 26 58 90 31 66 102 34 70 106 31 62 94 46 77 110
+       15 104 183 18 94 163 18 78 131 18 64 105 18 58 95 18 54 86 22 58 90 26 66 102 29 70 107 26 62 94 31 65 96 14 110 191 18 118 202 18 110 191 18 101 170 14 78 130
+       16 86 146 22 114 190 18 90 150 18 85 139 22 90 150 18 76 123 22 90 146 18 70 115 30 76 114 20 51 76 22 54 81 35 78 114 26 54 77 30 62 88 35 70 100 42 83 116
+       45 87 122 34 50 63 91 125 155 14 116 196 14 111 186 14 102 172 18 122 198 18 117 195 18 114 190 18 113 186 17 107 178 14 92 149 14 86 140 14 82 134 22 127 207 22 122 199
+       18 101 163 17 94 155 22 118 190 18 98 158 14 74 122 22 114 186 22 114 182 18 94 150 18 90 146 14 70 114 26 126 203 14 68 108 18 84 133 22 98 158 22 98 154 22 94 150
+       22 90 142 22 89 138 18 70 109 18 63 96 18 59 89 22 62 94 26 66 98 30 75 109 26 62 90 30 70 102 35 82 117 37 85 123 35 76 108 27 59 84 18 38 54 51 95 128
+       31 54 71 105 147 180 14 98 157 18 126 198 18 122 194 19 126 202 18 118 190 18 118 186 18 113 182 18 114 178 18 107 171 14 86 134 18 106 165 14 82 130 22 126 198 14 78 124
+       24 135 210 22 122 194 18 102 158 18 98 154 22 118 186 22 118 182 14 75 118 22 114 178 18 94 146 18 90 142 18 90 138 26 126 194 26 122 186 22 102 159 22 95 146 19 82 126
+       22 94 142 18 75 116 26 102 156 23 85 128 19 67 100 27 93 139 18 54 79 28 82 118 21 58 85 26 70 102 38 91 127 41 95 134 47 104 142 43 91 126 35 69 92 32 59 78
+       35 64 84 42 70 90 18 126 194 18 118 182 14 90 140 21 132 204 20 122 187 14 86 130 22 130 197 19 114 173 14 82 126 22 126 194 18 102 154 22 118 178 26 133 203 19 98 150
+       18 94 142 26 130 196 22 110 168 18 90 134 22 106 159 26 122 180 22 102 152 26 117 175 26 106 157 23 94 137 26 100 148 26 90 130 26 70 98 30 74 101 21 51 70 18 43 59
+       30 70 96 38 87 117 30 66 89 43 77 99 18 118 178 22 138 206 22 122 182 26 138 205 24 126 187 18 98 142 18 94 138 20 75 108 29 106 150 58 130 170 53 117 154 36 76 100
+       37 83 107 47 92 115 38 74 93 44 84 105 38 70 86 43 76 93 42 70 85 39 63 76 18 43 54 46 82 99 42 60 68 20 68 89 18 59 76 51 84 98 50 79 91 35 50 56
+       41 56 62 56 90 102 19 65 80 25 60 71 45 75 85 69 104 114 62 97 106 55 85 93 44 67 72 21 71 80 20 58 65 77 116 122 18 52 56 18 68 72 18 54 49 14 14 14
+    </PALETTE>
+    <PALETTE number="4" colorsUsed="256">
+       255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+       0 0 0 0 0 0 0 0 240 5 0 0 225 3 0 0 65 114 116 71 101 109 32 80 114 111 106 101 99 116 32 70 105 108 101 115 32 40 42 46 97 103 112 41 0 42 46 97
+       103 112 0 87 105 110 100 111 119 115 32 66 105 116 109 97 112 32 70 105 108 101 115 32 40 42 46 98 109 112 41 0 42 46 98 109 112 0 74 80 69 71 32 73 109 97 103 101
+       32 40 42 46 106 112 103 59 42 46 106 112 101 59 42 46 106 112 101 103 59 42 46 106 105 102 41 0 42 46 106 112 103 59 42 46 106 112 101 59 42 46 106 112 101 103 59 42
+       46 106 105 102 0 80 111 114 116 97 98 108 101 32 78 101 116 119 111 114 107 32 71 114 97 112 104 105 99 115 32 40 42 46 112 110 103 41 0 42 46 112 110 103 0 84 97 103
+       103 101 100 32 73 109 97 103 101 32 70 105 108 101 32 70 111 114 109 97 116 32 40 42 46 116 105 102 59 42 46 116 105 102 102 41 0 42 46 116 105 102 59 42 46 116 105 102
+       102 0 67 111 109 112 117 115 101 114 118 101 32 71 73 70 32 40 42 46 103 105 102 41 0 42 46 103 105 102 0 65 109 105 103 97 32 73 76 66 77 32 40 42 46 105 102 102
+       59 42 46 105 108 98 109 59 42 46 108 98 109 41 0 42 46 105 102 102 59 42 46 105 108 98 109 59 42 46 108 98 109 0 90 83 111 102 116 32 80 67 88 32 40 42 46 112
+       99 120 41 0 42 46 112 99 120 0 84 114 117 101 118 105 115 105 111 110 32 84 97 114 103 97 32 40 42 46 116 103 97 41 0 42 46 116 103 97 0 0 0 0 0 0 0 0
+       1 0 0 0 108 0 0 0 64 0 0 0 65 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 0 0 0 65 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38 0 0 0 192 0 0 0 65 0 0 0
+       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+       0 0 0 0 0 0 0 0 0 1 0 0 65 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 1 0 0 65 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 65 0 0 0 64 0 0 0
+    </PALETTE>
+    <PALETTE number="5" colorsUsed="256">
+       0 0 0 163 119 175 128 78 142 136 86 152 76 58 84 50 30 60 74 54 84 58 38 69 85 65 97 107 84 120 59 44 69 67 51 77 111 65 145 43 29 53 66 46 80 92 73 106
+       116 69 153 75 53 92 101 58 138 50 30 68 77 59 92 58 38 77 48 34 61 68 52 83 42 22 62 89 52 127 51 36 66 83 60 107 43 28 60 66 46 90 52 36 70 76 54 101
+       91 67 118 54 42 68 62 50 76 70 58 84 42 22 68 89 51 138 46 29 68 58 38 83 38 26 53 69 51 92 59 45 76 52 35 76 69 47 99 60 44 83 77 45 125 42 26 67
+       33 21 52 58 37 91 62 44 91 31 22 45 58 22 118 74 30 149 62 26 126 54 23 106 62 28 122 58 26 113 66 32 126 74 40 132 84 48 148 61 35 107 36 22 60 49 30 80
+       46 29 75 53 35 83 54 42 74 62 50 82 70 58 91 58 22 124 46 18 97 74 30 154 62 26 130 70 30 146 50 22 102 66 30 137 54 25 110 43 20 88 70 34 138 74 38 139
+       86 46 163 64 36 117 41 24 74 38 22 67 38 26 60 58 22 131 86 34 198 77 30 178 86 34 194 86 34 190 66 26 146 54 22 123 46 18 102 82 34 186 74 30 166 62 26 138
+       52 22 116 90 38 197 70 30 154 62 26 134 42 18 94 78 34 174 86 38 190 78 34 169 70 30 150 86 38 186 66 30 145 58 26 126 50 22 108 58 26 122 74 34 157 46 22 98
+       70 34 148 63 30 130 62 30 126 70 34 142 58 29 117 74 37 148 67 34 133 50 26 101 79 41 157 70 38 138 89 48 173 75 43 140 101 60 185 27 17 48 46 34 70 54 22 131
+       82 34 198 66 26 154 93 38 217 82 34 194 74 30 174 82 34 190 90 38 211 78 34 186 62 26 142 90 38 205 86 38 203 78 34 182 70 30 162 78 34 178 70 30 158 94 42 219
+       86 38 198 66 30 154 58 26 134 99 45 226 98 43 219 93 42 212 86 38 194 82 38 190 74 34 170 66 30 150 58 26 130 91 42 205 82 38 186 82 38 181 74 34 164 90 42 197
+       54 26 122 78 38 174 70 34 156 62 30 138 46 22 102 78 38 170 62 30 134 66 34 143 58 30 126 38 19 81 58 30 122 50 26 106 66 34 138 54 29 114 70 38 143 54 30 110
+       58 34 117 54 31 106 76 44 148 47 28 92 55 35 101 93 60 172 54 42 82 42 18 102 86 38 210 58 26 142 74 34 178 66 30 158 58 26 138 82 38 198 82 38 194 74 34 174
+       50 24 121 62 30 146 54 26 126 86 42 202 78 38 182 70 34 163 46 22 106 86 42 197 78 38 178 62 30 142 38 19 87 74 38 169 58 30 134 58 30 130 54 28 118 50 26 110
+       42 23 93 62 34 133 46 26 101 66 38 142 66 38 138 70 42 146 61 36 124 70 43 140 68 43 132 80 51 155 66 42 126 51 33 97 87 57 163 79 53 147 76 52 139 65 46 115
+       46 22 115 50 25 126 70 34 170 54 27 130 58 30 142 74 38 174 58 30 138 54 30 126 54 30 122 46 26 106 50 30 110 50 30 106 54 34 114 57 40 108 85 60 155 72 53 126
+       94 71 163 82 63 139 54 28 138 41 22 102 66 39 151 54 34 125 62 42 125 103 82 174 89 71 150 114 92 186 38 22 96 50 30 127 49 30 120 127 106 205 38 22 106 2 2 2
+    </PALETTE>
+    <PALETTE number="6" colorsUsed="256">
+       55 83 57 32 55 33 39 64 40 36 59 37 51 78 52 64 92 65 71 99 72 78 106 79 27 45 27 44 67 44 48 72 48 61 87 61 29 45 28 32 49 31 36 54 34 38 56 36
+       43 62 41 31 47 29 27 40 25 35 50 32 44 58 37 32 42 26 39 49 31 28 35 22 37 45 28 44 53 33 33 38 24 53 59 37 61 67 41 38 40 26 46 48 30 51 53 33
+       43 44 28 58 59 37 77 76 47 72 71 44 83 81 50 89 86 53 64 62 39 101 96 58 96 90 55 108 102 64 70 64 41 60 54 34 46 40 23 42 37 24 82 70 43 81 70 45
+       147 122 71 231 192 116 246 206 126 158 132 81 135 113 70 88 74 47 39 33 21 105 86 50 153 124 73 120 98 58 219 181 112 141 117 72 128 105 65 177 147 91 35 29 18 153 127 79
+       131 108 68 188 156 98 110 92 58 146 122 77 123 103 65 70 58 37 94 78 50 97 82 55 59 47 28 195 157 93 87 70 42 186 149 91 51 41 25 207 169 104 199 162 100 124 101 62
+       109 89 55 106 86 54 53 43 27 167 137 86 101 82 52 81 66 42 56 46 29 119 98 62 86 70 45 115 95 61 75 62 40 59 49 32 110 86 51 133 105 63 120 94 57 38 30 18
+       114 90 55 64 51 31 98 78 49 46 37 23 115 92 58 93 74 47 42 34 22 108 88 58 80 66 46 106 82 49 148 114 69 102 79 48 75 58 36 179 140 88 167 131 82 160 125 79
+       137 107 68 153 120 77 141 111 71 110 86 55 146 116 74 67 53 34 155 131 99 46 34 19 98 73 42 62 46 27 145 109 66 41 31 19 178 135 83 30 23 14 86 66 41 80 62 39
+       92 71 45 123 95 61 106 83 54 90 66 38 128 94 57 93 69 42 71 53 32 157 117 72 108 80 50 100 75 47 50 38 24 103 78 51 129 99 65 34 26 17 40 31 21 47 37 26
+       77 47 17 51 33 14 47 31 15 103 69 33 115 80 44 95 66 37 59 41 23 104 73 41 78 55 31 122 86 50 107 76 44 84 60 35 52 37 22 14 10 6 58 42 26 29 21 13
+       66 48 30 85 62 39 26 19 12 46 34 22 62 46 30 97 72 47 118 89 59 52 39 26 150 113 76 59 37 17 27 17 8 55 37 20 166 118 72 116 83 52 137 100 67 111 82 55
+       58 43 29 68 44 24 53 35 20 56 39 24 49 34 21 35 24 15 39 27 17 121 86 56 56 40 27 89 65 44 139 103 73 30 23 17 44 30 19 71 52 37 133 99 72 59 39 25
+       19 13 9 23 16 11 60 45 35 157 101 67 68 44 29 63 41 27 102 66 44 93 60 40 74 48 32 83 54 36 155 102 68 66 43 29 77 51 34 33 22 15 152 102 70 146 99 68
+       67 47 34 42 31 24 65 41 27 59 37 25 161 103 69 157 99 67 54 34 23 173 111 75 169 108 73 164 105 71 148 95 64 143 92 62 127 81 55 167 107 73 158 101 69 154 99 67
+       136 87 59 117 75 51 106 68 46 150 97 66 98 63 43 57 37 25 48 31 21 178 115 79 111 72 49 88 57 39 70 45 31 61 39 27 160 104 72 51 33 23 156 102 71 151 99 69
+       59 39 27 180 121 86 62 42 30 158 107 77 172 117 84 162 110 80 107 73 54 183 128 95 190 135 104 76 56 44 201 154 127 118 92 77 157 99 69 55 35 25 54 40 33 35 25 21
+    </PALETTE>
+    <PALETTE number="7" colorsUsed="256">
+       0 0 0 124 102 111 7 3 5 87 66 84 66 50 65 99 80 98 3 1 3 67 56 78 64 57 98 17 13 41 29 24 58 43 37 81 51 44 113 7 5 34 33 28 112 28 24 87
+       53 46 165 46 40 140 68 62 141 88 83 157 78 75 123 94 92 121 142 140 176 11 5 150 10 6 126 20 14 157 19 13 140 13 10 97 25 19 170 21 17 114 30 24 151 36 29 180
+       27 22 136 36 30 164 48 41 186 58 51 202 74 67 213 97 90 243 110 107 172 113 112 136 10 8 76 8 7 57 126 125 157 3 3 44 2 2 20 1 1 9 1 1 4 13 13 14
+       18 18 19 175 175 181 180 182 203 41 43 48 33 34 36 154 157 161 75 80 83 3 5 6 1 3 3 9 10 10 203 207 207 54 57 56 145 148 147 1 3 1 70 72 70 48 49 48
+       64 65 64 172 176 170 130 132 129 181 185 178 41 42 40 228 231 221 127 129 122 76 77 73 88 89 85 199 201 193 169 171 162 178 180 171 193 195 186 109 110 105 243 245 234 83 84 78
+       95 96 90 121 122 116 136 137 131 144 145 138 155 156 147 160 161 153 254 255 247 188 190 165 183 185 162 166 167 155 176 177 165 183 184 172 150 151 141 189 190 180 206 207 197 221 222 209
+       173 174 151 213 214 187 197 198 173 237 238 212 3 3 1 61 61 56 25 25 23 186 186 175 117 117 110 104 104 98 213 213 203 205 204 182 177 175 158 80 78 62 54 53 45 70 69 62
+       183 181 166 144 142 129 158 154 134 166 162 142 188 181 156 133 127 107 32 25 6 145 137 113 58 45 13 73 58 20 115 93 39 24 18 5 137 108 46 89 83 70 197 187 164 47 36 13
+       168 132 60 69 54 25 209 171 97 183 168 139 33 31 27 22 15 2 79 57 15 188 148 78 35 28 15 195 157 89 153 124 72 89 72 42 57 46 27 78 64 39 50 41 25 128 93 38
+       109 82 37 125 95 45 159 121 60 77 59 29 94 73 40 178 140 76 103 80 44 14 11 6 159 124 69 171 134 75 148 116 65 112 88 50 133 105 61 159 127 75 72 58 34 184 147 88
+       176 141 84 147 118 71 170 138 83 136 109 66 99 80 48 84 68 43 112 95 68 77 66 48 87 75 56 140 122 91 97 84 63 168 148 115 127 113 91 131 91 32 90 62 22 65 46 17
+       122 87 34 81 58 23 7 5 2 137 99 40 101 72 30 146 105 46 150 112 53 143 107 56 118 90 47 166 128 70 40 31 17 85 66 37 118 92 52 107 83 47 153 118 68 18 14 8
+       49 38 22 31 24 14 130 102 59 97 76 44 77 60 35 144 112 66 125 98 59 164 130 78 10 8 5 113 91 57 140 113 72 149 123 83 63 52 36 159 134 95 70 59 42 44 38 29
+       109 75 30 116 83 37 131 94 43 115 85 45 154 115 61 91 67 36 132 99 53 100 75 40 125 94 51 146 110 61 66 50 28 82 62 35 54 41 23 140 107 61 159 121 71 91 70 41
+       44 34 20 122 94 56 62 48 29 54 42 26 106 85 56 115 102 84 52 46 38 124 87 42 86 60 29 140 100 50 106 76 40 97 71 38 109 80 44 63 46 26 138 103 59 72 54 32
+       69 52 31 66 55 41 68 61 52 61 41 19 73 52 28 58 42 24 23 17 10 27 20 12 115 77 37 123 87 49 104 89 74 6 3 2 3 1 1 7 7 7 3 3 3 1 1 1
+    </PALETTE>
+    <PALETTE number="8" colorsUsed="256">
+       0 0 0 51 43 53 25 21 27 1 1 7 1 1 3 51 57 106 31 34 62 43 47 78 83 92 144 17 31 95 7 11 31 30 47 129 47 66 161 13 21 57 3 4 8 88 109 196
+       146 168 243 2 6 12 208 225 251 34 38 40 31 33 34 6 13 15 12 22 24 20 27 28 1 3 3 20 23 23 47 49 49 162 163 163 3 3 1 6 6 5 167 157 125 255 238 191
+       6 5 3 254 223 179 239 205 165 208 178 143 13 10 7 254 212 170 87 74 61 58 56 54 29 28 27 45 44 43 96 75 56 87 68 51 141 117 95 174 157 141 130 102 78 89 70 54
+       56 45 36 153 124 100 226 184 150 231 189 155 85 58 37 120 85 58 56 42 31 63 48 36 150 114 87 251 194 151 124 96 75 231 179 141 104 81 64 196 153 121 109 86 68 214 168 134
+       134 106 84 38 30 24 161 127 102 252 201 161 182 144 116 222 177 143 165 131 106 240 193 157 192 155 127 174 141 116 32 28 25 199 195 192 220 216 213 50 34 23 151 105 73 128 90 63
+       139 98 70 54 38 27 156 111 81 94 67 49 73 52 38 141 101 74 42 30 22 117 84 62 51 37 27 79 57 42 205 149 110 54 39 29 94 69 51 158 115 86 136 99 74 145 106 80
+       196 145 109 140 104 78 27 20 15 148 109 83 34 25 19 124 92 70 110 82 62 23 17 13 173 129 99 136 102 78 91 68 52 70 52 40 94 70 54 45 34 26 226 171 131 132 99 77
+       84 63 49 156 118 92 117 89 69 42 32 25 167 128 100 160 122 96 50 38 30 237 184 146 210 163 129 143 111 88 189 147 117 172 134 107 148 115 92 177 138 111 201 158 127 152 119 97
+       119 94 76 216 172 140 97 77 63 205 165 136 123 99 83 27 24 22 44 41 39 252 246 242 182 179 177 71 48 34 114 78 55 105 72 51 136 94 67 65 45 32 90 62 45 85 59 43
+       60 42 31 115 81 60 130 93 69 102 73 54 98 70 52 49 35 26 169 121 90 144 103 77 193 138 104 183 131 98 123 88 66 133 96 72 109 78 59 61 44 33 139 101 76 119 86 65
+       90 65 49 241 175 132 104 75 57 223 161 123 67 49 38 208 155 120 114 85 66 183 137 107 103 77 60 128 96 75 80 60 47 139 107 86 34 26 21 72 56 46 92 72 59 128 106 92
+       98 65 47 52 35 25 78 53 38 94 64 46 145 99 72 38 26 19 122 84 62 33 23 17 108 75 56 46 32 24 86 61 46 38 27 21 75 54 42 98 72 57 139 103 82 88 66 53
+       133 100 82 51 40 34 110 89 77 96 89 85 108 101 97 174 163 157 155 148 144 133 128 125 58 38 28 129 88 66 19 13 10 96 67 52 53 37 29 136 98 78 30 22 18 80 67 60
+       14 12 11 34 30 28 75 67 63 41 37 35 67 61 58 22 20 19 91 83 79 54 50 48 83 77 74 100 94 91 145 139 136 32 18 12 50 35 29 51 46 44 79 72 69 123 116 113
+       114 109 107 50 21 10 165 73 40 202 94 56 65 31 19 210 113 77 82 47 34 217 138 108 149 55 24 120 47 22 102 40 20 74 29 15 85 38 22 137 64 40 188 91 60 96 47 31
+       111 56 38 44 23 16 140 82 62 231 147 118 10 7 6 37 34 33 58 14 2 211 141 121 38 14 8 69 65 64 3 1 1 5 3 3 40 40 40 17 17 17 3 3 3 1 1 1
+    </PALETTE>
+    <PALETTE number="9" colorsUsed="256">
+       14 7 8 82 48 54 16 12 13 107 99 101 103 99 100 111 98 106 59 55 58 105 90 102 8 5 8 54 39 55 19 9 20 11 5 12 90 78 92 47 30 50 81 67 84 28 16 31
+       35 19 40 57 26 67 71 56 76 44 14 55 14 6 17 106 96 110 64 44 73 97 91 100 105 51 134 90 49 112 103 67 122 72 47 85 115 80 134 82 57 95 92 65 106 108 87 119
+       133 108 146 118 103 126 111 100 117 6 1 9 92 16 139 72 14 107 103 21 153 49 10 73 108 24 158 86 19 127 90 20 131 112 27 163 95 24 138 105 27 151 101 26 146 97 25 141
+       116 31 166 110 29 157 91 25 131 85 28 118 64 22 90 76 32 101 92 40 122 97 82 106 122 112 128 73 9 116 55 8 87 87 15 132 82 15 125 65 12 99 96 20 144 77 16 115
+       98 21 149 92 20 137 18 4 27 102 25 150 30 3 50 9 1 15 47 3 81 40 3 69 57 5 97 34 3 59 24 2 43 19 2 34 12 1 23 91 90 95 102 103 105 98 100 103
+       11 13 11 13 15 13 114 122 112 130 139 127 76 89 71 99 114 93 193 215 185 107 123 100 82 91 78 135 149 129 97 109 91 150 167 142 71 79 67 98 104 95 126 130 124 186 201 178
+       90 104 82 14 17 12 123 135 115 94 100 90 214 222 208 175 182 170 90 96 85 97 100 94 117 126 107 102 106 97 166 172 157 114 118 108 13 14 11 24 25 22 107 109 103 121 122 119
+       99 102 91 136 141 121 109 112 100 62 63 59 101 102 98 106 108 98 112 114 104 118 119 107 123 124 112 104 105 95 141 142 126 133 134 120 231 231 127 231 230 140 231 230 148 229 229 155
+       229 229 163 7 7 6 15 15 13 11 11 10 98 98 91 16 16 15 18 18 17 82 82 78 21 21 20 68 68 65 99 99 95 118 118 114 71 71 69 95 95 93 91 91 89 51 51 50
+       98 98 97 231 226 135 211 207 129 231 223 118 231 223 131 150 149 136 230 217 127 106 105 98 119 118 111 100 99 93 25 22 8 232 211 107 107 106 101 103 102 97 229 207 118 231 211 122
+       88 87 83 183 156 61 196 167 67 213 184 78 220 190 85 227 196 90 221 197 110 20 17 7 34 29 12 204 174 76 231 202 114 212 182 102 129 126 117 122 119 111 134 131 122 105 103 97
+       103 101 95 111 109 103 109 107 101 115 113 107 90 89 86 95 94 91 114 113 110 174 143 69 183 151 73 189 156 77 54 45 22 198 165 84 207 173 90 153 128 68 212 179 95 219 184 100
+       225 191 105 231 196 109 180 152 85 198 169 98 75 62 32 105 102 95 109 106 99 113 110 103 131 106 57 131 127 119 99 97 93 109 107 103 105 103 99 113 111 107 80 79 77 107 106 104
+       118 114 107 159 155 148 103 81 46 170 141 95 145 140 132 111 107 101 107 103 97 123 119 113 97 95 92 111 109 106 139 134 127 127 122 116 118 114 109 103 98 93 107 103 99 105 101 97
+       111 107 103 109 105 101 38 37 36 45 44 43 99 97 95 84 83 82 77 76 75 74 73 72 97 96 95 88 87 86 102 98 95 111 105 101 104 101 99 102 99 97 108 101 97 105 99 96
+       109 105 103 107 103 101 118 111 108 94 91 90 18 11 9 108 101 99 109 103 102 111 104 103 29 18 18 113 107 107 103 103 103 32 32 32 28 28 28 24 24 24 13 13 13 2 2 2
+    </PALETTE>
+    <PALETTE number="10" colorsUsed="256">
+       8 8 8 8 16 33 8 16 41 8 16 49 8 24 49 16 16 49 16 24 49 8 16 57 8 24 57 8 33 57 16 24 57 16 33 57 8 16 66 8 24 66 8 33 66 16 16 66
+       16 24 66 8 24 74 16 24 74 8 24 82 16 24 82 8 24 90 16 33 66 8 33 74 16 33 74 8 33 82 16 41 70 16 49 74 16 33 82 16 41 82 16 49 82 8 33 90
+       16 24 90 16 33 90 8 24 99 8 33 99 16 24 99 16 33 99 8 24 107 8 33 107 16 24 107 16 33 107 8 24 115 8 33 115 8 33 123 16 24 119 16 33 115 16 33 123
+       8 41 90 16 41 90 8 41 99 16 41 99 8 41 107 16 41 107 12 50 98 16 49 107 8 41 115 11 44 119 16 49 115 16 49 123 13 57 112 12 61 119 8 66 123 16 57 123
+       8 33 132 16 33 132 8 33 140 16 33 140 8 41 132 16 41 132 8 41 140 16 41 140 8 49 132 16 49 132 8 41 148 12 41 152 12 57 132 8 49 144 11 67 135 8 65 148
+       8 41 165 8 49 156 8 49 165 8 49 173 8 49 181 8 57 156 8 57 165 8 57 173 8 66 156 8 74 156 8 66 165 8 74 165 8 61 177 8 61 185 8 74 173 8 70 185
+       10 82 148 8 94 152 8 82 169 8 94 165 8 107 156 8 107 165 8 115 156 12 111 165 8 90 177 8 99 181 8 78 193 8 88 199 8 107 173 8 107 181 8 103 189 8 103 202
+       8 123 165 8 115 173 8 115 181 16 115 177 8 123 173 16 123 169 8 127 173 10 140 174 16 123 181 16 132 181 8 119 189 12 120 201 13 134 186 12 151 184 13 144 192 15 143 211
+       26 32 64 24 41 74 24 24 90 27 35 82 24 41 82 33 41 82 27 49 71 28 53 82 24 28 99 24 41 90 33 41 90 24 41 99 24 49 90 24 49 99 28 53 90 33 57 90
+       24 26 113 29 42 107 24 57 99 28 49 115 24 57 107 33 57 103 24 57 115 33 57 115 24 24 132 25 39 126 33 49 123 24 57 123 27 28 142 28 42 143 29 40 163 32 37 190
+       24 66 90 33 66 90 24 66 99 33 66 99 24 66 107 24 66 115 24 66 123 33 57 123 24 57 132 24 66 132 33 57 132 24 57 140 24 66 140 33 57 140 29 57 154 33 57 181
+       24 74 119 24 74 132 24 74 140 24 66 148 24 80 135 20 160 202 24 165 198 16 165 206 20 171 204 16 169 214 24 169 214 18 166 227 20 180 210 20 191 214 20 179 232 22 194 229
+       40 55 88 41 57 107 41 66 107 37 76 103 33 66 115 35 68 117 33 74 123 38 79 115 37 65 128 33 74 132 41 74 132 33 82 123 33 82 132 33 90 132 41 82 127 41 90 127
+       33 66 148 38 71 140 33 79 145 41 82 140 41 57 148 37 74 152 35 61 164 43 40 200 33 90 140 38 90 148 37 86 160 41 90 156 41 99 140 41 93 167 38 121 184 35 187 219
+       52 70 104 51 91 117 51 80 129 57 99 123 49 82 140 57 90 132 49 90 140 53 100 136 49 74 150 51 90 154 57 103 140 52 100 155 49 99 173 49 57 181 53 55 212 49 111 189
+       79 95 99 74 99 123 70 101 134 68 93 160 86 117 133 114 127 118 65 112 165 88 140 182 143 138 101 186 162 94 216 174 75 223 190 101 158 156 123 149 164 154 185 185 147 219 205 142
+    </PALETTE>
+    <PALETTE number="11" colorsUsed="256">
+       248 232 65 143 56 58 88 56 57 104 70 72 156 137 138 142 103 106 109 24 40 152 72 88 136 72 88 102 40 58 75 24 40 120 72 89 82 78 80 72 40 59 104 69 91 29 8 24
+       111 88 108 49 41 48 41 24 41 72 56 84 24 8 40 58 40 90 40 24 74 24 8 72 24 8 88 40 24 104 56 40 136 72 56 162 40 24 144 56 40 152 40 24 179 56 40 176
+       88 72 220 62 56 104 88 72 248 104 88 246 32 20 211 50 40 215 65 51 241 65 56 194 96 88 220 17 13 114 18 15 176 19 17 144 93 92 129 8 8 88 8 8 72 8 8 56
+       8 8 40 40 40 194 40 40 168 40 40 152 24 24 88 72 72 248 40 40 136 72 72 232 56 56 168 40 40 120 24 24 72 8 8 24 88 88 248 56 56 152 40 40 104 56 56 136
+       24 24 56 56 56 120 24 24 40 104 104 170 77 78 109 92 100 200 56 72 216 72 88 248 72 88 232 88 104 248 105 119 242 75 85 172 24 40 168 40 56 184 40 56 168 56 72 200
+       56 72 184 72 88 213 88 104 232 106 119 213 75 84 151 123 136 230 142 148 193 24 40 137 40 56 152 56 72 168 44 49 80 147 160 242 110 120 176 8 24 99 24 40 120 56 88 248
+       56 86 232 40 56 136 56 72 152 183 193 239 40 72 200 24 40 104 56 88 216 72 104 248 72 104 232 40 56 120 88 120 248 77 104 216 57 72 136 88 104 170 40 72 184 56 88 200
+       88 120 231 107 136 248 8 24 72 40 72 168 24 40 88 56 88 184 40 56 104 40 72 152 56 88 168 88 136 248 8 40 104 8 24 56 24 40 72 56 88 152 31 72 136 11 56 120
+       8 40 88 24 56 104 56 88 136 117 141 178 40 88 152 8 88 168 8 56 104 8 40 72 8 24 40 24 56 88 40 88 136 46 80 113 8 73 131 81 113 143 19 126 208 17 88 141
+       24 74 112 121 189 239 8 137 223 15 107 174 8 56 88 25 148 236 50 142 208 46 120 172 73 169 236 83 150 196 127 172 202 44 107 145 68 135 176 110 132 146 11 104 152 24 56 72
+       98 172 209 80 106 117 47 73 83 24 45 52 56 104 119 24 73 86 8 58 69 155 162 163 42 153 152 72 244 243 8 24 24 158 244 244 35 120 110 12 45 24 121 189 138 54 72 56
+       63 148 67 8 24 8 113 114 113 92 203 91 141 237 139 33 102 30 87 105 86 190 191 186 229 231 32 248 248 62 24 24 8 232 233 88 248 248 99 99 96 41 230 223 109 247 240 133
+       181 166 42 224 209 56 248 232 72 193 180 63 144 134 49 219 206 86 246 243 217 248 231 102 84 75 22 120 104 24 104 87 24 198 177 97 220 199 121 120 95 40 104 89 56 118 106 83
+       72 54 24 53 41 21 247 220 179 86 72 55 71 56 40 104 89 72 104 72 40 120 88 56 147 127 106 145 105 72 177 142 113 204 168 138 138 90 56 144 111 88 172 117 85 242 178 142
+       88 56 40 104 72 56 208 146 114 120 88 72 130 65 37 113 45 23 121 72 56 136 88 72 88 40 28 43 23 18 152 88 72 174 120 106 152 72 57 108 53 43 171 82 68 79 22 18
+       116 23 23 150 40 38 227 59 59 28 8 8 183 56 53 233 90 87 136 72 72 72 40 40 155 88 88 120 72 72 136 88 88 120 88 88 104 88 88 66 56 56 24 24 24 8 8 8
+    </PALETTE>
+    <PALETTE number="12" colorsUsed="256">
+       0 0 0 19 53 50 18 56 46 3 156 112 3 152 107 19 52 42 4 150 105 4 146 101 5 142 98 6 131 91 7 127 88 8 116 81 5 144 97 5 140 95 5 138 93 6 136 91
+       6 134 92 6 133 89 6 131 88 9 114 78 12 97 69 7 129 85 7 125 83 8 121 81 8 117 78 9 110 74 10 106 71 10 103 69 11 101 69 11 100 67 12 97 66 13 95 65
+       13 91 62 13 89 62 13 89 61 14 87 60 14 84 59 16 73 52 19 44 35 7 124 79 8 121 78 8 117 74 9 114 74 10 103 67 11 98 64 12 94 62 12 92 61 12 88 59
+       13 90 61 13 87 58 13 85 58 13 85 57 14 88 60 14 86 59 13 81 54 14 84 57 14 83 56 14 82 55 15 80 55 15 79 55 16 74 51 16 69 48 19 45 35 10 108 68
+       11 96 61 12 90 58 12 88 57 13 85 55 13 83 54 13 82 53 13 81 53 15 80 53 15 79 53 15 77 52 15 75 51 16 73 50 16 72 49 17 67 46 15 60 42 21 62 45
+       19 53 39 19 51 38 19 48 36 19 41 32 8 117 69 9 112 68 12 93 58 13 86 55 14 84 53 14 79 51 14 77 49 14 74 48 14 72 47 14 67 44 16 74 49 16 70 46
+       16 69 46 16 68 45 15 64 43 17 66 45 21 57 41 20 45 34 10 103 61 12 88 53 13 85 52 13 82 50 16 72 46 16 70 45 17 63 42 17 62 41 17 61 41 17 57 39
+       18 59 40 17 54 37 22 65 45 19 48 35 11 97 56 12 92 54 15 72 45 15 68 42 17 65 42 17 58 38 18 60 40 18 58 39 18 57 38 23 72 49 19 52 36 19 44 32
+       17 65 41 17 58 37 18 57 37 21 61 41 19 51 35 17 61 38 17 57 36 20 56 37 19 48 33 23 80 49 18 58 36 18 54 34 20 45 31 19 39 28 20 38 28 22 71 43
+       20 63 38 22 65 40 18 53 33 21 54 34 19 48 31 19 47 30 20 37 27 17 65 35 17 61 34 18 58 33 17 52 30 19 51 31 19 43 28 20 41 28 20 39 27 20 33 25
+       14 88 41 15 81 38 16 73 36 22 80 42 17 54 30 19 44 28 19 39 26 20 40 27 17 57 30 17 54 29 19 59 32 17 52 29 18 54 30 19 52 30 19 47 28 19 69 34
+       17 57 29 18 57 30 18 54 29 18 53 29 19 48 28 19 44 27 20 45 28 19 42 26 20 43 27 20 67 33 19 64 32 18 57 29 20 61 32 19 58 30 19 51 28 19 48 27
+       19 47 27 21 46 28 20 44 27 18 62 30 22 71 35 18 53 27 20 47 27 21 48 28 20 39 25 21 36 25 20 59 29 19 56 28 20 48 27 21 49 28 20 41 25 19 39 24
+       23 72 33 19 56 27 21 53 28 20 44 25 21 45 26 20 43 25 21 61 29 21 57 28 20 50 26 20 47 25 22 43 26 21 52 26 19 47 24 22 47 26 21 45 25 23 64 29
+       21 58 26 20 55 25 21 56 26 21 54 26 21 50 25 22 51 26 21 48 25 21 42 24 27 78 33 21 60 26 25 68 30 21 56 25 22 58 26 22 57 26 21 52 25 22 54 26
+       22 53 26 24 57 28 22 47 25 23 48 26 23 61 27 22 50 25 22 57 25 23 48 24 22 46 23 22 57 23 23 59 24 24 57 25 24 56 25 23 54 24 23 52 24 22 49 23
+    </PALETTE>
+    <PALETTE number="13" colorsUsed="256">
+       0 0 0 98 64 78 103 72 88 84 49 68 69 48 60 120 84 105 86 57 76 76 36 64 76 44 68 87 61 84 68 36 67 76 44 76 68 44 68 72 53 74 101 80 105 68 44 76
+       55 43 59 88 71 95 119 97 129 69 44 84 56 43 68 70 53 87 72 70 75 56 44 76 47 36 76 44 36 66 71 62 94 54 44 85 45 36 84 52 44 101 31 28 68 29 28 58
+       56 54 108 55 54 76 4 4 17 36 36 92 36 36 84 36 36 76 44 44 92 44 44 84 36 36 68 44 44 76 44 44 68 55 55 68 53 55 116 55 56 88 41 44 116 38 44 106
+       45 52 124 47 52 100 28 36 92 44 52 116 44 52 108 28 36 84 36 44 92 11 13 24 28 36 76 36 44 84 44 52 92 20 44 148 36 52 124 36 52 116 45 60 125 28 36 68
+       36 44 76 44 52 84 54 55 59 20 44 132 21 44 124 28 52 140 20 36 95 36 52 108 44 60 116 16 20 34 38 42 57 21 44 116 13 27 71 28 52 132 28 44 93 12 44 135
+       20 59 165 20 56 154 20 52 140 23 44 107 28 52 124 20 36 84 28 52 116 36 60 124 45 69 134 36 52 100 44 60 108 45 60 100 36 44 68 44 52 76 12 51 148 12 38 105
+       20 52 132 28 68 172 28 65 158 28 60 141 14 26 57 20 36 76 28 44 84 36 52 92 12 55 156 12 44 117 20 68 172 12 35 84 20 52 124 28 60 132 28 52 108 36 65 133
+       36 60 116 57 85 146 54 74 119 12 61 164 12 53 139 20 68 163 20 60 140 20 52 116 32 77 171 20 44 92 28 60 124 28 52 100 36 60 108 28 44 76 36 52 84 44 60 92
+       44 52 68 20 76 180 20 60 132 20 52 108 28 60 116 44 83 155 19 36 67 42 69 120 25 37 58 55 72 103 72 84 105 20 76 172 20 76 164 28 84 178 12 36 74 28 79 160
+       28 71 144 20 44 84 36 60 100 20 84 180 28 92 188 20 63 124 19 52 100 28 60 108 43 68 104 28 44 68 36 52 76 44 60 84 23 29 38 20 92 188 20 86 172 28 92 179
+       20 60 116 20 44 76 27 54 92 36 60 92 64 87 119 20 92 180 12 55 108 28 100 188 20 60 108 28 60 100 25 52 84 54 103 165 56 71 89 33 37 42 12 60 116 20 100 188
+       28 108 196 28 100 180 35 116 204 55 116 182 20 100 180 28 108 188 23 68 113 110 160 209 36 52 68 73 101 129 44 60 76 20 108 188 23 99 170 28 116 196 28 108 180 36 124 203
+       92 130 166 20 116 196 20 108 180 28 124 204 28 116 188 37 90 133 80 99 115 20 116 188 28 124 196 36 134 206 30 110 169 32 100 151 17 44 65 24 52 74 33 62 84 42 78 106
+       44 69 89 59 85 105 86 116 140 20 124 196 20 116 180 28 132 204 28 124 188 30 118 180 20 61 89 68 81 90 20 124 188 28 140 212 28 132 196 37 145 213 46 158 229 55 171 241
+       20 132 196 28 140 204 35 70 91 40 52 59 22 132 188 28 148 212 28 140 196 37 156 219 31 61 76 30 148 204 71 193 252 96 120 130 111 145 157 12 53 65 44 61 65 137 180 189
+       35 61 66 44 68 72 55 70 72 13 69 67 77 92 88 88 120 106 53 72 59 52 85 58 27 46 30 68 85 71 39 57 38 63 90 58 73 108 60 39 59 28 51 72 35 4 4 4
+    </PALETTE>
+    <PALETTE number="14" colorsUsed="256">
+       118 69 93 136 82 110 88 54 72 102 57 83 156 103 134 73 42 62 85 42 76 72 37 73 85 45 86 56 36 59 71 58 73 88 54 95 169 119 189 72 44 84 100 60 126 74 45 95
+       57 36 73 124 83 164 55 40 87 38 28 59 72 52 118 95 71 151 80 59 135 58 45 104 57 44 116 35 28 68 71 60 127 55 54 120 36 36 124 36 36 110 44 44 124 44 44 116
+       39 40 85 39 40 72 44 52 180 60 68 212 52 60 183 60 68 204 60 68 196 56 60 151 55 60 136 68 72 162 63 67 144 36 44 148 44 52 172 36 44 140 44 52 164 36 44 132
+       44 52 156 44 52 148 52 60 168 44 52 140 46 52 132 38 43 103 47 52 108 125 131 202 44 60 197 52 68 220 52 68 212 52 68 204 28 36 105 61 76 220 60 76 212 36 44 124
+       36 44 116 61 73 188 81 97 243 44 52 124 76 86 173 36 52 180 36 52 172 36 52 164 53 76 229 44 60 188 60 84 252 60 84 244 44 60 180 60 83 236 44 60 172 52 68 196
+       68 92 251 52 68 188 52 68 180 60 76 204 60 76 196 86 105 233 44 52 116 44 50 92 28 44 132 36 52 156 52 76 220 52 76 212 36 52 148 36 52 140 60 84 228 44 60 164
+       44 60 156 44 60 148 76 100 252 75 99 230 70 90 214 84 108 247 93 115 252 72 90 192 93 114 244 101 119 233 44 52 100 85 100 186 44 76 228 36 60 188 36 60 180 52 84 252
+       36 60 172 52 84 244 52 84 236 44 70 196 44 68 188 60 92 252 28 42 116 60 92 244 44 68 180 51 76 204 57 85 220 52 76 196 68 100 252 36 52 132 52 76 188 52 72 169
+       44 60 140 78 100 216 52 68 143 62 80 167 58 73 154 89 110 212 52 60 101 128 144 220 52 92 252 44 76 214 36 60 164 52 84 228 36 60 156 60 94 236 44 68 172 57 86 212
+       44 68 164 57 86 204 68 100 239 52 76 180 36 52 124 76 108 252 36 52 116 28 39 88 84 116 252 44 60 132 84 116 244 44 60 124 65 86 180 93 124 251 90 116 233 52 68 132
+       60 76 140 69 83 144 44 52 84 54 60 87 54 58 74 36 68 180 52 92 244 52 92 236 44 76 188 60 100 252 36 60 148 67 108 252 61 95 228 28 44 104 56 87 196 76 108 232
+       36 52 108 44 60 116 22 28 49 70 75 93 44 84 212 36 68 172 52 92 224 44 76 180 36 60 140 64 108 242 42 68 155 53 84 186 74 116 252 64 100 217 84 124 252 27 38 74
+       18 23 39 61 77 129 37 42 59 44 84 200 36 68 164 28 52 116 44 76 172 44 76 163 36 61 132 36 52 100 52 76 142 36 50 92 44 60 108 30 36 53 44 84 185 36 61 124
+       51 84 170 44 71 136 52 72 120 44 60 100 36 60 116 52 77 132 44 79 148 36 60 108 44 69 120 56 87 150 36 52 84 57 85 138 67 98 153 44 61 92 56 73 103 42 52 71
+       97 108 127 36 60 100 69 104 164 62 83 118 75 88 109 44 69 105 70 96 133 44 84 140 36 60 92 44 60 82 57 70 88 81 98 120 107 124 146 63 84 106 36 60 83 94 130 164
+       81 113 142 111 153 186 135 187 222 42 54 55 28 36 34 53 65 56 36 44 38 43 55 38 61 76 46 40 50 28 71 86 50 82 100 55 53 63 38 104 126 65 95 113 60 119 140 75
+    </PALETTE>
+    <PALETTE number="15" colorsUsed="256">
+       0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6 7 7 7 8 8 8 9 9 9 10 10 10 11 11 11 12 12 12 13 13 13 14 14 14 15 15 15
+       16 16 16 17 17 17 18 18 18 19 19 19 20 20 20 21 21 21 22 22 22 23 23 23 24 24 24 25 25 25 26 26 26 27 27 27 28 28 28 29 29 29 30 30 30 31 31 31
+       32 32 32 33 33 33 34 34 34 35 35 35 36 36 36 37 37 37 38 38 38 39 39 39 40 40 40 41 41 41 42 42 42 43 43 43 44 44 44 45 45 45 46 46 46 47 47 47
+       48 48 48 49 49 49 50 50 50 51 51 51 52 52 52 53 53 53 54 54 54 55 55 55 56 56 56 57 57 57 58 58 58 59 59 59 60 60 60 61 61 61 62 62 62 63 63 63
+       64 64 64 65 65 65 66 66 66 67 67 67 68 68 68 69 69 69 70 70 70 71 71 71 72 72 72 73 73 73 74 74 74 75 75 75 76 76 76 77 77 77 78 78 78 79 79 79
+       80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 86 86 86 87 87 87 88 88 88 89 89 89 90 90 90 91 91 91 92 92 92 93 93 93 94 94 94 95 95 95
+       96 96 96 97 97 97 98 98 98 99 99 99 100 100 100 101 101 101 102 102 102 103 103 103 104 104 104 105 105 105 106 106 106 107 107 107 108 108 108 109 109 109 110 110 110 111 111 111
+       112 112 112 113 113 113 114 114 114 115 115 115 116 116 116 117 117 117 118 118 118 119 119 119 120 120 120 121 121 121 122 122 122 123 123 123 124 124 124 125 125 125 126 126 126 127 127 127
+       128 128 128 129 129 129 130 130 130 131 131 131 132 132 132 133 133 133 134 134 134 135 135 135 136 136 136 137 137 137 138 138 138 139 139 139 140 140 140 141 141 141 142 142 142 143 143 143
+       144 144 144 145 145 145 146 146 146 147 147 147 148 148 148 149 149 149 150 150 150 151 151 151 152 152 152 153 153 153 154 154 154 155 155 155 156 156 156 157 157 157 158 158 158 159 159 159
+       160 160 160 161 161 161 162 162 162 163 163 163 164 164 164 165 165 165 166 166 166 167 167 167 168 168 168 169 169 169 170 170 170 171 171 171 172 172 172 173 173 173 174 174 174 175 175 175
+       176 176 176 177 177 177 178 178 178 179 179 179 180 180 180 181 181 181 182 182 182 183 183 183 184 184 184 185 185 185 186 186 186 187 187 187 188 188 188 189 189 189 190 190 190 191 191 191
+       192 192 192 193 193 193 194 194 194 195 195 195 196 196 196 197 197 197 198 198 198 199 199 199 200 200 200 201 201 201 202 202 202 203 203 203 204 204 204 205 205 205 206 206 206 207 207 207
+       208 208 208 209 209 209 210 210 210 211 211 211 212 212 212 213 213 213 214 214 214 215 215 215 216 216 216 217 217 217 218 218 218 219 219 219 220 220 220 221 221 221 222 222 222 223 223 223
+       224 224 224 225 225 225 226 226 226 227 227 227 228 228 228 229 229 229 230 230 230 231 231 231 232 232 232 233 233 233 234 234 234 235 235 235 236 236 236 237 237 237 238 238 238 239 239 239
+       240 240 240 241 241 241 242 242 242 243 243 243 244 244 244 245 245 245 246 246 246 247 247 247 248 248 248 249 249 249 250 250 250 251 251 251 252 252 252 253 253 253 254 254 254 255 255 255
+    </PALETTE>
+    <PALETTE number="16" colorsUsed="256">
+       0 0 0 0 8 49 0 8 57 0 16 57 0 8 66 0 16 66 0 24 66 8 24 66 0 16 74 0 24 74 0 33 74 8 24 74 8 33 74 16 33 74 16 41 74 24 33 74
+       24 41 74 0 16 82 0 24 82 0 33 82 8 24 82 8 33 82 8 41 82 16 33 82 16 41 82 24 33 82 24 41 82 24 49 82 33 41 82 33 49 82 41 49 82 0 16 90
+       0 24 90 0 24 99 0 33 90 0 33 99 0 41 90 0 41 99 8 33 90 8 33 99 8 41 90 8 41 99 8 49 99 16 33 90 16 41 90 16 41 99 16 49 90 16 49 99
+       24 41 90 24 41 99 24 49 90 24 49 99 24 57 99 33 41 90 33 49 90 33 49 99 33 57 90 41 41 90 41 51 93 49 49 99 49 57 90 33 57 99 41 57 99 41 66 99
+       0 24 107 0 33 107 0 33 115 0 33 123 0 33 132 0 41 107 8 41 107 16 41 107 0 41 115 8 41 115 0 41 123 8 41 123 0 41 132 8 41 132 8 49 107 16 49 107
+       0 49 115 0 49 123 0 49 132 8 49 115 8 49 123 8 49 132 8 57 123 8 57 132 24 49 107 16 49 115 16 49 123 20 53 115 16 53 127 16 57 132 8 66 132 16 66 132
+       24 57 107 33 57 107 33 66 107 41 57 107 41 66 107 24 57 115 33 57 115 33 66 115 24 57 123 24 57 132 24 66 123 30 63 126 33 66 132 41 57 115 41 66 115 41 66 123
+       41 74 115 41 74 123 49 57 99 49 57 107 49 66 99 49 66 107 49 66 115 49 74 107 57 66 103 57 74 107 57 66 115 49 76 120 57 74 119 57 82 119 66 78 115 74 86 121
+       0 41 140 0 49 140 8 49 140 0 41 148 0 41 156 0 49 148 0 49 156 8 49 152 8 57 140 0 57 148 8 57 148 0 57 156 8 57 156 8 66 140 8 66 148 8 66 156
+       8 74 148 16 57 140 16 57 148 16 57 156 16 66 140 16 66 148 16 66 156 16 74 148 24 57 140 24 66 140 24 66 148 24 74 148 37 70 132 34 70 141 49 74 132 41 74 144
+       0 49 165 0 53 169 8 49 165 8 57 165 0 57 173 8 57 173 16 57 169 8 70 169 16 66 165 16 66 173 16 74 156 16 74 165 16 74 173 24 66 156 24 66 165 28 74 160
+       0 49 181 5 57 183 8 66 181 16 57 181 16 66 181 8 66 189 16 66 189 8 74 181 16 74 181 16 74 189 16 74 198 24 66 173 24 66 181 24 74 173 24 74 181 24 74 189
+       16 82 156 21 82 162 16 82 173 24 82 173 16 82 181 24 82 181 16 82 189 24 74 198 16 90 169 24 82 189 16 82 198 24 82 198 16 90 185 16 90 198 16 99 181 16 110 192
+       28 86 175 24 90 189 28 86 193 33 90 189 24 99 181 27 101 189 24 115 189 24 123 189 54 84 132 66 82 132 53 86 136 52 87 149 66 96 140 76 94 134 71 102 149 84 113 159
+       24 82 206 24 90 206 24 99 198 33 82 202 33 90 198 24 99 206 33 90 206 38 93 200 24 107 198 33 107 198 24 107 206 33 99 206 24 107 214 33 99 214 37 103 206 39 105 214
+       24 115 198 24 123 198 24 115 206 24 119 210 33 115 206 41 117 203 33 115 222 43 115 216 24 132 202 24 140 206 29 126 210 33 127 218 39 125 216 47 126 220 37 137 218 53 147 229
+    </PALETTE>
+    <PALETTE number="17" colorsUsed="256">
+       108 20 37 92 20 36 79 20 38 66 20 40 88 29 59 105 46 80 118 64 97 56 22 44 72 28 59 87 40 74 89 53 82 147 89 137 87 44 87 96 59 96 72 36 73 111 73 112
+       72 45 75 39 21 46 55 28 67 70 42 84 110 57 141 74 53 86 149 75 202 95 53 124 80 50 104 71 45 94 56 36 74 60 36 84 80 42 130 110 58 177 62 35 98 53 28 90
+       60 44 84 86 44 157 62 36 112 88 53 157 42 32 61 52 36 84 60 44 93 52 28 105 58 28 137 83 42 184 52 28 117 61 36 124 69 42 138 106 68 205 44 28 84 52 36 92
+       64 45 112 71 43 151 44 28 92 92 58 190 83 54 170 39 28 71 72 42 167 72 53 138 44 28 108 52 36 116 73 52 153 52 37 107 61 44 124 67 54 118 52 44 83 57 52 76
+       44 28 116 60 39 150 52 36 124 57 41 132 44 36 80 40 28 100 58 41 140 52 44 96 28 20 76 36 28 84 44 36 92 28 20 84 36 28 92 44 36 108 44 36 100 44 36 124
+       44 36 116 52 44 124 52 45 116 77 69 197 59 52 149 58 52 137 48 44 157 47 44 148 55 54 104 20 20 92 20 20 84 20 20 76 28 28 100 36 36 124 20 20 68 28 28 92
+       36 36 116 55 56 168 36 36 108 28 28 84 44 45 124 36 36 100 28 28 76 44 45 116 36 36 92 44 44 108 36 36 84 28 28 65 44 44 100 44 44 92 44 44 84 54 59 199
+       56 59 184 36 44 165 44 52 188 45 52 180 44 51 164 60 68 220 38 44 136 46 52 156 28 36 148 28 36 140 52 68 252 52 68 244 28 36 132 36 44 156 60 76 252 36 44 148
+       44 52 172 44 52 148 36 52 196 44 60 228 36 52 188 44 60 220 44 60 212 44 60 204 52 68 236 44 60 196 52 68 228 52 68 220 60 76 244 52 68 212 60 76 228 55 68 201
+       36 45 124 36 44 116 50 60 146 28 44 164 44 68 246 28 44 156 44 68 236 44 68 228 36 52 180 52 76 252 36 52 172 52 76 244 20 28 92 52 76 236 36 52 164 44 60 188
+       28 39 121 60 84 252 20 28 84 60 84 244 44 60 180 28 37 101 28 36 92 36 44 100 44 52 108 36 60 204 36 60 196 28 44 148 44 68 220 28 44 140 44 68 212 28 44 132
+       44 68 204 52 76 228 36 52 156 52 76 220 36 52 148 44 61 172 20 28 76 44 60 164 40 53 137 33 44 108 28 36 84 36 44 92 44 52 100 36 60 188 36 60 180 52 84 252
+       36 60 172 52 84 244 44 68 196 60 92 252 20 28 68 47 65 156 18 25 59 28 36 76 36 44 84 36 43 76 44 52 92 28 52 148 36 61 164 28 36 68 44 52 84 28 52 138
+       20 36 92 36 62 151 36 52 109 36 43 68 52 60 90 44 60 109 20 36 84 28 44 92 36 52 100 12 28 68 20 36 76 36 60 119 28 44 84 36 52 92 20 44 95 44 61 100
+       28 57 117 28 52 102 39 73 138 20 36 68 36 60 108 28 44 76 36 52 84 44 60 92 53 70 103 60 77 113 74 92 130 23 36 60 20 44 84 28 52 90 36 60 100 37 52 76
+       38 69 117 28 44 68 44 60 84 20 44 76 51 93 149 46 82 129 36 60 92 37 68 107 59 107 167 50 69 92 66 86 111 69 126 187 20 44 68 36 60 84 28 52 75 92 164 227
+    </PALETTE>
+    <PALETTE number="18" colorsUsed="256">
+       0 0 0 18 98 134 18 94 130 18 90 122 11 54 74 22 102 138 22 98 134 22 94 126 30 126 170 16 58 78 19 62 82 10 58 78 14 78 106 18 98 130 18 94 126 22 106 142
+       23 110 146 18 86 114 26 122 162 18 84 110 22 102 134 22 98 130 26 114 150 30 130 170 34 142 186 30 126 166 30 122 162 22 90 118 19 70 90 28 61 74 30 58 69 3 46 61
+       8 62 82 11 70 91 14 82 107 13 76 98 18 104 134 14 78 102 18 98 126 18 94 122 22 114 146 22 110 142 18 90 118 22 106 138 26 126 162 26 122 158 26 118 154 22 102 130
+       30 134 174 26 118 150 22 98 126 26 114 146 30 130 166 26 110 142 22 94 122 34 142 182 30 126 162 34 138 178 30 122 158 14 58 74 30 122 154 22 90 114 34 134 173 31 119 150
+       30 114 144 31 100 124 18 54 68 29 86 106 27 79 98 34 86 106 40 94 114 26 58 70 48 102 122 43 85 100 2 55 73 6 69 90 5 52 67 6 59 76 14 87 111 10 58 74
+       18 102 130 7 36 46 18 94 118 26 130 166 22 110 138 18 90 114 26 130 162 11 54 68 26 126 158 22 106 134 30 141 178 26 122 154 24 114 142 30 138 174 34 150 190 30 134 170
+       14 62 78 34 149 186 30 134 166 34 146 182 30 130 162 22 94 118 34 142 178 30 126 158 23 98 122 34 138 174 34 138 170 27 104 130 21 75 92 28 94 115 35 113 138 20 61 75
+       38 106 127 30 83 100 27 74 90 22 58 70 27 70 84 37 91 108 35 84 100 20 44 52 43 94 110 42 90 106 53 107 124 6 74 93 6 67 84 10 69 86 18 102 126 18 98 122
+       30 146 178 26 126 154 30 142 174 26 122 150 34 154 190 30 138 170 26 118 146 29 130 158 23 102 126 34 150 182 30 134 162 34 146 178 21 89 108 34 142 174 31 126 154 29 110 134
+       34 119 144 20 69 83 29 98 117 18 58 70 28 91 108 28 78 93 45 118 139 46 112 131 35 80 93 44 99 115 51 101 116 59 116 133 49 97 110 59 110 125 58 106 119 64 116 130
+       35 62 70 72 126 141 44 69 76 5 51 62 11 75 92 10 64 78 12 68 82 18 94 114 16 79 95 30 142 170 30 138 166 22 98 117 14 62 74 22 94 113 24 102 121 26 106 126
+       21 83 99 20 67 78 30 62 70 6 58 70 10 62 73 12 58 68 22 62 70 22 57 64 28 68 76 26 62 70 26 58 65 25 53 59 53 107 118 2 55 65 13 74 84 11 52 60
+       14 67 76 21 90 102 18 57 64 28 75 84 43 91 99 36 69 75 15 63 70 20 75 84 28 91 100 37 91 99 38 78 83 76 103 106 87 114 117 20 69 74 39 103 108 33 85 89
+       32 57 59 14 51 53 28 68 70 28 63 65 44 76 78 67 96 98 100 127 129 114 143 145 13 59 61 17 63 65 20 68 70 36 68 69 51 81 82 58 88 89 21 74 75 28 75 76
+       35 76 76 28 82 80 19 58 56 47 100 97 29 54 52 37 62 60 44 72 70 21 74 69 38 84 79 23 65 60 28 75 69 15 51 45 45 92 84 35 78 69 44 68 63 13 44 37
+       53 76 71 53 100 88 59 110 93 42 61 54 19 49 37 25 54 42 69 122 100 12 37 26 71 95 84 62 85 74 85 142 109 20 45 30 51 69 58 58 76 63 44 57 42 2 2 2
+    </PALETTE>
+    <PALETTE number="19" colorsUsed="256">
+       0 0 0 248 248 248 5 6 16 60 83 249 58 80 241 56 79 231 41 57 167 28 39 115 63 88 254 55 76 222 54 74 214 52 71 206 49 68 194 46 64 183 46 63 179 43 59 166
+       64 87 243 59 80 219 41 55 154 45 61 166 43 57 156 53 71 190 45 59 162 43 57 153 45 59 158 43 57 151 43 57 149 16 21 55 45 59 153 28 44 138 30 47 144 27 43 130
+       33 50 147 35 53 153 34 51 150 37 54 159 49 69 198 47 66 189 37 53 149 36 51 145 35 51 142 39 57 156 39 55 154 35 50 138 44 62 171 41 57 160 37 53 144 31 45 121
+       66 93 255 52 72 200 43 61 166 42 59 162 39 55 150 38 53 147 37 51 142 35 49 134 49 68 186 43 61 162 41 57 156 37 53 141 34 47 129 31 43 117 60 82 224 55 76 206
+       52 72 193 51 70 190 49 67 182 42 59 158 41 57 153 39 55 146 35 49 130 28 39 104 55 75 202 55 77 202 54 75 198 48 67 178 47 65 174 45 63 166 41 57 151 39 53 143
+       39 55 143 37 51 137 34 47 126 33 46 122 31 43 114 30 42 110 29 41 107 27 38 100 70 96 255 64 88 234 63 86 228 59 81 214 57 79 207 51 71 186 50 70 182 47 65 170
+       41 57 149 39 53 141 37 51 134 26 36 94 70 96 250 67 92 239 64 87 229 61 83 217 59 81 210 54 75 194 53 73 190 50 69 178 45 62 162 43 59 155 43 59 153 41 55 146
+       41 57 146 39 53 139 33 45 118 72 99 254 69 94 245 63 86 224 62 85 220 61 83 214 56 77 199 53 71 186 49 67 174 43 59 151 39 53 137 37 50 130 24 33 85 21 29 74
+       71 96 246 67 92 234 66 90 230 58 78 202 49 67 170 18 25 63 14 19 49 74 102 255 60 81 207 54 73 186 53 71 182 48 65 166 46 62 158 43 59 148 41 55 140 39 53 134
+       33 45 114 74 100 250 62 82 209 57 76 193 51 69 174 42 57 142 37 50 125 72 97 241 71 95 237 67 89 223 64 86 214 60 80 200 53 72 178 46 62 154 41 55 137 39 53 130
+       36 49 120 33 45 111 77 103 255 74 100 246 66 88 217 62 82 204 59 78 196 55 73 181 53 71 174 51 69 169 45 59 148 77 103 250 46 62 150 41 55 134 71 94 228 65 86 209
+       58 76 187 53 71 170 43 57 138 60 79 191 55 73 174 81 107 251 58 76 181 79 103 242 76 99 233 72 94 220 57 75 175 66 86 199 35 53 142 35 53 139 39 57 150 41 59 155
+       31 45 118 41 59 153 37 53 139 7 10 26 43 61 158 41 59 151 37 53 137 41 59 148 39 55 141 43 61 154 39 55 139 12 17 43 43 61 150 41 57 143 10 14 35 47 65 162
+       43 61 147 30 42 103 75 105 255 43 59 144 78 106 255 50 68 163 48 66 157 79 109 255 46 62 146 81 110 255 53 71 166 49 66 150 56 74 169 46 62 138 3 4 9 83 111 241
+       36 47 104 53 70 151 90 118 255 37 55 137 83 114 255 86 117 255 89 121 255 61 81 170 92 124 255 53 70 141 52 68 133 95 128 255 47 63 123 99 133 255 17 17 5 68 64 17
+       199 187 51 224 211 58 142 134 37 33 31 9 51 47 13 249 233 65 182 170 47 116 108 31 249 249 249 231 231 231 200 200 200 133 133 133 82 82 82 33 33 33 17 17 17 1 1 1
+    </PALETTE>
+    <PALETTE number="20" colorsUsed="256">
+       14 40 77 14 38 75 14 38 73 14 36 71 14 36 69 24 8 24 56 40 56 88 72 88 120 104 120 235 209 238 104 88 110 168 152 176 184 168 193 40 24 54 88 71 104 24 8 40
+       56 40 72 120 104 136 152 136 168 72 56 94 204 179 240 186 166 218 158 127 217 88 71 120 120 103 152 153 136 184 56 40 88 104 85 145 40 24 76 120 100 168 168 152 212 56 40 104
+       88 71 136 122 101 184 138 118 197 152 136 200 57 40 120 88 71 152 170 150 244 72 56 142 125 103 218 104 87 177 120 104 200 104 88 202 121 120 216 8 8 40 40 40 120 24 24 72
+       8 8 24 40 40 104 83 83 201 24 24 56 81 81 184 40 40 88 56 56 120 72 72 152 104 104 218 82 82 168 122 122 234 104 104 200 56 56 104 40 40 72 104 104 184 88 88 152
+       120 120 200 72 72 120 24 24 40 144 145 239 104 104 168 136 136 216 56 56 88 88 88 136 120 120 184 104 104 152 72 72 104 152 152 216 120 120 168 40 40 56 88 88 120 152 152 200
+       104 104 136 168 168 216 56 56 72 120 120 152 136 136 168 72 72 88 152 152 184 168 168 200 88 88 104 184 184 216 104 104 120 152 152 168 53 56 140 134 136 200 174 176 248 178 179 232
+       204 205 232 68 72 136 133 136 184 200 204 248 203 204 214 55 70 160 102 120 220 121 123 136 184 186 198 84 104 208 40 56 120 86 104 175 118 138 220 102 122 200 136 154 216 56 87 189
+       24 40 88 40 56 104 56 72 120 72 88 136 168 171 180 67 92 154 102 125 184 147 175 242 134 153 200 8 24 56 24 40 72 40 56 88 56 72 104 72 88 120 24 54 106 40 72 130
+       90 148 241 8 40 88 149 171 205 84 107 139 98 123 152 126 153 184 164 189 218 8 40 72 8 24 40 37 91 148 24 56 88 40 72 104 24 40 56 56 88 121 40 56 72 96 131 168
+       72 88 104 119 139 160 104 120 136 183 202 221 142 143 144 136 153 168 168 185 200 8 56 88 24 74 109 148 169 182 52 72 83 8 40 56 24 56 72 56 88 104 85 104 113 8 61 72
+       212 232 236 52 105 113 22 77 84 47 129 136 40 88 91 8 56 56 8 40 40 8 24 24 24 40 40 40 56 56 104 120 120 24 58 56 71 89 88 40 121 104 55 109 85 24 56 37
+       68 88 72 102 122 104 8 24 8 40 57 40 24 40 19 214 232 206 151 169 139 87 105 73 71 88 56 135 152 120 104 121 88 56 75 26 88 106 56 120 136 93 84 107 40 71 88 40
+       104 121 72 136 153 104 81 109 24 109 136 52 152 169 116 126 152 68 143 169 85 172 189 121 72 86 24 187 192 168 105 117 53 120 131 72 44 47 23 70 72 56 139 142 87 174 175 144
+       24 24 8 88 88 40 72 72 40 88 88 56 152 152 104 104 104 72 56 56 40 120 120 88 136 136 104 152 152 120 88 88 72 104 104 88 120 120 104 136 136 120 121 121 120 173 168 119
+       185 174 101 168 150 88 208 185 135 88 72 40 104 88 56 230 217 192 239 230 211 120 103 71 216 202 177 155 136 104 171 151 117 138 120 96 206 185 157 88 72 56 238 237 236 202 166 134
+       152 135 120 104 86 74 121 101 88 171 152 141 72 56 51 40 24 24 56 40 40 88 72 72 122 104 104 104 104 104 88 88 88 72 72 72 56 56 56 40 40 40 24 24 24 8 8 8
+    </PALETTE>
+  </PALETTELIST>
+</BANK>

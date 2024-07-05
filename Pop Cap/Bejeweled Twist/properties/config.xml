@@ -1,0 +1,75 @@
+<Properties>
+  
+	<!-- Number of rows, columns in game board  -->
+	<Integer id="GameRows">	8		</Integer>
+	<Integer id="GameColumns">	8		</Integer>
+
+ 
+
+  <!-- what is the first level they appear on? -->
+  <Integer id="LevelUpPointsFirstLevel"> 1 </Integer>
+
+  <!-- what is the value for that first level -->
+  <Integer id="LevelUpPointsBase"> 2000 </Integer>
+
+  <!-- what is the change to the value? -->
+  <Integer id="LevelUpPointsChange"> 1000 </Integer>
+
+
+  <!-- maximum number of lock gems on screen (on game modes that allow them at all) -->
+  <Integer id="MaxLocksOnScreen"> 8 </Integer>
+  
+
+  <!-- gem combo size required to get "amnesty" on bad gem appearing next move -->
+  <Integer id="AmnestyGemCount"> 8 </Integer>
+
+  
+  <Integer id="BonusChallengeMinGems"> 4 </Integer>
+  <Integer id="BonusChallengeMaxGems"> 4 </Integer>
+
+
+
+
+
+  <!--              COUNTER GEMS                 -->
+  <!-- what is the first level they appear on? -->
+  <Integer id="CounterFirstLevel"> -1 </Integer>
+
+  
+  <!--               LOCK GEMS                      -->
+  <!-- what is the first level they appear on? -->
+  <Integer id="LockGemFirstLevel"> -1 </Integer>
+
+
+  <!--                  SKULL GEMS                   -->
+  <!-- what is the first level they appear on? -->
+  <Integer id="SkullsFirstLevel"> -1 </Integer>
+
+
+  <!--             DEVIL GEMS               -->
+  <!-- what is the first level they appear on? -->
+  <Integer id="DevilFirstLevel"> -1 </Integer>
+  <Integer id="DevilTurnBetweenChange"> 0 </Integer>
+
+
+
+  <!--               Coal GEMS                      -->
+  <!-- what is the first level they appear on? -->
+  <Integer id="CoalGemFirstLevel"> -1 </Integer>
+
+
+  
+  
+
+  <!--  overall multiplier of points for each move based on what game you're playing -->
+  <Integer id="ModeMultiplier"> 1 </Integer>
+
+
+  <Boolean id="IceGemsAllowed"> false </Boolean>
+  <Integer id="CoalMax"> 0 </Integer>
+
+
+  <Integer id="CounterTurnsBetweenChange" > 0 </Integer>
+  <Integer id="LockGemTurnsBetweenChange" > 0 </Integer>
+
+</Properties>

@@ -1,0 +1,8 @@
+﻿<Properties>
+  <Boolean id="DefaultWindowed">false</Boolean>
+  <Boolean id="DontUpdate">true</Boolean>
+  <String id="PeggleDownloadUrl">http://www.popcap.com/promos/pegglewowoffers?cid=pegglewow_offer</String>
+  <String id="ProdName">PeggleWoW</String>
+  <String id="RegistryKey">PopCap\PeggleWoW</String>
+  <String id="WoWDownloadUrl">http://www.warcraft.com</String>
+</Properties>

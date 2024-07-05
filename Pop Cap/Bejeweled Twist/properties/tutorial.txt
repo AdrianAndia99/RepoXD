@@ -1,0 +1,218 @@
+
+:basics2
+tube hide
+level -1
+points 0
+tubegoal 50
+title " "
+waitfor preload
+countergem -1
+row 03241432
+row 35120354
+row 52033152
+row 02314212
+row 14660401
+row 01241362
+row 35120346
+row 52021632
+row 03242512
+row 35110146
+row 52033422
+loadboard
+waitfor ready
+textbox "Welcome to Bejeweled Twist! \n Rotate gems ^ffff00^clockwise^ffffff^ with your cursor." nobuttons 3,-1
+waitfor 1 matches
+textbox hide
+tube show
+waitfor levelup
+unlock classic
+unlock flamegem
+unlock lightninggem
+textbox "You've ^00ff00^graduated^ffffff^ basic training! \n Time to start your first game!" vcenter graduate
+textbox "You've ^00ff00^graduated^ffffff^ basic training! \n Time to start your first game!" vcenter graduate
+textbox "You've ^00ff00^graduated^ffffff^ basic training! \n Time to start your first game!" vcenter graduate
+textbox "You've ^00ff00^graduated^ffffff^ basic training! \n Time to start your first game!" vcenter graduate
+swapspeed 1.0
+end
+
+:basics
+moves disallowed
+tube hide
+level -1
+points 0
+tubegoal 1000
+title " "
+swapspeed .3
+waitfor preload
+countergem -1
+row 03241432
+row 35120354
+row 52033152
+row 02314212
+row 14660401
+row 01241362
+row 35120346
+row 52021632
+row 03242512
+row 35110146
+row 52033422
+loadboard
+waitfor ready
+textbox "Welcome to Bejeweled Twist! \n Rotate gems ^ffff00^clockwise^ffffff^ with your cursor." nobuttons 3,-1
+
+moves allowed
+forcemove 3,6
+
+textbox "Notice how all ^ffff00^4 gems^ffffff^ rotate clockwise? \n Go ahead and twist again to ^ffff00^make a set of 3^ffff00^!" nobuttons 3,-1
+swapspeed .35
+matchdelay 2
+forcemove 3,6
+waitfor 0.5 seconds
+textbox "^ffff00^Make another match^ffffff^ now,\n by ^00ff00^twisting^ffffff^ the gems below." nobuttons 3,3
+waitfor ready
+swapspeed .4
+matchdelay 2
+forcemove 6,5
+waitfor 0.5 seconds
+textbox "You're getting the twist of things! \n^ffff00^Make a 3 gem match^ffffff^ on your own." nobuttons 0,2
+swapspeed 0.5
+waitfor 1 matches
+textbox "Not every move needs to match. \n Make another set of 3 now!" nobuttons 0,2
+//hint "Match 3 gems in a row!"
+swapspeed 0.6
+waitfor 1 matches
+textbox "Gems always spin ^ffff00^clockwise.^ffffff^ \n Make one more set to go on!" nobuttons 0,2
+swapspeed 0.7
+waitfor 1 matches
+textbox hide
+
+//title "Lesson 2\nA Fiery Friend"
+//levelup
+
+
+//:tubeintro
+
+tube show
+tube hide chains
+tube hide rank
+waitfor ready
+pointat tube
+textbox "Each match you make adds to the ^ffff00^Tube^ffffff^. \n Fill the Tube with gems to ^ffff00^level up^ffffff^!" nobuttons 0,2
+swapspeed .7
+waitfor 3 matches
+textbox hide
+//swapspeed .8
+//textbox "Nice work! Keep making matches until the Tube is full." nobuttons 0,2
+//waitfor 3 matches
+swapspeed .9
+//textbox "The more points you score, the faster the Tube fills up!" nobuttons 0,2
+//waitfor 3 matches
+//textbox "Watch for sparkles! These hints show you potential match-ups." nobuttons 0,2
+//waitfor 3 matches
+//textbox "You're almost there! Just a few more and you'll complete the tutorial." nobuttons 0,2
+//waitfor 3 matches
+
+//rankup
+waitfor levelup
+unlock classic
+unlock flamegem
+unlock lightninggem
+
+textbox "You have ^00ff00^completed^ffffff^ the tutorial. \n Get ready to twist!" vcenter graduate
+waitfor 0.5 seconds
+swapspeed 1.0
+//points 0
+
+//tube show chains
+//tube show rank
+//waitfor ready
+
+end
+
+
+
+:flamegem
+textbox "You can make a ^00ff00^FLAME GEM^ffffff^ by matching 4 in a row! It will explode when matched!" right okreplay
+//textbox "Match it to see what it does!" right
+end
+
+
+
+
+
+:bombgem
+waitfor ready
+textbox "Watch out for this ^ffff00^Bomb Gem^ffffff^! \n Match it before it ticks down to zero!" bottom
+//textbox "Match the Bomb Gem to get rid of it!" nobuttons 1,-3
+end
+
+
+
+:lightninggem
+waitfor ready
+textbox "You made a ^00ff00^LIGHTNING GEM^ffffff^ by matching \n 5 gems in a row!" right okreplay
+//textbox "Match it to see what it does!" right
+//hint "Match the Lightning Gem!"
+end
+
+
+:chains2x
+waitfor ready
+pointat chains
+textbox "You got a ^ffff00^2x Score Multiplier^ffffff^ by making 4 matches in a row! Keep going for a ^00ff00^bigger bonus^ffffff^ !"
+end
+        
+//:chains3x
+//waitfor ready
+//pointat chains
+//textbox "You got a 3x Score Multiplier by filling the Chain Meter!\n Keep making chains to earn even bigger multipliers!" 1,1
+//pointat chains
+//end
+
+:skullintro
+waitfor ready
+textbox "What's this?  This ^ffff00^SKULL^ffffff^ is chomping thru your gems! Destroy it before it hits the bottom!" left
+//pointat shards
+//textbox "If the Skull reaches the bottom, it will destroy one of your Shards!" 6,1
+end
+
+:lockintro
+waitfor ready
+textbox "This ^ffff00^LOCKED GEM^ffffff^ can't be moved, but you can still match it!" left
+end
+
+:devilintro
+waitfor ready
+textbox "This ^ff0000^DOOM GEM^ffffff^ ticks down like a Bomb Gem, but only on matchless moves!\n\nYou can't match it or move it, you'll need to destroy it with Fire or Lightning!" left
+end
+
+:coal
+waitfor ready
+textbox "These inert ^ffff00^COAL GEMS^ffffff^ can't be matched, but break them apart with flame gems or lightning gems to earn a bonus." left anim:images\\NonResize\\pam\\twistpam.pam,COAL,0,50,516,260 space:285
+end
+
+:shardloss
+pointat shards
+textbox "Ouch! One of your ^ffff00^SHARDS^ffffff^ was destroyed!" 7,1
+textbox "Be careful, if you lose them all, the game's over..." 7,1
+end
+
+:fruitintro
+//textbox "You got a ^ffff00^FRUIT GEM^ffffff^! These rare jewels are difficult to find! How many can you locate?" left
+//textbox "Fruit Gems have many valuable properties... experiment to find them all!" left
+end
+
+:iceintro
+textbox "You've created an ^8080ff^ICE GEM^ffffff^ by making an 'X' with 5 gems. Match it for Time Freeze!" right
+//textbox "Match it to see what it does!" right
+end
+
+:wheel
+textbox "Oh no!  The ^ff0000^Bomb Gem^ffffff^ ticked down to zero... but you have one last chance to defuse it!"
+end
+
+:supernova
+textbox "Wow! You made a ^00ff00^SUPERNOVA GEM^ffffff^ by matching 6 or more gems in a row!" right okreplay
+end
+
+

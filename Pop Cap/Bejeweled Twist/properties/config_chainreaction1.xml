@@ -1,0 +1,75 @@
+<Properties>
+  <!--              COUNTER GEMS                 -->
+  <!-- what is the first level they appear on? -->
+  <Integer id="CounterFirstLevel"> -1 </Integer>
+  
+  <!-- what is the value for that first level -->
+  <Integer id="CounterBase"> 10 </Integer>
+  
+  <!-- does this value decrement based on turns or gems? -->
+  <Boolean id="CounterTurnBased"> false </Boolean>
+  
+  <!-- how many level ups until the value changes -->
+  <Integer id="CounterLevelsBetweenChange" > 2 </Integer>
+  
+  <!-- what is the change to the value? -->
+  <Integer id="CounterChange"> -1 </Integer>
+  
+  <!-- what level does this value start to change? -->
+  <Integer id="CounterFirstChangeLevel"> 6 </Integer>
+  
+  <!-- what is the minimum the value can be? -->
+  <Integer id="CounterMin"> 10 </Integer>
+
+  
+  
+  <!-- what is the initial value of the counter as levels increase? -->
+  <Integer id="CounterValueFirstLevel"> -1 </Integer>
+  
+  <!-- what is the value for that first level -->
+  <Integer id="CounterValueBase"> 15 </Integer>
+  
+  <!-- how many level ups until the value changes -->
+  <Integer id="CounterValueLevelsBetweenChange" > 2 </Integer>
+  
+  <!-- what is the change to the value? -->
+  <Integer id="CounterValueChange"> -1 </Integer>
+  
+  <!-- what level does this value start to change? -->
+  <Integer id="CounterValueFirstChangeLevel"> 4 </Integer>
+  
+  <!-- what is the minimum the value can be? -->
+  <Integer id="CounterValueMin"> 8 </Integer>
+  
+  <Integer id="CounterValueMax"> 20 </Integer>
+
+
+  
+
+  
+  <!--               LOCK GEMS                      -->
+  <!-- what is the first level they appear on? -->
+  <Integer id="LockGemFirstLevel"> -1 </Integer>
+  
+  <!-- what is the value for that first level -->
+  <Integer id="LockGemBase"> 5 </Integer>
+  
+  <!-- does this value decrement based on turns or gems? -->
+  <Boolean id="LockGemTurnBased"> true </Boolean>
+  
+  <!-- how many level ups until the value changes -->
+  <Integer id="LockGemLevelsBetweenChange" > 3 </Integer>
+  
+  <!-- what is the change to the value? -->
+  <Integer id="LockGemChange"> -1 </Integer>
+  
+  <!-- what is the minimum the value can be? -->
+  <Integer id="LockGemMin"> 5 </Integer>
+
+  <Integer id="DevilFirstLevel"> -1 </Integer>
+  <Integer id="DevilValueBase"> 1 </Integer>
+  <Integer id="DevilValueMin"> 1 </Integer>
+  <Integer id="DevilValueChange"> 0 </Integer>
+  
+  
+</Properties>

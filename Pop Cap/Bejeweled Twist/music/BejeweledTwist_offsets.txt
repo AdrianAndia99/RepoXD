@@ -1,0 +1,9 @@
+Offsets:
+
+00 = 5 minute challenge
+18 = Fanfare: moderate
+1A = Fanfare: good
+1C = Fanfare: excellent
+1E = Challenge Selector
+21 = Turn challenge
+28 = Untimed challenge

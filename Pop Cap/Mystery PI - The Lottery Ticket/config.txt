@@ -1,0 +1,3 @@
+distributorlink=
+distributorname=PopCapv1005
+fullscreen=1

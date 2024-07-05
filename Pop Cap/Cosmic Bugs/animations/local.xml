@@ -1,0 +1,42 @@
+<localization>
+	<string index="Please type a new name." value="Please type a new name."/>
+	<string index="EMPTY" value="EMPTY"/>
+	<string index="You must always have at" value="You must always have at"/>
+	<string index="least one player active!" value="least one player active!"/>
+	<string index="AUTO" value="AUTO"/>
+	<string index="MANUAL" value="MANUAL"/>
+	<string index="ON" value="ON"/>
+	<string index="OFF" value="OFF"/>
+	<string index="FULLSCREEN" value="FULLSCREEN"/>
+	<string index="WINDOW" value="WINDOW"/>
+	<string index="CENTERED" value="CENTERED"/>
+	<string index="STRETCHED" value="STRETCHED"/>
+	<string index="EASY" value="EASY"/>
+	<string index="NORMAL" value="NORMAL"/>
+	<string index="HARD" value="HARD"/>
+	<string index="USERNAME" value="USERNAME"/>
+	<string index="CLICK HERE WHEN DONE" value="CLICK HERE WHEN DONE"/>
+	<string index="CLICK HERE TO START" value="CLICK HERE TO START"/>
+	<string index="CLICK HERE TO CONTINUE" value="CLICK HERE TO CONTINUE"/>
+	<string index="CLICK HERE TO PLAY" value="CLICK HERE TO PLAY"/>
+	<string index="CLICK HERE TO START!" value="CLICK HERE TO START!"/>
+	<string index="Not You? Click Here." value="Not You? Click Here."/>
+	<string index="Great Job!  Now try filling" value="Great Job!  Now try filling"/>
+	<string index="some more of the playfield!" value="some more of the playfield!"/>
+	<string index="in the rest of the playfield." value="in the rest of the playfield."/>
+	<string index="Welcome to Water Bugs!" value="Welcome to Water Bugs!"/>
+	<string index="Try clicking anywhere in the playfield." value="Try clicking anywhere in the playfield."/>
+	<string index="LEVEL FINISHED!" value="LEVEL FINISHED!"/>
+	<string index="CLICK TO CONTINUE" value="CLICK TO CONTINUE"/>
+	<string index="CONGRATULATIONS!" value="CONGRATULATIONS!"/>
+	<string index="PERCENT FILLED:" value="PERCENT FILLED:"/>
+	<string index="LEVEL FINISHED!" value="LEVEL FINISHED!"/>
+	<string index="AMOUNT YOU FILLED" value="AMOUNT YOU FILLED"/>
+	<string index="ALL ENEMIES DESTROYED!" value="ALL ENEMIES DESTROYED!"/>
+	<string index="Are you sure?" value="Are you sure?"/>
+	<string index="Delete " value="Delete "/>
+	<string index="(Your game will be saved)" value="(Your game will be saved)"/>
+	<string index="Do you really want to quit?" value="Do you really want to quit?"/>
+	<string index="Please type in your name." value="Please type in your name."/>
+	<string index="BONUS POINTS" value="BONUS POINTS"/>
+</localization>

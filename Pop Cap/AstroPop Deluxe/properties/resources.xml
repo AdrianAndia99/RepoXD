@@ -1,0 +1,1072 @@
+<?xml version="1.0"?>
+
+<ResourceManifest>	
+
+	<!--			STORY PANEL RELATED IMAGES				-->
+	
+	<!-- ************************************************** -->
+	<!-- ************************************************** -->
+	<!--					VECTOR							-->
+	<!-- ************************************************** -->
+	<!-- ************************************************** -->
+	<Resources id="VectorPage1">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_VP1_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="cp_vixx_worry1" static="1" noalpha="true" delay="50"/>
+		<Image id="TPIC2"					path="cp_vixx_worry2" noalpha="true" delay="50"/>
+		<Image id="TPIC3"					path="cp_vixx_worryblink" lastanimframe="1"  noalpha="true" delay="25"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="cp_vector_blink" noalpha="true" delay="25"/>
+		<Image id="BPIC2"					path="cp_vector_forward" lastanimframe="1" noalpha="true" delay="175"/>
+	</Resources>
+	
+	<Resources id="VectorPage2">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_VP2_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="cp_vector_idle" noalpha="true" delay="25"/>
+		<Image id="TPIC2"					path="cp_vector_idle" lastanimframe="1" noalpha="true" delay="25"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="cp_vixx_worry1" static="1" noalpha="true" delay="50"/>
+		<Image id="BPIC2"					path="cp_vixx_worry2" noalpha="true" delay="50"/>
+		<Image id="BPIC3"					path="cp_vixx_worryblink" lastanimframe="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<Resources id="VectorPage3">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_VP3_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="cp_vixx_blink" noalpha="true" delay="25"/>
+		<Image id="TPIC2"					path="cp_vixx_down" lastanimframe="1" noalpha="true" delay="225"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="story_unlockvixx" noalpha="true" delay="25"/>
+		<Image id="BPIC2"					path="story_unlockvixx" lastanimframe="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<Resources id="VectorPage4">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_VP4_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="story_bigmoney" lastanimframe="1" noalpha="true" delay="25"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="cp_vector_idle" noalpha="true" delay="25"/>
+		<Image id="BPIC2"					path="cp_vector_idle" lastanimframe="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<Resources id="VectorPage5">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_VP5_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="cp_vector_down" noalpha="true" delay="175"/>
+		<Image id="TPIC2"					path="cp_vector_forward" lastanimframe="1" noalpha="true" delay="275"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="story_bigmoney_left" lastanimframe="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<Resources id="VectorPage6">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_VP6_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="story_astrocopdonut" lastanimframe="1" noalpha="true" delay="25"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="cp_vector_idle" noalpha="true" delay="25"/>
+		<Image id="BPIC2"					path="cp_vector_idle" lastanimframe="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<Resources id="VectorPage7">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_VP7_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="story_protoxx2" lastanimframe="1" cols="9" noalpha="true" delay="14"/>
+
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE" 	path="cp_vector_idle" lastanimframe="1" noalpha="true" delay="325"/>
+
+	</Resources>
+	
+	<Resources id="VectorPage8">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_VP8_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="cp_vector_happy1" noalpha="true" delay="25"/>
+		<Image id="TPIC2"					path="cp_vector_happy2" noalpha="true" delay="25"/>
+		<Image id="TPIC3"					path="cp_vector_happy3" lastanimframe="1" noalpha="true" delay="125"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="story_bigmoney" lastanimframe="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<Resources id="VectorPage9">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_VP9_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="cp_vector_idle" lastanimframe="1" noalpha="true" delay="25"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="story_evilturbot" noalpha="true" delay="25"/>
+		<Image id="BPIC2"					path="story_evilturbot" lastanimframe="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<!-- ************************************************** -->
+	<!-- ************************************************** -->
+	<!--					VIXX							-->
+	<!-- ************************************************** -->
+	<!-- ************************************************** -->
+	<Resources id="VixxPage1">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_VXP1_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="cp_vixx_blink" noalpha="true" delay="25"/>
+		<Image id="TPIC2"					path="cp_vixx_forward" lastanimframe="1" noalpha="true" delay="425"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="story_protoxx1" cols="9" lastanimframe="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<Resources id="VixxPage2">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_VXP2_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="story_evilturbot_wanted" lastanimframe="1" noalpha="true" delay="25"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="cp_vixx_worry1" noalpha="true" delay="125"/>
+		<Image id="BPIC2"					path="cp_vixx_worry2" noalpha="true" delay="25"/>
+		<Image id="BPIC3"					path="cp_vixx_worryblink" lastanimframe="1" noalpha="true" delay="15"/>
+	</Resources>
+	
+	<Resources id="VixxPage3">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_VXP3_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="cp_vixx_blink" noalpha="true" delay="25"/>
+		<Image id="TPIC2"					path="cp_vixx_forward" lastanimframe="1" noalpha="true" delay="325"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="story_radar_1ping" pingpong="true" cols="6" lastanimframe="1" noalpha="true" delay="10"/>
+	</Resources>
+	
+	<Resources id="VixxPage4">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_VXP4_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="story_pirate" lastanimframe="1" noalpha="true" delay="25"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="cp_vixx_worry1" noalpha="true" delay="25"/>
+		<Image id="BPIC2"					path="cp_vixx_worry2" noalpha="true" delay="25"/>
+		<Image id="BPIC3"					path="cp_vixx_worryblink" lastanimframe="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<Resources id="VixxPage5">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_VXP5_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="cp_vixx_worry1" noalpha="true" delay="125"/>
+		<Image id="TPIC2"					path="cp_vixx_worry2" noalpha="true" delay="25"/>
+		<Image id="TPIC3"					path="cp_vixx_worryblink" lastanimframe="1" noalpha="true" delay="25"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="story_ominousnebula" static="1" lastanimframe="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<Resources id="VixxPage6">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_VXP6_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="cp_vixx_blink" noalpha="true" delay="25"/>
+		<Image id="TPIC2"					path="cp_vixx_forward" lastanimframe="1" noalpha="true" delay="425"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="story_protoxx2" lastanimframe="1" cols="9" noalpha="true" delay="14"/>
+	</Resources>
+	
+	<Resources id="VixxPage7">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_VXP7_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="story_protoxx3" lastanimframe="1" cols="9" static="1" noalpha="true" delay="10"/>
+	
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="cp_vixx_worry1" noalpha="true" delay="125"/>
+		<Image id="BPIC2"					path="cp_vixx_worry2" noalpha="true" delay="25"/>
+		<Image id="BPIC3"					path="cp_vixx_worryblink" lastanimframe="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<Resources id="VixxPage8">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_VXP8_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="cp_vixx_blink" noalpha="true" delay="25"/>
+		<Image id="TPIC2"					path="cp_vixx_forward" lastanimframe="1" noalpha="true" delay="325"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="story_vectorturbot" lastanimframe="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<!-- ************************************************** -->
+	<!-- ************************************************** -->
+	<!--					SPROCKET						-->
+	<!-- ************************************************** -->
+	<!-- ************************************************** -->
+	<Resources id="SprocketPage1">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_SP1_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="cp_turbot_blink" noalpha="true" delay="25"/>
+		<Image id="TPIC2"					path="cp_turbot_forward" noalpha="true" delay="25"/>
+		<Image id="TPIC3"					path="cp_turbot_forward" lastanimframe="1"  noalpha="true" delay="25"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="cp_sprocket_forward" noalpha="true" delay="225"/>
+		<Image id="BPIC2"					path="cp_sprocket_blink" lastanimframe="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<Resources id="SprocketPage2">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_SP2_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="cp_turbot_happy1" noalpha="true" delay="25"/>
+		<Image id="TPIC2"					path="cp_turbot_happy2" noalpha="true" delay="25"/>
+		<Image id="TPIC3"					path="cp_turbot_happy3" noalpha="true" delay="25"/>
+		<Image id="TPIC4"					path="cp_turbot_idle"	lastanimframe="1" noalpha="true" delay="125"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="cp_sprocket_worry1" noalpha="true" delay="25"/>
+		<Image id="BPIC2"					path="cp_sprocket_worry2" lastanimframe="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<Resources id="SprocketPage3">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_SP3_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="story_crazymurray" lastanimframe="1" noalpha="true" delay="25"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="cp_sprocket_forward" noalpha="true" delay="225"/>
+		<Image id="BPIC2"					path="cp_sprocket_idle" lastanimframe="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<Resources id="SprocketPage4">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_SP4_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="cp_sprocket_worry1" noalpha="true" delay="25"/>
+		<Image id="TPIC2"					path="cp_sprocket_worry2" lastanimframe="1" noalpha="true" delay="25"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="story_unlockturbot" lastanimframe="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<Resources id="SprocketPage5">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_SP5_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="story_crazymurray" lastanimframe="1" noalpha="true" delay="25"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="cp_sprocket_worry1" noalpha="true" delay="25"/>
+		<Image id="BPIC2"					path="cp_sprocket_worry2" lastanimframe="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<Resources id="SprocketPage6">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_SP6_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="cp_sprocket_powerup1" noalpha="true" delay="25"/>
+		<Image id="TPIC2"					path="cp_sprocket_powerup2" lastanimframe="1" noalpha="true" delay="125"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="story_radar_5ping" pingpong="true" cols="6" lastanimframe="1" noalpha="true" delay="10"/>
+	</Resources>
+	
+	<Resources id="SprocketPage7">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_SP7_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="cp_sprocket_worry1" noalpha="true" delay="25"/>
+		<Image id="TPIC2"					path="cp_sprocket_worry2" lastanimframe="1" noalpha="true" delay="25"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="story_protoxx3" cols="9" lastanimframe="1" noalpha="true" delay="10"/>
+	</Resources>
+	
+	<Resources id="SprocketPage8">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_SP8_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="cp_sprocket_blink" noalpha="true" delay="25"/>
+		<Image id="TPIC2"					path="cp_sprocket_down" lastanimframe="1" noalpha="true" delay="325"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="cp_turbot_blink" noalpha="true" delay="25"/>
+		<Image id="BPIC2"					path="cp_turbot_forward" lastanimframe="1" noalpha="true" delay="225"/>
+
+	</Resources>
+	
+	<!-- ************************************************** -->
+	<!-- ************************************************** -->
+	<!--					TURBOT							-->
+	<!-- ************************************************** -->
+	<!-- ************************************************** -->
+	<Resources id="TurbotPage1">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_TP1_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="story_shabbylogic" lastanimframe="1" noalpha="true" delay="25"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="cp_turbot_blink" noalpha="true" delay="25"/>
+		<Image id="BPIC2"					path="cp_turbot_forward" lastanimframe="1" noalpha="true" delay="425"/>
+	</Resources>
+	
+	<Resources id="TurbotPage2">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_TP2_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="story_voicewave" analysis="1" lastanimframe="1" noalpha="true" delay="25"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="cp_turbot_blink" noalpha="true" delay="25"/>
+		<Image id="BPIC2"					path="cp_turbot_forward" lastanimframe="1" noalpha="true" delay="225"/>
+	</Resources>
+	
+	<Resources id="TurbotPage3">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_TP3_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="story_evilturbot_wanted" lastanimframe="1" noalpha="true" delay="25"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="cp_turbot_worry1" noalpha="true" delay="25"/>
+		<Image id="BPIC2"					path="cp_turbot_worry2" lastanimframe="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<Resources id="TurbotPage4">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_TP4_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="cp_turbot_powerup1" noalpha="true" delay="75"/>
+		<Image id="TPIC2"					path="cp_turbot_powerup2" lastanimframe="1" noalpha="true" delay="25"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="story_astrocop" lastanimframe="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<Resources id="TurbotPage5">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_TP5_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="story_astrocop" lastanimframe="1" noalpha="true" delay="25"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="story_grouchoturbot" lastanimframe="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<Resources id="TurbotPage6">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_TP6_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="cp_turbot_forward" noalpha="true" delay="225"/>
+		<Image id="TPIC2"					path="cp_turbot_blink" lastanimframe="1" noalpha="true" delay="25"/>		
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="story_protoxx1" cols="9" lastanimframe="1" analysis="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<Resources id="TurbotPage7">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_TP7_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="story_turbot_disguises" cols="4" lastanimframe="1" noalpha="true" delay="400"/>
+		
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="cp_turbot_blink" noalpha="true" delay="25"/>
+		<Image id="BPIC2"					path="cp_turbot_forward" lastanimframe="1" noalpha="true" delay="225"/>
+	</Resources>
+	
+	<Resources id="TurbotPage8">
+	<SetDefaults path="images" idprefix="IMAGE_STORY_TP8_"/>
+		<!--	Top panel		-->
+		<Image id="FIRST_TOP_IMAGE"			path="story_protoxx1" cols="9" lastanimframe="1" analysis="1" noalpha="true" delay="15"/>	
+			
+		<!--	Bottom panel	-->
+		<Image id="FIRST_BOTTOM_IMAGE"		path="cp_vector_idle" analysis="1" noalpha="true" delay="25"/>
+		<Image id="BPIC2"					path="cp_vector_idle" lastanimframe="1" noalpha="true" delay="25"/>
+	</Resources>
+	
+	<!-- ************************************************** -->
+	<!-- ************************************************** -->
+	<!--					END								-->
+	<!-- ************************************************** -->
+	<!-- ************************************************** -->
+	<Resources id="EndScene"> 
+	<SetDefaults path="images" idprefix="IMAGE_ES_"/>
+		<Image id="SPROCKET_WORRY1"			path="cp_sprocket_worry1" noalpha="true"/>
+		<Image id="SPROCKET_WORRY2"			path="cp_sprocket_worry2" noalpha="true"/>
+		<Image id="SPROCKET_HAPPY1"			path="cp_sprocket_happy1" noalpha="true"/>
+		<Image id="SPROCKET_HAPPY2"			path="cp_sprocket_happy2" noalpha="true"/>
+		<Image id="SPROCKET_HAPPY3"			path="cp_sprocket_happy3" noalpha="true"/>
+		<Image id="SPROCKET_HAPPY1_ALPHA"	path="cp_sprocket_happy1" />
+		<Image id="SPROCKET_HAPPY2_ALPHA"	path="cp_sprocket_happy2" />
+		<Image id="SPROCKET_HAPPY3_ALPHA"	path="cp_sprocket_happy3" />
+		<Image id="VECTOR_WORRY1"			path="cp_vector_worry1" noalpha="true"/>
+		<Image id="VECTOR_WORRY2"			path="cp_vector_worry2" noalpha="true"/>
+		<Image id="VECTOR_HAPPY1"			path="cp_vector_happy1" noalpha="true"/>
+		<Image id="VECTOR_HAPPY2"			path="cp_vector_happy2" noalpha="true"/>
+		<Image id="VECTOR_HAPPY3"			path="cp_vector_happy3" noalpha="true"/>
+		<Image id="VECTOR_HAPPY1_ALPHA"		path="cp_vector_happy1" />
+		<Image id="VECTOR_HAPPY2_ALPHA"		path="cp_vector_happy2" />
+		<Image id="VECTOR_HAPPY3_ALPHA"		path="cp_vector_happy3" />
+		<Image id="TURBOT_BLINK"			path="cp_turbot_blink" noalpha="true"/>
+		<Image id="TURBOT_FORWARD"			path="cp_turbot_forward" noalpha="true"/>
+		<Image id="TURBOT_HAPPY1"			path="cp_turbot_happy1" noalpha="true"/>
+		<Image id="TURBOT_HAPPY2"			path="cp_turbot_happy2" noalpha="true"/>
+		<Image id="TURBOT_HAPPY3"			path="cp_turbot_happy3" noalpha="true"/>
+		<Image id="TURBOT_HAPPY1_ALPHA"		path="cp_turbot_happy1" />
+		<Image id="TURBOT_HAPPY2_ALPHA"		path="cp_turbot_happy2" />
+		<Image id="TURBOT_HAPPY3_ALPHA"		path="cp_turbot_happy3" />
+		<Image id="VECTOR_SPROCKET_CONFUSED"	path="story_confused_vectorsprock" noalpha="true"/>
+		<Image id="VECTOR_VIXX_KISS"		path="story_kiss_vectorvixx" noalpha="true"/>
+		<Image id="VIXX_BLINK"				path="cp_vixx_blink" noalpha="true"/>
+		<Image id="VIXX_FORWARD"			path="cp_vixx_forward" noalpha="true"/>
+		<Image id="VIXX_HAPPY1"				path="cp_vixx_happy1" noalpha="true"/>
+		<Image id="VIXX_HAPPY2"				path="cp_vixx_happy2" noalpha="true"/>
+		<Image id="VIXX_HAPPY3"				path="cp_vixx_happy3" noalpha="true"/>
+		<Image id="VIXX_HAPPY1_ALPHA"		path="cp_vixx_happy1" />
+		<Image id="VIXX_HAPPY2_ALPHA"		path="cp_vixx_happy2" />
+		<Image id="VIXX_HAPPY3_ALPHA"		path="cp_vixx_happy3" />
+		<Image id="VECTOR_SPROCKET_HUG"		path="story_hug_vectorsprock" noalpha="true"/>
+		<Image id="FINAL"					path="story_final"/>
+	</Resources>
+
+	<!--			LOAD RESOURCES FOR TITLE SCREEN 		-->
+	<Resources id="Init">
+	<SetDefaults path="images" idprefix="IMAGE_"/>			
+		<Image id="LOADER_BAR"					path="loader_bar"/>
+		<Image id="LOADER_SCREEN"				path="loader_bg"/>
+		<Image id="LOADER_CLICK_TO_PLAY"		path="loader_clicktoplay"/>
+		<Image id="LOADER_LOADINGTXT"			path="loader_loading"/>		
+		<Image id="LOADER_REGISTER"				path="title_register"/>
+		<Image id="LOADER_REGISTER_OVER"		path="title_register_over"/>
+		<!-- <Image id="LOADER_URL"					path="url"/>	-->
+		<Image id="LOADER_VECTOR"				path="loader_vector"/>
+		<Image id="LOADER_SPROCKET"				path="loader_sprocket"/>
+		<Image id="LOADER_TURBOT"				path="loader_turbot"/>
+		<Image id="LOADER_VIXX"					path="loader_vixx"/>
+		<Image id="LOADER_VECTOR_BIGTEXT"		path="loader_vector_bigtext"/>
+		<Image id="LOADER_SPROCKET_BIGTEXT"		path="loader_sprocket_bigtext"/>
+		<Image id="LOADER_TURBOT_BIGTEXT"		path="loader_turbot_bigtext"/>
+		<Image id="LOADER_VIXX_BIGTEXT"			path="loader_vixx_bigtext"/>
+		<Image id="LOADER_VECTOR_SILHOUETTE"	path="loader_vector_silhouette"/>
+		<Image id="LOADER_SPROCKET_SILHOUETTE"	path="loader_sprocket_silhouette"/>
+		<Image id="LOADER_TURBOT_SILHOUETTE"	path="loader_turbot_silhouette"/>
+		<Image id="LOADER_VIXX_SILHOUETTE"		path="loader_vixx_silhouette"/>
+	</Resources>
+	
+	
+	<!--			Initial required images			-->
+	<Resources id="Required">
+	<SetDefaults path="images" idprefix="IMAGE_"/>
+		<Image id="REGISTER_SCREEN"				path="register"/>
+		<Image id="DIALOG"						path="dialog"/>
+		<Image id="DIALOG_BTN"					path="dialog_btn"/>
+		<Image id="DIALOG_INSET"				path="dialog_inset"/>
+		<Image id="DIALOG_INSET_HELP"			path="dialog_inset_help"/>
+		<Image id="CUSTOM_POINTER"				path="custom_pointer"/>
+		<Image id="CUSTOM_HAND"					path="custom_hand"/>
+		<Image id="CUSTOM_DRAGGING"				path="custom_dragging"/>
+		<Image id="CUSTOM_TEXT"					path="custom_text"/>
+	<SetDefaults path="fonts" idprefix="FONT_"/>
+		<Font  id="DIALOG_BOX"					path="NeuropolX13.txt" alias="NEURO12" alias2="REGISTER_TEXT" alias3="DEBUG"/>
+		<Font  id="DIALOG_BOX_BTN"				path="NeuropolX16Bold.txt" alias="INSTRUCTIONS_TEXT" alias2="NEURO16" alias3="SMALL_TEXT"/>
+		<Font  id="DIALOG_BOX_HEADER"			path="Fusion14Bold.txt" alias="FUSION14"/>
+	</Resources>
+	
+	<!--			GAME SELECTOR RESOURCES					-->
+	<Resources id="GameSelector">
+	<SetDefaults path="images" idprefix="IMAGE_"/>
+	
+		<Image id="GAME_SELECTORX"					path="gameselectorX"/>
+		<Image id="GS_MOREGAMES_DOWNX"				path="gs_moregames_downX"/>
+		<Image id="GS_MOREGAMES_OVERX"				path="gs_moregames_overX"/>
+		<Image id="GS_MOREGAMES_MASKX"				path="gs_moregames_maskX"/>
+		<Image id="GS_MOUSEOVER_HELP"				path="gs_mouseover_help"/>
+	
+		<Image id="GAME_SELECTOR"					path="gameselector"/>		
+		<Image id="GS_CENTER_PIECE"					path="gs_centerpiece"/>
+		<Image id="GS_ARCADE_MASK"					path="gs_arcade_mask" alias="FIRST_GS_MASK_BUTTON"/>
+		<Image id="GS_SURVIVAL_MASK"				path="gs_survival_mask"/>
+		<Image id="GS_HALL_MASK"					path="gs_hall_mask"/>
+		<Image id="GS_OPTIONS_MASK"					path="gs_options_mask"/>
+		<Image id="GS_MORE_GAMES_MASK"				path="gs_moregames_mask"/>
+		<Image id="GS_QUIT_MASK"					path="gs_quit_mask"/>
+		<Image id="GS_ARCADE_DOWN"					path="gs_arcade_down" alias="FIRST_GS_DOWN_BUTTON"/>
+		<Image id="GS_SURVIVAL_DOWN"				path="gs_survival_down"/>
+		<Image id="GS_HALL_DOWN"					path="gs_hall_down"/>
+		<Image id="GS_OPTIONS_DOWN"					path="gs_options_down"/>
+		<Image id="GS_MOREGAMES_DOWN"				path="gs_moregames_down"/>		
+		<Image id="GS_QUIT_DOWN"					path="gs_quit_down"/>
+		<Image id="GS_ARCADE_OVER"					path="gs_arcade_over" alias="FIRST_GS_OVER_BUTTON"/>
+		<Image id="GS_SURVIVAL_OVER"				path="gs_survival_over"/>
+		<Image id="GS_HALL_OVER"					path="gs_hall_over"/>
+		<Image id="GS_OPTIONS_OVER"					path="gs_options_over"/>
+		<Image id="GS_MOREGAMES_OVER"				path="gs_moregames_over"/>
+		<Image id="GS_QUIT_OVER"					path="gs_quit_over"/>		
+		<Image id="GS_MOUSEOVER_ARCADE"				path="gs_mouseover_arcade"/>
+		<Image id="GS_MOUSEOVER_SURVIVAL"			path="gs_mouseover_survival"/>
+		<Image id="GS_MOUSEOVER_HALL"				path="gs_mouseover_hall"/>		
+		<Image id="GS_MOUSEOVER_OPTIONS"			path="gs_mouseover_options"/>
+		<Image id="GS_MOUSEOVER_MOREGAMES"			path="gs_mouseover_moregames"/>
+		<Image id="GS_MOUSEOVER_QUIT"				path="gs_mouseover_quit"/>
+		<Image id="GS_PROJECTOR"					path="gs_projector"/>
+		<Image id="GS_SELECT_USER_NORMAL"			path="profile_btn_normal"/>
+		<Image id="GS_SELECT_USER_OVER"				path="profile_btn_over"/>		
+		
+		<Image id="GS_SHIP1"						path="ship1" cols="5"/>
+		<Image id="GS_SHIP2"						path="ship2" cols="5"/>
+		<Image id="GS_SHIP3"						path="ship3" cols="5"/>
+		<Image id="GS_SHIP4"						path="ship4" cols="5"/>
+		<Image id="GS_SHIP1_WARPJET"				path="ship1_warpjet" cols="11"/>
+		<Image id="GS_GO"							path="letsgo"/>
+
+	</Resources>
+	
+	<!--			Hall of fame stuff										-->
+	<Resources id="HighScores">
+	<SetDefaults path="images" idprefix="IMAGE_"/>	
+		<Image id="HOF_BG"							path="hof_bg"/>
+		<Image id="HOF_CONTINUE_DOWN"				path="hof_continue_down"/>
+		<Image id="HOF_CONTINUE_OVER"				path="hof_continue_over"/>		
+		<Image id="HOF_ALLTIME_DOWN"				path="hof_alltime_down"/>
+		<Image id="HOF_ALLTIME_OVER"				path="hof_alltime_over"/>
+		<Image id="HOF_ALLTIME_UP"					path="hof_alltime_up"/>
+		<Image id="HOF_PERSONAL_DOWN"				path="hof_personal_down"/>
+		<Image id="HOF_PERSONAL_UP"					path="hof_personal_up"/>
+		<Image id="HOF_PERSONAL_OVER"				path="hof_personal_over"/>
+		<Image id="HOF_TITLE_ALLTIME"				path="hof_title_alltime"/>
+		<Image id="HOF_TITLE_PERSONAL"				path="hof_title_personal"/>
+	</Resources>
+	
+	<!--			MORE GAMES SCREEN						-->
+	<Resources id="MoreGames">
+	<SetDefaults path="images" idprefix="IMAGE_"/>
+		<Image id="MOREGAMES_SCREEN"				path="moregamesscreen"/>
+		<Image id="MG_CONTINUE_DOWN"				path="mgs_continue_down"/>
+		<Image id="MG_CONTINUE_OVER"				path="mgs_continue_over"/>		
+	</Resources>
+	
+	
+	<!--			CHAR SELECTOR RESOURCES					-->
+	<Resources id="CharSelector">
+	<SetDefaults path="images" idprefix="IMAGE_"/>
+		<Image id="CS_BOTTOM"						path="cs_bottom"/>
+		<Image id="CS_BOTTOM_BTN"					path="cs_bottom_btn"/>
+		<Image id="CS_BOTTOM_BTN_DOWN"				path="cs_bottom_btn_down"/>
+		<Image id="CS_TITLE_SURVIVAL"				path="cs_title_survival"/>
+		<Image id="CS_TITLE_ARCADE"					path="cs_title_classic"/>
+		<Image id="CS_VECTOR_HILIGHT"				path="cs_vector_hilight"/>
+		<Image id="CS_SPROCKET_HILIGHT"				path="cs_sprocket_hilight"/>
+		<Image id="CS_TURBOT_HILIGHT"				path="cs_turbot_hilight"/>	
+		<Image id="CS_VIXX_HILIGHT"					path="cs_vixx_hilight"/>
+		<Image id="CS_SPROCKET_HILIGHT_LOCK"		path="cs_sprocket_hilight_lock"/>
+		<Image id="CS_TURBOT_HILIGHT_LOCK"			path="cs_turbot_hilight_lock"/>
+		<Image id="CS_VIXX_HILIGHT_LOCK"			path="cs_vixx_hilight_lock"/>
+		<Image id="CS_SPROCKET_OPEN"				path="cs_sprocket_open"/>
+		<Image id="CS_SPROCKET_REGLOCK"				path="cs_sprocket_reglock"/>
+		<Image id="CS_SPROCKET_STATLOCK"			path="cs_sprocket_statlock"/>
+		<Image id="CS_SPROCKET_STATS_ARCADE"		path="cs_sprocket_stats_arcade"/>
+		<Image id="CS_TURBOT_OPEN"					path="cs_turbot_open"/>
+		<Image id="CS_TURBOT_REGLOCK"				path="cs_turbot_reglock"/>
+		<Image id="CS_TURBOT_STATLOCK"				path="cs_turbot_statlock"/>
+		<Image id="CS_TURBOT_STATS_ARCADE"			path="cs_turbot_stats_arcade"/>
+		<Image id="CS_TURBOT_LOCK"					path="cs_turbot_lock"/>
+		<Image id="CS_VECTOR"						path="cs_vector"/>	
+		<Image id="CS_VECTOR_STATS_ARCADE"			path="cs_vector_stats_arcade"/>
+		<Image id="CS_VIXX_OPEN"					path="cs_vixx_open"/>
+		<Image id="CS_VIXX_LOCK"					path="cs_vixx_lock"/>
+		<Image id="CS_VIXX_STATLOCK"				path="cs_vixx_statlock"/>
+		<Image id="CS_VIXX_STATS_ARCADE"			path="cs_vixx_stats_arcade"/>
+		<Image id="CS_VECTOR_STATFILL"				path="cs_vector_statfill" alphaimage="cs_statfill_alpha" rows="2"/>
+		<Image id="CS_SPROCKET_STATFILL"			path="cs_sprocket_statfill" alphaimage="cs_statfill_alpha" rows="2"/>
+		<Image id="CS_TURBOT_STATFILL"				path="cs_turbot_statfill" alphaimage="cs_statfill_alpha" rows="2"/>
+		<Image id="CS_VIXX_STATFILL"				path="cs_vixx_statfill" alphaimage="cs_statfill_alpha" rows="2"/>
+		<Image id="CS_VECTOR_STATS_SURVIVAL"		path="cs_vector_stats_survival"/>
+		<Image id="CS_SPROCKET_STATS_SURVIVAL"		path="cs_sprocket_stats_survival"/>
+		<Image id="CS_TURBOT_STATS_SURVIVAL"		path="cs_turbot_stats_survival"/>
+		<Image id="CS_VIXX_STATS_SURVIVAL"			path="cs_vixx_stats_survival"/>
+		
+		<!--			Arcade mode rank medals					-->
+		<Image id="RANK_CENTER_SUN"					path="medal_sun"/>
+		<Image id="RANK_CENTER_STAR"				path="medal_star_big"/>
+		<Image id="RANK_CENTER_PLANET"				path="medal_planet_big"/>
+		<Image id="RANK_CENTER_ATOM"				path="medal_atom_big"/>
+		<Image id="RANK_CENTER_SHIP"				path="medal_ship_big"/>
+		<Image id="RANK_SMALL_STAR"					path="medal_star_small"/>
+		<Image id="RANK_STRAP"						path="medal_strap"/>
+		<Image id="RANK_WINGS"						path="medal_wings"/>
+	</Resources>
+		
+	<!--			RESOURCES NEEDED AT ALL TIMES			-->
+	<Resources id="AllwaysLoaded">
+	<SetDefaults path="images" idprefix="IMAGE_"/>
+		<Image id="SLIDER_TRACK"					path="slider"/>
+		<Image id="SLIDER_THUMB"					path="slideranchor"/>
+		<Image id="CHECKBOX"						path="checked"/>
+		<Image id="EDIT_BOX"						path="editbox"/>	
+		<Image id="UPDATE_BAR"						path="waitbar"/>
+		<Image id="FUELCELL"						path="brick_bonus"/>
+		<Image id="BRICK_MUTATOR"					path="brick_mutator" cols="7"/>
+		<Image id="BRICK_RADIAL" 					path="bomb_radial" cols="7"/>
+		<Image id="BRICK_STONE" 					path="brick_stone" alphaimage="brick_alpha"/>
+		<Image id="BRICK_ROW_NUKE"					path="bomb_horiz" cols="7"/>
+		<Image id="BRICK_COL_NUKE"					path="bomb_col_nuke" cols="10"/>
+		<Image id="BRICK_FREEZE"					path="bomb_freeze" cols="6"/>
+		<Image id="BRICK_STEEL_1"					path="brick_steel" alphaimage="brick_alpha"/>
+		<Image id="RED_NEBULA_BG"					path="nebula5"/>
+		
+		
+	<!--			Load all the required fonts 			-->	
+	<SetDefaults path="fonts" idprefix="FONT_" />
+		<Font id="POINTS"						path="Fusion16.txt"/>
+		<Font id="LEVEL_UP"						path="Kiloton9.txt"/>
+		<Font id="PLAYER_SCORE"					path="supernova20.txt"/>
+		<Font id="HIGH_SCORE"					path="NeuropolX20Bold.txt" alias="EMPHASIS_TEXT" alias2="NEURO20"/>
+		<Font id="NEURO30"						path="NeuropolX30.txt" alias="TUTORIAL_HEADER"/>
+		<Font id="COMBO"						path="Fusion36.txt"/>
+		<Font id="LARGE_COMBO"					path="Fusion28.txt"/>
+		<Font id="COMBO_RED"					path="!program"/>
+		<Font id="COMBO_BLUE"					path="!program"/>
+		<Font id="COMBO_YELLOW"					path="!program"/>
+		<Font id="LARGE_COMBO_RED"				path="!program"/>
+		<Font id="LARGE_COMBO_BLUE"				path="!program"/>
+		<Font id="LARGE_COMBO_YELLOW"			path="!program"/>
+	
+	<!--			Load all the required sounds 			-->
+	<SetDefaults path="sounds" idprefix="SOUND_" />		
+		<!-- Sound effects							-->
+		<Sound id="COMBO_PING"						path="combo_tone"/>	
+		<Sound id="BLOCK_HIT_SHIP" 					path="gemongem2" volume=0.95/>
+		<Sound id="MADE_SET" 						path="gotset2" volume=1/>
+		<Sound id="MADE_BIG_SET" 					path="gotsetbig" volume=1/>
+		<Sound id="BLOCK_HIT_BLOCK" 				path="blockhit" volume=0.85/>
+		<Sound id="EXPLODE1" 						path="explode1" volume=0.95/>
+		<Sound id="CANT_CLICK" 						path="magzap1" volume=0.55/>
+		<Sound id="RIGHT_CLICK" 					path="magzap2" volume=0.85/>
+		<Sound id="LEFT_CLICK" 						path="magzap3" volume=0.85/>
+		<Sound id="ENGINE_LOOP" 					path="engineloop" volume=0.20/>
+		<Sound id="KILLALL_EXPLODE" 				path="killall_explode" volume=0.95/>
+		<Sound id="STAR_EXPLODE" 					path="star_explode" volume=1/>
+		<Sound id="EXPLOSION" 						path="explosion" volume=1.0/>
+		<Sound id="MEGA_EXPLOSION"					path="megaexplosion"/>
+		<Sound id="WARP"							path="warp3" volume=1/>
+		<Sound id="FREEZE"							path="freezeblock1" volume=1/>
+		<Sound id="HYPERSPACE_LOOP"					path="hyperspaceloop1" volume=.65/>
+		<Sound id="THUNDER1"						path="hyperspacethunder1" volume=0.65/>
+		<Sound id="THUNDER2"						path="hyperspacethunder2" volume=0.65/>	
+		<Sound id="ROW_NUKE"						path="nukeexplosion1" volume=1/>
+		<Sound id="STEEL"							path="steelclang1" volume=0.60/>
+		<Sound id="BRICK_MILESTONE"					path="brickmilestone" volume=0.90/>	
+		<Sound id="SLOWDOWN"						path="sloooowdown"/>
+		<Sound id="COMPUTER_TEXT"					path="comptext" volume=0.55/>
+		<Sound id="BUTTON_DOWN"						path="click2" volume=0.70/>
+		<Sound id="PLAYER1_LASER"					path="laser"/>
+		<Sound id="COLUMN_KILLER"					path="ckiller4"/>
+		<!-- <Sound id="MOUSE_OVER"						path="mouseoverX1"/> -->
+		<Sound id="MUTATOR_DIE"						path="mudestroy3"/>
+		<Sound id="MUTATION"						path="mutator1"/>
+		<Sound id="BONUS_EXPLODE"					path="star9"/>
+		<Sound id="1SEC_TIMER"						path="timer1"/>
+		<Sound id="POWERUP_WORN_OFF"				path="powerupwearsoff"/>
+		<Sound id="COUNT"							path="count"/>
+		<Sound id="BUBBLY"							path="bubbly"/>
+		<Sound id="GALAXY"							path="galaxy"/>
+		<Sound id="ACTIVATED"						path="activated"/>				
+		<Sound id="LEVEL_UP1"						path="level_up1" volume=0.90/>
+		<Sound id="LEVEL_UP2"						path="level_up2" volume=0.90/>			
+		<Sound id="PSYCHIC"							path="psychic"/>
+		<Sound id="WARP_BUTTON"						path="warpbutton"/>
+		<Sound id="HYPER_BRICK"						path="hyperbrick_sound" volume=0.30/>
+		<Sound id="WORDSWOOSH"						path="wordswoosh"/>
+		<!-- Vocals									-->
+		<Sound id="VCOMBO1" 						path="v_combo1" volume=1/>
+		<Sound id="VCOMBO2" 						path="v_combo2" volume=1/>
+		<Sound id="VCOMBO3" 						path="v_combo3" volume=1/>
+		<Sound id="VCOMBO4" 						path="v_combo4" volume=1/>
+		<Sound id="VCOMBO5" 						path="v_combo5" volume=1/>
+		<Sound id="VCOMBO6" 						path="v_combo6" volume=1/>
+		<Sound id="VCOMBO65"						path="v_combo65" volume=1/>
+		<Sound id="VCOMBO7" 						path="v_combo7" volume=1/>
+		<Sound id="VGAMEOVER" 						path="v_gameover" volume=1/>
+		<Sound id="VWELCOME" 						path="v_welcome" volume=1/>				
+		<Sound id="GET_READY"						path="v_getready"/>
+		<Sound id="BRICK_WARNING1"					path="v_caution"/>
+		<Sound id="BRICK_WARNING2"					path="v_danger"/>
+		<Sound id="LEVEL_COMPLETE"					path="v_levelcomplete"/>
+		<Sound id="NO_MORE_MOVES"					path="v_nomoremoves"/>		
+		<Sound id="POWER_ACTIVATED"					path="v_poweractivated"/>
+		<Sound id="WARP_ENGAGED"					path="v_warpengaged"/>	
+		<Sound id="SUPA_UPGRADE"					path="v_weaponupgrade"/>
+		<Sound id="POWERUP"							path="v_weaponready"/> 
+		<Sound id="BONUS_ROUND"						path="v_bonusround"/>				
+		<Sound id="NEW_HIGH_SCORE"					path="v_newhighscore"/>		
+		<Sound id="PERFECT"							path="v_perfect"/>
+		<Sound id="CLASSIC_GAME"					path="mouseover" alias="FIRST_MM_SOUND"/>
+		<Sound id="SURVIVAL_GAME"					path="mouseover"/>
+		<Sound id="HALL_OF_FAME"					path="mouseover"/>
+		<Sound id="OPTIONS"							path="mouseover"/>
+		<Sound id="MORE_GAMES"						path="mouseover"/>
+		<Sound id="QUIT_GAME"						path="mouseover"/>
+		<Sound id="CHOOSE_PILOT"					path="v_chooseyourpilot"/>
+		<Sound id="KLAXON"							path="klaxon"/>
+		<Sound id="GOODBYE"							path="mouseover"/>
+		
+	</Resources>
+	
+	<!--					MAIN GAME RESOURCES THAT AREN'T ALWAYS NEEDED AT ALL TIMES				-->
+	<Resources id="GameVolatile">
+	<SetDefaults path="images" idprefix="IMAGE_"/>
+		<!--				CHARACTER SPECIFIC STUFF			-->
+		<Image id="SHIP1"							path="ship1" cols="5"/>
+		<Image id="SHIP2"							path="ship2" cols="5"/>
+		<Image id="SHIP3"							path="ship3" cols="5"/>
+		<Image id="SHIP4"							path="ship4" cols="5"/>	
+		<Image id="SHIP1_FLAME" 					path="ship1_flame" cols="5"/>
+		<Image id="SHIP2_FLAME" 					path="ship2_flame" cols="5"/>
+		<Image id="SHIP3_FLAME" 					path="ship3_flame" cols="5"/>
+		<Image id="SHIP4_FLAME" 					path="ship4_flame" cols="5"/>	
+		<Image id="SHIP1_WARP" 						path="ship1_warp" cols="11"/>
+		<Image id="SHIP2_WARP" 						path="ship2_warp" cols="11"/>
+		<Image id="SHIP3_WARP" 						path="ship3_warp" cols="11"/>
+		<Image id="SHIP4_WARP" 						path="ship4_warp" cols="11"/>	
+		<Image id="SHIP1_WARPJET" 					path="ship1_warpjet" cols="11"/>	
+		<Image id="SHIP2_WARPJET" 					path="ship2_warpjet" cols="11"/>
+		<Image id="SHIP3_WARPJET" 					path="ship3_warpjet" cols="11"/>	
+		<Image id="SHIP4_WARPJET" 					path="ship4_warpjet" cols="11"/>		
+		<Image id="ATOMIC_EXPLOSION"				path="atomicexplosion" cols="15"/>
+		<Image id="ATOMIC_SYMBOL"					path="atomicsymbol"/>
+		<Image id="TURBOT_POWERUP"					path="turbot_powerup" cols="12"/>
+		<Image id="TURBOT_WAVE"						path="turbot_wave"/>
+		<Image id="PLAYER1_LASER"					path="laser" cols="10"/>
+		<Image id="VIXX_CROSSHAIR"					path="vixx_crosshair" cols="3"/>
+		<Image id="TURBOT_LIGHTNING"				path="supa_turbot_lightning"/>
+		<Image id="TURBOT_SUPA_OVERLAY"				path="supa_turbot_overlay" cols="5"/>
+		
+		<!--			Background related images				-->
+		<Image id="BACKGROUND1"						path="nebula1"/>
+		<Image id="BACKGROUND2"						path="nebula2"/>
+		<Image id="BACKGROUND3"						path="nebula5" alias="LAST_BACKGROUND"/>
+		<Image id="BG_OBJECT1"						path="galaxy1"/>
+		<Image id="BG_OBJECT2"						path="planet1"/>
+		<Image id="BG_OBJECT3"						path="moon1"/>
+		<Image id="BG_OBJECT4"						path="planet4"/>
+		<Image id="BG_OBJECT5"						path="station2"/>
+		<Image id="BG_OBJECT6"						path="bonusmoon1"/>
+		<Image id="BG_OBJECT7"						path="bonusmoon2"/>
+		<Image id="BG_OBJECT8"						path="bonusmoon3" alias="BG_OBJECT_END"/>	
+		
+		<!--			Character Portrait expressions				-->
+		<!--	Vector	-->
+		<Image id="CP_VECTOR_IDLE_GLOW"				path="cp_vector_idleglow" alias="FIRST_VECTOR_CP_STATE"/>
+		<Image id="CP_VECTOR_WORRY_GLOW"			path="cp_vector_worryglow"/>
+		<Image id="CP_VECTOR_BLINK"					path="cp_vector_blink"/>
+		<Image id="CP_VECTOR_DOWN"					path="cp_vector_down"/>
+		<Image id="CP_VECTOR_FORWARD"				path="cp_vector_forward"/>		
+		<Image id="CP_VECTOR_MISC"					path="cp_vector_idle"/>
+		<Image id="CP_VECTOR_POWERUP1"				path="cp_vector_powerup1"/>
+		<Image id="CP_VECTOR_POWERUP2"				path="cp_vector_powerup2"/>		
+		<Image id="CP_VECTOR_WORRY1"				path="cp_vector_worry1"/>
+		<Image id="CP_VECTOR_WORRY2"				path="cp_vector_worry2"/>
+		<Image id="CP_VECTOR_HAPPY1"				path="cp_vector_happy1"/>
+		<Image id="CP_VECTOR_HAPPY2"				path="cp_vector_happy2"/>
+		<Image id="CP_VECTOR_HAPPY3"				path="cp_vector_happy3"/>
+		<Image id="CP_VECTOR_HAPPY4"				path="cp_vector_happy2" alias="LAST_VECTOR_CP_STATE"/>
+		<!--	Sprocket	-->
+		<Image id="CP_SPROCKET_IDLE_GLOW"			path="cp_sprocket_idleglow" alias="FIRST_SPROCKET_CP_STATE"/>
+		<Image id="CP_SPROCKET_WORRY_GLOW"			path="cp_sprocket_worryglow"/>
+		<Image id="CP_SPROCKET_BLINK"				path="cp_sprocket_blink"/>
+		<Image id="CP_SPROCKET_DOWN"				path="cp_sprocket_down"/>
+		<Image id="CP_SPROCKET_FORWARD"				path="cp_sprocket_forward"/>		
+		<Image id="CP_SPROCKET_MISC"				path="cp_sprocket_idle"/>
+		<Image id="CP_SPROCKET_POWERUP1"			path="cp_sprocket_powerup1"/>
+		<Image id="CP_SPROCKET_POWERUP2"			path="cp_sprocket_powerup2"/>		
+		<Image id="CP_SPROCKET_WORRY1"				path="cp_sprocket_worry1"/>
+		<Image id="CP_SPROCKET_WORRY2"				path="cp_sprocket_worry2"/>
+		<Image id="CP_SPROCKET_HAPPY1"				path="cp_sprocket_happy1"/>
+		<Image id="CP_SPROCKET_HAPPY2"				path="cp_sprocket_happy2"/>
+		<Image id="CP_SPROCKET_HAPPY3"				path="cp_sprocket_happy3"/>
+		<Image id="CP_SPROCKET_HAPPY4"				path="cp_sprocket_happy2" alias="LAST_SPROCKET_CP_STATE"/>
+		<!--	Turbot	-->
+		<Image id="CP_TURBOT_IDLE_GLOW"				path="cp_turbot_idleglow" alias="FIRST_TURBOT_CP_STATE"/>
+		<Image id="CP_TURBOT_WORRY_GLOW"			path="cp_turbot_worryglow"/>
+		<Image id="CP_TURBOT_BLINK"					path="cp_turbot_blink"/>
+		<Image id="CP_TURBOT_DOWN"					path="cp_turbot_down"/>
+		<Image id="CP_TURBOT_FORWARD"				path="cp_turbot_forward"/>		
+		<Image id="CP_TURBOT_MISC"					path="cp_turbot_idle"/>
+		<Image id="CP_TURBOT_POWERUP1"				path="cp_turbot_powerup1"/>
+		<Image id="CP_TURBOT_POWERUP2"				path="cp_turbot_powerup2"/>		
+		<Image id="CP_TURBOT_WORRY1"				path="cp_turbot_worry1"/>
+		<Image id="CP_TURBOT_WORRY2"				path="cp_turbot_worry2"/>
+		<Image id="CP_TURBOT_HAPPY1"				path="cp_turbot_happy1"/>
+		<Image id="CP_TURBOT_HAPPY2"				path="cp_turbot_happy2"/>
+		<Image id="CP_TURBOT_HAPPY3"				path="cp_turbot_happy3"/>
+		<Image id="CP_TURBOT_HAPPY4"				path="cp_turbot_happy2" alias="LAST_TURBOT_CP_STATE"/>
+		<!--	Vixx	-->
+		<Image id="CP_VIXX_IDLE_GLOW"				path="cp_vixx_idleglow" alias="FIRST_VIXX_CP_STATE"/>
+		<Image id="CP_VIXX_WORRY_GLOW"				path="cp_vixx_worryglow"/>
+		<Image id="CP_VIXX_BLINK"					path="cp_vixx_blink"/>
+		<Image id="CP_VIXX_DOWN"					path="cp_vixx_down"/>
+		<Image id="CP_VIXX_FORWARD"					path="cp_vixx_forward"/>		
+		<Image id="CP_VIXX_MISC"					path="cp_vixx_idle"/>
+		<Image id="CP_VIXX_POWERUP1"				path="cp_vixx_powerup1"/>
+		<Image id="CP_VIXX_POWERUP2"				path="cp_vixx_powerup2"/>		
+		<Image id="CP_VIXX_WORRY1"					path="cp_vixx_worry1"/>
+		<Image id="CP_VIXX_WORRY2"					path="cp_vixx_worry2"/>
+		<Image id="CP_VIXX_HAPPY1"					path="cp_vixx_happy1"/>
+		<Image id="CP_VIXX_HAPPY2"					path="cp_vixx_happy2"/>
+		<Image id="CP_VIXX_HAPPY3"					path="cp_vixx_happy3"/>
+		<Image id="CP_VIXX_HAPPY4"					path="cp_vixx_happy2" alias="LAST_VIXX_CP_STATE"/>
+		
+	</Resources>	
+	
+	<!--			LOAD FULL SCREEN HELP PAGE RESOURCES			-->
+	<Resources id="FullScreenHelp">
+	<SetDefaults path="images" idprefix="IMAGE_"/>
+	
+		<Image id="HELP_SURVIVAL"					path="help_survival"/>
+		<Image id="HELP_SHIP"						path="help_ship"/>
+		<Image id="HELP_BEAM"						path="help_beam"/>
+		<Image id="HELP_BRICK_RED"					path="help_brick_red"/>
+		<Image id="HELP_BRICK_GREEN"				path="help_brick_green"/>
+		<Image id="HELP_BRICK_BLUE"					path="help_brick_blue"/>
+		<Image id="HELP_BRICK_YELLOW"				path="help_brick_yellow"/>
+		<Image id="HELP_BRICK_BLUE_DEATH"			path="help_brick_blue_death" cols="7"/>
+		<Image id="HELP_LEVELUP_CLASSIC"			path="help_levelup_classic"/>
+		<Image id="HELP_LEVELUP_SURVIVAL"			path="help_levelup_survival"/>
+		<Image id="HELP_LEVELUP_SURVIVAL_TEXT"		path="help_levelup_survival_text"/>
+		<Image id="HELP_SUPA_BUTTON_OFF"			path="help_supa_buttonoff"/>
+		<Image id="HELP_SUPA_BUTTON_ON"				path="help_supa_buttonon"/>
+		<Image id="HELP_SUPA_CHARGED"				path="help_supa_charged"/>
+		<Image id="HELP_SUPA_CHARGING"				path="help_supa_charging"/>
+		<Image id="HELP_BG"							path="help_bg"/>
+		<Image id="HELP_CHECKED"					path="help_donotshow_checked"/>
+		<Image id="HELP_UNCHECKED"					path="help_donotshow_unchecked"/>
+		<Image id="HELP_CONTINUE_DOWN"				path="mgs_continue_down"/>
+		<Image id="HELP_CONTINUE_OVER"				path="mgs_continue_over"/>		
+		<Image id="HELP_MOUSE_LEFT"					path="tut_mouse_l" cols="2"/>
+		<Image id="HELP_MOUSE_RIGHT"				path="tut_mouse_r" cols="2"/>
+				
+	</Resources>		
+	
+	<!--			LOAD MAIN GAME RESOURCES						-->
+	
+	<Resources id="Game">
+	<SetDefaults path="images" idprefix="IMAGE_"/>
+		
+		<!--			Load all the required images 			-->	
+		<Image id="BEAM" 							path="beam"/>
+		<Image id="BEAM_OPAQUE"						path="beam_opaque"/>
+		<Image id="BEAM_SUPA"						path="beam_supa"/>
+		<Image id="BEAM_COL_NUKE"					path="beam_col_nuke"/>
+		<Image id="BEAM_ROW_NUKE"					path="beam_horiz"/>
+		<Image id="BEAM_RADIAL"						path="beam_radial"/>
+		<Image id="BEAM_WARP"						path="beam_warp"/>
+		<Image id="BEAM_WIDE"						path="beam_wide"/>
+				
+			
+		<!--				IN-GAME UI STUFF				-->
+		<Image id="MM_DOWN_UI"						path="ui_ingame_mm_down" alphaimage="ui_ingame_mm_alpha"/>
+		<Image id="MM_OVER_UI"						path="ui_ingame_mm_over" alphaimage="ui_ingame_mm_alpha"/>
+		<Image id="BRICK_GENERATOR_UI"				path="ui_brickgenerator"/>
+		<Image id="HUD_UI"							path="ui_hud"/>
+		<Image id="POWERUP_GAUGE"					path="power_fill"/>	
+		<Image id="POWERUP_CHARGING"				path="power_charging"/>
+		<Image id="UI_SCREEN_RED"					path="ui_screen_red"/>
+		<Image id="UI_SCREEN_YELLOW"				path="ui_screen_yellow"/>
+		<Image id="UI_SURVIVAL_TIME"				path="ui_survival_time"/>
+		<Image id="POWERUP_ACTIVE"					path="power_active"/>		
+		<Image id="UI_FREEZE_FX"					path="freeze_fx"/>
+		<Image id="UI_FREEZE_OVERLAY"				path="freeze_overlay"/>
+		<Image id="UI_DANGERZONE"					path="dangerzone"/>
+		<Image id="UI_INGAME_B"						path="ui_ingame_b"/>
+		<Image id="UI_INGAME_T"						path="ui_ingame_t"/>
+		<Image id="UI_INGAME_L"						path="ui_ingame_l"/>
+		<Image id="UI_INGAME_R"						path="ui_ingame_r"/>
+		<Image id="UI_MANGLED_B"					path="ui_mangled_b"/>
+		<Image id="UI_MANGLED_T"					path="ui_mangled_t"/>
+		<Image id="UI_MANGLED_L"					path="ui_mangled_l"/>
+		<Image id="UI_MANGLED_R"					path="ui_mangled_r"/>
+		<Image id="UI_BRICKOMETER_OVERLAY"			path="ui_brickometer_overlay"/>
+		<Image id="UI_INGAME_HELP_DOWN"				path="ui_ingame_help_down"/>
+		<Image id="UI_INGAME_HELP_OVER"				path="ui_ingame_help_over"/>
+		<Image id="UI_LOGO_CLASSIC"					path="ui_logo_classic"/>
+		<Image id="UI_LOGO_SURVIVAL"				path="ui_logo_survival"/>
+		<Image id="SUPA_BUTTON_ALERT"				path="supa_button_alert"/>
+		<Image id="SUPA_BUTTON_DOWN"				path="supa_button_dn"/>
+		<Image id="SUPA_BUTTON_UP"					path="supa_button_up"/>
+		<Image id="SUPA_BUTTON_OVER"				path="supa_button_over"/>
+		<Image id="SUPA_BUTTON_LIGHTS_ON"			path="supa_button_lights_on"/>
+		<Image id="SUPA_BUTTON_LIGHTS_OFF"			path="supa_button_lights_off"/>
+		<Image id="UPGRADE_BAR_MAX2"				path="upgrade_bar_max2"/>
+		<Image id="UPGRADE_BAR_MAX3"				path="upgrade_bar_max3"/>
+		
+		<!--				S.U.P.A. Weapon					-->
+		<Image id="SUPA_BRACKET_LEFT"				path="supabracket_left"/>
+		<Image id="SUPA_BRACKET_RIGHT"				path="supabracket_right"/>
+		<Image id="SUPA_WEAPON_TEXT"				path="supaweapon_text"/>
+		<Image id="SPROCKET_SUPA_OVERLAY"			path="supa_sprocket_overlay" cols="5"/>
+		
+		<!--				COMBOS							-->
+		<Image id="COMBO_LIST"						path="combo_list" rows="8"/>
+		
+		<!--				BRICK STUFF						-->
+		<Image id="BRICK_GLOW" 						path="brick_glow"/>
+		<Image id="BRICK_RED"	 					path="brick_red" alphaimage="brick_alpha"/>
+		<Image id="BRICK_GREEN" 					path="brick_green" alphaimage="brick_alpha"/>
+		<Image id="BRICK_BLUE" 						path="brick_blue" alphaimage="brick_alpha"/>
+		<Image id="BRICK_YELLOW" 					path="brick_yellow" alphaimage="brick_alpha"/>
+		<Image id="BRICK_PINK" 						path="brick_pink" alphaimage="brick_alpha"/>	
+		<Image id="BRICK_TEAL"						path="brick_teal" alphaimage="brick_alpha"/>
+		<Image id="BRICK_RED_CB" 					path="brick_red_cb" alphaimage="brick_alpha"/>
+		<Image id="BRICK_GREEN_CB" 					path="brick_green_cb" alphaimage="brick_alpha"/>
+		<Image id="BRICK_BLUE_CB" 					path="brick_blue_cb" alphaimage="brick_alpha"/>
+		<Image id="BRICK_YELLOW_CB" 				path="brick_yellow_cb" alphaimage="brick_alpha"/>
+		<Image id="BRICK_PINK_CB"					path="brick_pink_cb" alphaimage="brick_alpha"/>	
+		<Image id="BRICK_TEAL_CB"					path="brick_teal_cb" alphaimage="brick_alpha"/>
+		<Image id="BRICK_KILLALL_GLOW" 				path="bomb_glow"/>
+		<Image id="BRICK_KILLALL_RED" 				path="bomb_red" alphaimage="brick_alpha" alias="BRICK_KILLALL_START"/>
+		<Image id="BRICK_KILLALL_GREEN" 			path="bomb_green" alphaimage="brick_alpha" />
+		<Image id="BRICK_KILLALL_BLUE" 				path="bomb_blue" alphaimage="brick_alpha" />
+		<Image id="BRICK_KILLALL_YELLOW" 			path="bomb_yellow" alphaimage="brick_alpha" />
+		<Image id="BRICK_KILLALL_PINK" 				path="bomb_pink" alphaimage="brick_alpha"/>
+		<Image id="BRICK_KILLALL_TEAL"				path="bomb_teal" alphaimage="brick_alpha"/>
+		<Image id="BRICK_KILLALL_RED_CB" 			path="bomb_red_cb" alphaimage="brick_alpha" alias="BRICK_KILLALL_CB_START"/>
+		<Image id="BRICK_KILLALL_GREEN_CB" 			path="bomb_green_cb" alphaimage="brick_alpha" />
+		<Image id="BRICK_KILLALL_BLUE_CB" 			path="bomb_blue_cb" alphaimage="brick_alpha" />
+		<Image id="BRICK_KILLALL_YELLOW_CB" 		path="bomb_yellow_cb" alphaimage="brick_alpha" />
+		<Image id="BRICK_KILLALL_PINK_CB" 			path="bomb_pink_cb" alphaimage="brick_alpha"/>
+		<Image id="BRICK_KILLALL_TEAL_CB"			path="bomb_teal_cb" alphaimage="brick_alpha"/>
+		<Image id="BRICK_STEEL_2"					path="brick_steel_dmg" alphaimage="brick_alpha"/>		
+		<Image id="BRICK_BOOSTER"					path="brick_booster" cols="9"/>
+		<Image id="BRICK_DEATH_FX" 					path="brick_death_fx"/>
+		<Image id="BRICK_DEATH_RED" 				path="brick_red_death" alphaimage="brick_death_alpha" cols="7" />
+		<Image id="BRICK_DEATH_GREEN" 				path="brick_green_death" alphaimage="brick_death_alpha"  cols="7"/>
+		<Image id="BRICK_DEATH_BLUE" 				path="brick_blue_death" alphaimage="brick_death_alpha"  cols="7"/>
+		<Image id="BRICK_DEATH_YELLOW" 				path="brick_yellow_death" alphaimage="brick_death_alpha"  cols="7"/>
+		<Image id="BRICK_DEATH_PINK" 				path="brick_pink_death" alphaimage="brick_death_alpha"  cols="7"/>
+		<Image id="BRICK_DEATH_TEAL"				path="brick_teal_death" alphaimage="brick_death_alpha" cols="7"/>
+		<Image id="BRICK_RADIAL_DEATH"				path="bomb_radial_death" cols="10"/>
+		<Image id="BRICK_KILLALL_RED_DEATH" 		path="bomb_red_death" alphaimage="bomb_death_alpha" cols="10"/>
+		<Image id="BRICK_KILLALL_GREEN_DEATH" 		path="bomb_green_death" alphaimage="bomb_death_alpha" cols="10"/>
+		<Image id="BRICK_KILLALL_BLUE_DEATH" 		path="bomb_blue_death" alphaimage="bomb_death_alpha" cols="10"/>
+		<Image id="BRICK_KILLALL_YELLOW_DEATH" 		path="bomb_yellow_death" alphaimage="bomb_death_alpha" cols="10"/>
+		<Image id="BRICK_KILLALL_PINK_DEATH" 		path="bomb_pink_death" alphaimage="bomb_death_alpha" cols="10"/>
+		<Image id="BRICK_KILLALL_TEAL_DEATH"		path="bomb_teal_death" alphaimage="bomb_death_alpha" cols="10"/>
+		<Image id="BRICK_FREEZE_ACTIVATED"			path="bomb_freeze_activated" cols="7"/>
+		<Image id="BRICK_BONUS_ACTIVATED"			path="brick_bonus_activated" cols="6"/>
+		<Image id="PARTICLE_RED" 					path="particle_red" alphaimage="particle_alpha"  cols="19"/>
+		<Image id="PARTICLE_GREEN" 					path="particle_green" alphaimage="particle_alpha" cols="19"/>
+		<Image id="PARTICLE_BLUE" 					path="particle_blue" alphaimage="particle_alpha" cols="19"/>
+		<Image id="PARTICLE_YELLOW" 				path="particle_yellow" alphaimage="particle_alpha" cols="19"/>
+		<Image id="PARTICLE_PINK" 					path="particle_pink" alphaimage="particle_alpha" cols="19"/>
+		<Image id="PARTICLE_TEAL" 					path="particle_teal" alphaimage="particle_alpha" cols="19"/>
+		<Image id="PARTICLE_WHITE" 					path="particle_white" alphaimage="particle_alpha" cols="19"/>	
+		<Image id="BRICK_ROCK_DEATH" 				path="brick_stone_death" cols="9"/>				
+		<Image id="FUELCELL_DEATH"					path="brick_bonus_death" cols="10"/>
+		<Image id="BIOHAZARD"						path="biohazard"/>		
+		<Image id="BRICK_COL_NUKE_ACTIVATED"		path="bomb_col_nuke_activated" cols="7"/>
+		<Image id="BRICK_FREEZE_DEATH"				path="bomb_freeze_death" cols="10"/>
+		<Image id="BRICK_MUTATOR_DEATH"				path="brick_mutator_death" cols="7"/>
+		<Image id="BRICK_STEEL_DEATH"				path="brick_steel_death" cols="10"/>		
+		<Image id="BRICK_COL_NUKE_FX"				path="brick_laser_blast" cols="10"/>
+		<Image id="BRICK_BONUS_FX"					path="brick_bonus_fx"/>
+		<Image id="BRICK_BONUS_GLOW"				path="brick_bonus_glow" cols="7"/>
+		<Image id="BRICK_ROW_NUKE_ACTIVATED"		path="bomb_horiz_activated" cols="7"/>
+		<Image id="BRICK_ROW_NUKE_BLAST"			path="bomb_horiz_blast" rows="8"/>
+		<Image id="BRICK_ROW_NUKE_DEATH"			path="bomb_horiz_death" cols="10"/>
+		<Image id="BRICK_RADIAL_ACTIVATED"			path="bomb_radial_activated" cols="7"/>
+		<Image id="BRICK_RADIAL_GHOST"				path="bomb_radial_ghost"/>
+		<Image id="BRICK_COL_NUKE_GHOST"			path="bomb_col_nuke_ghost"/>
+		<Image id="BRICK_HORIZ_GHOST"				path="bomb_horiz_ghost"/>
+		<Image id="PARTICLE_FIREBALL"				path="particle_fireball" cols="19"/>
+		<Image id="PARTICLE_SNOWFLAKE"				path="particle_snowflake" cols="19"/>
+		<Image id="PARTICLE_RADIAL"					path="particle_radial" cols="19"/>
+		<Image id="MOON_PARTICLE"					path="particle_moon" cols="19"/>
+		<Image id="PARTICLE_LIGHTNING"				path="particle_lightning" cols="19"/>	
+		<Image id="BRICK_BOOSTER_ACTIVATED"			path="brick_booster_activated" cols="7"/>
+		<Image id="BRICK_BOOSTER_DEATH"				path="brick_booster_death" cols="10"/>
+		
+		<Image id="EASY_WARP_GATE"					path="easy_warp" cols="12"/>
+		<Image id="HARD_WARP_GATE"					path="hard_warp" cols="12"/>
+		<Image id="WORMHOLE_WARP_GATE"				path="wormhole_warp" cols="12"/>
+		
+		<Image id="SLOW_WARP_GATE"					path="warp_slow"/>
+		<Image id="FAST_WARP_GATE"					path="warp_fast"/>	
+		<Image id="WARP_PLANETS"					path="warp_planets" cols="4"/>
+				
+		<!--						MISC IMAGES							-->	
+		<Image id="SPARKLE_SMALL" 					path="sparkle" cols="14"/>	
+		<Image id="LEVELUP_TEXT"					path="levelup_text"/>
+		<Image id="STATS_TEXT"						path="stats_text"/>
+		<Image id="CP_WARP_OVERLAY"					path="cp_warp_overlay" cols="10"/>
+		<Image id="BONUSROUND_TEXT"					path="bonusround_text"/>
+		<Image id="BONUS_TEXT_GO"					path="bonustext_go"/>
+		<Image id="BONUS_TEXT_HEADER"				path="bonustext_levelcomplete"/>
+		<Image id="HOF_VECTOR"						path="hof_vector"/>
+		<Image id="HOF_SPROCKET"					path="hof_sprocket"/>
+		<Image id="HOF_TURBOT"						path="hof_turbot"/>
+		<Image id="HOF_VIXX"						path="hof_vixx"/>
+		<Image id="PERSONAL_VECTOR_GAUGE"			path="personal_vector"/>
+		<Image id="PERSONAL_SPROCKET_GAUGE"			path="personal_sprocket"/>
+		<Image id="PERSONAL_TURBOT_GAUGE"			path="personal_turbot"/>
+		<Image id="PERSONAL_VIXX_GAUGE"				path="personal_vixx"/>
+		<Image id="PERFECT"							path="perfect"/>
+		<Image id="PERSONAL_HIGHSCORES"				path="personal_highscores"/>		
+		<Image id="SUPA_RING"						path="hint_ring_supa"/>
+		<Image id="STORY_STATIC"					path="story_static" cols="4"/>
+		<!-- <Image id="STORY_RADAR_1PING"				path="story_radar_1ping" cols="6"/>	-->
+		<!-- <Image id="STORY_RADAR_5PING"				path="story_radar_5ping"/> -->
+		<Image id="STORY_GAUGE_OVERLAY"				path="story_gaugeoverlay" cols="7"/>
+		<Image id="STORY_BRACKET"					path="story_bracket"/>
+		
+		<!--						GAMEOVER AND DANGER IMAGES			-->
+		<Image id="SIREN"							path="siren" cols="12"/>
+		<Image id="SIREN_FX"						path="siren_fx" cols="12"/>
+		<Image id="BIG_BLAST1"						path="bigblast1"/>
+		<Image id="BIG_BLAST2"						path="bigblast2"/>
+		<Image id="BIG_BLAST3"						path="bigblast3"/>	
+		<Image id="GAME_OVER_TEXT"					path="gameover_text"/>
+		<Image id="GAME_OVER_DIALOG"				path="gameover_dialog" alias="BOUNCY_DIALOG"/>	
+		<Image id="SUN_PARTICLE"					path="sunparticle" cols="10"/>
+		<Image id="GAMEOVER_DANGER"					path="gameover_danger"/>
+			
+		<!--						TUTORIAL STUFF						-->
+		<Image id="TH_BONUS"						path="hs_bonus"/>
+		<Image id="TH_COLOR"						path="hs_color"/>
+		<Image id="TH_COLUMN"						path="hs_column"/>
+		<Image id="TH_MATCH"						path="hs_match"/>
+		<Image id="TH_RADIAL"						path="hs_radial"/>
+		<Image id="TH_ROW"							path="hs_row"/>
+		<Image id="TH_STEEL"						path="hs_steel"/>
+		<Image id="TH_STONE"						path="hs_stone"/>
+		<Image id="TH_STRIP"						path="hs_strip"/>
+		<Image id="TH_TOXIC"						path="hs_toxic"/>
+		<Image id="TH_BOOSTER"						path="hs_galaxy"/>
+		<Image id="TH_SUPER"						path="hs_super"/>
+		<Image id="TH_SUPER_STILL"					path="hs_super_still"/>
+		<Image id="TUT_MOUSE_LEFT"					path="tut_mouse_l" cols="2"/>
+		<Image id="TUT_MOUSE_RIGHT"					path="tut_mouse_r" cols="2"/>
+		<Image id="TH_BTN_DOWN"						path="bonus_btn_down"/>
+		<Image id="TH_BTN_UP"						path="bonus_btn_up"/>
+		<Image id="TH_BTN_OVER"						path="bonus_btn_over"/>
+		<Image id="TH_CHECKBOX"						path="bonus_check"/>
+		<Image id="TH_ARROWHEAD"					path="hint_arrowhead"/>
+		<Image id="TH_RING"							path="hint_ring"/>
+		<Image id="TH_RECTANGLE"					path="hs_rectangle"/>
+		<Image id="TH_LEFT_ARROWHEAD"				path="hint_arrowhead_left"/>
+		<Image id="TH_SUPA_VECTOR1"					path="hs_supa_vector_0"/>
+		<Image id="TH_SUPA_VECTOR2"					path="hs_supa_vector_1"/>
+		<Image id="TH_SUPA_SPROCKET1"				path="hs_supa_sprocket_0"/>
+		<Image id="TH_SUPA_SPROCKET2"				path="hs_supa_sprocket_1"/>
+		<Image id="TH_SUPA_SPROCKET3"				path="hs_supa_sprocket_2"/>
+		<Image id="TH_SUPA_TURBOT1"					path="hs_supa_turbot_0"/>
+		<Image id="TH_SUPA_TURBOT2"					path="hs_supa_turbot_1"/>
+		<Image id="TH_SUPA_TURBOT3"					path="hs_supa_turbot_2"/>
+		<Image id="TH_SUPA_VIXX1"					path="hs_supa_vixx_0"/>
+		<Image id="TH_SUPA_VIXX2"					path="hs_supa_vixx_1"/>
+
+				
+		<!-- 			Hyperspace related images				-->
+		<Image id="WARP_LAYER_1"					path="warp_0"/>
+		<Image id="WARP_LAYER_2_LEFT"				path="warp_1_left"/>
+		<Image id="WARP_LAYER_2_RIGHT"				path="warp_1_right"/>
+		<Image id="WARP_LAYER_3_LEFT"				path="warp_2_left"/>
+		<Image id="WARP_LAYER_3_RIGHT"				path="warp_2_right"/>
+		<Image id="WARP_FX_LARGE"					path="warp_fx_lrg" cols="12"/>
+		<Image id="WARP_FX_MED"						path="warp_fx_med" cols="12"/>
+		<Image id="WARP_FX_SMALL"					path="warp_fx_sml" cols="12"/>
+		<Image id="WARP_FX_LIGHTENING"				path="warp_fx_lightning"/>
+		<Image id="UPGRADE_ARM"						path="upgrade_arm"/>
+		<Image id="UPGRADE_HEAD"					path="upgrade_head" cols="22"/>
+		<Image id="UPGRADE_BAR"						path="upgrade_bar"/>
+		<Image id="UPGRADE_TITLE"					path="upgrade_title"/>
+		<Image id="UPGRADE_OVERLAY1"				path="upgrade_overlay1"/>
+		<Image id="UPGRADE_OVERLAY2"				path="upgrade_overlay2"/>
+
+	</Resources>
+</ResourceManifest>

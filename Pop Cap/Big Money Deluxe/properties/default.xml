@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<Properties version="1.0" language="en" country="US" lookandfeel="NORMAL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="">
+
+<!-- Dialog Buttons -->
+<String id="DIALOG_BUTTON_YES">YES</String>
+<String id="DIALOG_BUTTON_NO">NO</String>
+<String id="DIALOG_BUTTON_OK">OK</String>
+<String id="DIALOG_BUTTON_CANCEL">CANCEL</String>
+
+<!-- Update Dialog Stuff -->
+<String id="UPDATE_CHECK_TITLE">Update Check</String>
+<String id="UPDATE_CHECK_BODY">Contacting PopCap.com to determine if there are any updates available for this product ...</String>
+<String id="UP_TO_DATE_TITLE">Up to Date</String>	
+<String id="UP_TO_DATE_BODY">There are no updates available for this product at this time.</String>
+<String id="NEW_VERSION_TITLE">New Version</String>
+<String id="NEW_VERSION_BODY">There is an update available for this product.  Would you like to visit the web site to download it?</String>
+
+<!-- Exception Dialog Stuff -->
+<String id="BUG_REPORT_TITLE">Fatal exception.</String>
+<String id="BUG_REPORT_BODY">Something went wrong with the program.&cr;An error report has been created and can be sent to Zylom.&cr;This report will help us to find the cause of the problem.&cr;Sending the report requires an active Internet connection.&cr;&cr;Would you like to send the error report?</String>
+
+<!-- Board.cpp -->
+<StringArray id="gRankNames">
+  <String>Pauper</String>
+  <String>Ditch Digger</String>
+  <String>Minimum Wage Slave</String>
+  <String>Fry Cook</String>
+  <String>Fry Cook of the Month</String>
+  <String>Temp</String>
+  <String>Part-Time Employee</String>
+  <String>Employee</String>
+  <String>Assistant</String>
+  <String>Wage Slave</String>
+  <String>Manager</String>
+  <String>Executive</String>
+  <String>Director</String>
+  <String>Entrepreneur</String>
+  <String>Vice President</String>
+  <String>CEO</String>
+  <String>Venture Capitalist</String>
+  <String>Chairman of the Board</String>
+  <String>Tycoon</String>
+  <String>Magnate</String>
+  <String>Captain of Industry</String>
+  <String>Millionaire</String>
+  <String>Multi-millionaire</String>
+  <String>Billionaire</String>
+  <String>Zillionaire</String>
+  <String>Rich and Famous</String>
+  <String>Infinite Power</String>
+</StringArray>
+
+<String id="EXCESS_BAGGAGE_BONUS">Excess Baggage Bonus!</String>
+<String id="TRIPLE_HYPER_COMBO">Triple Hyper Combo!</String>
+<String id="AWESOME_COMBO">Awesome Combo!</String>
+<String id="TRIPLE_MEGA_COMBO">Triple Mega Combo!</String>
+<String id="DOUBLE_HYPER_COMBO">Double Hyper Combo!</String>
+<String id="DOUBLE_MEGA_COMBO">Double Mega Combo!</String>
+<String id="BIG_MONEY_COMBO">Big Money Combo!</String>
+<String id="TRIPLE_COMBO">Triple Combo!</String>
+<String id="DOUBLE_COMBO">Double Combo!</String>
+<String id="EXCELLENT_COMBO">Excellent Combo!</String>
+<String id="COLOR_COMBO_BONUS">Color Combo Bonus!</String>
+<String id="SUPER_COLOR_COMBO_BONUS">Super Color Combo Bonus!</String>
+<String id="SPEED_BONUS">Speed Bonus!</String>
+<String id="SUPER_COLUMN_CLEARING_BONUS">Super Column Clearing Bonus!</String>
+<String id="COLUMN_CLEARING_BONUS">Column Clearing Bonus!</String>
+<String id="CLICK_HERE_TO_PLAY_AGAIN">CLICK HERE TO PLAY AGAIN</String>
+<String id="CLICK_HERE_TO_PLAY_NEXT_LEVEL">CLICK HERE TO PLAY NEXT LEVEL!</String>
+<String id="SPEED_BAGGER_BONUS">Speed Bagger Bonus!</String>
+<String id="TOWER_TOPPLER_BONUS">Tower Toppler Bonus!</String>
+<String id="GAME_TIME">Game Time:</String>
+<String id="LEVELS_COMPLETED">Levels Completed:</String>
+<String id="BIGGEST_COIN_COMBO">Biggest Coin Combo:</String>
+<String id="BIGGEST_BONUS">Biggest Bonus:</String>
+<String id="COINS_CLEARED">Coins Cleared:</String>
+<String id="NEXT_RANK_AT_X_PTS">Next Rank at %d pts</String>
+<String id="GAME_PAUSED">** Game Paused **</String>
+<String id="CLICK_HERE_TO_CONTINUE">Click Here to Continue!</String>
+<String id="COLLECT_X_MONEY_BAGS_TO_ADVANCE">Collect %d Money Bag%s to Advance!</String>
+<String id="TESTING_TEXT">Testing text...</String>
+
+<!-- CreditsDialog.cpp -->
+<String id="GAME_DESIGN">- Game Design -</String>
+<String id="PROGRAMMING">- Programming -</String>
+<String id="ART">- Art -</String>
+<String id="MUSIC">- Music -</String>
+<String id="BUSINESS">- Business -</String>
+<String id="VOICE_OF_MR_MONEYBAGS">- Voice of Mr. Moneybags -</String>
+<String id="TIME_D">Time: %d&cr;</String>
+
+<!-- HelpWidget.cpp -->
+<String id="CLICK_HERE_TO_START_GAME">Click Here to Start Game!</String>
+<String id="CLICK_HERE_TO_CONTINUE_GAME">Click Here to Continue Game</String>
+<String id="CLICK_HERE_FOR_MORE_INSTRUCTIONS">Click Here for More Instructions</String>
+<String id="DONT_SHOW_THIS_SCREEN_AGAIN">Don't Show This Screen Again</String>
+<String id="HOW_TO_PLAY_BIG_MONEY_PUZZLE">^FFFF51^How to play Big Money: Puzzle</String>
+<String id="CLICK_ON_GROUPS_OF_X_OR_MORE">^6CD308^Click on groups of ^FACD18^2 or more</String>
+<String id="X_COINS_TO_COLLECT_THEM">^6CD308^coins to collect them</String>
+<String id="X_YOU_MUST_DROP_MONEYBAGS_OFF">^6CD308^You must drop moneybags off</String>
+<String id="X_THE_X_BOTTOM_X_TO_COLLECT_THEM">^6CD308^the ^FACD18^bottom ^6CD308^to collect them!</String>
+<String id="X_THE_GAME_ENDS_WHEN_YOU_X_CANNOT">^6CD308^The game ends when you ^FACD18^cannot</String>
+<String id="X_COLLECT_X_ANY_MORE_COINS">^FACD18^collect ^6CD308^any more coins</String>
+<String id="X_HOW_TO_PLAY_BIG_MONEY_ACTION">^FFFF51^How to play Big Money: Action</String>
+<String id="X_HOW_TO_PLAY_BIG_MONEY_STRATEGY">^FFFF51^How to play Big Money: Strategy</String>
+<String id="X_CLICK_ON_GROUPS_OF_X_OR_MORE2">^6CD308^Click on groups of ^FACD18^3 or more</String>
+<String id="X_COINS_TO_COLLECT_THEM2">^6CD308^coins to collect them</String>
+<String id="X_COLLECTING_COINS_WILL_FILL_UP">^6CD308^Collecting coins will fill up</String>
+<String id="X_THE_X_MONEY_METER_X_ON_THE_RIGHT">^6CD308^the ^FACD18^money meter ^6CD308^on the right</String>
+<String id="X_WHEN_METER_IS_FULL_A_X_MONEYBAG">^6CD308^when meter is full a ^FACD18^moneybag</String>
+<String id="X_WILL_DROP__GRAB_IT_TO_ADVANCE">^6CD308^will drop. Grab it to advance!</String>
+
+<StringArray id="aHelpTexts">
+  <String>^6CD308^The object of the game is to collect coins </String>
+  <String>by clicking on groups of ^FACD18^3 or more^6CD308^.</String>
+  <String>^6CD308^These coins will fill up the ^FACD18^money meter^6CD308^ on </String>
+  <String>the right. When it is completely full, a </String>
+  <String>^FACD18^moneybag^6CD308^ will drop down. Collect the coins </String>
+  <String>directly under the moneybag to grab it.</String>
+  <String>^6CD308^When you have collected enough moneybags, </String>
+  <String>you will ^FACD18^advance^6CD308^ to the next level.</String>
+  <String>^6CD308^New coins are ^FACD18^constantly minted as you play. </String>
+  <String>If the coin level ever reaches the top of the </String>
+  <String>screen, your game will ^FACD18^end^6CD308^.</String>
+  <String>^6CD308^Keep an eye out for the ^FACD18^dollar bombs^6CD308^! These will</String>
+  <String>destroy all coins of one color on the screen.</String>
+</StringArray>
+
+<!-- HighScoreDialog.cpp -->
+<String id="ACTION_HIGH_SCORES">Action High Scores</String>
+<String id="STRATEGY_HIGH_SCORES">Strategy High Scores</String>
+<String id="PUZZLE_HIGH_SCORES">Puzzle High Scores</String>
+
+<!-- HighScoreWidget.cpp -->
+<String id="CLICK_HERE_TO_SUBMIT_TO_INTERNET_HIGH_SCORE_LIST">Click Here to Submit to Internet High Score List</String>
+<String id="CLICK_HERE_TO_START_A_NEW_GAME">Click Here to Start a New Game</String>
+<String id="HSOTD_AND_PLACE_X_OAT_REGISTER1">You got the highest score of the day and place </String>
+<String id="HSOTD_AND_PLACE_X_OAT_REGISTER2">of all time!&cr;&cr;Would you like to register so you can record your score?</String>
+<String id="YOU_GOT_THE_HIGHEST_SCORE_OF_THE_DAY__WOULD_YOU_LIKE_TO_REGISTER_SO_YOU_CAN_RECORD_YOUR_HIGH_SCORE">You got the highest score of the day!&cr;&cr;Would you like to register so you can record your score?</String>
+<String id="YOU_GOT_PLACE_X_OF_ALL_TIME__REGISTER1">You got place </String>
+<String id="YOU_GOT_PLACE_X_OF_ALL_TIME__REGISTER2"> of all time!&cr;&cr;Would you like to register so you can record your score?</String>
+<String id="HSOTD_AND_PLACE1">You got the highest score of the day and place </String>
+<String id="HSOTD_AND_PLACE2"> of all time!</String>
+<String id="YOU_GOT_THE_HIGHEST_SCORE_OF_THE_DAY">You got the highest score of the day!</String>
+<String id="YOU_GOT_PLACE_">You got place </String>
+<String id="_OF_ALL_TIME"> place of all time!</String>
+<String id="HIGH_SCORES">HIGH SCORES</String>
+<String id="TODAYS_HIGH_SCORES">Today's High Score</String>
+<String id="NOT_APPLICABLE_SHORTHAND">N/A</String>
+
+<!-- OptionsDialog.cpp -->
+<String id="OPTIONS">Options</String>
+<String id="DONE">DONE</String>
+<String id="REGISTER">Register</String>
+<String id="SCORES">Scores</String>
+<String id="HELP">Help</String>
+<String id="CHECK_UPDATES">Check Updates</String>
+<String id="CREDITS">Credits</String>
+<String id="CLICK_HERE_TO_TRY_DIAMOND_MINE">Click Here to Try Diamond Mine</String>
+<String id="VISIT_POPCAP_COM_FOR_MORE_GAMES">Visit PopCap.com For More Games</String>
+<String id="DIAMOND_MINE">Diamond Mine</String>
+<String id="ALCHEMY">Alchemy</String>
+<String id="DYNOMITE">Dynomite</String>
+<String id="PALM_GAMES">Palm Games</String>
+<String id="OPTDLG_MUSIC">Music</String>
+<String id="SOUND_FX">Sound Fx</String>
+<String id="FULLSCREEN">Fullscreen</String>
+<String id="CUSTOM_CURSORS">Custom Cursors</String>
+
+<!-- RecordScoreDialog.cpp -->
+<String id="RSDLG_HIGH_SCORE">High Score</String>
+<String id="ENTER_YOUR_NAME">Enter Your Name</String>
+
+<!-- RegisterDialog.cpp -->
+<String id="REGISTRATION">REGISTRATION</String>
+
+<!-- TitleScreen.cpp -->
+<String id="YOU_HAVE_ZERO_PLAYS_REMAINING_YOU_MUST_REGISTER_TO_PLAY_MORE">You have 0 plays remaining, you must register to play more!</String>
+<String id="YOU_HAVE_D_PLAYS_REMAINING">YOU HAVE %d PLAYS REMAINING</String>
+<String id="YOU_MUST_REGISTER_ONLINE_NOW_TO_CONTINUE_PLAYING">You must register online now to continue playing!</String>
+<String id="YOU_HAVE_PLAYED_X_TIMES_WITHOUT_REGISTERING">YOU HAVE PLAYED %d TIMES WITHOUT REGISTERING</String>
+<String id="UNREGISTERED_VERSION">UNREGISTERED VERSION</String>
+<String id="THANKS_FOR_REGISTERING">THANKS FOR REGISTERING!</String>
+<String id="SEND_COMMENTS_SUGGESTIONS_OR_BUG_REPORTS_TO_US_AT_X">Send comments, suggestions, or bug reports to us at bugs@popcap.com</String>
+<String id="PLEASE_WAIT">Please wait, unpacking sounds...</String>
+<String id="VERSION_">Version </String>
+<String id="CLICK_HERE_TO_PLAY">CLICK HERE TO PLAY!</String>
+<String id="REGISTER_NOW_TO_UNLOCK_THIS_GAME">REGISTER NOW TO UNLOCK THIS GAME!</String>
+<String id="CLICK_HERE_TO_REGISTER_NOW">CLICK HERE TO REGISTER NOW!</String>
+<String id="CLICK_HERE_TO_QUIT">CLICK HERE TO QUIT</String>
+
+<!-- WinBMApp.cpp -->
+<String id="ALREADY_REGISTERED">Already Registered</String>
+<String id="YOU_HAVE_ALREADY_REGISTERED_BIG_MONEY">You have already registered Big Money.</String>
+<String id="OK">OK</String>
+<String id="INVALID_CODE">Invalid Code</String>
+<String id="THE_LICENSE_CODE_YOU_ENTERED_IS_NOT_VALID__">The license code you entered is not valid for that name.&cr;&cr;Make sure the name and registration number are entered correctly.</String>
+<String id="NO_WINDOWED">No Windowed</String>
+<String id="WINDOWED_MODE_IS_ONLY_AVAILABLE_IF__">Windowed mode is only available if your desktop is running in either 16 bit or 32 bit color mode, which it is not.</String>
+<String id="PUZZLE_MODE_LOCKED">PUZZLE MODE LOCKED</String>
+<String id="TO_PLAY_PUZZLE_MODE_YOU_MUST_REGISTER__DO_YOU_WANT_TO_REGISTER_NOW">To play Puzzle Mode, you must register!&cr;&cr;Do you want to register now?</String>
+<String id="YOU_CAN_ONLY_PLAY_ONE_LEVEL__DO_YOU_WANT_TO_REGISTER_NOW_TO_ENABLE_THE_FULL_GAME">You can only play 1 level of Puzzle mode in this trial version!&cr;&cr;Do you want to register now to enable the full game?</String>
+<String id="THE_NEXT_LEVEL_IS_LOCKED_UNTIL_YOU_REGISTER__DO_YOU_WANT_TO_REGISTER_NOW">The next level is locked until you register!&cr;&cr;Do you want to register now?</String>
+<String id="HIGH_SCORE">High Score</String>
+<String id="PLEASE_OPEN_THE_FOLLOWING_URL_IN_YOUR_BROWSER">Please open the following URL in your browser:&cr;</String>
+<String id="OPEN_BROWSER">OPEN BROWSER</String>
+<String id="OPENING_BROWSER">Opening Browser ...</String>
+<String id="CONTINUE">Continue?</String>
+<String id="DO_YOU_WANT_TO_CONTINUE_YOUR_LAST_GAME">Do you want to continue your last game? Your position was saved when you quit. If you do not continue now, that game will be lost.</String>
+<String id="ARE_YOU_SURE_YOU_WANT_TO_QUIT_THE_GAME">Are you sure you want to&cr;quit the game?</String>
+<String id="YOUR_CURRENT_GAME_IN_PROGRESS_WILL_BE_SAVED_SO_YOU_CAN_CONTINUE_NEXT_TIME">&cr;&cr;Your current game in progress will be saved so you can continue next time.</String>
+<String id="QUIT">Quit</String>
+<String id="NEW_GAME">New Game</String>
+<String id="ARE_YOU_SURE_YOU_WANT_TO_END_THE_CURRENT_GAME">Are you sure you want to end&cr;the current game?</String>
+<String id="UPDATES">Updates</String>
+<String id="DO_YOU_WANT_TO_CHECK_FOR_UPDATES_TO_BIG_MONEY">Do you want to check for updates to Big Money? New versions may offer new features and bug fixes.  This requires an active Internet connection.</String>
+<String id="ENTER_NAME">Enter Name</String>
+<String id="IF_YOU_WANT_TO_RECORD_YOUR_SCORE_ENTER_YOUR_NAME_IN_THE_HIGH_SCORE_BOX">If you want to record your score, enter your name in the high score box</String>
+
+</Properties>

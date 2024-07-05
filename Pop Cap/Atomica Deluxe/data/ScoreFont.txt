@@ -1,0 +1,17 @@
+Define Charlist
+  ('+', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' );
+
+Define WidthList
+  (10, 18, 13, 18, 17, 18, 17, 18, 17, 18, 17 );
+
+Define RectList
+  ((3,0,10,24) , (24,0,18,24) , (53,0,13,24) , (76,0,18,24) , (105,0,17,24) 
+, (133,0,18,24) , (162,0,17,24) , (190,0,18,24) , (219,0,17,24) , 
+(247,0,18,24) , (276,0,17,24)  );
+
+CreateLayer Main;
+LayerSetImage Main '../images/scorefont';
+LayerSetImageMap Main CharList RectList;
+LayerSetAscent Main 20;
+LayerSetCharWidths Main CharList WidthList;
+LayerSetCharWidths Main (' ') (10);

@@ -1,0 +1,24 @@
+<Properties>
+
+  <!--               Coal GEMS                      -->
+  <!-- what is the first level they appear on? -->
+  <Integer id="CoalGemFirstLevel"> 0 </Integer>
+
+  <!-- what is the value for that first level -->
+  <Integer id="CoalGemBase"> 10 </Integer>
+
+  <Double id="CoalGemChancePow"> 3.0 </Double>
+
+  <!-- does this value decrement based on turns or gems? -->
+  <Boolean id="CoalGemTurnBased"> false </Boolean>
+
+  <!-- how many level ups until the value changes -->
+  <Integer id="CoalGemLevelsBetweenChange" > 3 </Integer>
+
+  <!-- what is the change to the value? -->
+  <Integer id="CoalGemChange"> -1 </Integer>
+
+  <!-- what is the minimum the value can be? -->
+  <Integer id="CoalGemMin"> 5 </Integer>
+
+</Properties>

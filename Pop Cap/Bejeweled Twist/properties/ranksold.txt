@@ -1,0 +1,81 @@
+"Trainee", 0
+"Newbie", 50000
+"Junior Rotator", 100000
+"Rotator", 150000
+"Senior Rotator", 200000 
+"Electro Spinner", 275000
+"Spinner", 350000
+"Chain Spinner", 425000
+"Blast Spinner", 600000
+"Senior Spinner", 800000
+"Twister", 1000000
+"Pyro Twister",		1250000
+"Twister Plus",		1500000
+"Master Twister",	1750000
+"Cryo Spinner",		2000000
+"Junior Gemspinner", 2300000
+"Electro Gemspinner", 2600000
+"Gemspinner", 2900000
+"Pyro Gemspinner", 3500000
+"Senior Gemspinner", 4000000
+"Divine Spinner", 4500000
+"Junior Bejeweler", 5000000
+"Electro Bejeweler", 5500000
+"Bejeweler", 6000000
+"Cryo Bejeweler", 6500000
+"Super Rotator", 7000000
+"Fruit Spinner", 7500000
+"Super Twister", 8000000
+"Super Bejeweler", 8000000
+"Mega Rotator", 8000000
+"Mega Spinner", 8000000
+"Pyro Twister", 8000000
+"Mega Bejeweler", 8000000
+"Pyro Rotator", 8000000
+"Angelic Twister", 8000000
+"Ultra Spinner", 8000000
+"Ultra Twister", 8000000
+"Ultra Bejeweler", 8000000
+"Hyper Rotator", 8000000
+"Hyper Spinner", 8000000
+"Hyper Twister", 8000000
+"Shock Bejeweler", 8000000
+"Twistmaster", 8000000
+"Twistmaster Plus", 8000000
+"Super Twistmaster", 8000000
+"Twistmaster Mega", 8000000
+"Twistmaster Enduro", 8000000
+"Twistmaster Ultra", 8000000
+"Twistmaster Hyper", 8000000
+"Twistmaster Giga", 8000000
+"Twistmaster Supreme", 8000000
+"Twistwizard Alpha", 8000000
+"Twistwizard Beta", 8000000
+"Twistwizard Delta", 8000000
+"Twistwizard Omega", 8000000
+"Twistwizard Supreme", 8000000
+"Junior Spinmaster", 8000000
+"Cryo Fruitmaster", 8000000
+"Pyro Fruitmaster", 8000000
+"Spinmaster Supreme", 8000000
+"Jewelkeeper 3rd class", 8000000
+"Jewelkeeper 2nd class", 8000000
+"Jewelkeeper 1st class", 8000000
+"Master Jewelkeeper", 8000000
+"Junior Gemmaster", 8000000
+"Gemmaster", 8000000
+"Senior Gemmaster", 8000000
+"Gemmaster Supreme", 8000000
+"Twist Hero", 8000000
+"Super Twist Hero", 8000000
+"Mega Twist Hero", 8000000
+"Ultra Twist Hero", 8000000
+"Hyper Twist Hero", 8000000
+"Ultimate Twist Hero",8000000
+"Twist Hero Supreme", 8000000
+"Overlord of Twisting", 8000000
+"Sultan of Spin", 8000000
+"Gem General", 8000000
+"Gem King", 8000000
+"Ultimate Gem Master", 8000000
+"Gem Master Supreme", 8000000

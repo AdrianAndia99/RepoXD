@@ -1,0 +1,12 @@
+Tutorial:
+Welcome to the island of Pixelus, Claudius!
+The gods on the island are upset because their
+temple floors are broken. Can you help?
+Claudius:
+Hmm. I got shipwrecked here. Maybe if I
+appease the gods, they will help me to
+get back home. What can i do?
+Tutorial:
+I am too old to work myself, but I know
+a thing or two about making mosaics.
+Come into my cave!

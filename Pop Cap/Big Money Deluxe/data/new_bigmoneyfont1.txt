@@ -1,0 +1,54 @@
+# Main font for Big Money
+
+# Definitions
+
+Define Lowercase ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 
+	 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z');
+
+Define Uppercase ('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 
+	 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z');
+
+Define CharList 
+	('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 
+	 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0', 
+	 '1', '2', '3', '4', '5', '6', '7', '8', '9', '!', ',', '.', '?', ':', 
+	 '+', '-', '$');
+
+Define WidthList 
+	( 10,  10,  10,  10,  10,  10,  10,  10,   5,  10,  10,   8,  15,
+	  10,  10,  10,  12,  10,  10,  11,  10,  11,  17,  11,  10,  10,  10,
+	   5,  10,  10,  11,  10,  10,  10,  10,  10,   5,   5,   5,  10,   5,  
+	  10,   5,   9);
+
+#Define KerningCharsList  ("cl");
+
+#Define KerningOffetsList ( 16);
+
+# Generation code
+
+CreateHorzSpanRectList RectList (0, 0, 0, 20) WidthList;
+
+CreateLayer			Shadow;
+LayerSetOffset		Shadow (2, 2);
+#LayerSetCharOffsets Shadow ('k') ((0, -3));
+LayerSetPointSize	Shadow 8;
+LayerSetImage		Shadow '../images/bigmoneyfont1.png';
+LayerSetAscent      Shadow 15;
+LayerSetCharWidths  Shadow CharList WidthList;
+LayerSetCharWidths  Shadow (' ') (9);
+LayerSetSpacing		Shadow 0;
+LayerSetImageMap	Shadow CharList RectList;
+#LayerSetKerningPairs Shadow KerningCharsList KerningOffetsList;
+LayerSetColorMult	Shadow (0, 0, 0, 0.25);
+
+CreateLayerFrom		Main Shadow;
+LayerSetOffset		Main (0, 0);
+LayerSetColorMult	Main (1, 1, 1, 1);
+LayerSetPointSize	Main 8;
+
+# LayerRequireTags	Shadow ("shadow");
+
+# Since lowercase characters aren't defined
+SetCharMap			Uppercase Lowercase;
+SetDefaultPointSize	8
+

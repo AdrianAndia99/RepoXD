@@ -1,0 +1,209 @@
+<Galaxy mapimage="Planet-Map">
+
+	<Planet aimage=p1 dimage=dplanet name="Centauri Prime" mapx=560 mapy=63 bkg="images\backdrops\backdrop00"
+		desc="You must solve 4 of the 5 puzzles on each planet.&cr;&cr;This will open the warp gate to the next planet.">
+		
+		<Tutorial file="tutorial0.bpz">
+			<Text>Clear all gems to complete the puzzle.</Text>
+			<Text/>
+			<Text>Complete at least 4 of the 5 puzzles on</Text>
+			<Text>each planet to unlock the next planet.</Text>		
+			
+			<Move col=3 row=5 /><Move col=4 row=5 />
+		</Tutorial>
+		
+		<Moon name="Centauri - 1" dimage=dmoon simage=Moonz1 uimage=Moon01 file="1. pairs.bpz" />
+		<Moon name="Centauri - 2" dimage=dmoon simage=Moonz1 uimage=Moon01 file="2. above and below.bpz" />
+		<Moon name="Centauri - 3" dimage=dmoon simage=Moonz1 uimage=Moon01 file="26. green right.bpz" />
+		<Moon name="Centauri - 4" dimage=dmoon simage=Moonz1 uimage=Moon01 file="4. house.bpz" />
+		<Moon name="Centauri - 5" dimage=dmoon simage=Moonz1 uimage=Moon01 file="5. test1.bpz" />
+	</Planet>	
+
+	<Planet aimage=p2 dimage=dplanet name="Tau Heximus" mapx=455 mapy=39 bkg="images\backdrops\backdrop01"
+                desc="Master the art of creating Power Gems on this world.&cr;&cr;Solve 4 of 5 to proceed.">
+	
+		<Tutorial file="tutorial2.bpz">			
+			<Text>Make a set of 4 gems to create a Power Gem.</Text>
+			<Text/>
+			<Text>When you use a Power Gem in another set it will detonate,</Text>
+			<Text>destroying adjacent gems!</Text>
+						
+			<Move col=4 row=4 /><Move col=5 row=4 />
+			<Move col=5 row=7 /><Move col=4 row=7 />
+		</Tutorial>
+	
+		<Moon name="Tau Heximus - 1" dimage=dmoon simage=Moonz2 uimage=Moon02 file="6. power on.bpz" />
+		<Moon name="Tau Heximus - 2" dimage=dmoon simage=Moonz2 uimage=Moon02 file="7. chain reaction.bpz" />
+		<Moon name="Tau Heximus - 3" dimage=dmoon simage=Moonz2 uimage=Moon02 file="8. test2.bpz" />
+		<Moon name="Tau Heximus - 4" dimage=dmoon simage=Moonz2 uimage=Moon02 file="9. power switch.bpz" />
+		<Moon name="Tau Heximus - 5" dimage=dmoon simage=Moonz2 uimage=Moon02 file="10. power transfer.bpz" />
+	</Planet>
+	
+	<Planet aimage=p3 dimage=dplanet name="Ceti Alpha V" mapx=324 mapy=48 bkg="images\backdrops\backdrop02"
+                desc="Hyper Cubes are the key to this world.&cr;&cr;Solve 4 of the 5 puzzles to continue.">
+
+<Tutorial file="tutorial3.bpz">			
+			<Text>Make a Hyper Cube by combining 5 gems in a row.</Text>
+			<Text/>
+			<Text>Swap the Hyper Cube to destroy all gems of one color.</Text>			
+						
+			<Move col=4 row=6 /><Move col=4 row=7 />
+			<Move col=4 row=7 /><Move col=4 row=6 />
+		</Tutorial>
+		<Moon name="Ceti Alpha V - 1" dimage=dmoon simage=Moonz3 uimage=Moon03 file="11. long reach.bpz" />
+		<Moon name="Ceti Alpha V - 2" dimage=dmoon simage=Moonz3 uimage=Moon03 file="12. cube row 1.bpz" />
+		<Moon name="Ceti Alpha V - 3" dimage=dmoon simage=Moonz3 uimage=Moon03 file="13. cancellation.bpz" />
+		<Moon name="Ceti Alpha V - 4" dimage=dmoon simage=Moonz3 uimage=Moon03 file="14. five down.bpz" />
+		<Moon name="Ceti Alpha V - 5" dimage=dmoon simage=Moonz3 uimage=Moon03 file="15. rocket.bpz" />
+	</Planet>
+	
+	<Planet aimage=p4 dimage=dplanet name="Seraph III" mapx=205 mapy=79 bkg="images\backdrops\backdrop03"
+desc="This is the first planet with Rocks, inert obstacles you must destroy.&cr;&cr;Solve 4 of 5 to go on.">
+		<Tutorial file="tutorial4.bpz">
+			<Text>Rocks are inert and cannot be removed by matching.</Text>
+			<Text/>
+			<Text>You must blow them up with Power Gems or Hyper Cubes!</Text>									
+			<Move col=3 row=5 /><Move col=3 row=6 />			
+		</Tutorial>
+		<Moon name="Seraph III - 1" dimage=dmoon simage=Moonz4 uimage=Moon04 file="16. demolition.bpz" />
+		<Moon name="Seraph III - 2" dimage=dmoon simage=Moonz4 uimage=Moon04 file="17. buttress.bpz" />
+		<Moon name="Seraph III - 3" dimage=dmoon simage=Moonz4 uimage=Moon04 file="18. pillar.bpz" />
+		<Moon name="Seraph III - 4" dimage=dmoon simage=Moonz4 uimage=Moon04 file="19. red herring.bpz" />
+		<Moon name="Seraph III - 5" dimage=dmoon simage=Moonz4 uimage=Moon04 file="20. gathering stones.bpz" />		
+	</Planet>
+	
+	<Planet aimage=p5 dimage=dplanet name="Vermithrax II" mapx=120 mapy=136 bkg="images\backdrops\backdrop04"
+desc="Use the skills you have learned to master this world.&cr;&cr;Solve 4 of the 5 puzzles to continue.">
+		<Tutorial file="tutorial5.bpz">
+			<Text>You can swap gems into open space to make a match.</Text>
+			<Text/>
+			<Text>Try it with the gems below!</Text>						
+			<Move col=5 row=5 /><Move col=6 row=5 />
+			<Move col=2 row=7 /><Move col=2 row=6 />
+		</Tutorial>		
+		<Moon name="Vermithrax II - 1" dimage=dmoon simage=Moonz5 uimage=Moon06 file="3. white meet.bpz" />
+		<Moon name="Vermithrax II - 2" dimage=dmoon simage=Moonz5 uimage=Moon06 file="27. toward middle.bpz" />
+		<Moon name="Vermithrax II - 3" dimage=dmoon simage=Moonz5 uimage=Moon06 file="28. hi and low.bpz" />
+		<Moon name="Vermithrax II - 4" dimage=dmoon simage=Moonz5 uimage=Moon06 file="29. broken symmetry.bpz" />
+		<Moon name="Vermithrax II - 5" dimage=dmoon simage=Moonz5 uimage=Moon06 file="30. towers.bpz" />	
+	</Planet>
+
+	<Planet aimage=p6 dimage=dplanet name="Maya III" mapx=74 mapy=231 bkg="images\backdrops\backdrop05" 
+desc="There are many rocks on this world. Use Hyper Cubes to blast them!&cr;&cr;Solve 4 of the 5 puzzles to go to the next world.">
+		<Moon name="Maya III - 1" dimage=dmoon simage=Moonz6 uimage=Moon11 file="51. rock checker house.bpz" />
+		<Moon name="Maya III - 2" dimage=dmoon simage=Moonz6 uimage=Moon11 file="52. rock checker tall house.bpz" />
+		<Moon name="Maya III - 3" dimage=dmoon simage=Moonz6 uimage=Moon11 file="53. 5x7 rock checker.bpz" />
+		<Moon name="Maya III - 4" dimage=dmoon simage=Moonz6 uimage=Moon11 file="54. 6x6 rock checker.bpz" />
+		<Moon name="Maya III - 5" dimage=dmoon simage=Moonz6 uimage=Moon11 file="55. rock checker triangle.bpz" />
+	</Planet>		
+		
+	<Planet aimage=p7 dimage=dplanet name="Hegemon V" mapx=84 mapy=351 bkg="images\backdrops\backdrop06"
+desc="Use time bombs to destroy gems and rocks here.&cr;&cr;Solve 4 of the 5 puzzles to go onwards.">
+	
+		<Tutorial file="tutorial7.bpz">
+			<Text>Bombs can be used to destroy gems and rocks.</Text>
+			<Text></Text>
+			<Text>Bombs explode after their timer reaches zero.</Text>
+			<Move col=4 row=4 /><Move col=4 row=5 />
+			<Move col=4 row=6 /><Move col=4 row=7 />
+		</Tutorial>
+	
+		<Moon name="Hegemon V - 1" dimage=dmoon simage=Moonz7 uimage=Moon07 file="31. countdown.bpz" />
+		<Moon name="Hegemon V - 2" dimage=dmoon simage=Moonz7 uimage=Moon07 file="32. race.bpz" />
+		<Moon name="Hegemon V - 3" dimage=dmoon simage=Moonz7 uimage=Moon07 file="33. test5.bpz" />
+		<Moon name="Hegemon V - 4" dimage=dmoon simage=Moonz7 uimage=Moon07 file="34. race2.bpz" />
+		<Moon name="Hegemon V - 5" dimage=dmoon simage=Moonz7 uimage=Moon07 file="35. delay.bpz" />
+	</Planet>		
+			
+	<Planet aimage=p8 dimage=dplanet name="Toroid X" mapx=152 mapy=441 bkg="images\backdrops\backdrop07"
+desc="This world has a Checkerboard theme.&cr;&cr;Solve 4 of the 5 puzzles to go to the next world.">
+		<Moon name="Toroid X - 1" dimage=dmoon simage=Moonz8 uimage=Moon05 file="21. 5x5 checkerboard minus one.bpz" />
+		<Moon name="Toroid X - 2" dimage=dmoon simage=Moonz8 uimage=Moon05 file="22. 5x5 212 checker.bpz" />
+		<Moon name="Toroid X - 3" dimage=dmoon simage=Moonz8 uimage=Moon05 file="23. 4x5 211 checker.bpz" />
+		<Moon name="Toroid X - 4" dimage=dmoon simage=Moonz8 uimage=Moon05 file="24. 4x5 checkerboard.bpz" />
+		<Moon name="Toroid X - 5" dimage=dmoon simage=Moonz8 uimage=Moon05 file="25. 5x5 checkerboard.bpz" />
+	</Planet>
+
+	<Planet aimage=p9 dimage=dplanet name="Channon Doa" mapx=258 mapy=439 bkg="images\backdrops\backdrop08"
+desc="Remember, you can swap gems into empty spaces.&cr;&cr;Solve 4 of the 5 puzzles to go on.">
+		<Moon name="Channon Doa - 1" dimage=dmoon simage=Moonz9 uimage=Moon12 file="56. gaps.bpz" />
+		<Moon name="Channon Doa - 2" dimage=dmoon simage=Moonz9 uimage=Moon12 file="57. valley.bpz" />
+		<Moon name="Channon Doa - 3" dimage=dmoon simage=Moonz9 uimage=Moon12 file="58. columns.bpz" />
+		<Moon name="Channon Doa - 4" dimage=dmoon simage=Moonz9 uimage=Moon12 file="60. columns3.bpz" />
+		<Moon name="Channon Doa - 5" dimage=dmoon simage=Moonz9 uimage=Moon12 file="59. columns2.bpz" />		
+	</Planet>
+
+	<Planet aimage=p10 dimage=dplanet name="Gamma Core" mapx=394 mapy=431 bkg="images\backdrops\backdrop09"
+desc="Use all your skills to solve this planet.&cr;&cr;Solve 4 of the 5 puzzles to go to the next world.">	
+		<Moon name="Gamma Core - 1" dimage=dmoon simage=Moonz10 uimage=Moon08 file="36. easy climb.bpz" />
+		<Moon name="Gamma Core - 2" dimage=dmoon simage=Moonz10 uimage=Moon08 file="37. mound.bpz" />
+		<Moon name="Gamma Core - 3" dimage=dmoon simage=Moonz10 uimage=Moon08 file="38. hill.bpz" />		
+		<Moon name="Gamma Core - 4" dimage=dmoon simage=Moonz10 uimage=Moon08 file="40. peak.bpz" />
+		<Moon name="Gamma Core - 5" dimage=dmoon simage=Moonz10 uimage=Moon08 file="39. mountain.bpz" />
+	</Planet>
+
+	<Planet aimage=p11 dimage=dplanet name="Viceroy VII" mapx=504 mapy=378 bkg="images\backdrops\backdrop10"
+desc="Power Gems are the key to this world.&cr;&cr;Solve 4 of the 5 puzzles to go on.">	
+	
+		<Tutorial file="tutorial8.bpz">
+			<Text>Making L-shaped sets also creates Power Gems.</Text>						
+			<Move col=3 row=7 /><Move col=4 row=7 />
+			<Move col=4 row=7 /><Move col=3 row=7 />
+		</Tutorial>
+	
+		<Moon name="Viceroy VII - 1" dimage=dmoon simage=Moonz11 uimage=Moon14 file="68. get the red out.bpz" />
+		<Moon name="Viceroy VII - 2" dimage=dmoon simage=Moonz11 uimage=Moon14 file="66. ox.bpz" />
+		<Moon name="Viceroy VII - 3" dimage=dmoon simage=Moonz11 uimage=Moon14 file="67. test3.bpz" />		
+		<Moon name="Viceroy VII - 4" dimage=dmoon simage=Moonz11 uimage=Moon14 file="69. test7.bpz" />
+		<Moon name="Viceroy VII - 5" dimage=dmoon simage=Moonz11 uimage=Moon14 file="70. four rocks.bpz" />
+	</Planet>			
+	
+	<Planet aimage=p12 dimage=dplanet name="Sequentus Beta" mapx=573 mapy=298 bkg="images\backdrops\backdrop11"
+desc="Timing is critical for these bomb puzzles.&cr;&cr;Solve 4 of the 5 puzzles to continue.">
+		<Moon name="Sequentus Beta - 1" dimage=dmoon simage=Moonz12 uimage=Moon10 file="46. cool moves.bpz" />
+		<Moon name="Sequentus Beta - 2" dimage=dmoon simage=Moonz12 uimage=Moon10 file="47. short fuse.bpz" />
+		<Moon name="Sequentus Beta - 3" dimage=dmoon simage=Moonz12 uimage=Moon10 file="48. long fuse.bpz" />
+		<Moon name="Sequentus Beta - 4" dimage=dmoon simage=Moonz12 uimage=Moon10 file="49. leftovers.bpz" />
+		<Moon name="Sequentus Beta - 5" dimage=dmoon simage=Moonz12 uimage=Moon10 file="50. patience.bpz" />
+	</Planet>
+	
+	<Planet aimage=p13 dimage=dplanet name="Lexicon Delta" mapx=557 mapy=200 bkg="images\backdrops\backdrop12"
+desc="You'll need all your skills for these tough puzzles.&cr;&cr;Solve 4 of 5 to go on.">		
+		<Moon name="Lexicon Delta - 1" dimage=dmoon simage=Moonz13 uimage=Moon13 file="62. 6x6 checker split.bpz" />
+		<Moon name="Lexicon Delta - 2" dimage=dmoon simage=Moonz13 uimage=Moon13 file="63. 6x6 flag.bpz" />
+		<Moon name="Lexicon Delta - 3" dimage=dmoon simage=Moonz13 uimage=Moon13 file="64. 6x6 checker split2.bpz" />
+		<Moon name="Lexicon Delta - 4" dimage=dmoon simage=Moonz13 uimage=Moon13 file="61. 6x6 checker rock diag.bpz" />
+		<Moon name="Lexicon Delta - 5" dimage=dmoon simage=Moonz13 uimage=Moon13 file="65. 6x6 octagon target.bpz" />
+	</Planet>	
+
+	<Planet aimage=p14 dimage=dplanet name="Gaean Reach" mapx=464 mapy=161 bkg="images\backdrops\backdrop13"
+desc="These 2-color grids will test your abilities.&cr;&cr;Solve 4 of the 5 puzzles to go on.">
+		<Moon name="Gaean Reach - 1" dimage=dmoon simage=Moonz14 uimage=Moon15 file="71. 2x2 cell 2x3 checker.bpz" />
+		<Moon name="Gaean Reach - 2" dimage=dmoon simage=Moonz14 uimage=Moon15 file="72. 2x2 cell 3x3 checker.bpz" />
+		<Moon name="Gaean Reach - 3" dimage=dmoon simage=Moonz14 uimage=Moon15 file="73. 4x8 checkerboard.bpz" />
+		<Moon name="Gaean Reach - 4" dimage=dmoon simage=Moonz14 uimage=Moon15 file="74. 7x4 checkerboard.bpz" />
+		<Moon name="Gaean Reach - 5" dimage=dmoon simage=Moonz14 uimage=Moon15 file="75. 8x8 checkerboard.bpz" />
+	</Planet>
+
+	<Planet aimage=p15 dimage=dplanet name="Virago Ceti" mapx=378 mapy=188 bkg="images\backdrops\backdrop14"
+desc="Prepare for the most advanced puzzles yet.&cr;&cr;Solve 4 of the 5 to go on.">
+		<Moon name="Virago Ceti - 1" dimage=dmoon simage=Moonz15 uimage=Moon16 file="76. pyramid power.bpz" />
+		<Moon name="Virago Ceti - 2" dimage=dmoon simage=Moonz15 uimage=Moon16 file="77. easy triangle.bpz" />
+		<Moon name="Virago Ceti - 3" dimage=dmoon simage=Moonz15 uimage=Moon16 file="78. small triangle.bpz" />
+		<Moon name="Virago Ceti - 4" dimage=dmoon simage=Moonz15 uimage=Moon16 file="79. pairs2.bpz" />
+		<Moon name="Virago Ceti - 5" dimage=dmoon simage=Moonz15 uimage=Moon16 file="80. pairs3.bpz" />
+	</Planet>
+
+	<Planet aimage=p16 dimage=dplanet name="Dorsal Minor" mapx=303 mapy=252 bkg="images\backdrops\backdrop15"
+desc="This is it... the final test of your abilities!&cr;&cr;Can you conquer it?">
+		<Moon name="Dorsal Minor - 1" dimage=dmoon simage=Moonz16 uimage=Moon09 file="41. B.bpz" />
+		<Moon name="Dorsal Minor - 2" dimage=dmoon simage=Moonz16 uimage=Moon09 file="42. J.bpz" />
+		<Moon name="Dorsal Minor - 3" dimage=dmoon simage=Moonz16 uimage=Moon09 file="43. W.bpz" />
+		<Moon name="Dorsal Minor - 4" dimage=dmoon simage=Moonz16 uimage=Moon09 file="44. L.bpz" />
+		<Moon name="Dorsal Minor - 5" dimage=dmoon simage=Moonz16 uimage=Moon09 file="45. D.bpz" />
+	</Planet>
+	
+	<Planet aimage=Center-planet dimage=Center-planet name="El Sol" mapx=190 mapy=276 bkg="puzzles\Galaxy One\puzzleendplanet">
+	</Planet>
+
+</Galaxy>

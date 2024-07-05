@@ -1,0 +1,208 @@
+//////////////////////////////////////////////////////////////////////////
+//                 Bonus Level Description File                         //
+//                                                                      //
+//      Copyright (c) 2003 PopCap Games, Inc. All rights reserved       //
+//                                                                      //
+//      Modifying this file may result in game instability.             //
+//      PopCap Games will not support any modified files.               //
+//////////////////////////////////////////////////////////////////////////
+
+@LEVEL
+{
+	@ROW1
+	{
+		Brick0 = 16
+		Brick1 = 10
+		Brick2 = 16
+		Brick3 = 12
+		Brick4 = 16
+		Brick5 = 18
+		Brick6 = 16
+		Brick7 = 11
+		Brick8 = 16
+		Brick9 = 15
+	}
+
+	@ROW2
+	{
+		Brick0 = 16
+		Brick1 = 10
+		Brick2 = 16
+		Brick3 = 12
+		Brick4 = 16
+		Brick5 = 18
+		Brick6 = 16
+		Brick7 = 11
+		Brick8 = 16
+		Brick9 = 15
+	}
+
+	@ROW3
+	{
+		Brick0 = 16
+		Brick1 = 10
+		Brick2 = 16
+		Brick3 = 12
+		Brick4 = 16
+		Brick5 = 18
+		Brick6 = 16
+		Brick7 = 11
+		Brick8 = 16
+		Brick9 = 15
+	}
+
+	@ROW4
+	{
+		Brick0 = 0
+		Brick1 = 16
+		Brick2 = 3
+		Brick3 = 16
+		Brick4 = 1
+		Brick5 = 16
+		Brick6 = 2
+		Brick7 = 16
+		Brick8 = 4
+		Brick9 = 16
+	}
+
+	@ROW5
+	{
+		Brick0 = 0
+		Brick1 = 16
+		Brick2 = 3
+		Brick3 = 16
+		Brick4 = 1
+		Brick5 = 16
+		Brick6 = 2
+		Brick7 = 16
+		Brick8 = 4
+		Brick9 = 16
+	}
+
+	@ROW6
+	{
+		Brick0 = 0
+		Brick1 = 16
+		Brick2 = 3
+		Brick3 = 16
+		Brick4 = 1
+		Brick5 = 16
+		Brick6 = 2
+		Brick7 = 16
+		Brick8 = 4
+		Brick9 = 16
+	}
+
+	@ROW7
+	{
+		Brick0 = 0
+		Brick1 = 16
+		Brick2 = 3
+		Brick3 = 16
+		Brick4 = 1
+		Brick5 = 16
+		Brick6 = 2
+		Brick7 = 16
+		Brick8 = 4
+		Brick9 = 16
+	}
+
+	@ROW8
+	{
+		Brick0 = 0
+		Brick1 = 16
+		Brick2 = 3
+		Brick3 = 16
+		Brick4 = 1
+		Brick5 = 16
+		Brick6 = 2
+		Brick7 = 16
+		Brick8 = 4
+		Brick9 = 16
+	}
+
+	@ROW9
+	{
+		Brick0 = 16
+		Brick1 = 0
+		Brick2 = 16
+		Brick3 = 3
+		Brick4 = 16
+		Brick5 = 1
+		Brick6 = 16
+		Brick7 = 2
+		Brick8 = 16
+		Brick9 = 4
+	}
+
+	@ROW10
+	{
+		Brick0 = 16
+		Brick1 = 0
+		Brick2 = 16
+		Brick3 = 3
+		Brick4 = 16
+		Brick5 = 1
+		Brick6 = 16
+		Brick7 = 2
+		Brick8 = 16
+		Brick9 = 4
+	}
+
+	@ROW11
+	{
+		Brick0 = 16
+		Brick1 = 0
+		Brick2 = 16
+		Brick3 = 3
+		Brick4 = 16
+		Brick5 = 1
+		Brick6 = 16
+		Brick7 = 2
+		Brick8 = 16
+		Brick9 = 4
+	}
+
+	@ROW12
+	{
+		Brick0 = 16
+		Brick1 = 0
+		Brick2 = 16
+		Brick3 = 3
+		Brick4 = 16
+		Brick5 = 1
+		Brick6 = 16
+		Brick7 = 2
+		Brick8 = 16
+		Brick9 = 4
+	}
+
+	@ROW13
+	{
+		Brick0 = 13
+		Brick1 = 0
+		Brick2 = 13
+		Brick3 = 3
+		Brick4 = 13
+		Brick5 = 1
+		Brick6 = 13
+		Brick7 = 2
+		Brick8 = 13
+		Brick9 = 4
+	}
+
+	@ROW14
+	{
+		Brick0 = -1
+		Brick1 = -1
+		Brick2 = -1
+		Brick3 = -1
+		Brick4 = -1
+		Brick5 = -1
+		Brick6 = -1
+		Brick7 = -1
+		Brick8 = -1
+		Brick9 = -1
+	}
+
+}

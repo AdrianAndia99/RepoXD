@@ -1,0 +1,68 @@
+^FFFF00^^FFFF00^TIP:^FFFFFF^^FFFFFF^ Watch for sparkles... They show you potential matches!
+^FFFF00^TIP:^FFFFFF^ Twisting rotates all 4 gems under your cursor clockwise.
+^FFFF00^TIP:^FFFFFF^ Consecutive matches up your Chain Meter and Score Multiplier!
+^FFFF00^TIP:^FFFFFF^ Match 4 gems in a row to create an explosive Flame Gem!
+^FFFF00^TIP:^FFFFFF^ Match 5 gems in a row to create an awesome Lightning Gem!
+^FFFF00^TIP:^FFFFFF^ Match Bomb Gems with gems of the same color before they tick down!
+^FFFF00^TIP:^FFFFFF^ Bomb Gems only count down when you move... so take your time!
+^FFFF00^TIP:^FFFFFF^ Bomb Gems can also be destroyed by Flame or Lightning Gems!
+^FFFF00^TIP:^FFFFFF^ If a Bomb Gem ticks to zero, you'll get one last chance to defuse it!
+^FFFF00^TIP:^FFFFFF^ Each time you defuse a Bomb your odds get worse, so be careful!
+^FFFF00^TIP:^FFFFFF^ Bomb Gems are also cleared when you complete a level.
+^FFFF00^TIP:^FFFFFF^ Stuck? Watch for sparkles that hint where to twist next.
+^FFFF00^TIP:^FFFFFF^ Power gems will follow you to the next level.
+^FFFF00^TIP:^FFFFFF^ Tired of Bomb Gems? Try Zen mode for a peaceful, easy feeling!
+^FFFF00^TIP:^FFFFFF^ Earn the Bonus by making matches of the four specified colors in a row!
+^FFFF00^TIP:^FFFFFF^ Complete the Bonus Challenge to up your Multiplier and clear bad gems!
+^FFFF00^TIP:^FFFFFF^ Blow Coals apart with Flame or Lightning to get the Geodes inside!
+^FFFF00^TIP:^FFFFFF^ Hit the Replay button after an especially good move to watch it again!
+^FFFF00^TIP:^FFFFFF^ Finishing a level clears Locks, Bombs, and Doom Gems from the board.
+^FFFF00^TIP:^FFFFFF^ Doom Gems only appear after level 13 in Classic mode.
+^FFFF00^TIP:^FFFFFF^ Get Rank Stars by completing levels to score a new title and insignia!
+^FFFF00^TIP:^FFFFFF^ In Classic, you earn Rank Stars equal to the level number you finish.
+^FFFF00^TIP:^FFFFFF^ Watch for patterns in the gems... an 'L' shape can usually match.
+^FFFF00^TIP:^FFFFFF^ Blow up multiple Coals at once to increase your Geode bonus!
+^FFFF00^TIP:^FFFFFF^ Want a quick game? Play Blitz mode... every game is just 5 minutes!
+^FFFF00^TIP:^FFFFFF^ Max out the 10x Score Multiplier to earn a Fruit Gem! 
+^FFFF00^TIP:^FFFFFF^ In Blitz, Bomb Gems will end your game instantly if they hit zero!
+^FFFF00^TIP:^FFFFFF^ Doom Gems will end your game if they count down to zero.
+^FFFF00^TIP:^FFFFFF^ Play Zen mode for relaxation... you can't lose!
+^FFFF00^TIP:^FFFFFF^ Complete two gem sets at once for a point bonus!
+^FFFF00^TIP:^FFFFFF^ Matching 5 gems at once in an 'L' shape creates a Flame Gem.
+^FFFF00^TIP:^FFFFFF^ Make six good moves without pause to earn a Speed Bonus!
+^FFFF00^TIP:^FFFFFF^ Watch closely--you will be warned the turn before a Lock appears. 
+^FFFF00^TIP:^FFFFFF^ Try Challenge mode to measure your skills against 13 unique tests!
+^FFFF00^TIP:^FFFFFF^ All bad gems are cleared when you complete a level.
+^FFFF00^TIP:^FFFFFF^ Remember, good gems will follow you to the next level!
+^FFFF00^TIP:^FFFFFF^ Complete all 7 levels of a Challenge planet to unlock Eclipse mode.
+^FFFF00^TIP:^FFFFFF^ If the Chain Meter is empty, a matchless move drops your Multiplier.
+^FFFF00^TIP:^FFFFFF^ Don't miss more than one match in a row to keep your Multiplier up.
+^FFFF00^TIP:^FFFFFF^ Play Blitz mode for a fast 5-minute game... what's your top score?
+^FFFF00^TIP:^FFFFFF^ You can drag the Twist window to resize it to your preference!
+^FFFF00^TIP:^FFFFFF^ Earn Stars to increase your Rank and unlock new modes!
+^FFFF00^TIP:^FFFFFF^ Your Rank insignia is displayed near the top of the Score Tube.
+^FFFF00^TIP:^FFFFFF^ You earn Rank Stars at different rates in each game mode.
+^FFFF00^TIP:^FFFFFF^ Zen mode never ends. You can't lose! 
+^FFFF00^TIP:^FFFFFF^ Keep the Multiplier going by alternating matching and matchless moves.
+^FFFF00^TIP:^FFFFFF^ Click High Scores from the main menu to check all your personal stats!
+^FFFF00^TIP:^FFFFFF^ After a game, you can watch Replays of your best moves!
+^FFFF00^TIP:^FFFFFF^ Explode several Coals with a big Multiplier for a massive boost!
+^FFFF00^TIP:^FFFFFF^ Play Zen mode to explore the universe at your own pace.
+^FFFF00^TIP:^FFFFFF^ Play Blitz mode for a fast-paced 5 minute game!
+^FFFF00^TIP:^FFFFFF^ Max out the Chain Meter twice to earn super-rare Fruit Gems!
+^FFFF00^TIP:^FFFFFF^ Fruit Gems clear all like-colored gems and have some special powers!
+^FFFF00^TIP:^FFFFFF^ Hit the Replay button after an especially good move to watch it again!
+^FFFF00^TIP:^FFFFFF^ It's possible to make a 6-gem match... or even a 7 or 8 gem match!
+^FFFF00^TIP:^FFFFFF^ Explore the universe and see strange new planets in Zen mode.
+^FFFF00^TIP:^FFFFFF^ Each planet in Challenge mode has seven levels of difficulty to master.
+^FFFF00^TIP:^FFFFFF^ A top score in Blitz requires clever use of chains and multipliers.
+^FFFF00^TIP:^FFFFFF^ Each detonated Coal releases one to three bonus Geodes.
+^FFFF00^TIP:^FFFFFF^ Make six matches really quickly to earn a Speed Bonus.
+^FFFF00^TIP:^FFFFFF^ Remember to keep Flame and Lightning around to deal with Doom Gems!
+^FFFF00^TIP:^FFFFFF^ Doom Gems only count down when you move without making a match.
+^FFFF00^TIP:^FFFFFF^ The Multiplier only drops a level if you miss a move when it's empty.
+^FFFF00^TIP:^FFFFFF^ Max the Chain Meter out twice to earn rare Fruit Gems.
+^FFFF00^TIP:^FFFFFF^ Destroying Bomb Gems adds matches to your Chain Meter.
+^FFFF00^TIP:^FFFFFF^ Match 6 gems in a row to create a super-powered gem!
+^FFFF00^TIP:^FFFFFF^ Complete level 1 of a Challenge to unlock the following planet.
+^FFFF00^TIP:^FFFFFF^ Watch closely--you will be warned the turn before a Lock appears. 

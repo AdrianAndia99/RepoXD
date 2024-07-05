@@ -1,0 +1,3 @@
+distributorlink=http://www.popcap.com
+distributorname=PopCapv1003
+fullscreen=1

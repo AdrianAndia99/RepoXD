@@ -1,0 +1,966 @@
+
+<animation name="sparkles1" start_frame="sparkles_small_.eco" frame_time="30">
+<animation name="sparkles2" start_frame="sparkles_small_.eco" frame_time="30">
+<animation name="sparkles3" start_frame="sparkles_small_.eco" frame_time="30">
+
+
+
+<animation name="shooter_fire_horizontal" start_frame="shooter_firing_.eco" frame_time="30">
+<animation rotation="90" name="shooter_fire_vertical" start_frame="shooter_firing_.eco" frame_time="30">
+<animation name="shooter_horizontal" start_frame="shooter_idle_.eco" frame_time="30">
+<animation rotation="90" name="shooter_vertical" start_frame="shooter_idle_.eco" frame_time="30">
+<animation name="wings_horizontal" start_frame="wings_idle_.eco" frame_time="30">
+<animation rotation="90" name="wings_vertical" start_frame="wings_idle_.eco" frame_time="30">
+<animation name="wings_fire_horizontal" start_frame="wings_firing_.eco" frame_time="30">
+<animation rotation="90" name="wings_fire_vertical" start_frame="wings_firing_.eco" frame_time="30">
+
+<animation rotation="270" name="laser_shot_left" start_frame="lasershot_.eco" frame_time="30">
+<animation rotation="90" name="laser_shot_right" start_frame="lasershot_.eco" frame_time="30">
+<animation rotation="180" name="laser_shot_down" start_frame="lasershot_.eco" frame_time="30">
+<animation name="laser_shot_up" start_frame="lasershot_.eco" frame_time="30">
+
+<animation name="shooter_timebomb"  start_frame="timebomb_.eco" frame_time="45">
+<animation name="shooter_magnet"  start_frame="magnet_.eco" frame_time="45">
+<animation name="missile_up"  start_frame="missile_.eco" frame_time="45">
+<animation name="missile_down" rotation="180" start_frame="missile_.eco" frame_time="45">
+<animation name="missile_left"  rotation="270" start_frame="missile_.eco" frame_time="45">
+<animation name="missile_right"  rotation="90" start_frame="missile_.eco" frame_time="45">
+
+<animation name="shooter_beam_down" start_frame="sb_down_.eco" frame_time="30">
+<animation name="shooter_beam_up" rotation="180" start_frame="sb_down_.eco" frame_time="30">
+<animation name="shooter_beam_left" rotation="90" start_frame="sb_down_.eco" frame_time="30">
+<animation name="shooter_beam_right" rotation="270" start_frame="sb_down_.eco" frame_time="30">
+
+<animation name="harpoon_up" start_frame="harpoon.eco" frame_time="20">
+<animation name="harpoon_down" rotation="180" start_frame="harpoon.eco" frame_time="20">
+<animation name="harpoon_right" rotation="270" start_frame="harpoon.eco" frame_time="20">
+<animation name="harpoon_left" rotation="90" start_frame="harpoon.eco" frame_time="20">
+
+
+<animation name="horizontal_tiles" start_frame="rail_h_01" num_frames="8" frame_time="30">
+<animation name="vertical_tiles" start_frame="rail_v_01" num_frames="8" frame_time="30">
+<animation name="corner_tiles" start_frame="rail_x_01" num_frames="1" frame_time="30">
+
+
+<animation rotation="0"  name="walker_left5" start_frame="walker07_.eco" frame_time="15">
+<animation rotation="180" name="walker_right5" start_frame="walker07_.eco" frame_time="15">
+<animation rotation="270" name="walker_up5" start_frame="walker07_.eco" frame_time="15">
+<animation rotation="90"name="walker_down5" start_frame="walker07_.eco" frame_time="15">
+
+<animation rotation="0"  name="crab_right" start_frame="crab_.eco" frame_time="20">
+<animation rotation="180" name="crab_left" start_frame="crab_.eco" frame_time="20">
+<animation rotation="270" name="crab_down" start_frame="crab_.eco" frame_time="20">
+<animation rotation="90"name="crab_up" start_frame="crab_.eco" frame_time="30">
+
+<animation rotation="180"  name="turtle_right" start_frame="turtle_.eco" frame_time="20">
+<animation rotation="0" name="turtle_left" start_frame="turtle_.eco" frame_time="20">
+<animation rotation="90" name="turtle_up" start_frame="turtle_.eco" frame_time="20">
+<animation rotation="270"name="turtle_down" start_frame="turtle_.eco" frame_time="30">
+
+
+this swap here will remove the blue channel, but not swap it at all,
+leaving dark grey
+<animation rotation="90"  name="walker_left3" start_frame="walker05_.eco" frame_time="30">
+<animation rotation="270" name="walker_right3" start_frame="walker05_.eco" frame_time="30">
+<animation rotation="180" name="walker_up3" start_frame="walker05_.eco" frame_time="30">
+<animation name="walker_down3" start_frame="walker05_.eco" frame_time="30">
+
+
+swap blue with green                 swap red to blue
+<animation name="walker_left2" rotation="90" start_frame="stingray_.eco" frame_time="30">
+<animation name="walker_right2" rotation="270" start_frame="stingray_.eco" frame_time="30">
+<animation name="walker_up2" rotation="180" start_frame="stingray_.eco" frame_time="30">
+<animation name="walker_down2" start_frame="stingray_.eco" frame_time="30">
+
+
+<animation rotation="180" name="walker_right5" start_frame="walker07_.eco" frame_time="30">
+<animation rotation="270" name="walker_right3" start_frame="walker05_.eco" frame_time="30">
+<animation name="walker_right2" rotation="270" start_frame="stingray_.eco" frame_time="30">
+
+
+
+<animation rotation="270"  name="lobster_left" start_frame="lobster_.eco" frame_time="30">
+<animation rotation="90" name="lobster_right" start_frame="lobster_.eco" frame_time="30">
+<animation rotation="0" name="lobster_up" start_frame="lobster_.eco" frame_time="30">
+<animation rotation="180" name="lobster_down" start_frame="lobster_.eco" frame_time="30">
+
+
+<animation name="panel" start_frame="panel03" num_frames="1" frame_time="0">
+<animation name="water_panel" start_frame="water_panel.eco" frame_time="30">
+
+<animation name="roller" start_frame="roller06_.eco" frame_time="30">
+<animation name="roller2a" start_frame="roller07_.eco" frame_time="30">
+<animation name="roller3" start_frame="roller05_.eco" frame_time="30">
+<animation name="roller4" start_frame="roller08_.eco" frame_time="20">
+<animation name="jellyfish" start_frame="jellyfish_.eco" frame_time="20">
+<animation name="teleporter" start_frame="teleporter_.eco" frame_time="30">
+
+swap blue with green                 swap red to blue
+<animation name="frog_left" rotation="0" start_frame="jumper_.eco" frame_time="30">
+<animation name="frog_right" rotation="180" start_frame="jumper_.eco" frame_time="30">
+
+
+
+
+<animation name="generic_explo" start_frame="explosion03_.eco" frame_time="30">
+<animation name="second_explo" start_frame="explosion05_.eco" frame_time="30">
+<animation name="small_explo" start_frame="explosion_small_.eco" frame_time="30">
+
+<animation name="powerup_speed" start_frame="pwrup_speed_.eco" frame_time="60">
+<animation name="powerup_slowmo" start_frame="pwrup_slowmotion_.eco" frame_time="60">
+<animation name="powerup_plusone" start_frame="pwrup_xtra_.eco" frame_time="100">
+<animation name="powerup_slow" start_frame="pwrdn_slowshoot_.eco" frame_time="60">
+<animation name="powerup_magnet" start_frame="pwrup_magnet_.eco" frame_time="60">
+<animation name="powerup_missile" start_frame="pwrup_missile_.eco" frame_time="60">
+<animation name="powerup_freeze" start_frame="pwrup_ice_.eco" frame_time="60">
+<animation name="powerup_hypermo" start_frame="pwrdn_fastenemies_.eco" frame_time="60">
+<animation name="powerup_timebomb" start_frame="pwrup_timebomb_.eco" frame_time="60">
+<animation name="powerup_2x" start_frame="pwrup_2x_.eco" frame_time="100">
+<animation name="powerup_flip_flopper" start_frame="pwrdn_flipflop_.eco" frame_time="30">
+<animation name="powerup_destroyrollers" start_frame="pwrup_destroyrollers_.eco" frame_time="30">
+<animation name="powerup_destroywalkers" start_frame="pwrup_destroywalkers_.eco" frame_time="30">
+<animation name="powerup_invincibubble" start_frame="pwrup_invincibubble_.eco" frame_time="30">
+<animation name="powerup_anchor" start_frame="pwrup_anchor_.eco" frame_time="30">
+
+<animation name="invincibubble" start_frame="invincibubble_.eco" frame_time="30">
+<animation name="anchor" start_frame="anchor" num_frames="1" frame_time="3000000">
+
+
+
+
+<animation name="star" start_frame="star" num_frames="1" frame_time="200">
+<animation name="bubble1" start_frame="bubble01" num_frames="1" frame_time="200">
+<animation name="bubble2" start_frame="bubble02" num_frames="1" frame_time="200">
+<animation name="bubble3" start_frame="bubble03" num_frames="1" frame_time="200">
+
+<animation name="enemy_shield" start_frame="shield_.eco" frame_time="30">
+<animation name="smoke" start_frame="smoke_.eco" frame_time="60">
+<animation name="spark" start_frame="spark" num_frames="1" frame_time="60">
+<animation name="cannon_ball" start_frame="cannonball_.eco" frame_time="30">
+
+
+<animation name="pointer" start_frame="mouse_.eco" frame_time="50">
+<animation name="logo_o" start_frame="o_gear_panel_.eco" frame_time="30">
+<animation name="nag_ss" start_frame="nag_ss" num_frames="1" frame_time="0">
+<animation name="nag_logo" start_frame="nag_logo" num_frames="1" frame_time="0">
+
+<animation name="quit" start_frame="quit_panel.eco" num_frames="1" frame_time="90">
+<animation name="requester" start_frame="requester" num_frames="1" frame_time="0">
+<animation name="end_level_panel" start_frame="end_level_panel" num_frames="1" frame_time="0">
+<animation name="okay" start_frame="okay.eco" num_frames="1" frame_time="90">
+<animation name="cancel" start_frame="cancel.eco" num_frames="1" frame_time="90">
+<animation name="medal" start_frame="winscreen_medal02" num_frames="1" frame_time="3000000">
+
+
+
+
+<sound file="audio\missile.wav">
+<sound file="audio\electricity.wav">
+<sound file="audio\powerup.wav">
+<sound file="audio\powerdn.wav">
+<sound file="audio\canon.wav">
+<sound file="audio\laser.wav">
+<sound file="audio\spawn.wav">
+<sound file="audio\bump.wav">
+<sound file="audio\beam_hit.wav">
+<sound file="audio\exp100.wav">
+<sound file="audio\exp200.wav">
+<sound file="audio\exp300.wav">
+<sound file="audio\exp400.wav">
+<sound file="audio\exp500.wav">
+<sound file="audio\exp600.wav">
+<sound file="audio\exp700.wav">
+<sound file="audio\exp800.wav">
+<sound file="audio\exp900.wav">
+<sound file="audio\explosion1.wav">
+<sound file="audio\explosion2.wav">
+<sound file="audio\fuse.wav">
+<sound file="audio\frog_jump.wav">
+<sound file="audio\frog_land.wav">
+<sound file="audio\crab.wav">
+<sound file="audio\pop.wav">
+<sound file="audio\buzzer.wav">
+<sound file="audio\invincibubble.wav">
+<sound file="audio\anchor.wav">
+<sound file="audio\spawn.wav">
+<sound file="audio\extralife.wav">
+<sound file="audio\mine.wav">
+
+
+<enemy type="line_walker" buffered="1" velocity=".06"
+	up_animation="walker_up" down_animation="walker_down"
+	left_animation="walker_left" right_animation="walker_right"
+	explo_sound="audio\explosion1.wav" blit_type="alpha_edge" explo_animation="generic_explo"
+	mid_handle="1" acceleration="1.01" decay =".999">			
+
+<enemy type="scurry_walker" buffered="1" velocity=".04"
+	up_animation="walker_up2" down_animation="walker_down2"
+	left_animation="walker_left2" right_animation="walker_right2"
+	explo_sound="audio\explosion1.wav" blit_type="alpha_edge" explo_animation="generic_explo"
+	mid_handle="1" acceleration="1.01" decay =".999">
+
+<enemy type="smart_walker" buffered="1" velocity=".04" 
+	up_animation="walker_up4" down_animation="walker_down4"
+	left_animation="walker_left4" right_animation="walker_right4"
+	blit_type="alpha_edge" explo_animation="generic_explo"
+	explo_sound="audio\explosion1.wav" mid_handle="1"
+	acceleration="1.01" decay =".999">
+
+<enemy type="laser_walker" buffered="1" velocity=".06"
+	  up_animation="walker_up5" down_animation="walker_down5"
+	  left_animation="walker_left5" right_animation="walker_right5"
+	  explo_sound="audio\explosion1.wav" blit_type="alpha_edge" explo_animation="generic_explo"
+	  mid_handle="1" acceleration="1.01" decay =".999">
+
+<enemy type="cannon_walker" buffered="1" velocity=".04"
+	up_animation="walker_up3" down_animation="walker_down3"
+	left_animation="walker_left3" right_animation="walker_right3"
+	blit_type="alpha_edge" explo_animation="generic_explo"
+	explo_sound="audio\explosion1.wav" mid_handle="1">
+
+
+<enemy type="burst_roller" x_speed=".05" y_speed=".05" buffered="1"
+	  blit_type="alpha_edge" animation="roller" explo_animation="generic_explo"
+	  explo_sound="audio\explosion1.wav" mid_handle="1" acceleration="1.01" decay=".9975">
+
+<enemy type="spin_roller" x_speed=".045" y_speed="-.045" buffered="1"
+	blit_type="alpha_edge" animation="roller3" explo_animation="generic_explo"
+	explo_sound="audio\explosion1.wav" mid_handle="1" acceleration="1.003" decay=".9991">
+		<emitter x="20" y="19" x_speed="-60" frequency="30" animation="smoke" emit_type="angular" rotation="180"
+			 start_alpha="200" end_alpha="10" time="200">
+		<emitter copy_prev="1" rotation="180">
+
+<enemy type="turn_roller" x_speed="-.085" y_speed="-.08" buffered="1" turn_speed="41.0"
+	blit_type="alpha_edge" animation="roller2a" explo_animation="generic_explo"
+	explo_sound="audio\explosion1.wav" mid_handle="1">
+
+<enemy type="bump_roller" x_speed=".11" buffered="1"
+	blit_type="alpha_edge" animation="roller4" explo_animation="generic_explo"
+	explo_sound="audio\explosion1.wav" mid_handle="1" accel="" decay="">
+		<emitter x="9" y="21" x_speed="-15" frequency="15" animation="bubble1" emit_type="angular"
+			 start_alpha="350" end_alpha="10" time="490" rotation="360">
+
+
+<enemy type="frog" x_speed="0" y_speed=".0" buffered="1"
+	blit_type="alpha_edge" animation="frog_left" explo_animation="generic_explo"
+	explo_sound="audio\explosion1.wav" mid_handle="1" accel=".01" decay="" velocity=".165"
+	left_animation="frog_left" right_animation="frog_right">
+
+<enemy type="jellyfish_roller" x_speed=".05" y_speed=".05" buffered="1"
+	blit_type="alpha_edge" animation="jellyfish" explo_animation="generic_explo"
+	explo_sound="audio\explosion1.wav" mid_handle="1" acceleration="1.01" decay=".9975">
+
+<enemy type="crab_walker" buffered="1" velocity=".06"
+	left_animation="crab_left" right_animation="crab_right"
+	up_animation="crab_up" down_animation="crab_down"
+	explo_sound="audio\explosion1.wav" blit_type="alpha_edge" explo_animation="generic_explo"
+	mid_handle="1" acceleration="1.01" decay =".999">			
+
+
+<enemy type="turtle_walker" buffered="1" velocity=".44"
+	left_animation="turtle_left" right_animation="turtle_right"
+	up_animation="turtle_up" down_animation="turtle_down"
+	explo_sound="audio\explosion1.wav" blit_type="alpha_edge" explo_animation="generic_explo"
+	mid_handle="1" acceleration="1.01" decay =".999">			
+
+<enemy type="teleporter_roller" x_speed=".05" y_speed=".05" buffered="1"
+	blit_type="alpha_edge" animation="teleporter" explo_animation="generic_explo"
+	explo_sound="audio\explosion1.wav" mid_handle="1" acceleration="1.01" decay=".9975">
+
+<enemy type="lobster_walker" buffered="1" velocity=".06"
+	left_animation="lobster_left" right_animation="lobster_right"
+	up_animation="lobster_up" down_animation="lobster_down"
+	explo_sound="audio\explosion1.wav" blit_type="alpha_edge" explo_animation="generic_explo"
+	mid_handle="1" acceleration="1.01" decay =".999">			
+
+
+
+<game>
+	<font name="main_font" face="gamefont2" spacing="1" strip="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789,./?:`'+-*=!@&$%()">
+	<font name="main_font2" face="gamefont1" spacing="1" strip="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789,./?:`'+-*=!@&$%()">
+	<font name="percent_font" face="20p_" spacing="1">
+	<font name="score_font" face="20p_" spacing="2">
+	<font name="level_font" face="20p_" spacing="1">
+	<font name="lives_font" face="20p_" spacing="1">
+	<font name="tiny_font" face="treb11_" spacing="1" 8bit="1">
+	<font name="micro_font" face="st_sfont_" spacing="1" 8bit="1">
+	<font name="bonus_font" face="gamefont3" spacing="1" strip="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789,./?:`'+-*=!@&$%()">
+	<font name="bonus_font2" face="gamefont4" spacing="1" strip="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789,./?:`'+-*=!@&$%()">
+
+
+
+	<level
+		skip="1"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="crashsite"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+
+		<text x="400" y="20" text="THE CRASH SITE" font="main_font" dormant_time="300"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<text x="400" y="150" text="The COSMIC BUGS have crash-landed in our ocean!" font="bonus_font" dormant_time="400"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="175" text="We have to do something fast- they're tearing" font="bonus_font" dormant_time="500"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="200" text="our plumbing to pieces and making a huge mess!" font="bonus_font" dormant_time="600"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+
+		<text x="400" y="250" text="Welcome to Water Bugs, sequel to the hit game," font="bonus_font2" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="275" text="Cosmo Bots.  Fill in the plumbing to advance." font="bonus_font2" dormant_time="800"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="325" text="Good luck on your EPIC JOURNEY!" font="bonus_font" dormant_time="900"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<menu>
+			<menu_item type="start" name="CLICK HERE TO START!" x="400" y="450" font="main_font" hot_font="main_font2">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+
+
+
+	<level
+		wall_image="rail"
+		fill_image="fill01"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="crashsite"
+		h_pattern="145645562271333148556"
+		v_pattern="14556456282173331456"
+		fill_quota="85"
+		song="">	
+
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+
+
+
+
+
+		<shooter mid_handle="1" buffered="1" blit_type="blend"
+		 vertical_animation="shooter_vertical" horizontal_animation="shooter_horizontal"
+		 vertical_shoot_animation="shooter_fire_vertical"
+		 horizontal_shoot_animation="shooter_fire_horizontal"
+		 orientation="vertical" explo_animation="generic_explo"
+		 mid_handle="1" explo_sound="audio\explosion2.wav"
+		 drill_sound="audio\drill.wav" clank_sound="audio\clank.wav"
+		 shoot_sound="audio\drill_shoot.wav">
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+	</level>
+
+
+	<level
+		wall_image="rail"
+		fill_image="fill01"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="crashsite"
+		h_pattern="145645562271333148556"
+		v_pattern="14556456282173331456"
+		fill_quota="85"
+		song="">	
+
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X:::::A::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  X::::::::::::::::::::::::::::::::::::::::::::X  ">
+		<row cells="  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+
+
+    <enemy type="frog" position="A" x_speed="0" y_speed=".0" buffered="1"
+	blit_type="alpha_edge" animation="frog_left" explo_animation="generic_explo"
+	explo_sound="audio\explosion1.wav" mid_handle="1" accel=".01" decay="" velocity=".165"
+	left_animation="frog_left" right_animation="frog_right">
+
+
+
+		<shooter mid_handle="1" buffered="1" blit_type="blend"
+		 vertical_animation="shooter_vertical" horizontal_animation="shooter_horizontal"
+		 vertical_shoot_animation="shooter_fire_vertical"
+		 horizontal_shoot_animation="shooter_fire_horizontal"
+		 orientation="vertical" explo_animation="generic_explo"
+		 mid_handle="1" explo_sound="audio\explosion2.wav"
+		 drill_sound="audio\drill.wav" clank_sound="audio\clank.wav"
+		 shoot_sound="audio\drill_shoot.wav">
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+
+	</level>
+
+
+	<random_levels number="7" start_seed="82164">
+
+	<level
+		skip="1"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="kelpjungle"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+
+		<text x="400" y="20" text="THE KELP JUNGLE" font="main_font" dormant_time="300"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<text x="400" y="150" text="Who knows what sinister dangers await in the" font="bonus_font" dormant_time="400"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="175" text="dense KELP JUNGLE.  Only you can find out what" font="bonus_font" dormant_time="500"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="200" text="the little bugs are up to.  Don't let us down!" font="bonus_font" dormant_time="600"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<text x="400" y="250" text="Get ready for fiendish new bugs in the great" font="bonus_font2" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="275" text="Kelp Jungle- a bold next step in your journey." font="bonus_font2" dormant_time="800"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="325" text="Good Luck!" font="bonus_font" dormant_time="900"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+
+		<menu>
+			<menu_item type="start" name="CLICK HERE TO START!" x="400" y="450" font="main_font" hot_font="main_font2">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+	<random_levels number="10" start_seed="1331413">
+
+
+	<level
+		skip="1"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="coralreef"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+
+		<text x="400" y="20" text="THE CORAL REEF" font="main_font" dormant_time="300"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<text x="400" y="150" text="These pesky little bugs are destroying our" font="bonus_font" dormant_time="400"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="175" text="treasured ecosystem!  Now they have infested" font="bonus_font" dormant_time="500"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="200" text="our great coral reef!  We need your help!!!" font="bonus_font" dormant_time="600"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+
+		<text x="400" y="250" text="Your journey has begun, but you still haven't" font="bonus_font2" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="275" text="seen the worst of what these little bugs can do." font="bonus_font2" dormant_time="800"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="325" text="Good Luck!" font="bonus_font" dormant_time="900"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<menu>
+			<menu_item type="start" name="CLICK HERE TO START!" x="400" y="450" font="main_font" hot_font="main_font2">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+
+	<random_levels number="30" start_seed="144413">
+
+	<level
+		skip="1"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="pirateship"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+
+		<text x="400" y="20" text="THE SHIPWRECK" font="main_font" dormant_time="300"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<text x="400" y="150" text="Long ago, pirates roamed these waters, pillaging" font="bonus_font" dormant_time="400"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="175" text="any victim they could find.  Now, new pillagers" font="bonus_font" dormant_time="500"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="200" text="terrorize these waters- the relentless bugs!" font="bonus_font" dormant_time="600"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+
+		<text x="400" y="250" text="The journey to fulfill your mission is long, but" font="bonus_font2" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="275" text="we know you have what it takes to complete it!" font="bonus_font2" dormant_time="800"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="325" text="Good Luck!" font="bonus_font" dormant_time="900"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<menu>
+			<menu_item type="start" name="CLICK HERE TO START!" x="400" y="450" font="main_font" hot_font="main_font2">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+	<random_levels number="50" start_seed="1554413">
+
+
+	<level
+		skip="1"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="lostcity"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+
+		<text x="400" y="20" text="THE LOST CITY" font="main_font" dormant_time="300"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<text x="400" y="150" text="Not long ago, this was an island resort" font="bonus_font" dormant_time="400"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="175" text="town.  But then the bugs came, reducing" font="bonus_font" dormant_time="500"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="200" text="the peaceful island town to sunken ruins." font="bonus_font" dormant_time="600"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+
+		<text x="400" y="250" text="The bugs still have many tricks up their" font="bonus_font2" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="275" text="sleeves, so be ready for their onslaught!" font="bonus_font2" dormant_time="800"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="325" text="Good Luck!" font="bonus_font" dormant_time="900"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<menu>
+			<menu_item type="start" name="CLICK HERE TO START!" x="400" y="450" font="main_font" hot_font="main_font2">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+	<random_levels number="100" start_seed="1337813">
+
+
+	<level
+		skip="1"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="minefield"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+
+		<text x="400" y="20" text="THE MINEFIELD" font="main_font" dormant_time="300"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<text x="400" y="150" text="These beautiful blue waters were once planted with" font="bonus_font" dormant_time="400"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="175" text="dangerous exploding mines.  The danger has long" font="bonus_font" dormant_time="500"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="200" text="since passed- until now.  The bugs have arrived!" font="bonus_font" dormant_time="600"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+
+		<text x="400" y="250" text="By now, you really know what you're doing, but" font="bonus_font2" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="275" text="these little bugs still have lots to teach you!" font="bonus_font2" dormant_time="800"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="325" text="Good Luck!" font="bonus_font" dormant_time="900"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<menu>
+			<menu_item type="start" name="CLICK HERE TO START!" x="400" y="450" font="main_font" hot_font="main_font2">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+	<random_levels number="100" start_seed="1334478">
+
+	<level
+		skip="1"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="arctic"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+
+		<text x="400" y="20" text="THE POLAR ICE CAPS" font="main_font" dormant_time="300"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<text x="400" y="150" text="We didn't think the bugs could survive in such frigid" font="bonus_font" dormant_time="400"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="175" text="waters.  We were wrong.  And now they're threatening" font="bonus_font" dormant_time="500"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="200" text="to melt our polar ice caps, flooding the entire world!" font="bonus_font" dormant_time="600"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+
+		<text x="400" y="250" text="You're over half-way there.  You're an expert now, and" font="bonus_font2" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="275" text="it's time to start thinking about breaking records!" font="bonus_font2" dormant_time="800"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="325" text="Good Luck!" font="bonus_font" dormant_time="900"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<menu>
+			<menu_item type="start" name="CLICK HERE TO START!" x="400" y="450" font="main_font" hot_font="main_font2">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+	<random_levels number="100" start_seed="1334466">
+
+	<level
+		skip="1"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="facility"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+
+		<text x="400" y="20" text="THE LAB" font="main_font" dormant_time="300"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<text x="400" y="150" text="We have them on the run, and they know it!  With your" font="bonus_font" dormant_time="400"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="175" text="help, we have been able to capture these creatures and" font="bonus_font" dormant_time="500"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="200" text="analyze them in our lab.  Do your hear something?" font="bonus_font" dormant_time="600"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+
+		<text x="400" y="250" text="If you have made it this far, you are truly a Water" font="bonus_font2" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="275" text="Bugs pro!  But you still have to finish them off!" font="bonus_font2" dormant_time="800"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="325" text="Good Luck!" font="bonus_font" dormant_time="900"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<menu>
+			<menu_item type="start" name="CLICK HERE TO START!" x="400" y="450" font="main_font" hot_font="main_font2">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+	<random_levels number="100" start_seed="1335234">
+
+
+
+	<level
+		skip="1"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="finalshowdown"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+
+		<text x="400" y="20" text="THE COLONY" font="main_font" dormant_time="300"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<text x="400" y="150" text="At last, you have made it to their colony!  If you" font="bonus_font" dormant_time="400"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="175" text="can clear them out of here, you will have stopped" font="bonus_font" dormant_time="500"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="200" text="the infestation forever!  All the world will cheer!" font="bonus_font" dormant_time="600"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+
+		<text x="400" y="250" text="Stop for a second, and think about the first time" font="bonus_font2" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="275" text="you played Water Bugs.  Oh how far we have come!" font="bonus_font2" dormant_time="800"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="325" text="Go Get'em!" font="bonus_font" dormant_time="900"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<menu>
+			<menu_item type="start" name="CLICK HERE TO START!" x="400" y="450" font="main_font" hot_font="main_font2">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+	<random_levels number="100" start_seed="12234324">
+
+
+	<level
+		no_stars="1"
+		no_panel="1"
+		skip="1"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="winscreen_bkgrd"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+
+		<text x="400" y="200" text="You have done it!  The pesky bugs have been" font="bonus_font" dormant_time="0"
+			fade_in_time="100" idle_time="9999999"></text>
+		<text x="400" y="225" text="totally eliminated from our ocean!  You will go" font="bonus_font" dormant_time="0"
+			fade_in_time="100" idle_time="9999999"></text>
+		<text x="400" y="250" text="down in history as the GREAT BUG DESTROYER!!" font="bonus_font" dormant_time="0"
+			fade_in_time="100" idle_time="9999999"></text>
+
+
+
+		<menu>
+			<menu_item type="start" name="CLICK HERE TO CONTINUE" x="400" y="550" font="main_font" hot_font="main_font2">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+
+
+	<level
+		no_stars="1"
+		no_panel="1"
+		skip="1"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="winscreen_bkgrd"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+		<text x="400" y="175" text="Facts about your journey:" font="bonus_font" dormant_time="0"
+			fade_in_time="100" idle_time="9999999"></text>
+		<text type="shots_fired" x="400" y="225" text="Total Shots Fired: SF" font="bonus_font" dormant_time="0"
+			fade_in_time="100" idle_time="9999999"></text>
+		<text type="lives_lost" x="400" y="250" text="Total Lives Lost: LL" font="bonus_font" dormant_time="0"
+			fade_in_time="100" idle_time="9999999"></text>
+		<text type="bugs_killed" x="400" y="275" text="Total Bugs Killed: BK" font="bonus_font" dormant_time="0"
+			fade_in_time="100" idle_time="9999999"></text>
+		<text type="powerups_caught" x="400" y="300" text="Total Powerups Caught: PC" font="bonus_font" dormant_time="0"
+			fade_in_time="100" idle_time="9999999"></text>
+
+		<menu>
+			<menu_item type="start" name="CLICK HERE TO CONTINUE" x="400" y="550" font="main_font" hot_font="main_font2">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+	</level>
+
+
+	<level
+		no_stars="1"
+		no_panel="1"
+		skip="1"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="winscreen_bkgrd"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+		<text x="400" y="20" text="CONGRATULATIONS!" font="main_font" dormant_time="300"
+			fade_in_time="300" idle_time="300" fade_out_time="300" loop_time="1"></text>
+
+
+		<text x="400" y="300" animation="medal" buffered="1" mid_handle="1" text="Facts about your journey:" font="bonus_font" dormant_time="0"
+			fade_in_time="100" idle_time="9999999"></text>
+		<menu>
+			<menu_item type="high_scores" name="CLICK HERE TO CONTINUE" x="400" y="550" font="main_font" hot_font="main_font2">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+	</level>
+	
+	<level
+		type="expiring_nag"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="mainmenu"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+		<menu x="575" y="300" blit_type="alpha_edge" animation="nag_ss" logo_animation="nag_logo" logo_x="200" logo_y="150">
+			<menu_item type="quit" name="MAYBE LATER" x="184" y="556" font="main_font" hot_font="main_font2" box="1">
+			<menu_item type="buy_now" name="BUY NOW!" x="660" y="556" font="main_font" hot_font="main_font2" box="1">
+		</menu>
+
+		<text x="580" y="40" text="YOUR FREE TRIAL" font="main_font" dormant_time="300"
+			fade_in_time="500" idle_time="100" fade_out_time="500" loop_time="1">
+		<text x="580" y="75" text="HAS EXPIRED!" font="main_font" dormant_time="300"
+			fade_in_time="500" idle_time="100" fade_out_time="500" loop_time="1">
+
+		<text x="30" y="300" text="^6IN ORDER TO KEEP PLAYING" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="320" text="^6WATER BUGS, YOU MUST NOW" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="340" text="^6PURCHASE THE FULL VERSION." font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+
+		<text x="30" y="380" text="^6WITH OVER 500 LEVELS TO PLAY" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="400" text="^6THE FULL VERSION WILL KEEP YOU" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="420" text="^6ENTERTAINED FOR MANY HOURS!" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+
+		<text x="30" y="460" text="^6AFTER PURCHASING, YOU WILL BE" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="480" text="^6ABLE TO DOWNLOAD AND PLAY THE" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="500" text="^6FULL VERSION IMMEDIATELY." font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+			
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+	
+	<next_file name="animations\main.eco">
+
+
+	<level_set start_range="0" end_range="9" song="audio\cosmo4.mo3"></level_set>
+	<level_set start_range="10" end_range="19" song="audio\cosmo3.mo3"></level_set>
+	<level_set start_range="20" end_range="49" song="audio\cosmo2.mo3"></level_set>
+	<level_set start_range="50" end_range="99" song="audio\cosmo5.mo3"></level_set>
+	<level_set start_range="100" end_range="199" song="audio\cosmo4.mo3"></level_set>
+	<level_set start_range="200" end_range="299" song="audio\cosmo3.mo3"></level_set>
+	<level_set start_range="300" end_range="399" song="audio\cosmo2.mo3"></level_set>
+	<level_set start_range="400" end_range="499" song="audio\cosmo5.mo3"></level_set>
+	<level_set start_range="500" end_range="599" song="audio\cosmo4.mo3"></level_set>
+
+</game>

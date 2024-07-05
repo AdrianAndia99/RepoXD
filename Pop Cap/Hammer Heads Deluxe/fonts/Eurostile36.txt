@@ -1,0 +1,27 @@
+Define CharList
+ ( '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ':');
+
+Define WidthList
+ (  29,  29,  29,  29,  29,  29,  29,  29,  29,  29,   9);
+
+Define RectList
+ ( (   0,  0, 41, 64), (  42,  0, 31, 64), (  74,  0, 39, 64), ( 114,  0, 41, 64),
+   ( 156,  0, 43, 64), ( 200,  0, 39, 64), ( 240,  0, 40, 64), ( 281,  0, 40, 64),
+   ( 322,  0, 40, 64), ( 363,  0, 41, 64), ( 405,  0, 20, 64));
+
+Define OffsetList
+ ( (-6, 0), (-4, 0), (-5, 0), (-6, 0), (-7, 0), (-5, 0), (-6, 0), (-6, 0),
+   (-6, 0), (-6, 0), (-5, 0));
+
+CreateLayer               Main;
+LayerSetImage             Main '../images/Eurostile36';
+LayerSetAscent            Main 46;
+LayerSetCharWidths        Main CharList WidthList;
+LayerSetCharWidths        Main (' ') (12);
+LayerSetImageMap          Main CharList RectList;
+LayerSetCharOffsets       Main CharList OffsetList;
+LayerSetAscentPadding     Main 8;
+LayerSetLineSpacingOffset Main 8;
+LayerSetPointSize         Main 36;
+
+SetDefaultPointSize  36;

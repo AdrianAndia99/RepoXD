@@ -1,0 +1,121 @@
+<game>
+  <global candle_scribbles="8"/> //how the scrolling works
+
+  <image name="gfx\sparkle.png"/>
+  <image name="gfx\particle2.png"/>
+  <image name="gfx\sparkles.png" frame_width="50" frame_height="50" num_frames="2" fps="15"/>
+  <image name="gfx\white_particle.png"/>
+  <image name="gfx\slider_knob.png"/>
+  <image name="gfx\star.png"/>
+  <image name="gfx\card_screen_bknd.jpg"/>
+  <image name="gfx\pen.png"/>
+  <image name="gfx\panel.png"/>
+  <image name="gfx\rectangle.png"/>
+  <image name="gfx\shelf.png"/>
+  <image name="gfx\paper_overlay.png"/>
+  <image name="gfx\meter01.png"/>
+  <image name="gfx\meter02.png"/>
+  <image name="gfx\meter03.png"/>
+  <image name="gfx\meter04.png"/>
+  <image name="gfx\meter05.png"/>
+  <image name="gfx\meter06.png"/>
+  <image name="gfx\meter07.png"/>
+  <image name="gfx\meter08.png"/>
+  <image name="gfx\meter09.png"/>
+  <image name="gfx\meter10.png"/>
+  <image name="gfx\potion_hilight.png"/>
+  <image name="gfx\power_shelf.png"/>
+  <image name="gfx\burst.png"/>
+  <image name="gfx\blank_page.png"/>
+  <image name="gfx\power01.png"/>
+  <image name="gfx\power02.png"/>
+  <image name="gfx\power03.png"/>
+  <image name="gfx\power04.png"/>
+  <image name="gfx\power05.png"/>
+  <image name="gfx\power06.png"/>
+  <image name="gfx\power07.png"/>
+  <image name="gfx\power08.png"/>
+  <image name="gfx\power09.png"/>
+  <image name="gfx\power10.png"/>
+  <image name="gfx\bottle.png"/>
+  <image name="gfx\candle.png"/>
+
+  
+  <image name="gfx\missing_menu.png" frame_width="62" frame_height="29" num_frames="2" fps="15"/>
+  <image name="gfx\hint.png" frame_width="62" frame_height="28" num_frames="2" fps="15"/>
+
+  <image name="gfx\button_new.png" frame_width="70" frame_height="32" num_frames="2" fps="15"/>
+  <image name="gfx\button_delete.png" frame_width="70" frame_height="32" num_frames="2" fps="15"/>
+  <image name="gfx\rename.png" frame_width="70" frame_height="32" num_frames="2" fps="15"/>
+  <image name="gfx\button_cancel.png" frame_width="70" frame_height="32" num_frames="2" fps="15"/>
+  <image name="gfx\button_accept.png" frame_width="70" frame_height="32" num_frames="2" fps="15"/>
+  <image name="gfx\button_yes.png" frame_width="70" frame_height="32" num_frames="2" fps="15"/>
+  <image name="gfx\button_no.png" frame_width="70" frame_height="32" num_frames="2" fps="15"/>
+  <image name="gfx\button_ok.png" frame_width="70" frame_height="32" num_frames="2" fps="15"/>
+  <image name="gfx\panel_submit.png" frame_width="100" frame_height="65" num_frames="2" fps="15"/>
+  <image name="gfx\panel_hint.png" frame_width="100" frame_height="65" num_frames="2" fps="15"/>
+  <image name="gfx\panel_menu.png" frame_width="82" frame_height="54" num_frames="2" fps="15"/>
+  <image name="gfx\pageturn.png"/> 
+  <image name="gfx\ending_empty.png"/>
+  
+
+
+  <font name="FONT_FONT1" image_font="fonts\wpfont.txt" />
+  <font name="FONT_FONT1_SMALL" image_font="fonts\wpfont.txt"  />
+  <font name="FONT_SYSTEM" image_font="fonts\Fixedsys8.txt"  />
+  <font name="FONT_SCRIPT" image_font="fonts\MonotypeCorsiva22Bold.txt" />
+
+
+    <level_file name="levels\main_menu.xml"/>
+	  <level_file name="levels\in_game_menu.xml"/>
+	  <level_file name="levels\options_menu.xml"/>
+	  <level_file name="levels\input_name_first.xml"/>
+	  <level_file name="levels\input_name.xml"/>
+	  <level_file name="levels\progress_screen.xml"/>
+	  <level_file name="levels\user_menu.xml"/>
+	  <level_file name="levels\exit_confirm.xml"/>
+	  <level_file name="levels\stage_summary.xml"/>
+	  <level_file name="levels\hint.xml"/>
+    <level_file name="levels\anagram.xml"/>
+    <level_file name="levels\loading.xml"/>
+	  <level_file name="levels\loading_levelselect.xml"/>
+	  <level_file name="levels\loading_instructions.xml"/>
+	  <level_file name="levels\delete_user_confirm.xml"/>
+	  <level_file name="objects\tooltip_missing_1.xml"/>
+    <level_file name="objects\tooltip_stars.xml"/>
+    <level_file name="objects\tooltip_won_missing.xml"/>
+    <level_file name="objects\tooltip_3_potions.xml"/>
+    <level_file name="levels\continue_game.xml"/>
+	  <level_file name="levels\wizard_finale.xml"/>
+	  <level_file name="levels\missing_object_1.xml"/>
+    <level_file name="levels\missing_object_2.xml"/>
+    <level_file name="levels\missing_object_3.xml"/>
+    <level_file name="levels\missing_object_4.xml"/>
+    <level_file name="levels\missing_object_5.xml"/>
+    <level_file name="levels\missing_object_6.xml"/>
+    <level_file name="levels\missing_object_7.xml"/>
+    <level_file name="levels\missing_object_8.xml"/>
+    <level_file name="levels\missing_object_9.xml"/>
+    <level_file name="levels\missing_object_10.xml"/>
+    <level_file name="levels\missing_object_11.xml"/>
+    <level_file name="levels\missing_object_12.xml"/>
+    <level_file name="levels\missing_object_13.xml"/>
+    <level_file name="levels\missing_object_14.xml"/>
+    <level_file name="levels\missing_object_15.xml"/>
+    <level_file name="levels\missing_object_16.xml"/>
+    <level_file name="levels\mini_game_unlocked.xml"/>
+    <level_file name="levels\mini_game_menu.xml"/>
+    <level_file name="levels\victory.xml"/>
+    <level_file name="levels\too_many_users.xml"/>
+    <level_file name="levels\transition_17.xml"/>
+    <level_file name="levels\pre_missing_page_flip.xml"/>
+    <level_file name="levels\post_game_page_flip.xml"/>
+    <level_file name="objects\tooltip_same_user_name.xml"/>
+    <level_file name="objects\tooltip_empty_user_name.xml"/>
+    <level_file name="levels\change_user_name.xml"/>
+    <level_file name="levels\credits.xml"/>
+    <level_file name="levels\post_missing_first.xml"/>
+    <level_file_game name="levels\pick_potions.xml"/>
+	  <level_file_game name="levels\in_game.xml"/>
+	  <level_file_game name="levels\high_scores.xml"/>
+</game>

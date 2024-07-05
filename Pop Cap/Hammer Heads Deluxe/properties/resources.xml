@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<ResourceManifest>
+
+	<Resources id="Init">
+		<SetDefaults path="fonts" idprefix="FONT_" />
+		<Font id="ARIAL10"			path="Arial10.txt"/>
+		<Font id="ARIAL10B"			path="Arial10b.txt"/>
+		<Font id="PTBANANASPLIT27BUTTONS" 	path="PTBananaSplit27Buttons.txt"/>
+		<Font id="PTBANANASPLIT27INGAMEUI" 	path="PtBananaSplit27InGameUI.txt" />
+		<Font id="PTBANANASPLIT27"		path="PTBananaSplit27.txt"/>
+		<Font id="PTBANANASPLIT24"		path="PTBananaSplit24.txt"/>
+		<Font id="PTBANANASPLIT22"		path="PTBananaSplit22.txt"/>
+		<Font id="PTBANANASPLIT18"		path="PTBananaSplit18.txt"/>
+		<Font id="KIDPRINT27BOLD"		path="Kidprint27Bold.txt"/>
+		<Font id="KIDPRINT22BOLD"		path="Kidprint22Bold.txt"/>
+		<Font id="KIDPRINT19BOLD"		path="Kidprint19Bold.txt"/>
+		<Font id="EUROFURENCE14"		path="eurofurence14.txt"/>
+		<Font id="EUROFURENCE14BOLD"	path="eurofurence14Bold.txt"/>
+		<Font id="EUROSTYLE36"			path="Eurostile36.txt"/>
+				
+		<SetDefaults path="images" idprefix="IMAGE_" />
+		<Image id="CUSTOM_POINTER"		path="custom_pointer" />
+		<Image id="CUSTOM_HAND"			path="custom_hand" />
+		<Image id="CUSTOM_DRAGGING"		path="custom_dragging" />
+		<Image id="CUSTOM_TEXT"			path="custom_text" />
+	</Resources>
+
+	<Resources id="LoadingScreen">
+		<SetDefaults path="images" idprefix="IMAGE_"/>			
+		<Image id="LOADING_BAR"			path="loading_bar" />
+		<Image id="LOADING_BAR_EMPTY"		path="loading_bar_empty" />
+		<Image id="LOADING_BACKDROP"		path="loading_backdrop" />	
+		<Image id="LOADING_LOGO"		path="loading_logo" />
+		<Image id="LOADING_PUBLISHER_LOGO"	path="loading_publisher_logo" />
+		<Image id="LOADING_DISTRIBUTOR_LOGO"	path="loading_distributor_logo" />
+		<Image id="LOADING_TITLE"		path="loading_title" />
+		<Image id="LOADING_BOTTOM"		path="loading_bottom" />
+		<Image id="LOADING_CLICKTOPLAY"		path="loading_clicktoplay" />
+		<Image id="LOADING_HAMMER"		path="loading_hammer" />
+		<SetDefaults path="sounds" idprefix="SOUND_"/>		
+	</Resources>
+
+	<Resources id="Gui">
+		<SetDefaults path="images/gui" idprefix="IMAGE_"/>
+		<Image id="DIALOG_BOX"					path="dialog" />
+		<Image id="DIALOG_BUTTON"				path="dialog_button" />
+		<Image id="SLIDER_TRACK"				path="slider_track" />
+		<Image id="SLIDER_THUMB"				path="slider_thumb" />		
+		<Image id="CHECKBOX_UNCHECKED"			path="checkbox_unchecked" />
+		<Image id="CHECKBOX_CHECKED"			path="checkbox_checked" />
+		<Image id="EDITOR_CHECKBOX_CHECKED"		path="editor_checkbox_checked" />
+		<Image id="EDITOR_CHECKBOX_UNCHECKED"	path="editor_checkbox_unchecked" />
+		<Image id="EDITOR_DIALOG"				path="editor_dialog" />
+		<Image id="EDITOR_DIALOG_BUTTON"		path="editor_dialogbutton" />
+		<Image id="EDITOR_DROPDOWN_ARROW"		path="editor_dropdown_arrow" />
+		<Image id="EDITOR_EDIT_BOX"				path="editor_editbox" />
+		<Image id="EDITOR_SELECT_BUTTON"		path="editor_buttonselect" />
+		<Image id="TROPHYROOMWIDGET"			path="trophyroomwidget" />
+		<Image id="RESURRECTSCREENWIDGET"		path="resurrectscreen" />
+		<Image id="RESURRECTPOPUP"				path="resurrectpopup" />
+		<Image id="PHOTO01"						path="photo1" />
+		<Image id="PHOTO02"						path="photo2" />
+		<Image id="PHOTO03"						path="photo3" />
+		<Image id="PHOTO04"						path="photo4" />
+		<Image id="PHOTO05"						path="photo5" />				
+		<Image id="HIGHSCOREBACKGROUND"			path="highscore_background" />		
+		<Image id="ZOOMWIPEA_HAMMER"			path="ZoomWipeA_Hammer" />
+		<Image id="ZOOMWIPEB_HAMMER"			path="ZoomWipeB_Hammer" />
+		<Image id="ZOOMWIPEA_TROPHY"			path="ZoomWipeA_Trophy" />
+		<Image id="ZOOMWIPEB_TROPHY"			path="ZoomWipeB_Trophy" />
+		<Image id="ZOOMWIPEA_SHOP"				path="ZoomWipeA_Shop" />
+		<Image id="ZOOMWIPEB_SHOP"				path="ZoomWipeB_Shop" />
+		<Image id="ZOOMWIPELEVELUPA"			path="ZoomWipeA_levelup" />
+		<Image id="ZOOMWIPELEVELUPB"			path="ZoomWipeB_levelup" />
+		<Image id="LISTBOX"						path="listbox" />
+		<Image id="SCROLLBAR"					path="scrollbar" />
+		<Image id="SCROLLBAR_THUMB"				path="scrollbar_thumb" />
+		<Image id="SCROLLBAR_BUTTON_UP"			path="scrollbar_button_up" />
+		<Image id="SCROLLBAR_BUTTON_DOWN"		path="scrollbar_button_down" />
+		<Image id="EDITBOX"						path="editbox" />
+		<Image id="TROPHIES"					path="trophies" rows="1" cols="21" />		
+		<Image id="TINYHEART"					path="tinyheart" />		
+		<Image id="TINYHEARTCOMPONENTS"			path="tinyheartcomponents" rows="1" cols="2" />		
+		<Image id="TINYCOIN"					path="tinycoin" />		
+		<Image id="TINYFLAME"					path="tinyflame" />
+		<Image id="CROSSHAIR"					path="crosshair" />		
+		<Image id="CROSSHAIR_SNOW"				path="crosshair_snow" />		
+		<Image id="CROSSHAIR_GLOW"				path="crosshair_glow" />		
+		<Image id="CROSSHAIR_SNOW_GLOW"			path="crosshair_snow_glow" />		
+		<Image id="SHOP_BACK_TO_GAME_ARROW"		path="backtogame" rows="1" cols="3" />
+		<Image id="CHALLENGE_METER"				path="challenge_meter" rows="1" cols="2" />
+		<Image id="DIVINELIGHT"					path="divinelight"/>
+		<Image id="DIVINELIGHT_SMALL"			path="divinelightsmall"/>
+		<Image id="FLASH"						path="flash" />
+		<Image id="SCOREBACK"					path="scoreback" />			
+		<Image id="CREDITS"						path="credits" />
+		<Image id="UPSELL"						path="upsell" />
+		<Image id="UPSELL_SHOT1"				path="upsell_shot1" />
+		<Image id="UPSELL_SHOT2"				path="upsell_shot2" />
+		<Image id="UPSELL_SHOT3"				path="upsell_shot3" />
+		<Image id="UPSELL_SHOT4"				path="upsell_shot4" />
+		<Image id="UPSELL_SHOT5"				path="upsell_shot5" />
+		<Image id="CONTINUE_BUTTON"				path="continue_button" />
+		<Image id="TINYHAMMER1"					path="tinyhammer1" />
+		<Image id="TINYHAMMER2"					path="tinyhammer2" />
+		<Image id="TINYHAMMER3"					path="tinyhammer3" />
+		<Image id="TINYHAMMER4"					path="tinyhammer4" />
+		<Image id="HEARTBACK"					path="heartback" />		
+		<Image id="WAVE_BRONZE"					path="wave_bronze" />
+		<Image id="WAVE_SILVER"					path="wave_silver" />
+		<Image id="WAVE_GOLD"					path="wave_gold" />		
+		<Image id="WAVE_BAR_EMPTY"				path="wave_bar_empty" />
+		<Image id="WAVE_BAR"					path="wave_bar" />
+		<Image id="GAMEWON_BACK"				path="gamewon_back" />
+		<Image id="GAMEWON_BACK_TOUGH_COOKIE"	path="gamewon_back_tc" />
+		<Image id="LEVEL_COMPLETED"				path="level_completed" />
+		<Image id="TOUGH_COOKIE_STAMP"			path="tough_cookie_stamp" />
+		<Image id="TOUGH_COOKIE_MINI"			path="tough_cookie_mini" />
+		
+		
+		<SetDefaults path="sounds" idprefix="SOUND_"/>			
+		<Sound id="UI_BUTTON_MOUSE_OVER"		path="UI - Button Mouse Over"/>		
+		<Sound id="UI_BUTTON_CLICK"				path="UI - Button Click"/>		
+		<Sound id="UI_CHECK"					path="UI - Check" />
+		<Sound id="UI_MOVING_DIALOG_WOOSH"		path="UI - Moving Dialog Woosh" />
+		<Sound id="UI_ZOOM_TRANSITION"			path="UI - Zoom Transition" />		
+		<Sound id="STING_MEDAL_AWARDED"			path="Sting - Medal Awarded" />
+		<Sound id="STING_GAME_OVER"				path="Sting - Game Over" />
+		<Sound id="STING_LEVEL_UP"				path="Sting - Level Up" />
+		<Sound id="STING_GNOME_KING"			path="Sting - Gnome King" />
+		<Sound id="STING_GAME_WON"				path="Sting - Game Won" />
+		<Sound id="MISC_PLATFORM_APPEAR_01"		path="Misc - Platform Appear 1" />
+		<Sound id="MISC_PLATFORM_APPEAR_02"		path="Misc - Platform Appear 2" />
+		<Sound id="MISC_PLATFORM_APPEAR_03"		path="Misc - Platform Appear 3" />
+		<Sound id="MISC_PLATFORM_APPEAR_04"		path="Misc - Platform Appear 4" />
+		<Sound id="MISC_PLATFORM_APPEAR_05"		path="Misc - Platform Appear 5" />
+		<Sound id="MISC_PLATFORM_APPEAR_06"		path="Misc - Platform Appear 6" />
+		<Sound id="MISC_PLATFORM_APPEAR_07"		path="Misc - Platform Appear 7" />
+		<Sound id="MISC_PLATFORM_APPEAR_08"		path="Misc - Platform Appear 8" />		
+		<Sound id="MISC_PLATFORM_APPEAR_09"		path="Misc - Platform Appear 9" />
+		<Sound id="MISC_PLATFORM_APPEAR_10"		path="Misc - Platform Appear 10" />
+		<Sound id="MISC_GNOME_BREAKING_1"		path="Misc - Gnome Breaking 1" />
+		<Sound id="MISC_GNOME_BREAKING_2"		path="Misc - Gnome Breaking 2" />
+		<Sound id="MISC_GNOME_BREAKING_3"		path="Misc - Gnome Breaking 3" />
+		<Sound id="MISC_GNOME_BREAKING_4"		path="Misc - Gnome Breaking 4" />
+		<Sound id="MISC_GNOME_BREAKING_5"		path="Misc - Gnome Breaking 5" />
+		<Sound id="MISC_GNOME_BREAKING_BIG"		path="Misc - Gnome Breaking Big" />
+		<Sound id="MISC_NEON_BUZZ"				path="Misc - Neon Buzz" />
+		<Sound id="MISC_ICE_FREEZE"				path="Misc - Ice Freeze" />
+		<Sound id="MISC_ICE_SHATTER_1"			path="Misc - Ice Shatter 1" />
+		<Sound id="MISC_ICE_SHATTER_2"			path="Misc - Ice Shatter 2" />
+		<Sound id="MISC_ICE_SHATTER_3"			path="Misc - Ice Shatter 3" />
+		<Sound id="HAMMER_WOOSH"				path="Hammer - Woosh" />
+		<Sound id="HAMMER_WOOSH_FAST"			path="Hammer - Woosh Fast" />
+		<Sound id="HAMMER_MISS"					path="Hammer - Miss" />
+		<Sound id="HAMMER_BOING"				path="Hammer - Boing" />
+		<Sound id="HAMMER_HIT_HAT"				path="Hammer - Hat" />
+		<Sound id="HAMMER_HIT_METAL1"			path="Hammer - Metal1" />
+		<Sound id="HAMMER_HIT_PLASTIC"			path="Hammer - Plastic" />
+		<Sound id="HAMMER_HIT_ROCK"				path="Hammer - Rock" />
+		<Sound id="HAMMER_HIT_WOOD"				path="Hammer - Wood" />
+		<Sound id="HAMMER_HIT_WOOD2"			path="Hammer - Wood2" />		
+		<Sound id="HAMMER_PLOP_2"				path="Hammer - Plop 2" />
+		<Sound id="UI_HEART_LOST"				path="UI - Heart Lost" />
+		<Sound id="UI_SPEED_BONUS_1"			path="UI - Speed Bonus 1" />
+		<Sound id="UI_SPEED_BONUS_2"			path="UI - Speed Bonus 2" />
+		<Sound id="UI_SPEED_BONUS_3"			path="UI - Speed Bonus 3" />
+		<Sound id="UI_SPEED_BONUS_4"			path="UI - Speed Bonus 4" />
+		<Sound id="UI_SPEED_BONUS_5"			path="UI - Speed Bonus 5" />
+		<Sound id="UI_TIME_BONUS"				path="UI - Time Bonus" />
+		<Sound id="UI_TARGET_OVER_GNOME"		path="UI - Target Over Gnome" />
+		<Sound id="BOMB_FACE_FUSE"				path="Bomb Face - Fuse" />
+		<Sound id="BOMB_FACE_EXPLOSION"			path="Bomb Face - Explosion" />
+		<Sound id="GNOME_KING_DRONING"			path="Gnome King - Droning" />
+		<Sound id="GNOME_KIND_FLASHING"			path="Gnome King - Flashing" />
+		<Sound id="BOUNCING_JESTER_BOUNCE"		path="Bouncing Jester - Bounce" />
+		<Sound id="INFLATING_HEAD_INFLATE"		path="Inflating Head - Inflate" />
+		<Sound id="INFLATING_HEAD_DEFLATE"		path="Inflating Head - Deflate" />
+		<Sound id="INFLATING_HEAD_POP"			path="Inflating Head - Pop" />
+		<Sound id="BUCKET_GNOME_PUTTING_ON"		path="Bucket Gnome - Putting On" />
+		<Sound id="BUCKET_GNOME_REMOVING"		path="Bucket Gnome - Removing" />
+		<Sound id="SHOP_MOLE_WRITING"			path="Shop Mole - Writing" />
+		<Sound id="FLAG_MOLE_WAVING"			path="Flag Mole - Waving" />
+		<Sound id="FLAG_MOLE_PICKED_AND_MOVING_TO_UI" path="Flag Mole - Picked and Moving" />
+		<Sound id="IRON_GNOME_STRIKE_0"			path="Iron Gnome - Strike 0" />
+		<Sound id="IRON_GNOME_STRIKE_1"			path="Iron Gnome - Strike 1" />
+		<Sound id="IRON_GNOME_STRIKE_2"			path="Iron Gnome - Strike 2" />
+		<Sound id="IRON_GNOME_STRIKE_3"			path="Iron Gnome - Strike 3" />
+		<Sound id="IRON_GNOME_STRIKE_4"			path="Iron Gnome - Strike 4" />
+		<Sound id="IRON_GNOME_STRIKE_5"			path="Iron Gnome - Strike 5" />		
+		<Sound id="CUPIDO_MAGIC"				path="Cupido - Magic" />
+		<Sound id="TREASURE_CHEST_OPENING"		path="Treasure Chest - Opening" />
+		<Sound id="LUCKY_CLOVER_PICKEN_AND_ACTIVATED" path="Lucky Clover - Picked and Activated" />
+		<Sound id="COIN_SINGLE_APPEAR"			path="Coin - Single Appear" />
+		<Sound id="COIN_SINGLE_PICKED"			path="Coin - Single Picked" />
+		<Sound id="COIN_THREE_APPEAR"			path="Coin - Three Appear" />
+		<Sound id="COIN_THREE_PICKED"			path="Coin - Three Picked" />
+		<Sound id="HEART_APPEAR"				path="Heart - Appear" />
+		<Sound id="HEART_PICKED"				path="Heart - Picked" />
+		<Sound id="VARIOUS_SQUISH_STRAWBERRY"	path="Various - Squish Strawberry" />
+		<Sound id="VARIOUS_DUCK_QUACK"			path="Various - Duck Quack" />
+		<Sound id="VARIOUS_ICECREAM_GLOOP"		path="Various - Icecream Gloop" />		
+		<Sound id="MISC_CAMERA_FLASH"			path="Misc - Camera Flash" />
+		<Sound id="AVIATOR_ENGINE_L2R"			path="Aviator - Engine L2R" />
+		<Sound id="AVIATOR_ENGINE_R2L"			path="Aviator - Engine R2L" />
+		<Sound id="AVIATOR_HIT"					path="Aviator - Hit" />
+		<Sound id="UI_CLICK_TO_PLAY"			path="UI - Click To Play" />
+		<Sound id="STING_END_OF_WAVE"			path="Sting - End Of Wave" />
+		<Sound id="HINT_POPUP"					path="Hint Popup 01" />
+		<Sound id="CROWD_APPLAUSE_1"			path="Crowd Applause 01" />
+		<Sound id="CROWD_APPLAUSE_2"			path="Crowd Applause 02" />
+		<Sound id="CROWD_APPLAUSE_3"			path="Crowd Applause 03" />
+		<Sound id="CROWD_APPLAUSE_4"			path="Crowd Applause 04" />
+		
+		
+		<SetDefaults path="sounds/voices" idprefix="SOUND_VOICE_"/>			
+		<Sound id="BOUNCING_AI"					path="Bouncing - Ai" />
+		<Sound id="BOUNCING_YOOHOO"				path="Bouncing - Yoohoo" />
+		<Sound id="BUCKET_AU"					path="Bucket - Au" />
+		<Sound id="CHEAT_CHEATER"				path="Cheat - Cheater" />
+		<Sound id="CHEAT_HONEST"				path="Cheat - Honest" />
+		<Sound id="CUPID_AU"					path="Cupid - Au" />
+		<Sound id="CUPID_LOVE"					path="Cupid - Love" />				
+		<Sound id="STABBING_AU"					path="Stabbing - Au" />
+		<Sound id="STABBING_HEHE"				path="Stabbing - Hehe" />
+		<Sound id="STABBING_NYA"				path="Stabbing - Nya" />
+		<Sound id="STRONG_AU"					path="Strong - Au" />
+		<Sound id="STRONG_HEHEHEHE"				path="Strong - Hehehehe" />
+		<Sound id="WOMAN_HELABA"				path="Woman - Helaba" />		
+		<Sound id="BONUS_READY"					path="Bonus - Ready" />
+		<Sound id="BONUS_GO"					path="Bonus - Go" />
+		<Sound id="BONUS_PERFECT"				path="Bonus - Perfect" />
+		<Sound id="BONUS_WELLDONE"				path="Bonus - Well Done" />
+		<Sound id="SWITCHER_AI"					path="Switcher - Ai" />
+		<Sound id="NAPOLEON_UGH"				path="Napoleon - Ugh" />
+		
+			
+		<SetDefaults path="images/gui/in-game" idprefix="IMAGE_INGAMEUI_"/>
+		<Image id="HEARTS"						path="hearts_display" rows="1" cols="2" />		
+		<Image id="COIN"						path="ingameui_coin" />
+		<Image id="LEVEL"						path="ingameui_level" />
+		<Image id="SCORE"						path="ingameui_score" />
+		<Image id="HEALTH"						path="ingameui_health" />
+		<Image id="MENUBUTTON"					path="menu_button" />
+		<Image id="HAMMERBACK"					path="hammer_back" />
+		<Image id="HELP_CLICKHERE"				path="ingamehelp_clickhere" />
+		<Image id="HELP_DONTMISS"				path="ingamehelp_dontmiss" />
+		<Image id="HELP_PICKCOINSANDHEARTS"		path="ingamehelp_pickcoinsandhearts" />
+		<Image id="HELP_PICKCOINS"				path="ingamehelp_pickcoins" />
+		
+		<SetDefaults path="images/gui/intro" idprefix="IMAGE_INTROSCREEN_"/>
+		<Image id="BUTTON"						path="go_button" rows="1" cols="3" />		
+				
+	</Resources>
+	
+	<Resources id="MainMenu">
+		<SetDefaults path="images/gui/main menu" idprefix="IMAGE_MAINMENU_"/>			
+		<Image id="HAMMER"						path="hammer_mainmenu" />
+		<Image id="SCREEN"						path="mainmenuscreen" />
+		<Image id="PLAY1"						path="classicbash" />
+		<Image id="PLAY2"						path="marathonbash" />
+		<Image id="PLAY2LOCKED"					path="marathonbashlocked" />
+		<Image id="PLAY1TOUGH"					path="toughcookie" />
+		<Image id="PLAY1TOUGHBITTEN"			path="toughcookie_bitten" />
+		<Image id="HIGHSCORES"					path="highscores" />
+		<Image id="MOREGAMES"					path="moregames" />
+		<Image id="OPTIONS"						path="options" />
+		<Image id="QUIT"						path="quit" />
+		<Image id="TROPHYROOM"					path="trophyroom" />
+		<Image id="PEEKABOO"					path="peekaboo" />
+	</Resources>
+			
+	<Resources id="Game">			
+		<SetDefaults path="sounds" idprefix="SOUND_"/>					
+		<SetDefaults path="images" idprefix="IMAGE_"/>				
+		<Image id="GNOME_1"					path="gnome1" />		
+		<Image id="GNOME_FEMALE"			path="gnomefemale" rows="2" cols="10" />
+		<Image id="GNOME_FEMALE_SMOKE"		path="smoke" rows="1" cols="6" />
+		<Image id="GNOME_BOMB"				path="gnomebomb" rows="1" cols="4" />
+		<Image id="GNOME_BUBBLEHEAD"		path="gnomebubble" rows="1" cols="21" />
+		<Image id="GNOME_HIDE"				path="gnomehide" rows="6" cols="12" />
+		<Image id="GNOME_ARNOLD"			path="gnomearnold" rows="4" cols="15" />
+		<Image id="GNOME_BOUNCING"			path="gnomebouncing" rows="1" cols="10" />
+		<Image id="GNOME_FORK"				path="forkgnome" rows = "6" cols = "7" />
+		<Image id="GNOME_SILVER"			path="silvergnome" rows = "1" cols = "7" />
+		<Image id="GNOME_EXPLOSION"			path="gnome_explosion" rows="1" cols = "6" />
+		<Image id="GNOME_BYEBYE"			path="gnomebyebye" rows="3" cols="20" />
+		<Image id="GNOME_BONUS_STRAWBERRY"	path="strawberry" />
+		<Image id="GNOME_BONUS_ICECREAM"	path="icecream" />
+		<Image id="GNOME_BONUS_DUCK"		path="duck" />
+		<Image id="GNOME_RABBIT"			path="rabbit" rows="2" cols="10" />
+		<Image id="GNOME_KING"				path="king" rows="2" cols="10" />
+		<Image id="GNOME_SAVE"				path="save" />
+		<Image id="GNOME_AVIATOR"			path="aviator" rows="3" cols="8" />
+		<Image id="GNOME_AVIATOR_MIRRORED"	path="aviator_mirrored" rows="3" cols="8" />
+		<Image id="GNOME_POWERUP"			path="powerup" />
+		<Image id="GNOME_SWITCHER"			path="gnomeswitcher" rows="9" cols="10" />
+		<Image id="GNOME_NAPOLEON"			path="gnomenapoleon" rows="1" cols="16" />		
+		<Image id="CRYSTAL_BALL_GLOW"		path="crystalballglow" />
+		<Image id="BACKDROP_SPRING_1"		path="backdrop_spring_1" />
+		<Image id="BACKDROP_SUMMER_1"		path="backdrop_summer_1" />
+		<Image id="BACKDROP_TARMAC"			path="backdrop_tarmac" />
+		<Image id="BACKDROP_AUTUMN_1"		path="backdrop_autumn_1" />
+		<Image id="BACKDROP_WINTER_1"		path="backdrop_winter_1" />
+		<Image id="BACKDROP_LIVINGROOM"		path="backdrop_livingroom" />		
+		<Image id="BACKDROP_DESERT"			path="backdrop_desert" />
+		<Image id="CUBBY_BACK"				path="hole" />
+		<Image id="CUBBY_PLATFORM"			path="platform" />
+		<Image id="CUBBY_BACK_SUMMER"		path="hole_summer" />
+		<Image id="CUBBY_PLATFORM_SUMMER"	path="platform_summer" />
+		<Image id="CUBBY_PLATFORM_AUTUMN"	path="platform_autumn" />
+		<Image id="CUBBY_BACK_WINTER"		path="hole_winter" />
+		<Image id="CUBBY_PLATFORM_WINTER"	path="platform_winter" />
+		<Image id="CUBBY_PLATFORM_TARMAC"	path="platform_tarmac" />		
+		<Image id="CUBBY_PLATFORM_DESERT"	path="platform_deathvally" />
+		<Image id="CUBBY_PLATFORM_LIVINGROOM" path="platform_livingroom" />
+		<Image id="CUBBY_BACK_LIVINGROOM"	path="hole_livingroom" />
+		<Image id="CUBBY_BACK_TARMAC"		path="hole_tarmac" />
+		<Image id="PLAYER_HAMMER_1"			path="hammer1" rows="1" cols="7" />
+		<Image id="PLAYER_HAMMER_2"			path="hammer2" rows="1" cols="7" />
+		<Image id="PLAYER_HAMMER_3"			path="hammer3" rows="1" cols="7" />
+		<Image id="PLAYER_HAMMER_4"			path="hammer4" rows="1" cols="7" />
+		<Image id="PLAYER_HAMMER_1_FIRE"	path="fire_hammer1" rows="1" cols="7" />
+		<Image id="PLAYER_HAMMER_2_FIRE"	path="fire_hammer2" rows="1" cols="7" />
+		<Image id="PLAYER_HAMMER_3_FIRE"	path="fire_hammer3" rows="1" cols="7" />
+		<Image id="PLAYER_HAMMER_4_FIRE"	path="fire_hammer4" rows="1" cols="7" />
+		<Image id="HEART"					path="heart" rows="1" cols="11" />
+		<Image id="BROKENHEART"				path="brokenheart" />
+		<Image id="BROKENHEART_LARGE"		path="brokenheart_large" />
+		<Image id="STRIKE"					path="strike" />
+		<Image id="STRIKEINEFFECTIVE"		path="strike_ineffective" />
+		<Image id="MISS"					path="miss" />
+		<Image id="SHADOW"					path="shadow" />
+		<Image id="SHADOW_GNOME"			path="shadow_gnome" />
+		<Image id="CHEST"					path="chest" rows = "1" cols = "2" />		
+		<Image id="COIN"					path="coin" rows="1" cols="20" />				
+		<Image id="LUCKY_CLOVER"			path="clover" />
+		<Image id="LUCKY"					path="lucky" />		
+		<Image id="PLUS_TWO"				path="plustwo" />
+		<Image id="STAR_STRIP"				path="medal_star_small_blip" rows="1" cols="7" />
+		<Image id="NAPOLEON_DUST_STRIP"		path="napoleon_dust_strip" rows="1" cols="7" />
+		<Image id="KING_DUST_STRIP"			path="king_dust_strip" rows="1" cols="7" />
+		<Image id="SPARKLE_STRIP"			path="sparkle" rows="1" cols="14" />
+		<Image id="SHOP_BACKDROP"			path="shop_backdrop" />
+		<Image id="MOLE_SHOP"				path="mole_shop" rows="3" cols="4" />
+		<Image id="SHOP_HEART"				path="shop_heart" />
+		<Image id="SHOP_HEART_BIG"			path="shop_heart_big" />		
+		<Image id="SHOP_HEART_EXTRA"		path="shop_heart_extra" />		
+		<Image id="SHOP_FLAME"				path="shop_flame" rows="1" cols="9" />						
+		<Image id="STICKER_FLOWER"			path="sticker_flower" />
+		<Image id="STICKER_MUSHROOM"		path="sticker_mushroom" />
+		<Image id="STICKER_MUSHROOM2"		path="sticker_mushroom2" />
+		<Image id="STICKER_SHELL1"			path="sticker_shell1" />
+		<Image id="STICKER_SHELL2"			path="sticker_shell2" />
+		<Image id="STICKER_SHELL3"			path="sticker_shell3" />
+		<Image id="STICKER_SHELL4"			path="sticker_shell4" />
+		<Image id="STICKER_NUT1"			path="sticker_nut1" />
+		<Image id="STICKER_NUT2"			path="sticker_nut2" />
+		<Image id="STICKER_DEADWOOD"		path="sticker_deadwood" />
+		<Image id="STICKER_SNAIL"			path="sticker_snail" />
+		<Image id="STICKER_PUDDLE"			path="sticker_puddle" />
+		<Image id="STICKER_BUCKET"			path="sticker_bucket" />
+		<Image id="STICKER_EDELWEISS"		path="sticker_edelweiss" />
+		<Image id="STICKER_MISTLETOE"		path="sticker_mistletoe" />
+		<Image id="STICKER_SNOWMAN"			path="sticker_snowman" />
+		<Image id="STICKER_LADYBIRD"		path="sticker_ladybird" />
+		<Image id="STICKER_RATTLESNAKE"		path="sticker_rattlesnake" />
+		<Image id="STICKER_COWSKULL"		path="sticker_cowskull" />
+		<Image id="STICKER_CACTUS"			path="sticker_cactus" />
+		<Image id="STICKER_SLIPPER"			path="sticker_slipper" />
+		<Image id="STICKER_CUP"				path="sticker_cup" />
+		<Image id="STICKER_ROLLERS"			path="sticker_rollers" />
+		<Image id="STICKER_BALL"			path="sticker_ball" />
+		<Image id="STICKER_CONE"			path="sticker_cone" />
+		<Image id="STICKER_OIL"				path="sticker_oil" />
+		<Image id="STICKER_SCREW"			path="sticker_screw" />
+		<Image id="STICKER_OLDBOX"			path="sticker_oldbox" />
+		<Image id="SHOP"					path="shop" rows="1" cols="2" />
+		<Image id="MOLE_X5"					path="mole_x5" rows="3" cols="9" />
+		<Image id="CUPIDO"					path="cupidon" rows="2" cols="11" />
+		<Image id="SHOP_PEDESTAL"			path="shop_pedestal" />		
+		<Image id="CHALLENGE_BACKDROP"		path="challenge_backdrop" />
+		<Image id="CHALLENGE_CUBBY_PLATFORM" path="platform_bonus" />
+		<Image id="CHALLENGE"				path="challenge" rows="1" cols="9" />		
+		<Image id="SPEED_BONUS"				path="speedbonus" />
+		<Image id="SPEED_BONUS_SUPER"		path="speedbonus_super" />
+		<Image id="SPEED_BONUS_HYPER"		path="speedbonus_hyper" />
+		<Image id="SPEED_BONUS_ULTRA"		path="speedbonus_ultra" />
+		<Image id="SPEED_BONUS_GIGA"		path="speedbonus_giga" />
+		<Image id="CUPIDO_HEART_EFFECT"		path="cupido_heart_effect"/>
+		<Image id="EXIT_HAMMER"				path="loading_hammer" />
+		<Image id="QUESTIONMARK"			path="questionmark"/>
+
+		<SetDefaults path="images/marathon" idprefix="IMAGE_MARATHON_"/>		
+		<Image id="BACKGROUND"				path="marathon" />
+		<Image id="CUBBY_PLATFORM"			path="platform_marathon" />
+		<Image id="CUBBY_BACK"				path="hole_marathon" />
+		<Image id="CLOCK"					path="clock" />
+		<Image id="CLOCK_HOURHAND"			path="clock_hourhand"/>
+		<Image id="CLOCK_MINUTEHAND"		path="clock_minutehand"/>
+		<Image id="CLOCK_BACK"				path="timeback" />
+		<Image id="TIMEBONUS"				path="timebonus" />
+
+	</Resources>
+		
+</ResourceManifest>

@@ -1,0 +1,27 @@
+Define CharList
+ ( '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ',');
+
+Define WidthList
+ (  16,  15,  16,  16,  16,  16,  16,  16,  16,  16,   8);
+
+Define RectList
+ ( (   0,  0, 19, 38), (  20,  0, 13, 38), (  34,  0, 18, 38), (  53,  0, 19, 38),
+   (  73,  0, 18, 38), (  92,  0, 18, 38), ( 111,  0, 19, 38), ( 131,  0, 17, 38),
+   ( 149,  0, 18, 38), ( 168,  0, 19, 38), ( 188,  0, 11, 38));
+
+Define OffsetList
+ ( (-1, 0), ( 1, 0), (-1, 0), (-1, 0), (-1, 0), (-1, 0), (-1, 0), ( 1, 0),
+   (-1, 0), (-1, 0), (-1, 0));
+
+CreateLayer               Main;
+LayerSetImage             Main '../images/PTBananaSplit22';
+LayerSetAscent            Main 27;
+LayerSetCharWidths        Main CharList WidthList;
+LayerSetCharWidths        Main (' ') (8);
+LayerSetImageMap          Main CharList RectList;
+LayerSetCharOffsets       Main CharList OffsetList;
+LayerSetAscentPadding     Main 2;
+LayerSetLineSpacingOffset Main 0;
+LayerSetPointSize         Main 22;
+
+SetDefaultPointSize  22;

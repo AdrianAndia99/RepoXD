@@ -1,0 +1,14 @@
+<Properties>
+
+<Boolean id="DefaultWindowed">false</Boolean>
+<Boolean id="DontUpdate">true</Boolean>
+<Boolean id="NoReg">true</Boolean>
+
+<String id="ProdName">Bejeweled2</String>
+<String id="ProdVersion">1.1.3.2523</String>
+<String id="ProdLanguage">en-us</String>
+<String id="InstallTag">BJ2_PH2FNF</String>
+
+<String id="RegistryKey">PopCap\Bejeweled2</String>
+
+</Properties>

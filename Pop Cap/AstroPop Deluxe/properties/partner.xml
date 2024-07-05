@@ -1,0 +1,14 @@
+<Properties>
+<Boolean id="NoReg">true</Boolean>
+<Boolean id="DontUpdate">false</Boolean>
+<Boolean id="DefaultWindowed">false</Boolean>
+<String id="MoreGamesLink">http://www.popcap.com</String>
+<String id="ProdName">AstroPop</String>
+<String id="RegistryKey">PopCap\AstroPop</String>
+
+<Boolean id="VistaCompliant">true</Boolean>
+<String id="DisplayName">AstroPop Deluxe</String>
+<String id="Offering">10173</String>
+<Integer id="Height">480</Integer>
+<Integer id="Width">640</Integer>
+</Properties>

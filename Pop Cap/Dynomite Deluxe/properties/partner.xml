@@ -1,0 +1,18 @@
+<Properties>
+
+<Boolean id="NoReg">true</Boolean>
+<Boolean id="DontUpdate">false</Boolean>
+<Boolean id="DefaultWindowed">false</Boolean>
+
+<String id="OptionsLinkText0">Play More Great Games!</String>
+<String id="OptionsLinkURL0">http://www.popcap.com</String>
+<String id="ProdName">Dynomite</String>
+<String id="DisplayName">Dynomite Deluxe</String>
+<String id="Offering">10163</String>
+<String id="RegistryKey">PopCap\Dynomite</String>
+
+<Integer id="NumOptionsLinks">1</Integer>
+<Integer id="Height">480</Integer>
+<Integer id="Width">640</Integer>
+
+</Properties>

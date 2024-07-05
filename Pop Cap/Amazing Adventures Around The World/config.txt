@@ -1,0 +1,5 @@
+distributorname=PopCapv1005eni
+fullscreen=true
+numberseparator=,
+musicvol=55
+sfxvol=55

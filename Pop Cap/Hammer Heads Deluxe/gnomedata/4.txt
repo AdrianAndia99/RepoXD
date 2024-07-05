@@ -1,0 +1,5 @@
+20
+Say cheese!
+Take a snapshot to save your game forever.
+When you begin a new game, you will be able to start at this point!
+The camera appears at the end of every 5 levels.

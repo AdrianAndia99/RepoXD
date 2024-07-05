@@ -1,0 +1,24 @@
+<Properties>
+
+<Boolean id="VistaCompliant">true</Boolean>
+<Boolean id="NoReg">true</Boolean>
+<Boolean id="DontUpdate">false</Boolean>
+<Boolean id="NoInternetScores">true</Boolean>
+<Boolean id="DefaultWindowed">false</Boolean>
+<Boolean id="ShowTrialStatus">false</Boolean>
+
+<String id="OptionsLinkText0">Play More Great Games!</String>
+<String id="OptionsLinkURL0">http://www.popcap.com</String>
+<String id="InstallTag">BookwormTestNoPrice</String>
+<String id="ProdName">Bookworm</String>
+<String id="DisplayName">Bookworm Deluxe</String>
+<String id="Offering">10166</String>
+<String id="RegistryKey">PopCap\Bookworm</String>
+
+<Integer id="NumOptionsLinks">1</Integer>
+<Integer id="LoadingBarY">330</Integer>
+<Integer id="OptionsDialogHeight">315</Integer>
+<Integer id="Height">480</Integer>
+<Integer id="Width">640</Integer>
+
+</Properties>

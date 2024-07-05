@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<Properties version="1.0" language="en" country="US" lookandfeel="NORMAL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="">
+
+<!-- Dialog Buttons -->
+<String id="DIALOG_BUTTON_YES">YES</String>
+<String id="DIALOG_BUTTON_NO">NO</String>
+<String id="DIALOG_BUTTON_OK">OK</String>
+<String id="DIALOG_BUTTON_CANCEL">CANCEL</String>
+
+<!-- Update Dialog Stuff -->
+<String id="UPDATE_CHECK_TITLE">Update Check</String>
+<String id="UPDATE_CHECK_BODY">Contacting PopCap.com to determine if there are any updates available for this product ...</String>
+<String id="UP_TO_DATE_TITLE">Up to Date</String>	
+<String id="UP_TO_DATE_BODY">There are no updates available for this product at this time.</String>
+<String id="NEW_VERSION_TITLE">New Version</String>
+<String id="NEW_VERSION_BODY">There is an update available for this product.  Would you like to visit the web site to download it?</String>
+
+<!-- Exception Dialog Stuff -->
+<String id="BUG_REPORT_TITLE">Fatal exception.</String>
+<String id="BUG_REPORT_BODY">Something went wrong with the program.&cr;An error report has been created and can be sent to Zylom.&cr;This report will help us to find the cause of the problem.&cr;Sending the report requires an active Internet connection.&cr;&cr;Would you like to send the error report?</String>
+
+<!-- Board.cpp -->
+<String id="EXCELLENT">EXCELLENT!</String>
+<String id="NO_MOVES">NO MOVES!</String>
+<String id="LEVEL">LEVEL %d</String>
+<String id="GO">GO!</String>
+<String id="TIME_UP">TIME UP!</String>
+<String id="GAME_PAUSED">*** GAME PAUSED ***</String>
+<String id="CLICK_HERE_TO_CONTINUE">Click Here to Continue!</String>
+
+<!-- HighScoreDialog.cpp  -->
+<String id="HSDLG_HIGH_SCORES">HIGH SCORES</String>
+<String id="HSDLG_DONE">DONE</String>
+<String id="HSDLG_NORMAL">NORMAL</String>
+<String id="HSDLG_TIMED">TIMED</String>
+<String id="HSDLG_TODAYS_HIGH_SCORE">TODAY'S HIGH SCORE</String>
+<String id="HSDLG_EMPTY">- Empty -</String>
+<String id="HSDLG_ALL_TIME_HIGH_SCORES">ALL TIME HIGH SCORES</String>
+
+<!-- HighScoreWidget.cpp -->
+<String id="HSWIDGET_CLICK_HERE_TO_PLAY_AGAIN">CLICK HERE TO PLAY AGAIN</String>
+<String id="HSWIDGET_TIP0">TIP- You can click and drag a gem instead of clicking twice</String>
+<String id="HSWIDGET_TIP1">TIP- Fill the bonus bar to proceed to higher-scoring levels</String>
+<String id="HSWIDGET_TIP2">TIP- Make cascades of chain-reacting gems for extra points</String>
+<String id="HSWIDGET_TIP3">TIP- Create rows of 4 or 5 gems for extra points</String>
+<String id="HSWIDGET_TIP4">TIP- Complete 2 rows with one move for bonus points</String>
+<String id="HSWIDGET_TIP5">TIP- Replenish the bonus bar in Timetrial by scoring combos</String>
+<String id="HSWIDGET_TIP6">TIP- You can click and drag a gem to swap it with another</String>
+<String id="HSWIDGET_TIP7">TIP- Press any key to pause the game in Timetrial mode</String>
+<String id="HSWIDGET_TIP_DEFAULT">TIP- Visit us online at www.popcap.com for more games!</String>
+<String id="HSWIDGET_HIGH_SCORE_OF_THE_DAY_PLACEMENT_PREFIX">You got the highest score of&cr;the day!  For all time, your place was</String>
+<String id="HSWIDGET_HIGH_SCORE_OF_THE_DAY_PLACEMENT_SUFFIX">!&cr;&cr;Would you like to register so&cr;you can record your score?</String>
+<String id="HSWIDGET_HIGH_SCORE_OF_THE_DAY_REGISTRATION_DIALOG">You got the highest score&cr;of the day!&cr;&cr;Would you like to register so&cr;you can record your score?</String>
+<String id="HSWIDGET_HIGH_SCORE_OF_ALL_TIME_REGISTRATION_DIALOG_PREFIX">You got place </String>
+<String id="HSWIDGET_HIGH_SCORE_OF_ALL_TIME_REGISTRATION_DIALOG_SUFFIX">in the All-Time Scores!&cr;&cr;Would you like to register so&cr;you can record your score?</String>
+<String id="HSWIDGET_HIGH_SCORE_OF_ALL_TIME_PLACEMENT_PREFIX">You got the highest score of&cr;the day! In the All-Time Scores, you made place </String>
+<String id="HSWIDGET_HIGH_SCORE_OF_ALL_TIME_PLACEMENT_SUFFIX">!</String>
+<String id="HSWIDGET_BEST_TODAY">You got the highest score&cr;of the day!</String>
+<String id="HSWIDGET_SCORE_PLACEMENT_PREFIX">In the All-Time Scores you made place </String>
+<String id="HSWIDGET_SCORE_PLACEMENT_SUFFIX">!</String>
+<String id="HSWIDGET_GAME_OVER">GAME OVER</String>
+<String id="HSWIDGET_GAME_DURATION">GAME DURATION</String>
+<String id="HSWIDGET_GEMS_CLEARED">GEMS CLEARED</String>
+<String id="HSWIDGET_LONGEST_CASCADE">LONGEST CASCADE</String>
+<String id="HSWIDGET_BEST_SINGLE_MOVE">BEST SINGLE MOVE</String>
+<String id="HSWIDGET_HIGH_SCORES">HIGH SCORES</String>
+<String id="HSWIDGET_NORMAL">NORMAL</String>
+<String id="HSWIDGET_TIMED">TIMED</String>
+<String id="HSWIDGET_TODAYS_HIGH_SCORE">TODAY'S HIGH SCORE</String>
+<String id="HSWIDGET_EMPTY">- Empty -</String>
+<String id="HSWIDGET_ALL_TIME_HIGH_SCORES">ALL TIME HIGH SCORES</String>
+
+<!-- OptionsDialog.cpp -->
+<String id="OPTIONSDLG_OPTIONS">Options</String>
+<String id="OPTIONSDLG_DONE">Done</String>
+<String id="OPTIONSDLG_HELP">Help</String>
+<String id="OPTIONSDLG_REGISTER">Register</String>
+<String id="OPTIONSDLG_HIGH_SCORES">High Scores</String>
+<String id="OPTIONSDLG_CLICK_HERE_TO_TRY_ALCHEMY">Click Here to Try Alchemy</String>
+<String id="OPTIONSDLG_VISIT_POPCAP_FOR_MORE_GAMES">Visit PopCap.com For More Games</String>
+<String id="OPTIONSDLG_CHECK_FOR_UPDATES">Check for Updates</String>
+<String id="OPTIONSDLG_MUSIC">Music</String>
+<String id="OPTIONSDLG_SOUND_FX">Sound Fx</String>
+<String id="OPTIONSDLG_FULLSCREEN">Fullscreen</String>
+<String id="OPTIONSDLG_CUSTOM_CURSORS">Custom Cursors</String>
+
+<!-- RecordScoreDialog.cpp -->
+<String id="RECORDSCOREDLG_HIGH_SCORE">High Score</String>
+<String id="RECORDSCOREDLG_ENTER_YOUR_NAME">Enter Your Name</String>
+
+<!-- RegisterDialog.cpp -->
+<String id="REGISTER_DIAMOND_MINE">REGISTER DIAMOND MINE</String>
+<String id="REGISTER_BEJEWELED">REGISTER BEJEWELED</String>
+<String id="CLICK_HERE_TO_REGISTER_ONLINE">Click here to register online</String>
+<String id="WEB_BROWSER_WILL_OPEN_NOTICE1">Note - This will open a browser window.</String>
+<String id="WEB_BROWSER_WILL_OPEN_NOTICE2">When you have registered, enter your</String>
+<String id="WEB_BROWSER_WILL_OPEN_NOTICE3">registration information below.</String>
+<String id="REGISTERED_NAME">Registered Name</String>
+<String id="LICENSE_CODE">License Code</String>
+
+<!-- TitleScreen.cpp -->
+<String id="YOU_MUST_REG1">You must register online now to continue playing Diamond Mine!</String>
+<String id="YOU_MUST_REG2">You must register online now to continue playing Bejeweled!</String>
+<String id="UNREGISTERED1">UNREGISTERED VERSION - YOU HAVE PLAYED %d TIMES</String>
+<String id="UNREGISTERED2">UNREGISTERED VERSION</String>
+<String id="THANKS_FOR_REGISTERING">THANKS FOR REGISTERING!</String>
+<String id="VERSION">Version</String>
+<String id="CLICK_HERE_TO_PLAY">CLICK HERE TO PLAY!</String>
+<String id="REGISTER_NOW_TO_REMOVE_THIS_DELAY">REGISTER NOW TO REMOVE THIS DELAY!</String>
+<String id="CLICK_HERE_TO_QUIT">CLICK HERE TO QUIT</String>
+<String id="CLICK_HERE_TO_REGISTER_NOW">CLICK HERE TO REGISTER NOW!</String>
+
+<!-- WinDMApp.cpp -->
+<String id="URL_OPEN_ERROR1">Please open the following URL in your browser:&cr;</String>
+<String id="URL_OPEN_ERROR2">&cr;&cr;For your convenience, this URL has already been copied to your clipboard.</String>
+<String id="OPEN_BROWSER">OPEN BROWSER</String>
+<String id="OPENING_BROWSER">Opening Browser ...</String>
+<String id="REGISTRATION_INVALID_DIALOG1">Registration Invalid</String>
+<String id="REGISTRATION_INVALID_DIALOG2">The registration number you entered is not valid for that name.&cr;&cr;Make sure the name and registration number are entered correctly.</String>
+<String id="REGISTRATION_INVALID_DIALOG3">OK</String>
+<String id="HIGH_SCORE">High Score</String>
+<String id="CONFIRM_LOAD_DIALOG1">Continue Old Game?</String>
+<String id="CONFIRM_LOAD_DIALOG2">Do you want to continue your last game? Your position was saved when you quit. If you do not continue now, that game will be lost.</String>
+<String id="UPDATES">Updates</String>
+<String id="DO_YOU_WANT_TO_CHECK_FOR_UPDATES_TO_DIAMOND_MINE">Do you want to check for updates and expansion packs for Diamond Mine 2? </String>
+<String id="DO_YOU_WANT_TO_CHECK_FOR_UPDATES_TO_BEJEWELED">Do you want to check for updates and expansion packs for Bejeweled 2? </String>
+<String id="UPDATES_DESC">New versions may offer new features and bug fixes.  This requires an active Internet connection.</String>
+<String id="NEWGAMEDIALOG1">New Game</String>
+<String id="NEWGAMEDIALOG2">Are you sure you want to end&cr;the current game?</String>
+<String id="CONFIRMNORMALMODE1">Normal Mode</String>
+<String id="CONFIRMNORMALMODE2">You must end the current game&cr;to switch to normal mode. Ok?</String>
+<String id="CONFIRMTIMEDMODE1">Timed Mode</String>
+<String id="CONFIRMTIMEDMODE2">You must end the current game&cr;to switch to timed mode. Ok?</String>
+<String id="CONFIRMQUIT1">Are you sure you want to&cr;quit the game?</String>
+<String id="CONFIRMQUIT2">&cr;&cr;Your current game in progress&cr;will be saved so you can&cr;continue next time.</String>
+<String id="QUIT">Quit</String>
+<String id="INSTRUCTIONDIALOG">Swap adjacent gems to create rows of 3 or more!</String>
+<String id="DONE">DONE</String>
+<String id="COLOR_DEPTH_EXPLANATION1">No Windowed Mode</String>
+<String id="COLOR_DEPTH_EXPLANATION2">Windowed mode is only available if your desktop is running in either 16 bit or 32 bit color mode, which it is not.</String>
+<String id="YOU_HAVE_PLAYED_DIAMOND_MINE_D_TIMES">You have played Diamond Mine %d times!&cr;&cr;</String>
+<String id="YOU_HAVE_PLAYED_BEJEWELLED_D_TIMES">You have played Bejeweled %d times!&cr;&cr;</String>
+<String id="YOU_ARE_A_DIAMOND_MINE_AHOLIC">You are a Diamond Mine-aholic!&cr;&cr;</String>
+<String id="YOU_ARE_A_BEJEWELAHOLIC">You are a Bejewelaholic!&cr;&cr;</String>
+<String id="LOOKS_LIKE_YOU_ARE_ADDICTED">Looks like you are addicted!&cr;&cr;</String>
+<String id="ARE_YOU_GETTING_HOOKED">Are you getting hooked?&cr;&cr;</String>
+<String id="LOADING_NAG">Register online to remove the loading delay and this screen. 
+Registering also unlocks the High Score feature, so you can record your best 
+scores!&cr;&cr;Register now?</String>
+<String id="REGISTER_NOW">Register Now</String>
+
+</Properties>

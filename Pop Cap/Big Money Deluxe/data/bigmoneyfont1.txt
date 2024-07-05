@@ -1,0 +1,154 @@
+Define Charlist
+ ('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O',
+'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
+  '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '!', ',', '.', '?', ':',
+'+', '-', '$', '~', '`', '@', '#', '%', '^', '&', '*', '(',
+  ')', '=', '[', ']', '{', '}', '\\', '|', ';', ':', '"', "'", '<', '>',
+'/' );
+
+Define WidthList
+ (10, 10, 10, 10, 10, 10, 10, 10, 5, 10, 10, 8, 15, 10, 10, 10, 10, 10, 10,
+11, 10, 11, 17, 11, 10, 10,
+  10, 5, 10, 10, 11, 10, 10, 10, 10, 10, 5, 5, 5, 10, 5, 10, 6, 9, 10, 5,
+12, 11, 16, 10, 12, 9, 6,
+  6, 10, 6, 6, 8, 8, 9, 4, 6, 5, 7, 4, 10, 10, 9 );
+
+Define RectList
+ ((4,0,10,20) , (14,0,10,20) , (24,0,10,20) , (34,0,10,20) , (44,0,10,20) ,
+(54,0,10,20) , (64,0,10,20) , (74,0,10,20) , (84,0,5,20) , (89,0,10,20) ,
+(99,0,10,20) , (109,0,8,20) , (117,0,15,20) , (132,0,10,20) , (142,0,10,20)
+, (152,0,10,20) , (162,0,13,20) , (175,0,10,20) , (185,0,10,20) ,
+(195,0,11,20) , (206,0,10,20) , (216,0,11,20) , (227,0,17,20) ,
+(244,0,11,20) , (255,0,10,20) , (265,0,10,20) ,
+  (275,0,10,20) , (285,0,5,20) , (290,0,10,20) , (300,0,10,20) ,
+(310,0,11,20) , (321,0,10,20) , (331,0,10,20) , (341,0,10,20) ,
+(351,0,10,20) , (361,0,10,20) , (371,0,5,20) , (376,0,5,20) , (381,0,5,20) ,
+(386,0,10,20) , (609,0,5,20) , (401,0,10,20) , (411,0,6,20) , (417,0,9,20) ,
+(427,0,10,20) , (439,0,5,20) , (446,0,12,20) , (460,0,11,20) , (473,0,16,20)
+, (490,0,10,20) , (501,0,12,20) , (513,0,9,20) , (523,0,6,20) ,
+  (531,0,6,20) , (539,0,10,20) , (551,0,6,20) , (558,0,6,20) , (566,0,8,20)
+, (576,0,8,20) , (585,0,9,20) , (597,0,4,20) , (602,0,6,20) , (609,0,5,20) ,
+(615,0,7,20) , (624,0,4,20) , (629,0,10,20) , (641,0,10,20) ,
+(652,0,9,20)  );
+
+Define UnderlineRectList
+((0, 0, 10, 3), (0, 0, 10, 3), (0, 0, 10, 3), (0, 0, 10, 3), (0, 0, 10, 3), (0, 0, 10, 3),
+ (0, 0, 10, 3), (0, 0, 10, 3), (0, 0,  5, 3), (0, 0, 10, 3), (0, 0, 10, 3), (0, 0,  8, 3),
+ (0, 0, 15, 3), (0, 0, 10, 3), (0, 0, 10, 3), (0, 0, 10, 3), (0, 0, 13, 3), (0, 0, 10, 3),
+ (0, 0, 10, 3), (0, 0, 11, 3), (0, 0, 10, 3), (0, 0, 11, 3), (0, 0, 17, 3), (0, 0, 11, 3),
+ (0, 0, 10, 3), (0, 0, 10, 3), (0, 0, 10, 3), (0, 0,  5, 3), (0, 0, 10, 3), (0, 0, 10, 3),
+ (0, 0, 11, 3), (0, 0, 10, 3), (0, 0, 10, 3), (0, 0, 10, 3), (0, 0, 10, 3), (0, 0, 10, 3),
+ (0, 0,  5, 3), (0, 0,  5, 3), (0, 0,  5, 3), (0, 0, 10, 3), (0, 0,  5, 3), (0, 0, 10, 3),
+ (0, 0,  6, 3), (0, 0,  9, 3), (0, 0, 10, 3), (0, 0,  5, 3), (0, 0, 12, 3), (0, 0, 11, 3),
+ (0, 0, 16, 3), (0, 0, 10, 3), (0, 0, 12, 3), (0, 0,  9, 3), (0, 0,  6, 3), (0, 0,  6, 3),
+ (0, 0, 10, 3), (0, 0,  6, 3), (0, 0,  6, 3), (0, 0,  8, 3), (0, 0,  8, 3), (0, 0,  9, 3),
+ (0, 0,  4, 3), (0, 0,  6, 3), (0, 0,  5, 3), (0, 0,  7, 3), (0, 0,  4, 3), (0, 0, 10, 3),
+ (0, 0, 10, 3), (0, 0,  9, 3));
+
+ Define UnderlineOutlineRectList
+((0, 3, 10, 5), (0, 3, 10, 5), (0, 3, 10, 5), (0, 3, 10, 5), (0, 3, 10, 5), (0, 3, 10, 5),
+ (0, 3, 10, 5), (0, 3, 10, 5), (0, 3,  5, 5), (0, 3, 10, 5), (0, 3, 10, 5), (0, 3,  8, 5),
+ (0, 3, 15, 5), (0, 3, 10, 5), (0, 3, 10, 5), (0, 3, 10, 5), (0, 3, 13, 5), (0, 3, 10, 5),
+ (0, 3, 10, 5), (0, 3, 11, 5), (0, 3, 10, 5), (0, 3, 11, 5), (0, 3, 17, 5), (0, 3, 11, 5),
+ (0, 3, 10, 5), (0, 3, 10, 5), (0, 3, 10, 5), (0, 3,  5, 5), (0, 3, 10, 5), (0, 3, 10, 5),
+ (0, 3, 11, 5), (0, 3, 10, 5), (0, 3, 10, 5), (0, 3, 10, 5), (0, 3, 10, 5), (0, 3, 10, 5),
+ (0, 3,  5, 5), (0, 3,  5, 5), (0, 3,  5, 5), (0, 3, 10, 5), (0, 3,  5, 5), (0, 3, 10, 5),
+ (0, 3,  6, 5), (0, 3,  9, 5), (0, 3, 10, 5), (0, 3,  5, 5), (0, 3, 12, 5), (0, 3, 11, 5),
+ (0, 3, 16, 5), (0, 3, 10, 5), (0, 3, 12, 5), (0, 3,  9, 5), (0, 3,  6, 5), (0, 3,  6, 5),
+ (0, 3, 10, 5), (0, 3,  6, 5), (0, 3,  6, 5), (0, 3,  8, 5), (0, 3,  8, 5), (0, 3,  9, 5),
+ (0, 3,  4, 5), (0, 3,  6, 5), (0, 3,  5, 5), (0, 3,  7, 5), (0, 3,  4, 5), (0, 3, 10, 5),
+ (0, 3, 10, 5), (0, 3,  9, 5));
+
+Define Lowercase ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 
+	 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z');
+
+Define Uppercase ('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 
+	 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z');
+
+Define OutlineRectList
+ ((0,0,13,22) , (15,0,14,22) , (32,0,14,22) , (49,0,14,22) , (69,0,14,22) ,
+(87,0,14,22) , (103,0,14,22) , (119,0,14,22) , (138,0,9,22) , (154,0,14,22)
+, (173,0,14,22) , (192,0,12,22) , (210,0,19,22) , (237,0,14,22) ,
+(257,0,14,22) , (277,0,14,22) , (297,0,17,22) , (318,0,14,22) ,
+(337,0,14,22) , (354,0,15,22) , (372,0,14,22) , (390,0,15,22) ,
+(407,0,21,22) , (431,0,15,22) , (450,0,14,22) , (476,0,14,22) ,
+  (500,0,14,22) , (520,0,9,22) , (535,0,14,22) , (555,0,14,22) ,
+(575,0,15,22) , (596,0,14,22) , (617,0,14,22) , (637,0,14,22) ,
+(654,0,14,22) , (669,0,14,22) , (686,0,9,22) , (697,0,9,22) , (706,0,9,22) ,
+(720,0,14,22) , (1128,0,8,22) , (747,0,14,22) , (766,0,10,22) ,
+(782,0,13,22) , (802,0,14,22) , (824,0,9,22) , (841,0,16,22) , (860,0,15,22)
+, (878,0,19,22) , (902,0,13,22) , (919,0,15,22) , (936,0,12,22) ,
+(951,0,10,22) ,
+  (966,0,10,22) , (980,0,13,22) , (999,0,10,22) , (1016,0,10,22) ,
+(1034,0,12,22) , (1054,0,12,22) , (1074,0,12,22) , (1095,0,7,22) ,
+(1111,0,8,22) , (1128,0,8,22) , (1143,0,11,22) , (1162,0,8,22) ,
+(1177,0,14,22) , (1199,0,14,22) , (1221,0,10,22)  );
+
+#Outline
+
+CreateLayer			Outline;
+LayerRequireTags	Outline ("Outline");
+LayerSetImage		Outline '../images/Outlinefont1';
+LayerSetImageMap	Outline CharList OutlineRectList;
+LayerSetAscent		Outline 16;
+LayerSetCharWidths	Outline CharList WidthList;
+LayerSetCharWidths	Outline (' ') (11);
+LayerSetOffset		Outline (-2, -1);
+LayerSetColorMult	Outline (0, 0, 0, 0.5);
+LayerSetBaseOrder	Outline	-1;
+
+CreateLayer			UnderlineOutline;
+LayerRequireTags	UnderlineOutline ("Underlined", "Outline");
+LayerSetImage		UnderlineOutline '../images/fontunderline';
+LayerSetImageMap	UnderlineOutline CharList UnderlineOutlineRectList;
+LayerSetAscent		UnderlineOutline -2;
+LayerSetCharWidths	UnderlineOutline CharList WidthList;
+LayerSetImageMap	UnderlineOutline (' ') ((0, 3, 11, 5));
+LayerSetCharWidths	UnderlineOutline (' ') (11);
+LayerSetOffset		UnderlineOutline (-2, -1);
+LayerSetColorMult	UnderlineOutline (0, 0, 0, 0.75);
+LayerSetBaseOrder	UnderlineOutline -1;
+
+# Shadow part
+
+CreateLayer			Shadow;
+LayerExcludeTags	Shadow ("NoShadow");
+LayerSetImage		Shadow '../images/fontlefont';
+LayerSetImageMap	Shadow CharList RectList;
+LayerSetAscent		Shadow 16;
+LayerSetCharWidths  Shadow CharList WidthList;
+LayerSetCharWidths  Shadow (' ') (11);
+LayerSetOffset		Shadow (2, 2);
+LayerSetColorMult	Shadow (0, 0, 0, 0.75);
+
+CreateLayer			ShadowUnderline;
+LayerRequireTags	ShadowUnderline ("Underlined");
+LayerExcludeTags	ShadowUnderline ("NoShadow");
+LayerSetImage		ShadowUnderline '../images/fontunderline';
+LayerSetImageMap	ShadowUnderline CharList UnderlineRectList;
+LayerSetAscent		ShadowUnderline -2;
+LayerSetCharWidths	ShadowUnderline CharList WidthList;
+LayerSetImageMap	ShadowUnderline (' ') ((0, 0, 11, 3));
+LayerSetCharWidths	ShadowUnderline (' ') (11);
+LayerSetOffset		ShadowUnderline (2, 2);
+LayerSetColorMult	ShadowUnderline (0, 0, 0, 0.75);
+
+# Main part
+
+CreateLayer			Main;
+LayerSetImage		Main '../images/fontlefont';
+LayerSetImageMap	Main CharList RectList;
+LayerSetAscent		Main 16;
+LayerSetCharWidths	Main CharList WidthList;
+LayerSetCharWidths	Main (' ') (11);
+
+CreateLayer			MainUnderline;
+LayerRequireTags	MainUnderline ("Underlined");
+LayerSetImage		MainUnderline '../images/fontunderline';
+LayerSetImageMap	MainUnderline CharList UnderlineRectList;
+LayerSetAscent		MainUnderline -2;
+LayerSetCharWidths	MainUnderline CharList WidthList;
+LayerSetImageMap	MainUnderline (' ') ((0, 0, 11, 3));
+LayerSetCharWidths	MainUnderline (' ') (11);
+
+SetCharMap			Lowercase Uppercase;

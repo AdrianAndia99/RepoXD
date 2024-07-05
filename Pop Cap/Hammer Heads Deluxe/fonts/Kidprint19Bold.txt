@@ -1,0 +1,27 @@
+Define CharList
+ ( '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '%');
+
+Define WidthList
+ (  11,   6,  10,  10,  10,  10,  11,  11,  11,  11,  13);
+
+Define RectList
+ ( (   0,  0, 19, 38), (  20,  0, 12, 38), (  33,  0, 18, 38), (  52,  0, 18, 38),
+   (  71,  0, 19, 38), (  91,  0, 19, 38), ( 111,  0, 19, 38), ( 131,  0, 21, 38),
+   ( 153,  0, 20, 38), ( 174,  0, 19, 38), ( 194,  0, 21, 38));
+
+Define OffsetList
+ ( (-4, 0), (-3, 0), (-4, 0), (-4, 0), (-4, 0), (-5, 0), (-4, 0), (-5, 0),
+   (-5, 0), (-4, 0), (-4, 0));
+
+CreateLayer               Main;
+LayerSetImage             Main '../images/Kidprint19Bold';
+LayerSetAscent            Main 27;
+LayerSetCharWidths        Main CharList WidthList;
+LayerSetCharWidths        Main (' ') (8);
+LayerSetImageMap          Main CharList RectList;
+LayerSetCharOffsets       Main CharList OffsetList;
+LayerSetAscentPadding     Main 5;
+LayerSetLineSpacingOffset Main 5;
+LayerSetPointSize         Main 19;
+
+SetDefaultPointSize  19;

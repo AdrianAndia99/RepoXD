@@ -1,0 +1,31 @@
+<Properties>
+	<!-- Number of rows, columns in game board  -->
+	<Integer id="GameRows">	8		</Integer>
+	<Integer id="GameColumns">	8		</Integer>
+
+
+  <!--               Coal GEMS                      -->
+  <!-- what is the first level they appear on? -->
+  <Integer id="CoalGemFirstLevel"> 3 </Integer>
+
+  <!-- what is the value for that first level -->
+  <Integer id="CoalGemBase"> 100 </Integer>
+
+  <Double id="CoalGemChancePow"> 3.0 </Double>
+
+  <!-- does this value decrement based on turns or gems? -->
+  <Boolean id="CoalGemTurnBased"> false </Boolean>
+
+  <!-- how many level ups until the value changes -->
+  <Integer id="CoalGemLevelsBetweenChange" > 3 </Integer>
+
+  <!-- what is the change to the value? -->
+  <Integer id="CoalGemChange"> -1 </Integer>
+
+  <!-- what is the minimum the value can be? -->
+  <Integer id="CoalGemMin"> 35 </Integer>
+
+  <!-- Maximum number of coals we want to allow, start scaling down coal chances when we get up to 1/2 this value -->
+  <Integer id="CoalMax"> 8 </Integer>
+
+</Properties>

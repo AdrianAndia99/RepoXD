@@ -1,0 +1,29 @@
+EXPLODE explode 0 0 0
+hr 15 0 0 55 77 5
+
+SPLASH splash 0 0 0
+hr 24 0 0 40 40 3
+
+GHOST ghost 0 1 0
+hr 64 0 0 40 40 3
+
+WAKE wake 0 0 0
+hr 15 0 0 64 32 4
+
+WAKEDIM wakedim 0 0 0
+hr 15 0 0 48 24 6
+
+WAVE2 bigwave 1 0 0
+hr 10 0 0 40 10 16
+
+PIXELLIGHT pixellight 1 1 0
+hr 46 0 0 1 1 7
+
+PIXELDARK pixeldark 1 1 0
+hr 46 0 0 1 1 5
+
+BLOTCH blotch 0 1 0
+hr 11 0 0 17 12 10
+
+SPARKLE sparkle 0 0 0
+hr 14 0 0 15 15 2

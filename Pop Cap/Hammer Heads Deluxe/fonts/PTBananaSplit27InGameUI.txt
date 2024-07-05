@@ -1,0 +1,33 @@
+Define CharList
+ ( '-', '0', '-', '1', '-', '2', '-', '3', '-', '4', '-', '5', '-', '6', '-', '7',
+   '-', '8', '-', '9', '-');
+
+Define WidthList
+ (   8,  20,   8,  19,   8,  20,   8,  20,   8,  19,   8,  20,   8,  20,   8,  20,
+     8,  20,   8,  20,   8);
+
+Define RectList
+ ( (   0,  0, 17, 41), (  18,  0, 27, 41), (  46,  0, 17, 41), (  64,  0, 20, 41),
+   (  85,  0, 17, 41), ( 103,  0, 26, 41), ( 130,  0, 17, 41), ( 148,  0, 27, 41),
+   ( 176,  0, 17, 41), ( 194,  0, 26, 41), ( 221,  0, 17, 41), ( 239,  0, 26, 41),
+   ( 266,  0, 17, 41), ( 284,  0, 26, 41), ( 311,  0, 17, 41), ( 329,  0, 24, 41),
+   ( 354,  0, 17, 41), ( 372,  0, 25, 41), ( 398,  0, 17, 41), ( 416,  0, 26, 41),
+   ( 443,  0, 17, 41));
+
+Define OffsetList
+ ( (-4, 0), (-3, 0), (-4, 0), ( 0, 0), (-4, 0), (-3, 0), (-4, 0), (-3, 0),
+   (-4, 0), (-4, 0), (-4, 0), (-3, 0), (-4, 0), (-2, 0), (-4, 0), ( 0, 0),
+   (-4, 0), (-3, 0), (-4, 0), (-2, 0), (-4, 0));
+
+CreateLayer               Main;
+LayerSetImage             Main '../images/PTBananaSplit27InGameUI';
+LayerSetAscent            Main 30;
+LayerSetCharWidths        Main CharList WidthList;
+LayerSetCharWidths        Main (' ') (10);
+LayerSetImageMap          Main CharList RectList;
+LayerSetCharOffsets       Main CharList OffsetList;
+LayerSetAscentPadding     Main 0;
+LayerSetLineSpacingOffset Main 0;
+LayerSetPointSize         Main 27;
+
+SetDefaultPointSize  27;

@@ -1,0 +1,10 @@
+<Properties>
+<String id="PartnerName">PopCap Games</String>
+<String id="ProdName">MahjongEscapeAJ</String>
+<String id="RegistryKey">PopCap\MahjongEscapeAJ</String>
+<String id="DisplayName">Mahjong Escape: Ancient Japan</String>
+<String id="Offering">10234</String>
+<Integer id="Height">480</Integer>
+<Integer id="Width">640</Integer>
+<Boolean id="CheckActivity">false</Boolean>
+</Properties>

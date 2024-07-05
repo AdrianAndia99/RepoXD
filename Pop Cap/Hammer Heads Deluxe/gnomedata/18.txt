@@ -1,0 +1,4 @@
+24
+Stingy
+Grab the coins from Stingy's purse,
+but avoid hitting the bomb!

@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+<Properties version="1.0" language="en" country="US" lookandfeel="NORMAL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="">
+
+<!-- Dialog Buttons -->
+<String id="DIALOG_BUTTON_YES">YES</String>
+<String id="DIALOG_BUTTON_NO">NO</String>
+<String id="DIALOG_BUTTON_OK">OK</String>
+<String id="DIALOG_BUTTON_CANCEL">CANCEL</String>
+
+<!-- Update Dialog Stuff -->
+<String id="UPDATE_CHECK_TITLE">Update Check</String>
+<String id="UPDATE_CHECK_BODY">Contacting PopCap.com to determine if there are any updates available for this product ...</String>
+<String id="UP_TO_DATE_TITLE">Up to Date</String>	
+<String id="UP_TO_DATE_BODY">There are no updates available for this product at this time.</String>
+<String id="NEW_VERSION_TITLE">New Version</String>
+<String id="NEW_VERSION_BODY">There is an update available for this product.  Would you like to visit the web site to download it?</String>
+
+<!-- Exception Dialog Stuff -->
+<String id="BUG_REPORT_TITLE">Fatal exception.</String>
+<String id="BUG_REPORT_BODY">Something went wrong with the program.&cr;An error report has been created and can be sent to Zylom.&cr;This report will help us to find the cause of the problem.&cr;Sending the report requires an active Internet connection.&cr;&cr;Would you like to send the error report?</String>
+
+<!-- Board.cpp -->
+<StringArray id="gRankNames">
+  <String>Cursed</String>
+  <String>Bungler</String>
+  <String>Dabbler</String>
+  <String>Junior Apprentice</String>
+  <String>Apprentice</String>
+  <String>Senior Apprentice</String>
+  <String>Prestidigitator</String>
+  <String>Hedge Wizard</String>
+  <String>Concoctionist</String>
+  <String>Thaumaturge</String>
+  <String>Transmuter</String>
+  <String>Wizard 3rd class</String>
+  <String>Wizard 2nd class</String>
+  <String>Wizard 1st class</String>
+  <String>Grand Wizard</String>
+  <String>Alchemist 3rd class</String>
+  <String>Alchemist 2nd class</String>
+  <String>Alchemist 1st class</String>
+  <String>Master Alchemist</String>
+  <String>Grand Alchemist</String>
+  <String>Supreme Alchemist</String>
+  <String>Grand Alchemical Emperor</String>
+</StringArray>
+
+<String id="TUTORIAL_FIRST_PIECE">The object of the game is to turn the whole board into GOLD by placing magic RUNES on every square. Now, place your first Rune next to the grey Stone below.</String>
+<String id="TUTORIAL_FIRST_PIECE_DONE">Very good! Click the NEXT button below to continue with the tutorial.</String>
+<String id="TUTORIAL_MORE_PIECES">Each Rune must be placed next to another that's already on the board. In addition, it must match that Rune in either COLOR or SHAPE... or both. Place a few more Runes now.</String>
+<String id="TUTORIAL_MORE_PIECES_DONE">Good work! Click the NEXT button to continue.</String>
+<String id="TUTORIAL_CLEAR_ROW">If you complete an entire ROW or COLUMN of Runes, they will disappear! This scores you points and leaves you more room to work with! Complete the row of Runes now.</String>
+<String id="TUTORIAL_CLEAR_ROW_DONE">Good job! Remember, you can complete a line either horizontally or vertically. Now, click NEXT to go on.</String>
+<String id="TUTORIAL_USE_FORGE">If you can't place a Rune, you can DISCARD it. Do this by clicking the Discard button on the left, or by right-clicking your mouse. Discard a Rune now</String>
+<String id="TUTORIAL_COOL_FORGE">You can discard THREE Runes in a row safely, but the fourth will end the game! Luckily, the Forge cools down with every Rune you place successfully. Place a Rune now and watch the Forge cool off.</String>
+<String id="TUTORIAL_FORGE_DONE">Very good. Always remember to keep a close eye on the Forge during play. Now, click NEXT to continue.</String>
+<String id="TUTORIAL_BIG_MATCH">Things get tricky when there are a lot of Runes on the board. Each new Rune must match shape or color with ALL of the Runes it's next to. Here, try to place this Rune below.</String>
+<String id="TUTORIAL_BIG_MATCH_DONE">Nice work! You're almost ready to go! Click NEXT for the last two lessons.</String>
+<String id="TUTORIAL_FOURWAY">Grey STONES are wild cards, and can be placed next to any Rune. Place the Stone below.</String>
+<String id="TUTORIAL_BOMB">Finally, watch out for SKULLS. These will destroy any Rune they're placed on. This can work for you, or against you. Place the Skull below on an existing Rune.</String>
+<String id="TUTORIAL_BOMB_DONE">Excellent! You've completed the tutorial. Press NEXT for some final tips.</String>
+<String id="TUTORIAL_DONE">There are 3 levels of difficulty... each has a greater number of colors and shapes for the Runes, making it harder to place them. However, you will score more points on the higher difficulty levels if you succeed! Can you become a Grand Alchemical Emperor?</String>
+<String id="TUTORIAL_CLEAR_ROW2">Wrong Place</String>
+<String id="TUTORIAL_CLEAR_ROW3">Putting the rune there isn't going to complete the row!</String>
+<String id="TUTORIAL_CLEAR_ROW4">OK</String>
+<String id="TUTORIAL_NO_DISCARD1">No Discarding</String>
+<String id="TUTORIAL_NO_DISCARD2">You don't need to discard, there is a place to put that rune!</String>
+<String id="TUTORIAL_NO_DISCARD3">OK</String>
+<String id="INVALID_MOVE_NON_ADJACENT_COLOR1">Invalid Move!</String>
+<String id="INVALID_MOVE_NON_ADJACENT_COLOR2">All adjacent symbols must be of the same color or shape</String>
+<String id="INVALID_MOVE_NON_ADJACENT_COLOR3">OK</String>
+<String id="INVALID_MOVE_NO_ADJACENT_SYMBOL1">Invalid Move!</String>
+<String id="INVALID_MOVE_NO_ADJACENT_SYMBOL2">You must place this symbol next to at least one other symbol</String>
+<String id="INVALID_MOVE_NO_ADJACENT_SYMBOL3">OK</String>
+<String id="INVALID_MOVE_NON_EMPTY_SPOT1">Invalid Move!</String>
+<String id="INVALID_MOVE_NON_EMPTY_SPOT2">There is already a symbol in that spot</String>
+<String id="INVALID_MOVE_NON_EMPTY_SPOT3">OK</String>
+<String id="INVALID_MOVE_BOMB1">Invalid Move!</String>
+<String id="INVALID_MOVE_BOMB2">Click on a symbol to remove it</String>
+<String id="INVALID_MOVE_BOMB3">OK</String>
+<String id="INVALID_MOVE_SOME_MISMATCH1">Try Again</String>
+<String id="INVALID_MOVE_SOME_MISMATCH2">When placing a Rune, it must match up with ALL adjacent Runes in either its shape or its color.</String>
+<String id="INVALID_MOVE_SOME_MISMATCH3">OK</String>
+<String id="INVALID_MOVE_MUST_DISCARD1">Must Discard</String>
+<String id="INVALID_MOVE_MUST_DISCARD2">This Rune cannot be used! You must discard it. Drop it in the Forge on the left of the screen, or click the right mouse button.</String>
+<String id="INVALID_MOVE_MUST_DISCARD3">OK</String>
+<String id="INVALID_MOVE_MUST_START_BY_CENTER1">Try Again</String>
+<String id="INVALID_MOVE_MUST_START_BY_CENTER2">Place the Rune next to the grey Stone in the center of the screen</String>
+<String id="INVALID_MOVE_MUST_START_BY_CENTER3">OK</String>
+<String id="INVALID_MOVE_NOTHING_NEARBY1">Try Again</String>
+<String id="INVALID_MOVE_NOTHING_NEARBY2">You must place this Rune next to a grey Stone or a Rune that matches in either shape or color</String>
+<String id="INVALID_MOVE_NOTHING_NEARBY3">OK</String>
+<String id="SKULL_BOMB1">SKULL BOMB</String>
+<String id="SKULL_BOMB2">The skull bomb can be used on any piece on the board to remove it.</String>
+<String id="SKULL_BOMB3">OK</String>
+<String id="FOURWAY1">FOUR-WAY</String>
+<String id="FOURWAY2">The four-way piece can be placed on any free spot.</String>
+<String id="FOURWAY3">OK</String>
+<String id="NOMOVES1">NO MOVES</String>
+<String id="NOMOVES2">This piece can't be placed, it must be discarded.</String>
+<String id="NOMOVES3">OK</String>
+<String id="CLICK_HERE_TO_PLAY_NEXT_BOARD">Click here to play next board!</String>
+<String id="BOARD_CLEARED">1 Board Cleared</String>
+<String id="BOARDS_CLEARED_D">%d Boards Cleared</String>
+<String id="CURRENT_GAME_TIME">Current Game Time</String>
+<String id="BOARDS_CLEARED">Boards Cleared</String>
+<String id="LONGEST_RUN_WITHOUT_DISCARD">Longest run without discard</String>
+<String id="CURRENT_SCORE">Current Score</String>
+<String id="CURRENT_RANKING">Current Ranking</String>
+<String id="NEXT_RANK_AT">Next Rank At</String>
+<String id="GAME_PAUSED">*** GAME PAUSED ***</String>
+<String id="CLICK_HERE_TO_CONTINUE">Click Here to Continue!</String>
+<String id="CLICK_HERE_TO_START_PLAYING">Click here to start playing!</String>
+
+<!-- HelpWidget.cpp -->
+<String id="TUTORIAL_LINK">More Help? Play the TUTORIAL</String>
+<String id="RETURN_TO_GAME_LINK">Return to game in progress</String>
+<String id="RETURN_TO_GAME_SELECTION_LINK">Return to game selection</String>
+<String id="HOW_TO_PLAY">HOW TO PLAY</String>
+<String id="HOW_TO_PLAY2">The object of the game is to transform the entire board to gold by placing ^FFA200^RUNES^FFFF00^ on each square.</String>
+<String id="RIGHT">RIGHT</String>
+<String id="WRONG">WRONG</String>
+<String id="STONES_WILD">^FFA200^STONES^FFFF00^ are wild cards. Any rune can be put next to one.</String>
+<String id="SKULLS_MAGIC">^FFA200^SKULLS^FFFF00^ are magic bombs. They can destroy any Rune.</String>
+<String id="ADJACENT_MUST_MATCH_COLOR_OR_SHAPE">Runes must be placed next to one another, and all adjacent Runes must match in either ^FFA200^COLOR^FFFF00^ or ^FFA200^SHAPE^FFFF00^.</String>
+<String id="COMPLETING_ROWS_OR_COLUMNS_RELEASES_THAT_SPACE">Filling an entire row or column with Runes will cause them all to disappear, earning points and freeing up space.</String>
+<String id="USING_FORGE_IS_LIMITED">This is the ^FFA200^FORGE^FFFF00^. When you can't place a Rune, discard it here. The heat level will rise, and when it hits the top, the game is over. Placing Runes successfully will cause the Forge to cool down.</String>
+
+<!-- HighScoreDialog.cpp -->
+<String id="HIGH_SCORES">HIGH SCORES</String>
+<String id="DONE">DONE</String>
+<String id="NORMAL">NORMAL</String>
+<String id="TIME_TRIAL">TIME TRIAL</String>
+<String id="TODAYS">TODAY'S</String>
+<String id="EMPTY">- Empty -</String>
+<String id="ALL_TIME">ALL TIME</String>
+
+<!-- HighScoreWidget.cpp -->
+<String id="HIGH_SCORE_SUBMIT_BUTTON">Click Here to Submit to Internet High Score List</String>
+<String id="START_GAME_BUTTON">Click Here to Start a New Game</String>
+<String id="HIGH_SCORE_FILE_WRITE_ERROR">Failed to create high score file!&cr;Please report to support@popcap.com.</String>
+<String id="HIGH_SCORE_OF_THE_DAY_WITH_PLACEMENT1">You got the highest score of the day and place</String>
+<String id="HIGH_SCORE_OF_THE_DAY_WITH_PLACEMENT2">of all time!&cr;&cr;Would you like to register so&cr;you can record your score?</String>
+<String id="HIGH_SCORE_OF_THE_DAY_WITHOUT_PLACEMENT1">You got the highest score&cr;of the day!&cr;&cr;Would you like to register so you can record your score?</String>
+<String id="HIGH_SCORE_OF_ALL_TIME_WITH_PLACEMENT1">You got place </String>
+<String id="HIGH_SCORE_OF_ALL_TIME_WITH_PLACEMENT2"> of all time!&cr;&cr;Would you like to register so you can record your score?</String>
+<String id="HIGH_SCORE_OF_ALL_TIME_AND_DAY_WITH_PLACEMENT1">You got the highest score of the day and place</String>
+<String id="HIGH_SCORE_OF_ALL_TIME_AND_DAY_WITH_PLACEMENT2">of all time!</String>
+<String id="HIGH_SCORE_OF_THE_DAY1">You got the highest score of the day!</String>
+<String id="YOU_GOT_X_PLACEMENT_OF_ALL_TIME1">You got place </String>
+<String id="YOU_GOT_X_PLACEMENT_OF_ALL_TIME2"> of all time!</String>
+<String id="TODAYS_HIGH_SCORE">Today's High Score</String>
+<String id="NOT_APPLICABLE_SHORTHAND">N/A</String>
+<String id="TOTAL_GAME_TIME">Total Game Time</String>
+<String id="HSWIDGET_BOARDS_CLEARED">Boards Cleared</String>
+<String id="HSWIDGET_LONGEST_RUN_WITHOUT_DISCARD">Longest Run Without Discard</String>
+<String id="FINAL_SCORE">Final Score</String>
+<String id="RANK">RANK -</String>
+<String id="STRATEGIC_GAME_HIGH_SCORES">Strategic Game High Scores</String>
+<String id="TIME_TRIAL_HIGH_SCORES">Time Trial High Scores</String>
+
+<!-- InternetScoreDialog.cpp -->
+<String id="SUBMIT">SUBMIT</String>
+<String id="CANCEL">CANCEL</String>
+
+<!-- IntroScreen.cpp -->
+<String id="EASY">Easy</String>
+<String id="AVERAGE">Average</String>
+<String id="HARD">Hard</String>
+<String id="STRATEGIC">Strategic</String>
+<String id="INTROSCREEN_TIME_TRIAL">Time Trial</String>
+<String id="WELCOME_TO_ALCHEMY1">WELCOME TO</String>
+<String id="WELCOME_TO_ALCHEMY2">ALCHEMY</String>
+<String id="NEW_GAME">NEW GAME</String>
+<String id="TUTORIAL_SUGGESTION1">First time players should try the</String>
+<String id="TUTORIAL_SUGGESTION2">TUTORIAL before playing.</String>
+<String id="SELECT_GAME_OPTIONS">Select your game options below.</String>
+
+<!-- OptionsDialog.cpp -->
+<String id="OPTIONS">Options</String>
+<String id="OPTDLG_DONE">DONE</String>
+<String id="REGISTER">Register</String>
+<String id="OPTDLG_HIGH_SCORES">High Scores</String>
+<String id="HELP">Help</String>
+<String id="CHECK_FOR_UPDATES">Check for Updates</String>
+<String id="CLICK_HERE_TO_TRY_DIAMOND_MINE">Click Here to Try Diamond Mine</String>
+<String id="VISIT_POPCAP_FOR_MORE_GAMES">Visit PopCap.com For More Games</String>
+<String id="MUSIC">Music</String>
+<String id="SOUND_FX">Sound Fx</String>
+<String id="FULLSCREEN">Fullscreen</String>
+<String id="CUSTOM_CURSORS">Custom Cursors</String>
+
+<!-- RecordScoreDialog.cpp -->
+<String id="HIGH_SCORE">High Score</String>
+<String id="ENTER_YOUR_NAME">Enter Your Name</String>
+
+<!-- RegisterDialog.cpp -->
+<String id="REGISTRATION">REGISTRATION</String>
+<String id="CLICK_HERE_TO_REGISTER_ONLINE">Click here to register online</String>
+<String id="BROWSER_WINDOW_NOTICE1">Note - This will open a browser window.</String>
+<String id="BROWSER_WINDOW_NOTICE2">When you have registered, enter your</String>
+<String id="BROWSER_WINDOW_NOTICE3">registration information below.</String>
+<String id="REGISTERED_NAME">Registered Name</String>
+<String id="LICENSE_CODE">License Code</String>
+
+<!-- TitleScreen.cpp -->
+<String id="REGISTER_NOW_TO_REMOVE_THIS_DELAY">REGISTER NOW TO REMOVE THIS DELAY!</String>
+<String id="CLICK_HERE_TO_PLAY">CLICK HERE TO PLAY!</String>
+<String id="YOU_MUST_REGISTER">You must register to continue playing Alchemy!</String>
+<String id="YOU_HAVE_PLAYED_X_TIMES">YOU HAVE PLAYED %d TIMES</String>
+<String id="UNREGISTERED_VERSION">UNREGISTERED VERSION</String>
+<String id="THANKS_FOR_REGISTERING">THANKS FOR REGISTERING!</String>
+<String id="VERSION">Version</String>
+
+<!-- WinAlchApp.cpp -->
+<String id="CONFIRM_LOAD1">Continue?</String>
+<String id="CONFIRM_LOAD2">Do you want to continue your last game? Your position was saved when you quit. If you do not continue now, that game will be lost.</String>
+<String id="CONFIRM_NEW1">New Game</String>
+<String id="CONFIRM_NEW2">Are you sure you want to end&cr;the current game?</String>
+<String id="CONFIRM_TUTORIAL1">Play Tutorial</String>
+<String id="CONFIRM_TUTORIAL2">Do you want to end the current game to play the tutorial?</String>
+<String id="CONFIRM_SKILL_CHANGE1">Skill Change</String>
+<String id="CONFIRM_SKILL_CHANGE2">You must end the current game to switch skill level. Ok?</String>
+<String id="CONFIRM_QUIT1">Are you sure you want to&cr;quit the game?</String>
+<String id="CONFIRM_QUIT2">&cr;&cr;Your current game in progress&cr;will be saved so you can&cr;continue next time.</String>
+<String id="QUIT">Quit</String>
+<String id="CONFIRM_UPDATE1">Updates</String>
+<String id="CONFIRM_UPDATE2">Do you want to check for updates to Alchemy? New versions may offer new features and bug fixes.  This requires an active Internet connection.</String>
+<String id="URL_OPEN_ERROR1">Please open the following URL in your browser:&cr;</String>
+<String id="URL_OPEN_ERROR2">&cr;&cr;For your convenience, this URL has already been copied to your clipboard.</String>
+<String id="OPEN_BROWSER_DIALOG1">OPEN BROWSER</String>
+<String id="OPEN_BROWSER_DIALOG2">OK</String>
+<String id="URL_OPEN_DIALOG1">Opening Browser ...</String>
+<String id="QUIT_DIALOG1">Are you sure you want to&cr;quit the game?</String>
+<String id="QUIT_DIALOG2">&cr;&cr;Your current game in progress&cr;will be saved so you can&cr;continue next time.</String>
+<String id="FORCE_REGISTRATION_DIALOG1">Trial Expired</String>
+<String id="FORCE_REGISTRATION_DIALOG2">Your trial version has expired!&cr;</String>
+<String id="FORCE_REGISTRATION_DIALOG3">To continue playing, you must register Alchemy online.&cr;&cr;By registering you get:&cr;&cr;</String>
+<String id="FORCE_REGISTRATION_DIALOG4">* High Scores - save your best scores and upload them to the internet to compete with players from around the world!&cr;&cr;</String>
+<String id="FORCE_REGISTRATION_DIALOG5">* High Scores - keep track of your best Alchemy games!&cr;&cr;</String>
+<String id="FORCE_REGISTRATION_DIALOG6">* Unlimited play - no more delays or play limits!&cr;&cr;* Time Trial mode - the ultimate Alchemy challenge!&cr;&cr;If you do not register now, the game will exit. Proceed with registration?</String>
+<String id="LICENSE_ERROR1">Invalid Code</String>
+<String id="LICENSE_ERROR2">The license code you entered is not valid for that name.&cr;&cr;Make sure the name and registration number are entered correctly.</String>
+<String id="LICENSE_ERROR3">OK</String>
+<String id="COLOR_DEPTH_ERROR1">No Windowed</String>
+<String id="COLOR_DEPTH_ERROR2">Windowed mode is only available if your desktop is running in either 16 bit or 32 bit color mode, which it is not.</String>
+<String id="COLOR_DEPTH_ERROR3">OK</String>
+<String id="HIGH_SCORE_REGISTER_NAG">High Score</String>
+<String id="REGISTER_NAG1">SUBMIT SCORE</String>
+<String id="REGISTER_NAG2">You must register Alchemy before submitting your score to the Internet High Score List. Would you like to register now?</String>
+<String id="PREGAME_NAG">You have played Alchemy %d times!&cr;&cr;</String>
+<String id="PREGAME_NAG2">You are a Alchemyaholic!&cr;&cr;</String>
+<String id="PREGAME_NAG3">Looks like you are addicted!&cr;&cr;</String>
+<String id="PREGAME_NAG4">Are you getting hooked?&cr;&cr;</String>
+<String id="PREGAME_NAG5">Register online to remove the loading delay and this screen. Registering also unlocks the High Score features, so you can record your best scores!&cr;&cr;Register now?</String>
+<String id="PREGAME_NAG6">Register Now</String>
+<String id="TIME_TRIAL_NAG1">Continue?</String>
+<String id="TIME_TRIAL_NAG2">TimeTrial mode is limited to the first board in the trial version of Alchemy.  If you register now, however, you can continue with this game.&cr;&cr;Register now?</String>
+<String id="POPCAP_SITE_LINK1">MORE GAMES?</String>
+<String id="POPCAP_SITE_LINK2">PopCap's web site, www.popcap.com, has more great games like this one. Would you like to visit it now?</String>
+
+</Properties>

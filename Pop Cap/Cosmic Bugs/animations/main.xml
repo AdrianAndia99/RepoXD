@@ -1,0 +1,908 @@
+<animation name="sweeper" start_frame="sweeper_.eco" frame_time="30">
+
+<animation name="sparkles1" start_frame="sparkles_.eco" frame_time="30">
+<animation name="sparkles2" start_frame="sparkles_.eco" frame_time="30">
+<animation name="sparkles3" start_frame="sparkles_.eco" frame_time="30">
+
+
+<animation name="shooter_mine"  start_frame="mine_shooter_.eco" frame_time="45">
+<animation name="missile_up"  start_frame="missile_.eco" frame_time="45">
+<animation name="missile_down" rotation="180" start_frame="missile_.eco" frame_time="45">
+<animation name="missile_left"  rotation="270" start_frame="missile_.eco" frame_time="45">
+<animation name="missile_right"  rotation="90" start_frame="missile_.eco" frame_time="45">
+<animation name="ice_shot"  start_frame="iceshot_.eco" frame_time="45">
+<animation name="ice_capsule"  start_frame="icecapsule_.eco" frame_time="30">
+
+<animation name="horizontal_tiles" start_frame="rail_h_01" num_frames="9" frame_time="30">
+<animation name="vertical_tiles" start_frame="rail_v_01" num_frames="9" frame_time="30">
+<animation name="corner_tiles" start_frame="rail_x_01" num_frames="1" frame_time="30">
+
+<animation name="roller" start_frame="roller06_.eco" frame_time="30">
+<animation name="roller2" start_frame="roller09_.eco" frame_time="20">
+<animation name="roller2a" start_frame="roller07_.eco" frame_time="30">
+<animation name="roller3" start_frame="roller05_.eco" frame_time="30">
+<animation name="roller4" start_frame="roller08_.eco" frame_time="20">
+<animation name="roller5" start_frame="roller10_.eco" frame_time="20">
+<animation name="snake" start_frame="roller08_31x_.eco" frame_time="20">
+
+
+swap blue with green                 swap red to blue
+<animation rotation="270" name="walker_right4" start_frame="walker06_.eco" frame_time="30">
+<animation rotation="180" name="walker_right5" start_frame="walker07_.eco" frame_time="30">
+<animation rotation="270" name="walker_right3" start_frame="walker05_.eco" frame_time="30">
+<animation name="walker_right2" rotation="270" start_frame="walker04_.eco" frame_time="30">
+<animation rotation="270" name="walker_right" start_frame="walker03_.eco" frame_time="30">
+<animation name="walker_help" start_frame="walker03_.eco" frame_time="30">
+
+<animation name="generic_explo" start_frame="explosion03_.eco" frame_time="30">
+<animation name="second_explo" start_frame="explosion05_.eco" frame_time="30">
+<animation name="small_explo" start_frame="explosion_small_.eco" frame_time="30">
+
+<animation name="powerup_speed" start_frame="pwrup_speed_.eco" frame_time="100">
+<animation name="powerup_slowmo" start_frame="pwrup_slowmotion_.eco" frame_time="100">
+<animation name="powerup_plusone" start_frame="pwrup_xtra_.eco" frame_time="100">
+<animation name="powerup_slow" start_frame="pwrdn_slowshoot_.eco" frame_time="60">
+<animation name="powerup_mine" start_frame="pwrup_mine_.eco" frame_time="60">
+<animation name="powerup_missile" start_frame="pwrup_missile_.eco" frame_time="60">
+<animation name="powerup_sweeper" start_frame="pwrup_sweeper_.eco" frame_time="60">
+<animation name="powerup_freeze" start_frame="pwrup_ice_.eco" frame_time="60">
+<animation name="powerup_hypermo" start_frame="pwrdn_fastenemies_.eco" frame_time="100">
+<animation name="powerup_timebomb" start_frame="pwrup_timebomb_.eco" frame_time="60">
+<animation name="powerup_2x" start_frame="pwrup_2x_.eco" frame_time="100">
+<animation name="grab_this" start_frame="grabthis_.eco" frame_time="60">
+<animation name="do_not_touch" start_frame="donottouch_.eco" frame_time="60">
+
+<animation name="shooter_horizontal" start_frame="shooter_idle_.eco" frame_time="30">
+<animation name="wings_horizontal" start_frame="wings_idle_.eco" frame_time="30">
+<animation rotation="90" name="shooter_vertical" start_frame="shooter_idle_.eco" frame_time="30">
+
+<animation name="shooter_vertical" start_frame="shooter_idle_.eco" frame_time="30" rotation="90" >
+<animation name="wings_vertical" start_frame="wings_idle_.eco" frame_time="30" rotation="90" >
+<animation name="shooter_vertical" start_frame="shooter_idle_.eco" frame_time="30" >
+
+
+<animation name="star" start_frame="star" num_frames="1" frame_time="200">
+<animation name="enemy_shield" start_frame="shield_.eco" frame_time="30">
+<animation name="smoke" start_frame="smoke_.eco" frame_time="60">
+<animation name="cannon_ball" start_frame="cannonball_.eco" frame_time="30">
+
+<animation name="nag_ss" start_frame="nag_ss" num_frames="1" frame_time="0">
+<animation name="nag_logo" start_frame="nag_logo" num_frames="1" frame_time="0">
+<animation name="logo" start_frame="logo_large" num_frames="1" frame_time="0">
+<animation name="menu" start_frame="popup_panel02" num_frames="1" frame_time="0">
+<animation name="logo_o" start_frame="o_gear_.eco" frame_time="30">
+<animation name="pointer" start_frame="mouse_.eco" num_frames="10" frame_time="30">
+<animation name="left_arrow" start_frame="arrow_lft.eco" frame_time="30">
+<animation name="right_arrow" start_frame="arrow_rgt.eco" frame_time="30">
+<animation name="retro64" start_frame="r64_.eco" frame_time="50">
+
+<animation name="ls_bkgd1" start_frame="ls_bkgd1" num_frames="1">
+<animation name="ls_bkgd2" start_frame="ls_bkgd2" num_frames="1">
+<animation name="ls_bkgd3" start_frame="ls_bkgd3" num_frames="1">
+<animation name="ls_bkgd4" start_frame="ls_bkgd4" num_frames="1">
+<animation name="ls_bkgd5" start_frame="ls_bkgd5" num_frames="1">
+<animation name="ls_bkgd6" start_frame="ls_bkgd6" num_frames="1">
+<animation name="ls_bkgd7" start_frame="ls_bkgd7" num_frames="1">
+<animation name="ls_bkgd8" start_frame="ls_bkgd8" num_frames="1">
+<animation name="ls_bkgd9" start_frame="ls_bkgd9" num_frames="1">
+
+<animation name="ls_window_active" start_frame="ls_window_active" num_frames="1">
+<animation name="ls_window_inactive" start_frame="ls_window_inactive" num_frames="1">
+<animation name="ls_hiddenlevel" start_frame="ls_hiddenlevel" num_frames="1">
+
+<sound file="audio\click.wav">
+
+<game>
+	<font name="main_font" face="quad_" spacing="2" 8bit="1">
+	<font name="percent_font" face="34p_" spacing="1">
+	<font name="score_font" face="34p_" spacing="2">
+	<font name="trial_font" face="20p_" spacing="1">
+	<font name="lives_font" face="34p_" spacing="1">
+	<font name="tiny_font" face="treb11_" spacing="1" 8bit="1">
+	<font name="micro_font" face="st_sfont_" spacing="1" 8bit="1">
+	<font name="bonus_font" face="bonus_" spacing="1" 8bit="1">
+
+
+	<!level
+		type="opening_nag"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="logo_background"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+		<menu x="425" y="150" blit_type="alpha_edge" animation="nag_ss" logo_animation="nag_logo" logo_x="0" logo_y="10">
+			<menu_item type="logo" name="MAYBE LATER" x="184" y="560" font="main_font" box="1">
+			<menu_item type="buy_now" name="BUY NOW!" x="660" y="560" font="main_font" box="1">
+		</menu>
+
+		<text x="230" y="190" text="GET THE" font="main_font" dormant_time="300"
+			fade_in_time="1000" idle_time="9999999">
+		<text x="230" y="225" text="FULL VERSION!" font="main_font" dormant_time="300"
+			fade_in_time="1000" idle_time="9999999">
+
+		<text x="30" y="320" text="^4500 LEVELS!" font="main_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="370" text="^4UNLIMITED PLAY" font="main_font" dormant_time="1100"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="420" text="^4NEW SCENERY" font="main_font" dormant_time="1500"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="470" text="^4INSTANT DOWNLOAD!" font="main_font" dormant_time="1900"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+			
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+
+	<level
+		type="logo"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="background_black"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+		
+
+		<enemy type="roller" buffered="1" x="400" y="285"
+		  blit_type="block" animation="retro64" mid_handle="1" loop="0" >
+
+		<text x="400" y="900" text="www.ctspgames.com" font="tiny_font" dormant_time="0"
+			fade_in_time="0" idle_time="1900" fade_out_time="255">
+		
+		<stars number="1">
+
+	</level>
+
+
+	<level
+		type="main_menu"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="logo_background"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+		<text x="400" y="590" text="Copyright 2004, Retro64, Inc. All Rights Reserved...  http://www.retro64.com" font="micro_font" dormant_time="300"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		
+		<menu x="175" y="385" blit_type="alpha_edge" animation="menu"
+			logo_animation="logo" logo_x="410" logo_y="167">
+			<menu_item type="buy_now" name="BUY NOW" fv_type="help" fv_name="HELP" font="main_font" x="175" y="260">
+			<menu_item type="select_level" name="START GAME" font="main_font">
+			<menu_item type="options" name="OPTIONS" font="main_font">
+			<menu_item type="high_scores" name="HIGH SCORES" font="main_font">
+			<!menu_item type="more_games" name="MORE GAMES" font="main_font">
+			<menu_item type="help" name="INSTRUCTIONS" font="main_font">
+			<menu_item type="credits" name="CREDITS" font="main_font">
+			<menu_item type="closing_nag" name="QUIT" font="main_font">
+		</menu>
+		
+
+		<row cells=":                                                :">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells=":                                                :">
+
+
+
+
+
+		<enemy type="roller" buffered="1" x="249" y="115"
+		  blit_type="alpha_edge" animation="logo_o" mid_handle="1">
+
+		<enemy type="roller" buffered="1" x="512" y="252"
+		  blit_type="alpha_edge" animation="logo_o" mid_handle="1">
+		
+
+		<text x="550" y="434" animation="wings_horizontal" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="0" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="434" animation="shooter_horizontal" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="0" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Use your shooter to make lines!" font="tiny_font" 
+			dormant_time="0" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		
+		<text x="550" y="434" animation="roller" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="4000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Don't let baddies touch your lines!" font="tiny_font" 
+			dormant_time="4000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="powerup_speed" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="8000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Collect BLUE power-ups for special abilities!" font="tiny_font" 
+			dormant_time="8000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="powerup_slow" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="12000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Avoid RED power-downs, they're bad!" font="tiny_font" 
+			dormant_time="12000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="roller2" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="16000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Regular Roller: Don't let it touch your lines!" font="tiny_font" 
+			dormant_time="16000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="walker_right" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="20000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Beetle Walker: Fill in where it walks to get power-ups!" font="tiny_font" 
+			dormant_time="20000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="roller" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="24000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Swim Roller: Be careful!  It moves in bursts!" font="tiny_font" 
+			dormant_time="24000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="walker_right2" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="28000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Scurry Walker: It will run fast when a line is close!" font="tiny_font" 
+			dormant_time="28000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="powerup_speed" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="32000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Fast Shot: It makes your lines shoot much faster!" font="tiny_font" 
+			dormant_time="32000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="powerup_slowmo" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="36000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Slow Motion: It makes the bugs move slower!" font="tiny_font" 
+			dormant_time="36000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+
+		<text x="550" y="434" animation="roller3" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="40000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Spinner Roller: Starts slow, but revs to hyper speed!" font="tiny_font" 
+			dormant_time="40000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="walker_right4" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="44000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Smart Caterpillar: It will follow you around!" font="tiny_font" 
+			dormant_time="44000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="powerup_plusone" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="48000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Extra Life: Grab this to get an extra life!" font="tiny_font" 
+			dormant_time="48000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="powerup_slow" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="52000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Slow Shot: Makes you shoot slower, avoid this!" font="tiny_font" 
+			dormant_time="52000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="roller4" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="56000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Bump Roller: It can knock walls back when it hits them!" font="tiny_font" 
+			dormant_time="56000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="walker_right5" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="60000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Laser Walker: It will shoot lines you are making!" font="tiny_font" 
+			dormant_time="60000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="powerup_mine" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="64000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Mine: Lay a land mine to blow up bugs!" font="tiny_font" 
+			dormant_time="64000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="powerup_missile" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="68000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Missile: A missile for you to shoot at the baddies!" font="tiny_font" 
+			dormant_time="68000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="roller2a" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="72000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Smart Roller: This one follows your shooter around!" font="tiny_font" 
+			dormant_time="72000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="walker_right3" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="76000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Bomb Walker: Shoots bombs to knock out areas you have already filled!" font="tiny_font" 
+			dormant_time="76000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="powerup_sweeper" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="80000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Sweeper: Allows you to push the baddies around!" font="tiny_font" 
+			dormant_time="80000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="powerup_freeze" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="84000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Freeze: Lets you shoot a block of ice to freeze the bugs!" font="tiny_font" 
+			dormant_time="84000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="roller5" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="88000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Snake Shooter: Shoots tiny snakes to destroy filled areas!" font="tiny_font" 
+			dormant_time="88000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="powerup_hypermo" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="92000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Hyper Motion: Makes the baddies go fast!  Avoid this!" font="tiny_font" 
+			dormant_time="92000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="powerup_2x" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="96000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Score Multiplier: Get more points in a hurry!" font="tiny_font" 
+			dormant_time="96000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<text x="550" y="434" animation="powerup_timebomb" mid_handle="1" font="tiny_font" blit_type="alpha_edge" text="x" buffered="1"
+			dormant_time="100000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+		<text x="550" y="487" text="Time Bomb: Blow up those bad bugs!" font="tiny_font" 
+			dormant_time="100000" fade_in_time="500" idle_time="3500" fade_out_time="500" loop_time="99500">
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+
+
+	<level
+		type="credits"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="logo_background"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+		
+		<text x="400" y="80" text="GAME DESIGN, PROGRAMMING" font="main_font" dormant_time="300"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="110" text="^5MIKE BOEH" font="main_font" dormant_time="500"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<text x="400" y="180" text="ART, ADDITIONAL DESIGN" font="main_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="210" text="^4JAMES ABRAHAM" font="main_font" dormant_time="900"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<text x="400" y="280" text="ENGINE PROGRAMMING" font="main_font" dormant_time="1100"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="310" text="^7MICHAEL WELCH" font="main_font" dormant_time="1300"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		<text x="400" y="380" text="MUSIC COMPOSITION" font="main_font" dormant_time="1500"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="410" text="^9STAFFAN MELIN" font="main_font" dormant_time="1700"
+			fade_in_time="1000" idle_time="9999999"></text>
+		
+		<menu>
+			<menu_item type="back" name="BACK TO MAIN MENU" x="400" y="510" font="main_font" box="1">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+
+
+	<level
+		type="options"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="logo_background"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+		<menu>
+			<menu_item type="video" name="VIDEO: " x="400" y="90" font="main_font">
+			<menu_item type="lcd" name="LCD MODE: " x="400" y="170" font="main_font">
+			<menu_item type="sound" name="SOUND: " x="400" y="260" font="main_font">
+			<menu_item type="music" name="MUSIC: " x="400" y="330" font="main_font">
+			<menu_item type="shooter_mode" name="SHOOTER MODE: " x="400" y="410" font="main_font">
+			<menu_item type="back" name="BACK TO MAIN MENU" x="400" y="510" font="main_font" box="1">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+
+	<level
+		type="high_scores"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="logo_background"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+		
+		<text x="400" y="30" text="HALL OF FAME" font="main_font" dormant_time="300"
+			fade_in_time="1000" idle_time="9999999"></text>
+			
+		<text type="hs" x="400" y="100" text="HS_SLOT_0" font="main_font" dormant_time="500"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text type="hs" x="400" y="150" text="HS_SLOT_1" font="main_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text type="hs" x="400" y="200" text="HS_SLOT_2" font="main_font" dormant_time="900"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text type="hs" x="400" y="250" text="HS_SLOT_3" font="main_font" dormant_time="1100"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text type="hs" x="400" y="300" text="HS_SLOT_4" font="main_font" dormant_time="1300"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text type="hs" x="400" y="350" text="HS_SLOT_5" font="main_font" dormant_time="1500"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text type="hs" x="400" y="400" text="HS_SLOT_6" font="main_font" dormant_time="1700"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text type="hs" x="400" y="450" text="HS_SLOT_7" font="main_font" dormant_time="1900"
+			fade_in_time="1000" idle_time="9999999"></text>
+
+		
+		<menu>
+			<menu_item type="back" name="BACK TO MAIN MENU" x="400" y="535" font="main_font" box="1">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+
+	<level
+		type="high_score_entry"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="logo_background"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+		
+		<text x="400" y="60" text="^4CONGRATULATIONS!" font="main_font" dormant_time="0"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="120" text="^5PLEASE ENTER YOUR NAME" font="main_font" dormant_time="100"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="200" type="hs_entry" text="AAA" font="main_font" dormant_time="300"
+			fade_in_time="1000" idle_time="9999999" width="480"></text>
+
+		
+		<menu>
+			<menu_item type="hs_entered" name="CLICK HERE WHEN DONE" x="400" y="510" font="main_font" box="1">
+			
+			<menu_item type="hs_stuff" name="A" x="100" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="B" x="150" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="C" x="200" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="D" x="250" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="E" x="300" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="F" x="350" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="G" x="400" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="H" x="450" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="I" x="500" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="J" x="550" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="K" x="600" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="L" x="650" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="M" x="700" y="300" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="N" x="100" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="O" x="150" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="P" x="200" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="Q" x="250" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="R" x="300" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="S" x="350" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="T" x="400" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="U" x="450" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="V" x="500" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="W" x="550" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="X" x="600" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="Y" x="650" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="Z" x="700" y="350" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="0" x="100" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="1" x="150" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="2" x="200" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="3" x="250" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="4" x="300" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="5" x="350" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="6" x="400" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="7" x="450" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="8" x="500" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="9" x="550" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="." x="600" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="!" x="650" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="?" x="700" y="400" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="," x="100" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="$" x="150" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="@" x="200" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="(" x="250" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name=")" x="300" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="+" x="350" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="-" x="400" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="*" x="450" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="=" x="500" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="&" x="550" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name=";" x="600" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name=" " x="650" y="450" font="main_font" box="1" box_size="23">
+			<menu_item type="hs_stuff" name="<" x="700" y="450" font="main_font" box="1" box_size="23">
+		</menu>
+
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+
+<level
+  type="select_level"
+  wall_image="rail"
+  fill_image="fill09"
+  fill_sound="audio\fill.wav"
+  fill_end_sound="audio\fill_end.wav"
+  beam_image="beam"
+  back_image="levelselect"
+  h_pattern="11111111145333333333333333333333333333364111111111"
+  v_pattern="144178199944999178144"
+  fill_quota="90"> 
+  
+
+
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells="                                                  ">
+  <row cells=":                                                :">
+
+  <text x="400" y="20" text="^5SELECT STARTING WORLD" font="main_font" dormant_time="100"
+   fade_in_time="1000" idle_time="9999999"></text>
+  
+  <menu x="293" y="106" blit_type="alpha_edge" animation="ls_bkgd1"
+   logo_animation="ls_window_inactive" logo_x="293" logo_y="106"
+   locked_level="0" locked_animation="ls_hiddenlevel">
+   <menu_item type="select_world" value="1" animation="ls_window_active"
+    x="293" y="106" buffered="1"  mid_handle="1" blit_type="alpha_edge"
+    show_only_hot="1" name="aaa" font="main_font">
+  </menu>
+  <text x="293" y="166" text="Levels 1-9" font="micro_font" dormant_time="0"
+   fade_in_time="100" idle_time="9999999"></text>
+
+
+  <menu x="434" y="122" blit_type="alpha_edge" animation="ls_bkgd2"
+   logo_animation="ls_window_inactive" logo_x="434" logo_y="122"
+   locked_level="10" locked_animation="ls_hiddenlevel">
+   <menu_item type="select_world" value="1" animation="ls_window_active"
+    x="434" y="122" buffered="1"  mid_handle="1" blit_type="alpha_edge"
+    show_only_hot="1" name="aaa" font="main_font">
+  </menu>
+  <text x="434" y="182" text="Levels 10-19" font="micro_font" dormant_time="0"
+   fade_in_time="100" idle_time="9999999"></text>
+
+  <menu x="545" y="209" blit_type="alpha_edge" animation="ls_bkgd3"
+   logo_animation="ls_window_inactive" logo_x="545" logo_y="209"
+   locked_level="20" locked_animation="ls_hiddenlevel">
+   <menu_item type="select_world" value="1" animation="ls_window_active"
+    x="545" y="209" buffered="1"  mid_handle="1" blit_type="alpha_edge"
+    show_only_hot="1" name="aaa" font="main_font">
+  </menu>
+  <text x="545" y="269" text="Levels 20-49" font="micro_font" dormant_time="0"
+   fade_in_time="100" idle_time="9999999"></text>
+
+  <menu x="607" y="344" blit_type="alpha_edge" animation="ls_bkgd4"
+   logo_animation="ls_window_inactive" logo_x="607" logo_y="344"
+   locked_level="50" locked_animation="ls_hiddenlevel">
+   <menu_item type="select_world" value="1" animation="ls_window_active"
+    x="607" y="344" buffered="1"  mid_handle="1" blit_type="alpha_edge"
+    show_only_hot="1" name="aaa" font="main_font">
+  </menu>
+  <text x="607" y="404" text="Levels 50-99" font="micro_font" dormant_time="0"
+   fade_in_time="100" idle_time="9999999"></text>
+
+  <menu x="564" y="478" blit_type="alpha_edge" animation="ls_bkgd5"
+   logo_animation="ls_window_inactive" logo_x="564" logo_y="478"
+   locked_level="100" locked_animation="ls_hiddenlevel">
+   <menu_item type="select_world" value="1" animation="ls_window_active"
+    x="564" y="478" buffered="1"  mid_handle="1" blit_type="alpha_edge"
+    show_only_hot="1" name="aaa" font="main_font">
+  </menu>
+  <text x="564" y="538" text="Levels 100-199" font="micro_font" dormant_time="0"
+   fade_in_time="100" idle_time="9999999"></text>
+
+  <menu x="426" y="524" blit_type="alpha_edge" animation="ls_bkgd6"
+   logo_animation="ls_window_inactive" logo_x="426" logo_y="524"
+   locked_level="200" locked_animation="ls_hiddenlevel">
+   <menu_item type="select_world" value="1" animation="ls_window_active"
+    x="426" y="524" buffered="1"  mid_handle="1" blit_type="alpha_edge"
+    show_only_hot="1" name="aaa" font="main_font">
+  </menu>
+  <text x="426" y="584" text="Levels 200-299" font="micro_font" dormant_time="0"
+   fade_in_time="100" idle_time="9999999"></text>
+
+  <menu x="296" y="464" blit_type="alpha_edge" animation="ls_bkgd7"
+   logo_animation="ls_window_inactive" logo_x="296" logo_y="464"
+   locked_level="300" locked_animation="ls_hiddenlevel">
+   <menu_item type="select_world" value="1" animation="ls_window_active"
+    x="296" y="464" buffered="1"  mid_handle="1" blit_type="alpha_edge"
+    show_only_hot="1" name="aaa" font="main_font">
+  </menu>
+  <text x="296" y="524" text="Levels 300-399" font="micro_font" dormant_time="0"
+   fade_in_time="100" idle_time="9999999"></text>
+
+  <menu x="203" y="354" blit_type="alpha_edge" animation="ls_bkgd8"
+   logo_animation="ls_window_inactive" logo_x="203" logo_y="354"
+   locked_level="400" locked_animation="ls_hiddenlevel">
+   <menu_item type="select_world" value="1" animation="ls_window_active"
+    x="203" y="354" buffered="1"  mid_handle="1" blit_type="alpha_edge"
+    show_only_hot="1" name="aaa" font="main_font">
+  </menu>
+  <text x="203" y="414" text="Levels 400-499" font="micro_font" dormant_time="0"
+   fade_in_time="100" idle_time="9999999"></text>
+
+  <menu x="188" y="208" blit_type="alpha_edge" animation="ls_bkgd9"
+   logo_animation="ls_window_inactive" logo_x="188" logo_y="208"
+   locked_level="500" locked_animation="ls_hiddenlevel">
+   <menu_item type="select_world" value="1" animation="ls_window_active"
+    x="188" y="208" buffered="1"  mid_handle="1" blit_type="alpha_edge"
+    show_only_hot="1" name="aaa" font="main_font">
+  </menu>
+  <text x="188" y="268" text="Levels 500-577" font="micro_font" dormant_time="0"
+   fade_in_time="100" idle_time="9999999"></text>
+
+  <pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+ </level>
+
+
+
+	<level
+		type="select_level2"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="levelselect"
+		h_pattern="11111111145333333333333333333333333333364111111111"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+		
+
+
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="         XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX         ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells="                                                  ">
+		<row cells=":                                                :">
+
+		<text x="400" y="30" text="^5SELECT STARTING LEVEL" font="main_font" dormant_time="100"
+			fade_in_time="1000" idle_time="9999999"></text>
+		<text x="400" y="260" type="level_select" text="AAA" font="main_font" dormant_time="1"
+			fade_in_time="10" idle_time="9999999" width="480"></text>
+
+		<menu>
+			<menu_item type="start" name="CLICK HERE WHEN DONE" x="400" y="554" font="main_font" box="1">
+			<menu_item type="select_up" name="select_up" animation="right_arrow" x="690" y="312" buffered="1" mid_handle="1" blit_type="alpha_edge" font="main_font">
+			<menu_item type="select_down" name="select_down" animation="left_arrow" x="110" y="312" buffered="1"  mid_handle="1" blit_type="alpha_edge" font="main_font">
+			<menu_item type="select_slide" name="select_slide" animation="walker_right2" x="200" y="310" buffered="1"  mid_handle="1" blit_type="alpha_edge" font="main_font">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+
+
+
+
+	<level
+		type="help"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="instructions"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+		<menu x="425" y="150" blit_type="alpha_edge">
+			<menu_item type="back" name="CLICK HERE TO CONTINUE" x="400" y="554" font="main_font" box="1">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+	</level>
+
+
+	<level
+		type="help2"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="instructions"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+		<menu x="425" y="150" blit_type="alpha_edge">
+			<menu_item type="start" name="CLICK HERE TO PLAY" x="400" y="554" font="main_font" box="1">
+		</menu>
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+	</level>
+
+
+	<level
+		type="closing_nag"
+		wall_image="rail"
+		fill_image="fill09"
+		fill_sound="audio\fill.wav"
+		fill_end_sound="audio\fill_end.wav"
+		beam_image="beam"
+		back_image="logo_background"
+		h_pattern="14441533361999444999178144412"
+		v_pattern="144178199944999178144"
+		fill_quota="90">	
+
+		<menu x="617" y="349" blit_type="alpha_edge" animation="nag_ss" logo_animation="nag_logo" logo_x="399" logo_y="67">
+			<menu_item type="quit" name="MAYBE LATER" x="184" y="560" font="main_font" box="1">
+			<menu_item type="buy_now" name="BUY NOW!" x="660" y="560" font="main_font" box="1">
+		</menu>
+
+		<text x="230" y="190" text="GET THE" font="main_font" dormant_time="300"
+			fade_in_time="500" idle_time="100" fade_out_time="500" loop_time="1">
+		<text x="230" y="225" text="FULL VERSION!" font="main_font" dormant_time="300"
+			fade_in_time="500" idle_time="100" fade_out_time="500" loop_time="1">
+
+		<text x="30" y="300" text="^4-OVER 500 LEVELS FOR" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="320" text="^4 COUNTLESS HOURS OF FUN!" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+
+		<text x="30" y="360" text="^5-NEW POWER-UPS TO HELP" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="380" text="^5 YOU BEAT THOSE BUGS!" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+
+		<text x="30" y="420" text="^8-BEAUTIFUL NEW SCENERY FOR" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="440" text="^8 YOU TO ENJOY WHILE PLAYING!" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+
+		<text x="30" y="480" text="^6-INSTANT DOWNLOAD DELIVERY," font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<text x="30" y="500" text="^6 SO YOU CAN PLAY RIGHT AWAY!" font="bonus_font" dormant_time="700"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+
+
+		<!text x="30" y="370" text="^4UNLIMITED PLAY" font="main_font" dormant_time="1100"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<!text x="30" y="420" text="^4NEW SCENERY" font="main_font" dormant_time="1500"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+		<!text x="30" y="470" text="^4INSTANT DOWNLOAD!" font="main_font" dormant_time="1900"
+			fade_in_time="1000" idle_time="9999999" justify="left">
+			
+
+		<pointer animation="pointer" buffered="1" blit_type="alpha_edge" z="200"> 
+
+	</level>
+
+
+	<song name="audio\cosmo1.mo3">
+	<next_file name="animations\level1.eco">
+	
+	<level_set start_range="0" end_range="9" song="audio\cosmo4.mo3"></level_set>
+	<level_set start_range="10" end_range="19" song="audio\cosmo3.mo3"></level_set>
+	<level_set start_range="20" end_range="49" song="audio\cosmo2.mo3"></level_set>
+	<level_set start_range="50" end_range="99" song="audio\cosmo5.mo3"></level_set>
+	<level_set start_range="100" end_range="199" song="audio\cosmo4.mo3"></level_set>
+	<level_set start_range="200" end_range="299" song="audio\cosmo3.mo3"></level_set>
+	<level_set start_range="300" end_range="399" song="audio\cosmo2.mo3"></level_set>
+	<level_set start_range="400" end_range="499" song="audio\cosmo5.mo3"></level_set>
+	<level_set start_range="500" end_range="577" song="audio\cosmo4.mo3"></level_set>
+</game>
+			

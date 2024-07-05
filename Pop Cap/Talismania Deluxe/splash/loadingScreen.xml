@@ -1,0 +1,27 @@
+<screen name="Splash Screen">
+
+	<compositeGroup alphaType="none" >
+		<image file="splash/splashBg.jpg" />
+		<image x="400" y="476" file="splash/loadBarBg.png" pivot="center" />
+	</compositeGroup>
+
+
+
+	<image name="loadbar" x="272" y="459" file="splash/loadBar.png" />
+	<image name="loadbartop" x="400" y="476" file="splash/loadBarFg.png" pivot="center" />
+	
+	<group name="3LogoGrp"  opacity="0">
+					<image x="400" y="372" file="splash/developer.png"  pivot="center" />
+					<image x="157" y="474" file="splash/developer2.png" pivot="center" />
+					<image x="646" y="480" file="splash/publisher.png"  pivot="center" />
+	</group>
+
+
+	<group name="4LogoGrp" opacity="1">
+					<image x="239" y="361" file="splash/developer2.png" pivot="center" />
+					<image x="573" y="361" file="splash/developer.png"  pivot="center" />
+					<image x="141" y="476" file="splash/publisher.png"  pivot="center" />
+					<image x="646" y="476" file="splash/distributor.png"  pivot="center" nofatalerror="true"/>
+	</group>
+
+</screen>

@@ -1,0 +1,14 @@
+<Properties>
+
+<Boolean id="DefaultWindowed">false</Boolean>
+<Boolean id="DontUpdate">true</Boolean>
+<Boolean id="NoReg">true</Boolean>
+
+<String id="ProdName">WizardsPen</String>
+<String id="ProdVersion">1.01</String>
+<String id="ProdLanguage">en-us</String>
+<String id="InstallTag">WP1_PH2FNF</String>
+
+<String id="RegistryKey">PopCap\WizardsPen</String>
+
+</Properties>

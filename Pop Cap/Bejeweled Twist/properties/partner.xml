@@ -1,0 +1,13 @@
+<Properties>
+<Boolean id="NoReg">true</Boolean>
+<Boolean id="DontUpdate">true</Boolean>
+<Boolean id="DefaultWindowed">false</Boolean>
+
+<String id="ProdName">BejeweledTwist</String>
+<String id="ProdVersion">1.0.3.7482</String>
+<String id="ProdLanguage">en-us</String>
+<String id="MarketingMode"></String>
+
+<String id="RegistryKey">PopCap\BejeweledTwist</String>
+
+</Properties>

@@ -1,0 +1,10 @@
+﻿<Properties>
+<String id="PartnerName">PopCap Games</String>
+<String id="ProdName">AmazingAdventures2</String>
+<String id="RegistryKey">PopCap\AmazingAdventures2</String>
+<String id="DisplayName">Amazing Adventures Around the World</String>
+<String id="Offering">10272</String>
+<Integer id="Height">480</Integer>
+<Integer id="Width">640</Integer>
+<Boolean id="CheckActivity">false</Boolean>
+</Properties>

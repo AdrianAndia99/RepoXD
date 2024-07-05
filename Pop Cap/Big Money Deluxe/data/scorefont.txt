@@ -1,0 +1,45 @@
+# Score Font for Big Money Deluxe
+
+Define CharList
+	('$', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9');
+
+Define WidthList
+	( 20,  20,  20,  20,  20,  20,  20,  20,  20,  20,  20);
+
+Define TopImageWidthList
+	( 21,  30,  19,  28,  27,  28,  26,  30,  26,  29,  29);
+
+Define Offsets
+    ((  0, 0), ( -5, 0), ( -1, 0), ( -4, 0), ( -3, 0),  
+	 ( -4, 0), ( -2, 0), ( -5, 0), ( -3, 0), ( -4, 0), ( -4, 0));
+
+Define BlurImageWidthList
+	( 30,  37,  27,  35,  35,  36,  34,  38,  36,  37,  37);
+
+CreateHorzSpanRectList TopRectList (0, 0, 0, 34) TopImageWidthList;
+
+CreateHorzSpanRectList BlurRectList (0, 0, 0, 40) BlurImageWidthList;
+
+CreateLayer			Blur;
+LayerSetImage		Blur '../images/scorefont_blur';
+LayerSetAscent      Blur 31;
+LayerSetCharWidths  Blur CharList WidthList;
+LayerSetCharWidths  Blur (' ') (20);
+LayerSetImageMap	Blur CharList BlurRectList;
+LayerSetOffset		Blur (2, 2);
+LayerSetCharOffsets	Blur CharList Offsets;
+LayerSetPointSize	Blur 25;
+LayerSetBaseOrder	Blur -1;
+
+CreateLayer			Top;
+LayerSetImage		Top '../images/scorefont_top';
+LayerSetAscent      Top 31;
+LayerSetCharWidths  Top CharList WidthList;
+LayerSetCharWidths  Top (' ') (20);
+LayerSetImageMap	Top CharList TopRectList;
+LayerSetCharOffsets	Top CharList Offsets;
+LayerSetPointSize	Top 25;
+
+
+SetDefaultPointSize	25;
+

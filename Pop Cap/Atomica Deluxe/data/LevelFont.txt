@@ -1,0 +1,16 @@
+Define Charlist
+ ('0', '1', '2', '3', '4', '5', '6', '7', '8', '9' );
+
+Define WidthList
+ (10, 8, 10, 11, 10, 11, 10, 11, 10, 11 );
+
+Define RectList
+ ((0,0,10,9) , (16,0,8,9) , (30,0,10,9) , (46,0,11,9) , (63,0,10,9) , (79,0,11,9) , (96,0,10,9) , (112,0,11,9) , (129,0,10,9) , (144,0,11,9)  );
+
+CreateLayer Main;
+LayerSetImage Main '../images/LevelFont';
+LayerSetImageMap Main CharList RectList;
+LayerSetAscent Main 9;
+LayerSetCharWidths Main CharList WidthList;
+LayerSetCharWidths Main (' ') (5);
+

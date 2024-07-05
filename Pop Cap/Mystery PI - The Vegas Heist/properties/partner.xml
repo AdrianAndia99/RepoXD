@@ -1,0 +1,10 @@
+<Properties>
+<Boolean id="CheckActivity">false</Boolean>
+<String id="PartnerName">PopCap Games</String>
+<String id="ProdName">MysteryPIVegas</String>
+<String id="RegistryKey">PopCap\MysteryPIVegas</String>
+<String id="DisplayName">Mystery P.I. - The Vegas Heist</String>
+<String id="Offering">10265</String>
+<Integer id="Height">480</Integer>
+<Integer id="Width">640</Integer>
+</Properties>
